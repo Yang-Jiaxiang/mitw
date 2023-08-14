@@ -1,118 +1,117 @@
 * {
-  font-family: "Noto Sans TC", sans-serif;
-  font-size: 1rem;
-  font-weight: 400;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
 }
 body {
-  margin: 0;
+    margin: 0;
 }
 p {
-  text-align: justify;
+    text-align: justify;
 }
 ul {
-  font-size: 18px;
-  margin: 0;
+    font-size: 18px;
+    margin: 0;
 }
 li {
-  font-size: 18px;
+    font-size: 18px;
 }
 h3 {
-  font-weight: bold;
+    font-weight: bold;
 }
 table,
 th,
 td {
-  border: 1px solid #dcdcdc;
-  border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+    border-collapse: collapse;
 }
 .AllBackground {
-  background: #f3f4f6;
-  padding: 5rem 5vh 2vh;
+    background: #f3f4f6;
+    padding: 0rem 5vh 2vh;
 }
 .AllContentBackground {
-  background: #fdfdfd;
-  padding-top: 5%;
-  min-height: 100vh;
+    background: #fdfdfd;
+    min-height: 100vh;
 }
 @media screen and (min-width: 1400px) {
-  h1 {
-    font-size: 2rem !important;
-  }
-  h2 {
-    font-size: 1.75rem !important;
-  }
-  h3 {
-    font-size: 1.5rem !important;
-  }
-  h4 {
-    font-size: 1.25rem !important;
-  }
-  h5 {
-    font-size: 1.2rem !important;
-  }
-  p,
-  li,
-  a {
-    font-size: 18px;
-  }
+    h1 {
+        font-size: 2rem !important;
+    }
+    h2 {
+        font-size: 1.75rem !important;
+    }
+    h3 {
+        font-size: 1.5rem !important;
+    }
+    h4 {
+        font-size: 1.25rem !important;
+    }
+    h5 {
+        font-size: 1.2rem !important;
+    }
+    p,
+    li,
+    a {
+        font-size: 18px;
+    }
 }
 @media screen and (min-width: 930px) and (max-width: 1400px) {
-  h1 {
-    font-size: 1.8rem !important;
-  }
-  h2 {
-    font-size: 1.55rem !important;
-  }
-  h3 {
-    font-size: 1.3rem !important;
-  }
-  h4 {
-    font-size: 1.05rem !important;
-  }
-  h5 {
-    font-size: 1rem !important;
-  }
-  p,
-  li,
-  a {
-    font-size: 18px;
-  }
-  /* p {
+    h1 {
+        font-size: 1.8rem !important;
+    }
+    h2 {
+        font-size: 1.55rem !important;
+    }
+    h3 {
+        font-size: 1.3rem !important;
+    }
+    h4 {
+        font-size: 1.05rem !important;
+    }
+    h5 {
+        font-size: 1rem !important;
+    }
+    p,
+    li,
+    a {
+        font-size: 18px;
+    }
+    /* p {
     font-size: 1rem;
   } */
 }
 @media screen and (min-width: 500px) and (max-width: 930px) {
-  h1 {
-    font-size: 1.65rem !important;
-  }
-  h2 {
-    font-size: 1.5rem !important;
-  }
-  h3 {
-    font-size: 1.3rem !important;
-  }
-  h4 {
-    font-size: 1.1rem !important;
-  }
-  h5 {
-    font-size: 1rem !important;
-  }
-  p,
-  li,
-  a {
-    font-size: 16px;
-  }
-  .AllBackground {
-    padding: 5rem 0 2vh;
-  }
+    h1 {
+        font-size: 1.65rem !important;
+    }
+    h2 {
+        font-size: 1.5rem !important;
+    }
+    h3 {
+        font-size: 1.3rem !important;
+    }
+    h4 {
+        font-size: 1.1rem !important;
+    }
+    h5 {
+        font-size: 1rem !important;
+    }
+    p,
+    li,
+    a {
+        font-size: 16px;
+    }
+    .AllBackground {
+        padding: 5rem 0 2vh;
+    }
 }
 @media screen and (max-width: 500px) {
-  p,
-  li,
-  a {
-    font-size: 1rem;
-  }
-  .AllBackground {
-    padding: 5rem 0 2vh;
-  }
+    p,
+    li,
+    a {
+        font-size: 1rem;
+    }
+    .AllBackground {
+        padding: 5rem 0 2vh;
+    }
 }

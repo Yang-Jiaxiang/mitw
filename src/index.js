@@ -1,15 +1,13 @@
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
 import { HashRouter } from 'react-router-dom'
 
-import './index.css';
-import App from './App';
+import './index.css'
+import App from './App'
 
 ReactDOM.render(
-  <HashRouter>
-      <App />
-      
-  </HashRouter>
+    <HashRouter>
+        <App />
+    </HashRouter>,
 
-,document.querySelector('#root')
-);
-
+    document.querySelector('#root')
+)
