@@ -72,7 +72,6 @@ function News() {
                                     width: '100%',
                                 }}
                             >
-                                {' '}
                                 <Grid
                                     item
                                     sx={8}
