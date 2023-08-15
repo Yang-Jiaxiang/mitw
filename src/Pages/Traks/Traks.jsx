@@ -9,26 +9,35 @@ import '../../Components/TraksTab/TraksTab.css'
 import { useParams } from 'react-router-dom'
 import { Waypoint } from 'react-waypoint'
 
-import Tab from '../../Components/TraksTab/TraksTab'
 function Traks() {
   const { id } = useParams()
   const [onHandle, setOnHandle] = useState(id || '1') //Trackbutton
   const [Click, setClick] = useState('1') //section
 
+  const inputRef = useRef(null)
+  const [topList, setTopList] = useState([])
+  const [firstRender, setFirstRender] = useState(true)
+
+  useEffect(() => {
+    setTopList([...topList, inputRef.current.offsetTop])
+  }, [])
+
   useEffect(() => {
     setClick('1')
+    setFirstRender(true)
   }, [onHandle])
+
   return (
     <div className="AllBackground">
       <Box sx={{ background: '#fdfdfd', margin: 0, minHeight: '100vh' }}>
-        <TracksTab setOnHandle={setOnHandle} onHandle={onHandle} />
+        <TracksTab setOnHandle={setOnHandle} onHandle={onHandle} setFirstRender={setFirstRender} />
         <Grid
           container
           sx={{
             justifyContent: 'space-around',
           }}
         >
-          <SectionListTab onHandle={onHandle} Click={Click} setClick={setClick} />
+          <SectionListTab onHandle={onHandle} Click={Click} setClick={setClick} setFirstRender={setFirstRender} />
 
           <Grid item xs={8} sm={8} md={8} lg={9}>
             <Grid
@@ -45,11 +54,23 @@ function Traks() {
                 alignContent: 'center',
                 alignItems: 'flex-start',
               }}
+              ref={inputRef}
             >
               {TraksTabInform.find((item) => item.Id === onHandle).List.map((sc) => {
                 return (
-                  <section id={sc.id} key={sc.id} style={{}}>
-                    <Waypoint onEnter={() => setClick(sc.id)} />
+                  <section
+                    id={sc.id}
+                    key={sc.id}
+                    style={{ paddingTop: firstRender ? 0 : topList > 0 ? topList[0] - 5 : null, minHeight: '50vh' }}
+                  >
+                    <div
+                      style={{
+                        background: '#000',
+                      }}
+                    >
+                      <Waypoint onEnter={() => setClick(sc.id)} />
+                    </div>
+
                     <h2
                       className="TracksH1"
                       style={{
@@ -61,6 +82,7 @@ function Traks() {
                     >
                       {sc.Sc}
                     </h2>
+
                     {sc.content}
                   </section>
                 )

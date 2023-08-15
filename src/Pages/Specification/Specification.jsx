@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { HashLink as Link } from 'react-router-hash-link' //section nagetive on same page
 
 import { P1, ListTitle, List } from './SpecificationInform'
@@ -8,32 +8,29 @@ import { motion } from 'framer-motion'
 import { Waypoint } from 'react-waypoint'
 function Specification() {
   const [onHandle, setOnHandle] = useState('1')
+
+  const inputRef = useRef(null)
+  const [topList, setTopList] = useState([])
+  const [firstRender, setFirstRender] = useState(true)
+  useEffect(() => {
+    setTopList([...topList, inputRef.current.offsetTop])
+  }, [])
   return (
     <>
-      <div
-        className="AllBackground"
-        // style={{
-        //   background:
-        //     "linear-gradient(  180deg,  #ffffff 0%,  #6aadd9 0.01%,  rgba(0, 249, 255, 0) 56.56%,  rgba(240, 240, 240, 0) 100%)",
-        //   minHeight: "100%",
-        // }}
-      >
+      <div className="AllBackground">
         <div className="AllContentBackground" style={{ padding: '2vw 5vw' }}>
           {/* 公開意見徵求 */}
           <motion.div
+            ref={inputRef}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
             style={{
-              // border: "2px outset #fff",
-              // boxShadow: "1px 1px 2px 1px #76bdd5",
               display: 'flex',
               position: 'relative',
               flexDirection: 'column',
               justifyContent: 'center',
               alignItems: 'center',
-              // padding: "2vw",
-              // margin: "2vw 5vh 0",
             }}
           >
             <h4 style={{ marginBottom: '2rem' }}> {P1.title}</h4>
@@ -56,7 +53,6 @@ function Specification() {
               style={{
                 display: 'flex',
                 justifyContent: 'flex-start',
-                // paddingLeft: "1vh",
               }}
             >
               {/* 選單 */}
@@ -71,15 +67,16 @@ function Specification() {
                     return (
                       <Link
                         to={`#${item.id}`}
-                        onClick={() => setOnHandle(item.id)}
+                        onClick={() => {
+                          setOnHandle(item.id)
+                          setFirstRender(false)
+                        }}
                         key={item.id}
                         style={{
                           margin: 0,
                           backgroundColor: 'Transparent',
                           backgroundRepeat: 'no-repeat',
-                          //whiteSpace: "nowrap", //不換行
                           border: 'none',
-                          //cursor: "pointer",//鼠標形狀改變
                           overflow: 'hidden',
                           fontSize: onHandle === item.id ? '1.25rem' : '1rem',
                           color: onHandle === item.id ? '#000' : '#949494',
@@ -104,7 +101,7 @@ function Specification() {
                     style={{
                       display: 'flex',
                       flexDirection: 'column',
-                      paddingBottom: '  2vh',
+                      paddingTop: firstRender ? 0 : topList > 0 ? topList[0] - 5 : null,
                     }}
                   >
                     <Waypoint onEnter={() => setOnHandle(item.id)} />
@@ -127,41 +124,11 @@ function Specification() {
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 1 }}
                     >
-                      {item.content}{' '}
+                      {item.content}
                     </motion.div>
                   </section>
                 )
               })}
-
-              {/* ===============origin================== */}
-              {/* <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  padding: "0 5vw 2vh",
-                }}
-              >
-                <motion.h5
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1.2 }}
-                  style={{
-                    margin: "1rem 0",
-                    padding: "0 1rem  ",
-                    borderLeft: "4px solid #F5CE85",
-                    fontWeight: "bold",
-                  }}
-                >*/}
-              {/* {List.filter((item) => item.id === onHandle)[0].title} */}
-              {/* </motion.h5>
-                <motion.div
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 1 }}
-                >
-                  {List.filter((item) => item.id === onHandle)[0].content}
-                </motion.div>
-              </div> */}
             </Grid>
           </Grid>
         </div>

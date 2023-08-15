@@ -32,7 +32,6 @@ function Recruit() {
           return (
             <Grid item sm={12} md={12} lg={12}>
               <Part>
-                {/* <div style={{ margin: "1.5rem 3rem" }}> */}
                 <div className="Background1">
                   <Grid container spacing={1}>
                     {/* 小組及說明(左) */}
@@ -43,7 +42,6 @@ function Recruit() {
                       md={7}
                       lg={7}
                       style={{
-                        // padding: 0,
                         padding: '3rem 3rem ',
                         width: '100%',
                         display: 'flex',
@@ -57,7 +55,6 @@ function Recruit() {
                         style={{
                           letterSpacing: '1px',
                           lineHeight: '1.7',
-                          // paddingLeft: "1rem",
                         }}
                       >
                         {item.instructions}

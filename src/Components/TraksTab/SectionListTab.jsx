@@ -3,7 +3,7 @@ import { TraksTabInform } from './TraksTabInform'
 import { Grid, Box } from '@mui/material'
 import { HashLink as Link } from 'react-router-hash-link' //section nagetive on same page
 
-function SectionListTab({ Click, setClick, onHandle }) {
+function SectionListTab({ Click, setClick, onHandle, setFirstRender }) {
   return (
     <Grid
       item
@@ -39,7 +39,10 @@ function SectionListTab({ Click, setClick, onHandle }) {
               width: '100%',
             }}
             key={sectiontab.id}
-            onClick={() => setClick(sectiontab.id)}
+            onClick={() => {
+              setClick(sectiontab.id)
+              setFirstRender(false)
+            }}
             smooth
           >
             {sectiontab.Sc}

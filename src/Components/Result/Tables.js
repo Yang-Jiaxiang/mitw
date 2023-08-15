@@ -15,7 +15,7 @@ export const trackstable = {
           style={{
             textAlign: 'center',
             width: '100%',
-            border: '1px #dcdcdc solid',
+            border: '1px #000 solid',
           }}
         >
           <tbody>
