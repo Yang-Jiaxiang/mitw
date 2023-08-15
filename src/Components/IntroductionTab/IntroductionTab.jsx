@@ -1,9 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Inform } from './Inform'
 import { motion } from 'framer-motion'
 import './Introduction.css'
 function IntroductionTab() {
   const [onHandle, setOnHandle] = useState('1')
+  const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowsWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
+
   return (
     <>
       <div className="AllContentBackground" style={{ padding: '3rem 3rem' }}>
@@ -33,16 +42,9 @@ function IntroductionTab() {
                 }}
                 key={item}
               >
-                <div className="Tab" style={{ padding: '1rem 0' }}>
-                  <h5
-                    style={{
-                      margin: 0,
-                    }}
-                  >
-                    <icon style={{ paddingRight: '5px', fontSize: '2rem' }}>{item.icon}</icon>
-
-                    {item.Tabtitle}
-                  </h5>
+                <div className="Tab" style={{ padding: '1rem 0', fontSize: windwosWidth < 1000 ? '1rem' : '1.3rem' }}>
+                  <icon style={{ paddingRight: '5px', fontSize: '2rem' }}>{item.icon}</icon>
+                  {item.Tabtitle}
                 </div>
               </button>
             )
