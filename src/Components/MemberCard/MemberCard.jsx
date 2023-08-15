@@ -21,16 +21,11 @@ function MemberCard() {
   const handleClickOpen = (ID) => {
     setMemId(ID)
     setOpen(true)
-    // console.log(memId);
   }
   const handleClose = () => {
     setOpen(false)
   }
-  useEffect(() => {
-    //  setMemId(Mem.Id === clickTrackId);
-    // console.log(memId);
-  }, [clickTrackId])
-  // MMMMMM dialog use
+  useEffect(() => {}, [clickTrackId])
 
   return (
     <>
@@ -115,80 +110,7 @@ function MemberCard() {
           >
             {Mem.filter(({ Track }) => Track === clickTrackId).map((item, i) => {
               return (
-                <Grid
-                  item
-                  xs={10}
-                  sm={10}
-                  md={5}
-                  lg={5}
-                  key={i}
-                  sx={{
-                    display: 'flex',
-                    // , height: "100%"
-                  }}
-                >
-                  {/* flipCard */}
-                  {/* <Card item={item} /> */}
-                  {/* dialog card */}
-                  {/* <div
-                     
-                      onClick={() => {
-                        handleClickOpen(item.Id); */}
-                  {/* setMemId(item.Id); */}
-                  {/* }}
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        background: "#fff",
-                        width: " 100%",
-                        height: " 75vh",
-
-                        padding: " 0 1vw",
-                        boxShadow: "3px 3px 13px #dad7cd",
-                      }}
-                    > */}
-                  {/* 賽道資訊 */}
-                  {/* <div>
-                        <p className="Tracks">{item.Track}</p>
-                        <h2 className="TracksTitle">{item.TraksTitle}</h2>
-                      </div> */}
-                  {/* 姓名 身分 */}
-                  {/* <h5
-                        className="Name" 
-                      >
-                        {item.Name}
-                      </h5> */}
-                  {/* 照片 */}
-                  {/* <div className="ImgContainer">
-                        <img
-                          src={item.Img}
-                          style={{
-                            height: "100%",
-                            width: "100%",
-                            objectFit: "cover",
-                            cursor: "pointer",
-                          }}
-                        />
-                      </div> */}
-                  {/* 藍色標標 */}
-                  {/* <div
-                        style={{
-                          display: "flex",
-                          justifyContent: "flex-end",
-                          width: "100%",
-                        }}
-                      >
-                        <span
-                          style={{
-                            display: "flex",
-                            flexDirection: "row-reverse",
-                          }}
-                        >
-                          <h4 className="Bluetag">{item.Position}</h4>
-                        </span>
-                      </div>
-                    </div> */}
-                  {/* card component */}
+                <Grid item xs={10} sm={10} md={5} lg={5} key={i} sx={{ display: 'flex' }}>
                   <CCard className="CardContainer" style={{ width: '100%', border: 'none' }}>
                     <p className="Tracks"> {item.Track}</p>
                     <h2 className="TracksTitle">{item.TraksTitle}</h2>
@@ -200,7 +122,6 @@ function MemberCard() {
                       src={item.Img}
                       onClick={() => {
                         handleClickOpen(item.Id)
-                        // setMemId(item.Id);
                       }}
                     />
 
@@ -237,75 +158,6 @@ function MemberCard() {
             })}
           </Grid>
         </Grid>
-
-        {/* <Grid item sm={8} md={8} lg={8}>
-          <Grid container spacing={1}>
-            <div style={{}}>
-              {Mem.map((item) => {
-                if(clickTrackId===item.Id)
-                return (
-                  <div
-                  key={item.Id}
-                  style={{
-                    background: "#fff",
-                    width: "40rem",
-                    height: "55rem",
-                    margin: "1rem",
-                    display: "flex",
-                    boxShadow: "3px 3px 13px #dad7cd",
-                    flexDirection: "column",
-                  }}
-                  >
-                    {console.log("A")}
-                    <div style={{ fontSize: "100px" }}>
-                      {item.Track}
-                      <hr style={{ width: "10%", margin: "0 0 1rem" }} />
-                    </div>
-                    <h2>
-                      {item.TraksTitle}
-                    </h2>
-                    <h5 style={{ color: "rgba(#3ABCBF,0.5)" }}>
-                      {item.Name}
-                    </h5>
-                    <img
-                      src={item.Img}
-                      style={{
-                        height: "100%",
-                        width: "95%",
-                        objectFit: "contain",
-                      }}
-                    />
-                    <span
-                      style={{
-                        display: "flex",
-                        flexDirection: "row-reverse",
-                      }}
-                    >
-                      <h4
-                        style={{
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          position: "relative",
-                          bottom: "3rem",
-                          right: "0.5px",
-                          padding: "0 2rem ",
-                          height: "3rem",
-                          right: "-1px",
-                          background: "#3ABCBF",
-                          color: "#fff",
-                          boxShadow: "2px 0px 3px #d6ccc2",
-                        }}
-                      >
-                        {item.Position}
-                      </h4>
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
-          </Grid>
-        </Grid> */}
       </Grid>
     </>
   )
