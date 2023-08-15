@@ -1,13 +1,13 @@
-import { React, useState } from "react";
-import { HashLink as Link } from "react-router-hash-link"; //section nagetive on same page
+import { React, useState } from 'react'
+import { HashLink as Link } from 'react-router-hash-link' //section nagetive on same page
 
-import { P1, ListTitle, List } from "./SpecificationInform";
-import "./Specification.css";
-import { Grid } from "@mui/material";
-import { motion } from "framer-motion";
-import { Waypoint } from "react-waypoint";
+import { P1, ListTitle, List } from './SpecificationInform'
+import './Specification.css'
+import { Grid } from '@mui/material'
+import { motion } from 'framer-motion'
+import { Waypoint } from 'react-waypoint'
 function Specification() {
-  const [onHandle, setOnHandle] = useState("1");
+  const [onHandle, setOnHandle] = useState('1')
   return (
     <>
       <div
@@ -18,7 +18,7 @@ function Specification() {
         //   minHeight: "100%",
         // }}
       >
-        <div className="AllContentBackground" style={{ padding: "2vw 5vw" }}>
+        <div className="AllContentBackground" style={{ padding: '2vw 5vw' }}>
           {/* 公開意見徵求 */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
@@ -27,21 +27,21 @@ function Specification() {
             style={{
               // border: "2px outset #fff",
               // boxShadow: "1px 1px 2px 1px #76bdd5",
-              display: "flex",
-              position: "relative",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
+              display: 'flex',
+              position: 'relative',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
               // padding: "2vw",
               // margin: "2vw 5vh 0",
             }}
           >
-            <h4 style={{ marginBottom: "2rem" }}> {P1.title}</h4>
+            <h4 style={{ marginBottom: '2rem' }}> {P1.title}</h4>
             <p>{P1.context}</p>
-            <a href={P1.link} target="_blank" style={{ color: "#000" }}>
+            <a href={P1.link} target="_blank" style={{ color: '#000' }}>
               {P1.linkTitle}
             </a>
-            <hr style={{ width: "100%" }} />
+            <hr style={{ width: '100%' }} />
           </motion.div>
 
           {/* 說明 */}
@@ -54,8 +54,8 @@ function Specification() {
               md={2}
               lg={1.5}
               style={{
-                display: "flex",
-                justifyContent: "flex-start",
+                display: 'flex',
+                justifyContent: 'flex-start',
                 // paddingLeft: "1vh",
               }}
             >
@@ -66,7 +66,7 @@ function Specification() {
                 transition={{ duration: 0.8 }}
                 //style={{ width: "20%" }}
               >
-                <div style={{ position: "sticky", top: "5.5rem" }}>
+                <div style={{ position: 'sticky', top: '5.5rem' }}>
                   {ListTitle.map((item) => {
                     return (
                       <Link
@@ -75,23 +75,21 @@ function Specification() {
                         key={item.id}
                         style={{
                           margin: 0,
-                          backgroundColor: "Transparent",
-                          backgroundRepeat: "no-repeat",
+                          backgroundColor: 'Transparent',
+                          backgroundRepeat: 'no-repeat',
                           //whiteSpace: "nowrap", //不換行
-                          border: "none",
+                          border: 'none',
                           //cursor: "pointer",//鼠標形狀改變
-                          overflow: "hidden",
-                          fontSize: onHandle === item.id ? "1.25rem" : "1rem",
-                          color: onHandle === item.id ? "#000" : "#949494",
-                          width: "100%",
+                          overflow: 'hidden',
+                          fontSize: onHandle === item.id ? '1.25rem' : '1rem',
+                          color: onHandle === item.id ? '#000' : '#949494',
+                          width: '100%',
                         }}
                         smooth
                       >
-                        <div style={{ marginBottom: "5px", width: "100%" }}>
-                          {item.title}
-                        </div>
+                        <div style={{ marginBottom: '5px', width: '100%' }}>{item.title}</div>
                       </Link>
-                    );
+                    )
                   })}
                 </div>
               </motion.div>
@@ -104,9 +102,9 @@ function Specification() {
                     key={item.id}
                     id={item.id}
                     style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      paddingBottom: "  2vh",
+                      display: 'flex',
+                      flexDirection: 'column',
+                      paddingBottom: '  2vh',
                     }}
                   >
                     <Waypoint onEnter={() => setOnHandle(item.id)} />
@@ -116,10 +114,10 @@ function Specification() {
                       transition={{ duration: 1.2 }}
                       className="SpecificationH5"
                       style={{
-                        margin: "1rem 0",
-                        padding: "0 1rem  ",
-                        borderLeft: "4px solid orange",
-                        fontWeight: "bold",
+                        margin: '1rem 0',
+                        padding: '0 1rem  ',
+                        borderLeft: '4px solid orange',
+                        fontWeight: 'bold',
                       }}
                     >
                       {item.title}
@@ -129,10 +127,10 @@ function Specification() {
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 1 }}
                     >
-                      {item.content}{" "}
+                      {item.content}{' '}
                     </motion.div>
                   </section>
-                );
+                )
               })}
 
               {/* ===============origin================== */}
@@ -169,7 +167,7 @@ function Specification() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Specification;
+export default Specification

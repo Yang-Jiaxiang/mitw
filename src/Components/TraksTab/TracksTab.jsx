@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import { TraksTabInform } from "./TraksTabInform";
-import "./TraksTab.css";
-import { useParams } from "react-router-dom";
+import React, { useEffect, useState } from 'react'
+import { TraksTabInform } from './TraksTabInform'
+import './TraksTab.css'
+import { useParams } from 'react-router-dom'
 
-import { Grid, Box } from "@mui/material";
+import { Grid, Box } from '@mui/material'
 
 function TracksTab({ setOnHandle, onHandle }) {
   return (
@@ -13,55 +13,55 @@ function TracksTab({ setOnHandle, onHandle }) {
       direction="row"
       justifyContent="space-between"
       style={{
-        width: "100%",
+        width: '100%',
         margin: 0,
-        position: "sticky",
-        paddingTop: "1rem",
-        top: "5%",
-        background: "#fdfdfd",
-        alignItems: "baseline",
+        position: 'sticky',
+        paddingTop: '1rem',
+        top: '5%',
+        background: '#fdfdfd',
+        alignItems: 'baseline',
         zIndex: 500,
       }}
     >
-      <Grid item xs={12} sm={12} md={4} lg={2.5} style={{ width: "100%" }}>
+      <Grid item xs={12} sm={12} md={4} lg={2.5} style={{ width: '100%' }}>
         {/* 目前賽道 */}
         {TraksTabInform.filter((item) => item.Id === onHandle).map((item) => {
           return (
             <Box
               key={item}
               style={{
-                display: "flex",
-                flexDirection: "column",
+                display: 'flex',
+                flexDirection: 'column',
                 border: 0,
-                width: "100%",
-                alignItems: "center",
-                justifyContent: "center",
-                whiteSpace: "nowrap",
+                width: '100%',
+                alignItems: 'center',
+                justifyContent: 'center',
+                whiteSpace: 'nowrap',
               }}
             >
               <div
                 style={{
-                  fontSize: "3rem",
+                  fontSize: '3rem',
                 }}
               >
                 {item.TabTitle}
               </div>
               <div
                 style={{
-                  fontWeight: "bold",
-                  fontSize: "1.25rem",
+                  fontWeight: 'bold',
+                  fontSize: '1.25rem',
                   // fontSize: "15px",
-                  color: "#1e1e1e",
+                  color: '#1e1e1e',
                   margin: 0,
-                  background: "#fdfdfd",
-                  position: "relative",
-                  top: "-10px",
+                  background: '#fdfdfd',
+                  position: 'relative',
+                  top: '-10px',
                 }}
               >
                 {item.ContentTitle}
               </div>
             </Box>
-          );
+          )
         })}
       </Grid>
       <Grid
@@ -71,9 +71,9 @@ function TracksTab({ setOnHandle, onHandle }) {
         md={8}
         lg={9}
         style={{
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "baseline",
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'baseline',
           // overflowX: "auto",
           // paddingBottom: "3vw",
         }}
@@ -83,20 +83,16 @@ function TracksTab({ setOnHandle, onHandle }) {
           {TraksTabInform.map((item) => {
             return (
               <Grid item xs={2} sm={2}>
-                <button
-                  className="Tabsbutton"
-                  key={item}
-                  onClick={() => setOnHandle(item.Id)}
-                >
+                <button className="Tabsbutton" key={item} onClick={() => setOnHandle(item.Id)}>
                   {item.TabTitle}
                 </button>
               </Grid>
-            );
+            )
           })}
         </Grid>
       </Grid>
     </Grid>
-  );
+  )
 }
 
-export default TracksTab;
+export default TracksTab

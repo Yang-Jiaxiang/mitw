@@ -1,6 +1,6 @@
-import React from "react";
-import { Title, TBody } from "./Inform";
-import { Table } from "reactstrap";
+import React from 'react'
+import { Title, TBody } from './Inform'
+import { Table } from 'reactstrap'
 
 function OpenSourceTable() {
   return (
@@ -82,7 +82,7 @@ function OpenSourceTable() {
           })}
         </tbody>
       </Table> */}
-      <Table bordered style={{ backgroundColor: "#f3f4f6" }}>
+      <Table bordered style={{ backgroundColor: '#f3f4f6' }}>
         <thead>
           <tr>
             <th>
@@ -99,7 +99,7 @@ function OpenSourceTable() {
             </th>
           </tr>
         </thead>
-        <tbody style={{ textAlign: "center" }}>
+        <tbody style={{ textAlign: 'center' }}>
           {TBody.map((item, i) => {
             return (
               <tr
@@ -118,7 +118,7 @@ function OpenSourceTable() {
                     // flexDirection: "column",
                     // justifyContent: "center",
                     // alignItems: "center",
-                    verticalAlign: "middle",
+                    verticalAlign: 'middle',
                   }}
                 >
                   {/* <div
@@ -130,63 +130,51 @@ function OpenSourceTable() {
                       alignItems: "center",
                     }}
                   > */}
-                  {item.img.length > 0 ? (
-                    <img
-                      src={item.img}
-                      width={"30%"}
-                      style={{ height: "100%" }}
-                    />
-                  ) : (
-                    ""
-                  )}
+                  {item.img.length > 0 ? <img src={item.img} width={'30%'} style={{ height: '100%' }} /> : ''}
 
                   <a
                     href={item.link}
                     target="_blank"
                     style={{
-                      color: "#295285",
-                      textDecoration: "none",
-                      height: "100%",
+                      color: '#295285',
+                      textDecoration: 'none',
+                      height: '100%',
                     }}
                   >
-                    {item.name}{" "}
+                    {item.name}{' '}
                   </a>
                   {/* </div> */}
                 </td>
                 <td
                   style={{
-                    verticalAlign: "middle",
+                    verticalAlign: 'middle',
                   }}
                 >
                   {item.introduce}
                 </td>
                 <td
                   style={{
-                    verticalAlign: "middle",
+                    verticalAlign: 'middle',
                   }}
                 >
                   {item.traks}
                 </td>
                 <td
                   style={{
-                    verticalAlign: "middle",
+                    verticalAlign: 'middle',
                   }}
                 >
-                  <a
-                    href={item.clink}
-                    target="_blank"
-                    style={{ color: "#295285", textDecoration: "none" }}
-                  >
+                  <a href={item.clink} target="_blank" style={{ color: '#295285', textDecoration: 'none' }}>
                     {item.contributor}
                   </a>
                 </td>
               </tr>
-            );
+            )
           })}
         </tbody>
       </Table>
     </div>
-  );
+  )
 }
 
-export default OpenSourceTable;
+export default OpenSourceTable

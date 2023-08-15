@@ -1,12 +1,10 @@
-
-
 .Mainbackground {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   /* objectFit:  scale-down ;
     objectFit:  fill ; */
-  background-position: "center center";
+  background-position: 'center center';
   object-fit: none;
 
   display: flex;

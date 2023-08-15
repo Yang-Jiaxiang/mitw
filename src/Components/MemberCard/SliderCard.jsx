@@ -1,22 +1,22 @@
-import { useState, useEffect } from "react";
-import { Dialog, DialogContent, DialogContentText } from "@mui/material";
-import { Grid } from "@mui/material";
-import { color } from "framer-motion";
+import { useState, useEffect } from 'react'
+import { Dialog, DialogContent, DialogContentText } from '@mui/material'
+import { Grid } from '@mui/material'
+import { color } from 'framer-motion'
 function SliderCard(props) {
-  const { Id, Track, TraksTitle, Img, Position, Name, Tollger } = props.item;
-  const [clickId, setClickId] = useState(1);
-  const [mem, setMem] = useState([]);
-  const [Open, setOpen] = useState(false);
-  const [id, setId] = useState(null);
+  const { Id, Track, TraksTitle, Img, Position, Name, Tollger } = props.item
+  const [clickId, setClickId] = useState(1)
+  const [mem, setMem] = useState([])
+  const [Open, setOpen] = useState(false)
+  const [id, setId] = useState(null)
   const handleClickOpen = () => {
-    setOpen(true);
-  };
+    setOpen(true)
+  }
   const handleClose = () => {
-    setOpen(false);
-  };
+    setOpen(false)
+  }
   useEffect(() => {
-    setMem(Id === clickId);
-  }, [clickId]);
+    setMem(Id === clickId)
+  }, [clickId])
   return (
     <>
       <Grid container spacing={1}>
@@ -26,48 +26,48 @@ function SliderCard(props) {
             spacing={1}
             direction="column"
             style={{
-              background: "#fff",
-              width: "100%",
-              height: "100%",
-              margin: "1rem",
-              boxShadow: "3px 3px 13px #dad7cd",
+              background: '#fff',
+              width: '100%',
+              height: '100%',
+              margin: '1rem',
+              boxShadow: '3px 3px 13px #dad7cd',
             }}
           >
             {/* 賽道資訊 */}
-            <Grid item style={{ position: "relative" }}>
-              <p style={{ fontSize: "7.5vw", margin: 0 }}>{Track}</p>
+            <Grid item style={{ position: 'relative' }}>
+              <p style={{ fontSize: '7.5vw', margin: 0 }}>{Track}</p>
               <div
                 style={{
-                  width: "5vw",
-                  height: "3px",
-                  margin: "0 0 1rem",
-                  background: "pink",
+                  width: '5vw',
+                  height: '3px',
+                  margin: '0 0 1rem',
+                  background: 'pink',
                 }}
               />
               <h2>{TraksTitle}</h2>
             </Grid>
             {/* 姓名 身分 */}
 
-            <Grid item style={{ height: "10vh" }}>
+            <Grid item style={{ height: '10vh' }}>
               <h5
                 style={{
-                  color: "#3ABCBF",
+                  color: '#3ABCBF',
                 }}
               >
                 {Name}
               </h5>
             </Grid>
             {/* 照片 */}
-            <Grid item style={{ display: "flex", height: "60%", width: "90%" }}>
+            <Grid item style={{ display: 'flex', height: '60%', width: '90%' }}>
               <img
                 onClick={() => {
-                  handleClickOpen();
+                  handleClickOpen()
                 }}
                 src={`assets/${Img}`}
                 style={{
-                  height: "100%",
-                  width: "100%",
-                  objectFit: "fill",
+                  height: '100%',
+                  width: '100%',
+                  objectFit: 'fill',
                 }}
               />
               {/* <span
@@ -106,7 +106,7 @@ function SliderCard(props) {
         </Grid>
       </Grid>
     </>
-  );
+  )
 }
 
-export default SliderCard;
+export default SliderCard

@@ -1,13 +1,13 @@
-import React, { useState, useRef, useEffect } from "react";
-import "./MemberCard.css";
-import { Mem } from "../../Pages/Member/Inform";
-import ReactCardFlip from "react-card-flip";
+import React, { useState, useRef, useEffect } from 'react'
+import './MemberCard.css'
+import { Mem } from '../../Pages/Member/Inform'
+import ReactCardFlip from 'react-card-flip'
 
 function Card({ item }) {
-  const ref = useRef(null);
-  const [memId, setMemId] = useState(null);
-  const [cardHeight, setCardHeight] = useState(0);
-  const [cardWidth, setcardWidth] = useState(0);
+  const ref = useRef(null)
+  const [memId, setMemId] = useState(null)
+  const [cardHeight, setCardHeight] = useState(0)
+  const [cardWidth, setcardWidth] = useState(0)
   //   const [Open, setOpen] = useState(false);
   //   const [id, setId] = useState(null);
 
@@ -19,24 +19,24 @@ function Card({ item }) {
   //   };
 
   //   flip
-  const [isFlipped, setIsFlipped] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false)
   useEffect(() => {
     if (ref) {
-      setCardHeight(ref.current.clientHeight);
-      setcardWidth(ref.current.clientWidth);
-      console.log(cardHeight, cardWidth);
+      setCardHeight(ref.current.clientHeight)
+      setcardWidth(ref.current.clientWidth)
+      console.log(cardHeight, cardWidth)
     }
     // if (ref || cardHeight) {
     //   cardHeight > ref.current.clientHeight
     //     ? setCardHeight(cardHeight)
     //     : setCardHeight(ref.current.clientHeight);
     // }
-  });
+  })
 
   const handleClick = (e) => {
     // e.preventDefault();
-    setIsFlipped((prevState) => !prevState);
-  };
+    setIsFlipped((prevState) => !prevState)
+  }
   return (
     <>
       <ReactCardFlip isFlipped={isFlipped}>
@@ -47,25 +47,25 @@ function Card({ item }) {
           // transition={{ duration: 1 }}
           onMouseEnter={() => {
             //  handleClickOpen();
-            handleClick();
+            handleClick()
 
-            setMemId(item.Id);
+            setMemId(item.Id)
           }}
           onClick={() => {
             //  handleClickOpen();
-            handleClick();
+            handleClick()
 
-            setMemId(item.Id);
+            setMemId(item.Id)
           }}
           style={{
-            display: "flex",
-            flexDirection: "column",
-            background: "#fff",
-            width: " 100%",
-            height: " 100%",
+            display: 'flex',
+            flexDirection: 'column',
+            background: '#fff',
+            width: ' 100%',
+            height: ' 100%',
             /* margin-top: 5vw; */
-            padding: " 0 1vw",
-            boxShadow: "3px 3px 13px #dad7cd",
+            padding: ' 0 1vw',
+            boxShadow: '3px 3px 13px #dad7cd',
           }}
         >
           {/* 賽道資訊 */}
@@ -98,25 +98,25 @@ function Card({ item }) {
             <img
               src={item.Img}
               style={{
-                height: "100%",
-                width: "100%",
-                objectFit: "cover",
-                cursor: "pointer",
+                height: '100%',
+                width: '100%',
+                objectFit: 'cover',
+                cursor: 'pointer',
               }}
             />
           </div>
           {/* 藍色標標 */}
           <div
             style={{
-              display: "flex",
-              justifyContent: "flex-end",
-              width: "100%",
+              display: 'flex',
+              justifyContent: 'flex-end',
+              width: '100%',
             }}
           >
             <span
               style={{
-                display: "flex",
-                flexDirection: "row-reverse",
+                display: 'flex',
+                flexDirection: 'row-reverse',
               }}
             >
               <h4
@@ -146,21 +146,19 @@ function Card({ item }) {
           onMouseLeave={handleClick}
           onClick={handleClick}
           style={{
-            display: "flex",
-            flexDirection: "column",
+            display: 'flex',
+            flexDirection: 'column',
             height: cardHeight,
             width: cardWidth,
-            cursor: "pointer",
-            maxWidth: "514px",
-            justifyContent: "space-between",
-            boxShadow: "3px 3px 13px #dad7cd",
-            padding: "2vw",
-            overflowY: "auto",
+            cursor: 'pointer',
+            maxWidth: '514px',
+            justifyContent: 'space-between',
+            boxShadow: '3px 3px 13px #dad7cd',
+            padding: '2vw',
+            overflowY: 'auto',
           }}
         >
-          {memId !== null
-            ? Mem.filter((item) => item.Id === memId)[0].Tollger
-            : null}
+          {memId !== null ? Mem.filter((item) => item.Id === memId)[0].Tollger : null}
         </div>
       </ReactCardFlip>
       {/* 
@@ -175,7 +173,7 @@ function Card({ item }) {
     </DialogContent>
   </Dialog> */}
     </>
-  );
+  )
 }
 
-export default Card;
+export default Card

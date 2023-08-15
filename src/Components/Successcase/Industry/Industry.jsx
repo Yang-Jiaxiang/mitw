@@ -1,11 +1,11 @@
-import React from "react";
-import { IndustryInform } from "../../../Pages/Successcase/Inform";
-import { Grid } from "@mui/material";
-import { motion } from "framer-motion";
-import { useState } from "react";
-import "../Successcase.css";
+import React from 'react'
+import { IndustryInform } from '../../../Pages/Successcase/Inform'
+import { Grid } from '@mui/material'
+import { motion } from 'framer-motion'
+import { useState } from 'react'
+import '../Successcase.css'
 
-import SeeMore from "../../Function/SeeMore";
+import SeeMore from '../../Function/SeeMore'
 // const StringLength = ({ introduce }) => {
 //   const [stringLength, setStringLength] = useState(50);
 
@@ -81,9 +81,9 @@ function Industry() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
             style={{
-              marginBottom: "2vw",
-              paddingBottom: "2vw",
-              borderBottom: "1px solid #dfdfdf",
+              marginBottom: '2vw',
+              paddingBottom: '2vw',
+              borderBottom: '1px solid #dfdfdf',
             }}
             // initial={{
             //   y: "150%",
@@ -93,22 +93,17 @@ function Industry() {
             // }}
             // transition={{ delay: 0.5, duration: 1 }}
           >
-            <Grid container spacing={1} key={i} sx={{ marginTop: "1rem" }}>
+            <Grid container spacing={1} key={i} sx={{ marginTop: '1rem' }}>
               {/* 左 */}
               <Grid item xs={12} sm={12} md={4} lg={3}>
-                <Grid
-                  container
-                  spacing={1}
-                  direction="column"
-                  alignItems="flex-start"
-                >
+                <Grid container spacing={1} direction="column" alignItems="flex-start">
                   <Grid item>
                     <img
                       src={item.img}
                       className="IndusImg"
                       style={{
-                        objectFit: "cover",
-                        marginBottom: "1rem",
+                        objectFit: 'cover',
+                        marginBottom: '1rem',
                       }}
                     />
                   </Grid>
@@ -121,21 +116,21 @@ function Industry() {
                           href={link.l}
                           target="_blank"
                           style={{
-                            textDecoration: "none ",
-                            color: "#0081a7",
-                            width: "100%",
-                            marginRight: "3rem",
+                            textDecoration: 'none ',
+                            color: '#0081a7',
+                            width: '100%',
+                            marginRight: '3rem',
                           }}
                         >
                           {link.lname}
                         </a>
-                      );
+                      )
                     })}
                   </Grid>
                   <Grid item>
                     <p
                       style={{
-                        whiteSpace: "pre-line",
+                        whiteSpace: 'pre-line',
                       }}
                     >
                       {item.tracks}
@@ -151,19 +146,19 @@ function Industry() {
                     <h3>{item.name}</h3>
                   </Grid>
                   <Grid item>
-                    <p style={{ whiteSpace: "pre-line" }}>
+                    <p style={{ whiteSpace: 'pre-line' }}>
                       {/* <SeeMore introduce=/> */}
-                      {item.introduce}{" "}
+                      {item.introduce}{' '}
                     </p>
                   </Grid>
                 </Grid>
               </Grid>
             </Grid>
           </motion.div>
-        );
+        )
       })}
     </>
-  );
+  )
 }
 
-export default Industry;
+export default Industry

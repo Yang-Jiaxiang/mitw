@@ -1,6 +1,6 @@
-import React from "react";
-import MemberCard from "../../Components/MemberCard/MemberCard";
-import "./Member.css";
+import React from 'react'
+import MemberCard from '../../Components/MemberCard/MemberCard'
+import './Member.css'
 function Member() {
   return (
     <>
@@ -8,7 +8,7 @@ function Member() {
         <MemberCard />
       </div>
     </>
-  );
+  )
 }
 
-export default Member;
+export default Member

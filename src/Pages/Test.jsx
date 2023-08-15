@@ -1,18 +1,18 @@
-import React, { useState, MouseEvent } from "react";
-import ReactCardFlip from "react-card-flip";
-import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
-import Background from "../assets/Background.png";
-import { Grid } from "@mui/material";
-import T2023 from "../assets/T2023.png";
-import Ttext from "../assets/Titletext.png";
-import TracksTab from "../Components/TraksTab/TracksTab";
-import { Link } from "react-router-dom";
-import { useRef } from "react";
-import { useInView } from "framer-motion";
-import { routerList } from "../Components/RouterList";
-import Navbar from "../Components/Navbar/Navbar";
-import ImgDialog from "../Components/Dialog/Dialog";
-import "./treat.css";
+import React, { useState, MouseEvent } from 'react'
+import ReactCardFlip from 'react-card-flip'
+import { motion, useMotionTemplate, useMotionValue } from 'framer-motion'
+import Background from '../assets/Background.png'
+import { Grid } from '@mui/material'
+import T2023 from '../assets/T2023.png'
+import Ttext from '../assets/Titletext.png'
+import TracksTab from '../Components/TraksTab/TracksTab'
+import { Link } from 'react-router-dom'
+import { useRef } from 'react'
+import { useInView } from 'framer-motion'
+import { routerList } from '../Components/RouterList'
+import Navbar from '../Components/Navbar/Navbar'
+import ImgDialog from '../Components/Dialog/Dialog'
+import './treat.css'
 function Test() {
   // const [Thiscolor, setThisColor] = useState(
   //   "0 0 0.7em #53F3D3, 0 0 0.7em #53F3D3,0 0 0.7em #53F3D3"
@@ -48,40 +48,31 @@ function Test() {
   // }
   // const ref = useRef(null);
   // const isInView = useInView(ref, { once: true });
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false)
 
   const Click = () => {
-    setOpen(!open);
-    console.log(open);
-  };
+    setOpen(!open)
+    console.log(open)
+  }
 
-  const [isFlipped, setIsFlipped] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false)
 
   const handleClick = (e) => {
-    e.preventDefault();
-    setIsFlipped((prevState) => !prevState);
-  };
+    e.preventDefault()
+    setIsFlipped((prevState) => !prevState)
+  }
   //
 
   return (
     <>
-      <div style={{ display: "flex" }}>
-        <ReactCardFlip
-          isFlipped={isFlipped}
-          style={{ height: "10rem", width: "10rem" }}
-        >
-          <button
-            onClick={handleClick}
-            style={{ height: "10rem", width: "10rem" }}
-          >
+      <div style={{ display: 'flex' }}>
+        <ReactCardFlip isFlipped={isFlipped} style={{ height: '10rem', width: '10rem' }}>
+          <button onClick={handleClick} style={{ height: '10rem', width: '10rem' }}>
             This is the front of the card.
             {/* <button onClick={handleClick}>Click to flip</button> */}
           </button>
 
-          <button
-            onClick={handleClick}
-            style={{ height: "10rem", width: "10rem" }}
-          >
+          <button onClick={handleClick} style={{ height: '10rem', width: '10rem' }}>
             This is the back of the card.
             {/* <button onClick={handleClick}>Click to flip</button> */}
           </button>
@@ -110,7 +101,7 @@ function Test() {
       </div> */}
       <Navbar />
       {/* ===== */}
-      <div style={{ height: "10rem", paddingLeft: "30rem" }}>
+      <div style={{ height: '10rem', paddingLeft: '30rem' }}>
         <h1>h1</h1>
         <h2>h1</h2>
         <h3>h1</h3>
@@ -121,10 +112,10 @@ function Test() {
       {/* ========submenu ======*/}
       <div
         style={{
-          background: "#dcdcdc",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
+          background: '#dcdcdc',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
         }}
       >
         <div className="container">
@@ -343,7 +334,7 @@ function Test() {
       </div> */}
       <ImgDialog Img={T2023} />
     </>
-  );
+  )
 }
 
-export default Test;
+export default Test

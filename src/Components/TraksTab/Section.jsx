@@ -1,17 +1,17 @@
-import React from "react";
-import { useState } from "react";
-import { GoTriangleDown, GoTriangleUp } from "react-icons/go";
+import React from 'react'
+import { useState } from 'react'
+import { GoTriangleDown, GoTriangleUp } from 'react-icons/go'
 
 function Section({ Click }) {
   // const [Click, setClick] = useState("1"); //section
-  const [SectionOpen, setSectionOpen] = useState(false);
+  const [SectionOpen, setSectionOpen] = useState(false)
   const SectionClick = () => {
-    setSectionOpen(!SectionOpen);
-  };
-  console.log({ Click });
+    setSectionOpen(!SectionOpen)
+  }
+  console.log({ Click })
   return (
     <>
-      {" "}
+      {' '}
       <div>{Click}</div>
       {/* <button
         style={{
@@ -36,7 +36,7 @@ function Section({ Click }) {
       </button>
       {SectionOpen && Click === item.id ? <div>{item.content}</div> : ""} */}
     </>
-  );
+  )
 }
 
-export default Section;
+export default Section

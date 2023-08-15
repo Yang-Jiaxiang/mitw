@@ -1,18 +1,18 @@
-import React, { useEffect, useState, useRef } from "react";
-import { TraksTabInform } from "./TraksTabInform";
-import Section from "./Section";
-import TracksTab from "./TracksTab";
-import SectionListTab from "./SectionListTab";
-import PhotoSlider from "../../Components/Slider/PhotoSlider";
-import { Grid, Box } from "@mui/material";
-import "./TraksTab.css";
-import { useParams } from "react-router-dom";
-import { Waypoint } from "react-waypoint";
+import React, { useEffect, useState, useRef } from 'react'
+import { TraksTabInform } from './TraksTabInform'
+import Section from './Section'
+import TracksTab from './TracksTab'
+import SectionListTab from './SectionListTab'
+import PhotoSlider from '../../Components/Slider/PhotoSlider'
+import { Grid, Box } from '@mui/material'
+import './TraksTab.css'
+import { useParams } from 'react-router-dom'
+import { Waypoint } from 'react-waypoint'
 
 function TraksTab() {
-  const { id } = useParams();
-  const [onHandle, setOnHandle] = useState(id || "1"); //Trackbutton
-  const [Click, setClick] = useState("1"); //section
+  const { id } = useParams()
+  const [onHandle, setOnHandle] = useState(id || '1') //Trackbutton
+  const [Click, setClick] = useState('1') //section
 
   // const [currentScId, setCurrentScId] = useState("1");
   // const sectionRefs = useRef({});
@@ -45,10 +45,10 @@ function TraksTab() {
   //   setSectionOpen(!SectionOpen);
   // };
   useEffect(() => {
-    setClick("1");
-  }, [onHandle]);
+    setClick('1')
+  }, [onHandle])
   return (
-    <Box sx={{ background: "#fdfdfd", margin: 0, minHeight: "100vh" }}>
+    <Box sx={{ background: '#fdfdfd', margin: 0, minHeight: '100vh' }}>
       {/* <Grid
         container
         spacing={1}
@@ -65,7 +65,7 @@ function TraksTab() {
       <Grid
         container
         sx={{
-          justifyContent: "space-around",
+          justifyContent: 'space-around',
         }}
       >
         <SectionListTab onHandle={onHandle} Click={Click} setClick={setClick} />
@@ -82,31 +82,19 @@ function TraksTab() {
           }}
         >
           {/* 輪播照片 */}
-          {TraksTabInform.filter((item) => item.Id === onHandle)[0].Img.length >
-          0 ? (
-            <Grid
-              item
-              xs={12}
-              sm={12}
-              md={12}
-              lg={12}
-              sx={{ marginBottom: "2rem" }}
-            >
+          {TraksTabInform.filter((item) => item.Id === onHandle)[0].Img.length > 0 ? (
+            <Grid item xs={12} sm={12} md={12} lg={12} sx={{ marginBottom: '2rem' }}>
               <div
                 style={{
-                  width: "70%",
-                  margin: "auto",
+                  width: '70%',
+                  margin: 'auto',
                 }}
               >
-                <PhotoSlider
-                  images={
-                    TraksTabInform.filter((item) => item.Id === onHandle)[0].Img
-                  }
-                />
+                <PhotoSlider images={TraksTabInform.filter((item) => item.Id === onHandle)[0].Img} />
               </div>
             </Grid>
           ) : (
-            ""
+            ''
           )}
 
           {/* 內容列表 */}
@@ -118,41 +106,39 @@ function TraksTab() {
             lg={12}
             sx={{
               // width: "80%",
-              paddingBottom: "3rem ",
+              paddingBottom: '3rem ',
               margin: 0,
-              display: "flex",
-              flexDirection: "column",
-              alignContent: "center",
-              alignItems: "flex-start",
+              display: 'flex',
+              flexDirection: 'column',
+              alignContent: 'center',
+              alignItems: 'flex-start',
             }}
           >
-            {TraksTabInform.find((item) => item.Id === onHandle).List.map(
-              (sc) => {
-                return (
-                  <section
-                    id={sc.id}
-                    key={sc.id}
-                    style={{}}
-                    // ref={(el) => (sectionRefs.current[sc.id] = el)}
-                    // className={currentScId === sc.id ? "active" : ""}
+            {TraksTabInform.find((item) => item.Id === onHandle).List.map((sc) => {
+              return (
+                <section
+                  id={sc.id}
+                  key={sc.id}
+                  style={{}}
+                  // ref={(el) => (sectionRefs.current[sc.id] = el)}
+                  // className={currentScId === sc.id ? "active" : ""}
+                >
+                  <Waypoint onEnter={() => setClick(sc.id)} />
+                  <h2
+                    className="TracksH1"
+                    style={{
+                      fontWeight: 'bold',
+                      borderLeft: '4px orange solid',
+                      paddingLeft: '1rem',
+                      margin: '2rem 0',
+                    }}
                   >
-                    <Waypoint onEnter={() => setClick(sc.id)} />
-                    <h2
-                      className="TracksH1"
-                      style={{
-                        fontWeight: "bold",
-                        borderLeft: "4px orange solid",
-                        paddingLeft: "1rem",
-                        margin: "2rem 0",
-                      }}
-                    >
-                      {sc.Sc}
-                    </h2>
-                    {sc.content}
-                  </section>
-                );
-              }
-            )}
+                    {sc.Sc}
+                  </h2>
+                  {sc.content}
+                </section>
+              )
+            })}
             {/* ===== */}
             {/* {
             TraksTabInform.find((item) => item.Id === onHandle).List.find(
@@ -164,7 +150,7 @@ function TraksTab() {
         </Grid>
       </Grid>
     </Box>
-  );
+  )
 }
 
-export default TraksTab;
+export default TraksTab

@@ -1,11 +1,11 @@
-import { React, useState } from "react";
-import { ListTitle, List } from "./Inform";
-import "./Successcase.css";
-import { Grid } from "@mui/material";
-import { motion } from "framer-motion";
+import { React, useState } from 'react'
+import { ListTitle, List } from './Inform'
+import './Successcase.css'
+import { Grid } from '@mui/material'
+import { motion } from 'framer-motion'
 
 function Successcase() {
-  const [onHandle, setOnHandle] = useState("1");
+  const [onHandle, setOnHandle] = useState('1')
   // const case={
 
   // }
@@ -21,8 +21,8 @@ function Successcase() {
         style={{
           // background: "#fdfdfd",
           // padding: "2rem 0",
-          justifyContent: "space-around",
-          minHeight: "100vh",
+          justifyContent: 'space-around',
+          minHeight: '100vh',
         }}
         className="AllContentBackground"
       >
@@ -34,8 +34,8 @@ function Successcase() {
           md={2}
           lg={1.5}
           style={{
-            display: "flex",
-            justifyContent: "center",
+            display: 'flex',
+            justifyContent: 'center',
           }}
         >
           {/* 選單 */}
@@ -45,20 +45,20 @@ function Successcase() {
             transition={{ duration: 0.8 }}
             //style={{ width: "20%" }}
             style={{
-              position: "sticky",
-              top: "5rem",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "flex-start",
+              position: 'sticky',
+              top: '5rem',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-start',
             }}
           >
             <div
               style={{
-                position: "sticky",
-                top: "5rem",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "flex-start",
+                position: 'sticky',
+                top: '5rem',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'flex-start',
               }}
             >
               {ListTitle.map((item, i) => {
@@ -68,15 +68,15 @@ function Successcase() {
                       onClick={() => setOnHandle(item.id)}
                       className="SuccessSectionTab"
                       style={{
-                        backgroundColor: "Transparent",
-                        backgroundRepeat: "no-repeat",
-                        border: "none",
-                        cursor: "pointer",
-                        overflow: "hidden",
-                        fontSize: onHandle === item.id ? "1.1rem" : "1rem",
+                        backgroundColor: 'Transparent',
+                        backgroundRepeat: 'no-repeat',
+                        border: 'none',
+                        cursor: 'pointer',
+                        overflow: 'hidden',
+                        fontSize: onHandle === item.id ? '1.1rem' : '1rem',
                         margin: 0,
-                        color: onHandle === item.id ? "#000" : "#949494",
-                        marginBottom: "0.5rem",
+                        color: onHandle === item.id ? '#000' : '#949494',
+                        marginBottom: '0.5rem',
                         padding: 0,
                       }}
                       key={i}
@@ -84,7 +84,7 @@ function Successcase() {
                       {item.title}
                     </button>
                   </>
-                );
+                )
               })}
             </div>
           </motion.div>
@@ -96,17 +96,15 @@ function Successcase() {
               item
               style={{
                 // width: "85%",
-                borderLeft: "5px solid orange",
+                borderLeft: '5px solid orange',
                 // height: "50px",
-                paddingLeft: "1rem",
+                paddingLeft: '1rem',
 
                 // marginTop: "2%",
-                alignItems: "flex-end",
+                alignItems: 'flex-end',
               }}
             >
-              <h2 style={{ fontWeight: "bold" }}>
-                {List.filter((item) => onHandle === item.id)[0].title}
-              </h2>
+              <h2 style={{ fontWeight: 'bold' }}>{List.filter((item) => onHandle === item.id)[0].title}</h2>
             </Grid>
             {/*下--案例們 */}
             <Grid
@@ -116,11 +114,11 @@ function Successcase() {
               md={12}
               lg={12}
               style={{
-                display: "flex",
-                flexDirection: "column",
-                marginLeft: "auto",
-                marginRight: "auto",
-                padding: "0 2vh",
+                display: 'flex',
+                flexDirection: 'column',
+                marginLeft: 'auto',
+                marginRight: 'auto',
+                padding: '0 2vh',
               }}
             >
               {List.filter((item) => onHandle === item.id)[0].cases}
@@ -129,7 +127,7 @@ function Successcase() {
         </Grid>
       </Grid>
     </div>
-  );
+  )
 }
 
-export default Successcase;
+export default Successcase

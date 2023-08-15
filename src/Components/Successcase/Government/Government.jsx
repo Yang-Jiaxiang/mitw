@@ -1,8 +1,8 @@
-import React from "react";
-import { GovernmentInform } from "../../../Pages/Successcase/Inform";
-import { Grid } from "@mui/material";
-import { motion } from "framer-motion";
-import "../Successcase.css";
+import React from 'react'
+import { GovernmentInform } from '../../../Pages/Successcase/Inform'
+import { Grid } from '@mui/material'
+import { motion } from 'framer-motion'
+import '../Successcase.css'
 function Goverment() {
   return (
     <>
@@ -12,8 +12,8 @@ function Goverment() {
           <motion.div
             key={i}
             style={{
-              marginTop: "1rem",
-              borderBottom: "1px solid #dfdfdf",
+              marginTop: '1rem',
+              borderBottom: '1px solid #dfdfdf',
             }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -28,13 +28,7 @@ function Goverment() {
             // }}
             // transition={{ delay: 0.7, duration: 0.7 }}
           >
-            <Grid
-              container
-              spacing={1}
-              marginBottom="2rem"
-              key={i}
-              sx={{ marginTop: "1rem" }}
-            >
+            <Grid container spacing={1} marginBottom="2rem" key={i} sx={{ marginTop: '1rem' }}>
               {/* 上半 */}
               <Grid
                 item
@@ -44,9 +38,9 @@ function Goverment() {
                 lg={3}
                 style={{
                   padding: 0,
-                  display: "flex",
-                  flexDirection: "column",
-                  paddingLeft: "1vh",
+                  display: 'flex',
+                  flexDirection: 'column',
+                  paddingLeft: '1vh',
                 }}
               >
                 <img src={item.img} className="GoverImg" />
@@ -54,8 +48,8 @@ function Goverment() {
                   href={item.link}
                   target="_blank"
                   style={{
-                    textDecoration: "none ",
-                    color: "#0081a7",
+                    textDecoration: 'none ',
+                    color: '#0081a7',
                   }}
                 >
                   {item.linkname}
@@ -67,22 +61,22 @@ function Goverment() {
                 md={9}
                 lg={9}
                 style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  paddingLeft: "1vh",
+                  display: 'flex',
+                  flexDirection: 'column',
+                  paddingLeft: '1vh',
                 }}
               >
                 <h3>{item.name}</h3>
-                <p style={{ whiteSpace: "pre-line" }}>{item.tracks}</p>
+                <p style={{ whiteSpace: 'pre-line' }}>{item.tracks}</p>
               </Grid>
               {/* 下半 */}
 
-              <p style={{ margin: "2rem 1rem 1rem 1vh" }}>{item.introduce}</p>
+              <p style={{ margin: '2rem 1rem 1rem 1vh' }}>{item.introduce}</p>
             </Grid>
           </motion.div>
-        );
+        )
       })}
     </>
-  );
+  )
 }
-export default Goverment;
+export default Goverment

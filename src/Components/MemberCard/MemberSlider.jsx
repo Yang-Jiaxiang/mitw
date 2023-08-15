@@ -1,12 +1,12 @@
-import React, { useState, useRef } from "react";
-import Slider from "react-slick";
-import SliderCard from "./SliderCard";
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { Mem } from "../../Pages/Member/Inform";
+import React, { useState, useRef } from 'react'
+import Slider from 'react-slick'
+import SliderCard from './SliderCard'
+import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
+import { Mem } from '../../Pages/Member/Inform'
 
 function MemberSlider(props) {
-  const { TabId } = props;
-  const [Id, setId] = useState(TabId);
+  const { TabId } = props
+  const [Id, setId] = useState(TabId)
   const settings = {
     infinite: true,
     slidesToShow: 2,
@@ -15,14 +15,14 @@ function MemberSlider(props) {
     // speed: 10000,
     // autoplaySpeed: 0.0000001,
     dots: true,
-    cssEase: "linear",
-    appendDots: (dots) => <ul style={{ margin: "0px" }}> {dots} </ul>,
+    cssEase: 'linear',
+    appendDots: (dots) => <ul style={{ margin: '0px' }}> {dots} </ul>,
     customPaging: (TabId) => (
       <div
         style={{
-          width: "30px",
-          color: "blue",
-          border: "1px blue solid",
+          width: '30px',
+          color: 'blue',
+          border: '1px blue solid',
         }}
       >
         {TabId}
@@ -35,7 +35,7 @@ function MemberSlider(props) {
     //     </div>
     //   );
     // },
-  };
+  }
   // const arrowRef = useRef(null);
   // const Member="";
   // Member=Mem.map((item,i)=>(
@@ -56,11 +56,11 @@ function MemberSlider(props) {
     </div> */}
       <Slider {...settings}>
         {Mem.map((item) => {
-          return <SliderCard item={item} key={item} />;
+          return <SliderCard item={item} key={item} />
         })}
       </Slider>
     </div>
-  );
+  )
 }
 
-export default MemberSlider;
+export default MemberSlider

@@ -1,53 +1,53 @@
-import logo from "../../assets/Logo.png";
+import logo from '../../assets/Logo.png'
 
-import T1_1 from "../../assets/T1_1.png";
-import T1_2 from "../../assets/T1_2.png";
-import T1_3 from "../../assets/T1_3.png";
-import T1_4 from "../../assets/T1_4.png";
-import T1_6 from "../../assets/wg1_6.png";
-import T1_7 from "../../assets/wg1_7.png";
-import Ts1 from "../../assets/Ts1.png";
+import T1_1 from '../../assets/T1_1.png'
+import T1_2 from '../../assets/T1_2.png'
+import T1_3 from '../../assets/T1_3.png'
+import T1_4 from '../../assets/T1_4.png'
+import T1_6 from '../../assets/wg1_6.png'
+import T1_7 from '../../assets/wg1_7.png'
+import Ts1 from '../../assets/Ts1.png'
 
-import track1_1 from "../../assets/WG1_1.png";
-import track1_2 from "../../assets/Ts1.png";
-import track1_3 from "../../assets/WG1_3.png";
+import track1_1 from '../../assets/WG1_1.png'
+import track1_2 from '../../assets/Ts1.png'
+import track1_3 from '../../assets/WG1_3.png'
 
-import track2_1 from "../../assets/WG2_1.png";
+import track2_1 from '../../assets/WG2_1.png'
 
-import track3_1 from "../../assets/WG3_1.png";
+import track3_1 from '../../assets/WG3_1.png'
 
-import track4_1 from "../../assets/track4_1.png";
-import track4_2 from "../../assets/track4_2.png";
-import track4_3 from "../../assets/track4_3.png";
+import track4_1 from '../../assets/track4_1.png'
+import track4_2 from '../../assets/track4_2.png'
+import track4_3 from '../../assets/track4_3.png'
 
-import track4_4 from "../../assets/track4_4.png";
-import track4_5 from "../../assets/WG4_5.png";
-import track4_6 from "../../assets/track4_5.png";
-import track4_7 from "../../assets/track4_6.png";
-import track4_8 from "../../assets/track4_7.png";
+import track4_4 from '../../assets/track4_4.png'
+import track4_5 from '../../assets/WG4_5.png'
+import track4_6 from '../../assets/track4_5.png'
+import track4_7 from '../../assets/track4_6.png'
+import track4_8 from '../../assets/track4_7.png'
 
-import track5_1 from "../../assets/WG5_1.png";
-import track5_2 from "../../assets/WG5_2.png";
+import track5_1 from '../../assets/WG5_1.png'
+import track5_2 from '../../assets/WG5_2.png'
 
-import track6_1 from "../../assets/WG6_1.png";
-import track6_2 from "../../assets/WG6_2.png";
+import track6_1 from '../../assets/WG6_1.png'
+import track6_2 from '../../assets/WG6_2.png'
 
-import track7_1 from "../../assets/WG7_1.png";
-import track7_2 from "../../assets/WG7_2.png";
+import track7_1 from '../../assets/WG7_1.png'
+import track7_2 from '../../assets/WG7_2.png'
 
-import track8_1 from "../../assets/WG8_1.png";
-import track8_2 from "../../assets/WG8_2.png";
-import track8_3 from "../../assets/WG8_3.png";
-import track8_4 from "../../assets/WG8_4.png";
-import track8_5 from "../../assets/WG8_5.png";
+import track8_1 from '../../assets/WG8_1.png'
+import track8_2 from '../../assets/WG8_2.png'
+import track8_3 from '../../assets/WG8_3.png'
+import track8_4 from '../../assets/WG8_4.png'
+import track8_5 from '../../assets/WG8_5.png'
 
-import track9_1 from "../../assets/WG9_1.png";
-import track9_2 from "../../assets/WG9_2.png";
+import track9_1 from '../../assets/WG9_1.png'
+import track9_2 from '../../assets/WG9_2.png'
 
-import track10_1 from "../../assets/WG10_1.png";
-import track10_2 from "../../assets/WG10_2.png";
+import track10_1 from '../../assets/WG10_1.png'
+import track10_2 from '../../assets/WG10_2.png'
 
-import ImgDialog from "../Dialog/Dialog";
+import ImgDialog from '../Dialog/Dialog'
 //有需要輪播圖的話import後放入Img:[]
 // 圖片放入<ImgDialog Img={Ts1} Width={"80%"} />頁面終能放大圖片顯示
 // Img={Ts1}裡面引入圖片
@@ -55,14 +55,14 @@ import ImgDialog from "../Dialog/Dialog";
 
 export const TraksTabInform = [
   {
-    Id: "1",
-    TabTitle: "01",
-    ContentTitle: "病人基本資料",
-    Img: "",
+    Id: '1',
+    TabTitle: '01',
+    ContentTitle: '病人基本資料',
+    Img: '',
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
             <ul>
@@ -81,8 +81,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits) ",
+        id: '2',
+        Sc: '效益 (Benefits) ',
         content: (
           <>
             <ul>
@@ -97,18 +97,16 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details)",
+        id: '3',
+        Sc: '詳細資訊(Details)',
         content: (
           <>
             <p>本賽道的情境描述如下:</p>
             <ol>
               <li>
-                <strong>Scenario 1：核心資料交換:</strong>{" "}
+                <strong>Scenario 1：核心資料交換:</strong>{' '}
                 目的在於提供台灣核心-病人規範的格式驗證，以下為核心資料交換的邏輯模型(資料來源:
-                <a href="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition-TWPatient.html">
-                  TW Core Patient
-                </a>
+                <a href="https://twcore.mohw.gov.tw/ig/twcore/StructureDefinition-TWPatient.html">TW Core Patient</a>
                 )。
               </li>
             </ol>
@@ -118,15 +116,14 @@ export const TraksTabInform = [
 
             <ol start="3">
               <li>
-                <strong>Scenario 2,3：院內系統:</strong>{" "}
-                提供兩個在醫院內部病人資訊交換的情境，包含:
+                <strong>Scenario 2,3：院內系統:</strong> 提供兩個在醫院內部病人資訊交換的情境，包含:
                 <ul>
                   <li>
-                    <strong>Scenario 2：病人身分資料交換:</strong>{" "}
+                    <strong>Scenario 2：病人身分資料交換:</strong>{' '}
                     執行各項護理技術、檢查、治療、手術等醫療處置前對病人做身分確認，例如：在診療前，醫護人員請病人提供基本資訊如姓名、生日用以核對病人身分是否正確
                   </li>
                   <li>
-                    <strong>Scenario 3：病人聯絡資訊交換:</strong>{" "}
+                    <strong>Scenario 3：病人聯絡資訊交換:</strong>{' '}
                     聯絡方式如手機、email…用以聯絡病人，通訊地址如住家地址、工作地址
                   </li>
                   <li>
@@ -141,8 +138,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: (
           <>
             <p>本規範涉及涉及的系统有：</p>
@@ -150,10 +147,7 @@ export const TraksTabInform = [
             <h3>醫院資訊系統(Hosptial Information System, HIS)</h3>
             <h3>FHIR Client</h3>
             <ul>
-              <li>
-                發起處理請求，並能夠執行 Patient Resource
-                的新增、查詢、修改、刪除操作 (CRUD Operations)
-              </li>
+              <li>發起處理請求，並能夠執行 Patient Resource 的新增、查詢、修改、刪除操作 (CRUD Operations)</li>
               <li>必須使用 FHIR 定義的 REST API 來進行上述操作</li>
               <li>必須能針對 FHIR 定義的 Patient Search Parameters 進行搜尋</li>
               <li>必須能使用 FHIR 定義的 history 參數進行歷史記錄調閱</li>
@@ -165,23 +159,17 @@ export const TraksTabInform = [
                   <strong>Patient Creator</strong>
                 </p>
                 <ul>
-                  <li>
-                    發起處理請求，必須使用 FHIR 定義的 REST API新增Patient
-                    Resource新增
-                  </li>
-                  <li>
-                    檢核基準：成功新增資料後，測試系統要能正確回傳 id 及病人資料
-                  </li>
+                  <li>發起處理請求，必須使用 FHIR 定義的 REST API新增Patient Resource新增</li>
+                  <li>檢核基準：成功新增資料後，測試系統要能正確回傳 id 及病人資料</li>
                   <li>
                     <strong>檢核基準</strong>
                     <ul>
                       <li>
-                        調閱資料後，測試系統要能將回傳的病人資料以自行定義的
-                        UI、或以 JSON / XML 等原始文件格式正確呈現
+                        調閱資料後，測試系統要能將回傳的病人資料以自行定義的 UI、或以 JSON / XML 等原始文件格式正確呈現
                       </li>
                       <li>
-                        編輯資料後，測試系統要能將回傳的病人資料及 History ID
-                        以自行定義的 UI、或以 JSON / XML 等原始文件格式正確呈現
+                        編輯資料後，測試系統要能將回傳的病人資料及 History ID 以自行定義的 UI、或以 JSON / XML
+                        等原始文件格式正確呈現
                       </li>
                     </ul>
                   </li>
@@ -192,17 +180,13 @@ export const TraksTabInform = [
                   <strong>Patient Consumer</strong>
                 </p>
                 <ul>
-                  <li>
-                    發起處理請求，必須使用 FHIR 定義的 REST API執行Patient
-                    Resource查詢、修改、刪除操作
-                  </li>
+                  <li>發起處理請求，必須使用 FHIR 定義的 REST API執行Patient Resource查詢、修改、刪除操作</li>
                   <li>
                     查詢功能須能支援
                     <a href="https://twcore.mohw.gov.tw/ig/twcore/CapabilityStatement-CapabilityStatementTWCoreClient.html">
                       臺灣核心-用戶端(TW Core Client)能力聲明
                     </a>
-                    中定義的臺灣核心-病人(TW Core
-                    Patient)必要查詢參數，包含如下表:
+                    中定義的臺灣核心-病人(TW Core Patient)必要查詢參數，包含如下表:
                   </li>
                 </ul>
               </li>
@@ -232,10 +216,7 @@ export const TraksTabInform = [
                   <td>邏輯ID</td>
                   <td>_id</td>
                   <td>token</td>
-                  <td>
-                    GET [base]/Patient?_id=[id],&lt;br&gt;GET
-                    [base]/Patient/[id]
-                  </td>
+                  <td>GET [base]/Patient?_id=[id],&lt;br&gt;GET [base]/Patient/[id]</td>
                 </tr>
                 <tr>
                   <td>出生年月日</td>
@@ -253,10 +234,7 @@ export const TraksTabInform = [
                   <td>身份識別碼</td>
                   <td>identifier</td>
                   <td>token</td>
-                  <td>
-                    GET [base]/Patient?identifier={"{" + `system` + " | " + "}"}{" "}
-                    [code]
-                  </td>
+                  <td>GET [base]/Patient?identifier={'{' + `system` + ' | ' + '}'} [code]</td>
                 </tr>
                 <tr>
                   <td>姓名</td>
@@ -273,21 +251,12 @@ export const TraksTabInform = [
               <li class="has-line-data" data-line-start="59" data-line-end="63">
                 <strong>檢核基準</strong>
                 <ul>
-                  <li
-                    class="has-line-data"
-                    data-line-start="60"
-                    data-line-end="61"
-                  >
-                    調閱資料後，測試系統要能將回傳的病人資料以自行定義的
-                    UI、或以 JSON / XML 等原始文件格式正確呈現
+                  <li class="has-line-data" data-line-start="60" data-line-end="61">
+                    調閱資料後，測試系統要能將回傳的病人資料以自行定義的 UI、或以 JSON / XML 等原始文件格式正確呈現
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="61"
-                    data-line-end="63"
-                  >
-                    編輯資料後，測試系統要能將回傳的病人資料及 History ID
-                    以自行定義的 UI、或以 JSON / XML 等原始文件格式正確呈現
+                  <li class="has-line-data" data-line-start="61" data-line-end="63">
+                    編輯資料後，測試系統要能將回傳的病人資料及 History ID 以自行定義的 UI、或以 JSON / XML
+                    等原始文件格式正確呈現
                   </li>
                 </ul>
               </li>
@@ -297,22 +266,18 @@ export const TraksTabInform = [
             </h3>
             <ul>
               <li class="has-line-data" data-line-start="64" data-line-end="66">
-                實作或提供一個儲存機制 (repository
-                storage)，並正確處理所接收的處理請求
+                實作或提供一個儲存機制 (repository storage)，並正確處理所接收的處理請求
                 <br />
-                接收處理請求，並能夠執行 Patient Resource
-                的新增、查詢、修改、刪除操作 (CRUD Operations)
+                接收處理請求，並能夠執行 Patient Resource 的新增、查詢、修改、刪除操作 (CRUD Operations)
               </li>
               <li class="has-line-data" data-line-start="66" data-line-end="67">
-                必須能夠支援 FHIR Client 使用 FHIR 定義的 REST API
-                來進行上述操作
+                必須能夠支援 FHIR Client 使用 FHIR 定義的 REST API 來進行上述操作
               </li>
               <li class="has-line-data" data-line-start="67" data-line-end="68">
                 必須能夠支援 FHIR Client 使用 FHIR 定義的查詢參數進行搜尋
               </li>
               <li class="has-line-data" data-line-start="68" data-line-end="70">
-                必須能夠支援 FHIR Client使用 FHIR 定義的 history
-                參數進行歷史記錄調閱
+                必須能夠支援 FHIR Client使用 FHIR 定義的 history 參數進行歷史記錄調閱
               </li>
             </ul>
             <p class="has-line-data" data-line-start="70" data-line-end="71">
@@ -322,44 +287,20 @@ export const TraksTabInform = [
               <li class="has-line-data" data-line-start="72" data-line-end="79">
                 <strong>Patient Repository</strong>
                 <ul>
-                  <li
-                    class="has-line-data"
-                    data-line-start="73"
-                    data-line-end="74"
-                  >
-                    實作或提供一個儲存機制 (repository
-                    storage)，並正確處理所接收的處理請求
+                  <li class="has-line-data" data-line-start="73" data-line-end="74">
+                    實作或提供一個儲存機制 (repository storage)，並正確處理所接收的處理請求
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="74"
-                    data-line-end="75"
-                  >
-                    接收處理請求，並能夠執行 Patient Resource
-                    的新增、查詢、修改、刪除操作 (CRUD Operations)
+                  <li class="has-line-data" data-line-start="74" data-line-end="75">
+                    接收處理請求，並能夠執行 Patient Resource 的新增、查詢、修改、刪除操作 (CRUD Operations)
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="75"
-                    data-line-end="76"
-                  >
-                    必須能夠支援 Patient Client 使用 FHIR 定義的 REST API
-                    來進行上述操作
+                  <li class="has-line-data" data-line-start="75" data-line-end="76">
+                    必須能夠支援 Patient Client 使用 FHIR 定義的 REST API 來進行上述操作
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="76"
-                    data-line-end="77"
-                  >
+                  <li class="has-line-data" data-line-start="76" data-line-end="77">
                     必須能夠支援 Patient Client 使用 FHIR 定義的查詢參數進行搜尋
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="77"
-                    data-line-end="79"
-                  >
-                    必須能夠支援 Patient Client使用 FHIR 定義的 history
-                    參數進行歷史記錄調閱
+                  <li class="has-line-data" data-line-start="77" data-line-end="79">
+                    必須能夠支援 Patient Client使用 FHIR 定義的 history 參數進行歷史記錄調閱
                   </li>
                 </ul>
               </li>
@@ -368,14 +309,11 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
-            <p>
-              本賽道驗證規格比照國際 FHIR 聯測，將測試項目劃分為若干
-              Level，並新增 Bonus Point，依序說明如下:
-            </p>
+            <p>本賽道驗證規格比照國際 FHIR 聯測，將測試項目劃分為若干 Level，並新增 Bonus Point，依序說明如下:</p>
             <h3>Level 1</h3>
             <ul>
               <li>能正確設定Gazelle，並以Gazelle Test Script作為檢核依據</li>
@@ -392,12 +330,10 @@ export const TraksTabInform = [
                 測試系統能以 history 參數調閱單筆 Record 的指定歷史記錄
               </li>
               <li class="has-line-data" data-line-start="89" data-line-end="90">
-                <strong>Bonus Point:</strong> 測試系統能正確顯示單筆 Record
-                的歷史記錄清單，並能自由調閱歷史記錄
+                <strong>Bonus Point:</strong> 測試系統能正確顯示單筆 Record 的歷史記錄清單，並能自由調閱歷史記錄
               </li>
               <li class="has-line-data" data-line-start="90" data-line-end="92">
-                <strong>Bonus Point:</strong> 測試系統搜尋指定 Record
-                時，能同時以多項查詢參數進行多條件搜索
+                <strong>Bonus Point:</strong> 測試系統搜尋指定 Record 時，能同時以多項查詢參數進行多條件搜索
               </li>
             </ul>
             <h3>Level 2</h3>
@@ -405,177 +341,84 @@ export const TraksTabInform = [
               <li class="has-line-data" data-line-start="93" data-line-end="97">
                 測試系統<code>新增</code> Patient 時，符合以下所有條件
                 <ul>
-                  <li
-                    class="has-line-data"
-                    data-line-start="94"
-                    data-line-end="95"
-                  >
+                  <li class="has-line-data" data-line-start="94" data-line-end="95">
                     HTTP Method 必須為 PUT
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="95"
-                    data-line-end="96"
-                  >
+                  <li class="has-line-data" data-line-start="95" data-line-end="96">
                     HTTP Header Accept 必須為 ‘application/fhir+json’
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="96"
-                    data-line-end="97"
-                  >
+                  <li class="has-line-data" data-line-start="96" data-line-end="97">
                     HTTP Header Content-Type 必須為 ‘application/fhir+json’
                   </li>
                 </ul>
               </li>
-              <li
-                class="has-line-data"
-                data-line-start="97"
-                data-line-end="101"
-              >
+              <li class="has-line-data" data-line-start="97" data-line-end="101">
                 測試系統<code>編輯</code> Patient 時，符合以下所有條件
                 <ul>
-                  <li
-                    class="has-line-data"
-                    data-line-start="98"
-                    data-line-end="99"
-                  >
+                  <li class="has-line-data" data-line-start="98" data-line-end="99">
                     HTTP Method 必須為 PUT
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="99"
-                    data-line-end="100"
-                  >
+                  <li class="has-line-data" data-line-start="99" data-line-end="100">
                     HTTP Header Accept 必須為 ‘application/fhir+json’
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="100"
-                    data-line-end="101"
-                  >
+                  <li class="has-line-data" data-line-start="100" data-line-end="101">
                     HTTP Header Content-Type 必須為 ‘application/fhir+json’
                   </li>
                 </ul>
               </li>
-              <li
-                class="has-line-data"
-                data-line-start="101"
-                data-line-end="105"
-              >
+              <li class="has-line-data" data-line-start="101" data-line-end="105">
                 測試系統<code>調閱</code> Patient 時，符合以下所有條件
                 <ul>
-                  <li
-                    class="has-line-data"
-                    data-line-start="102"
-                    data-line-end="103"
-                  >
+                  <li class="has-line-data" data-line-start="102" data-line-end="103">
                     HTTP Method 必須為 GET
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="103"
-                    data-line-end="104"
-                  >
+                  <li class="has-line-data" data-line-start="103" data-line-end="104">
                     HTTP Header Accept 必須為 ‘application/fhir+json’
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="104"
-                    data-line-end="105"
-                  >
+                  <li class="has-line-data" data-line-start="104" data-line-end="105">
                     HTTP Header Content-Type 必須為 ‘application/fhir+json’
                   </li>
                 </ul>
               </li>
-              <li
-                class="has-line-data"
-                data-line-start="105"
-                data-line-end="109"
-              >
+              <li class="has-line-data" data-line-start="105" data-line-end="109">
                 測試系統<code>調閱 Patient Record 的歷史資料</code>
                 時，符合以下所有條件
                 <ul>
-                  <li
-                    class="has-line-data"
-                    data-line-start="106"
-                    data-line-end="107"
-                  >
+                  <li class="has-line-data" data-line-start="106" data-line-end="107">
                     HTTP Method 必須為 GET
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="107"
-                    data-line-end="108"
-                  >
+                  <li class="has-line-data" data-line-start="107" data-line-end="108">
                     HTTP Header Accept 必須為 ‘application/fhir+json’
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="108"
-                    data-line-end="109"
-                  >
+                  <li class="has-line-data" data-line-start="108" data-line-end="109">
                     HTTP Header Content-Type 不存在
                   </li>
                 </ul>
               </li>
-              <li
-                class="has-line-data"
-                data-line-start="109"
-                data-line-end="113"
-              >
-                測試系統以<code>Search Parameters 調閱</code> Patient
-                時，符合以下所有條件
+              <li class="has-line-data" data-line-start="109" data-line-end="113">
+                測試系統以<code>Search Parameters 調閱</code> Patient 時，符合以下所有條件
                 <ul>
-                  <li
-                    class="has-line-data"
-                    data-line-start="110"
-                    data-line-end="111"
-                  >
+                  <li class="has-line-data" data-line-start="110" data-line-end="111">
                     HTTP Method 必須為 GET
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="111"
-                    data-line-end="112"
-                  >
+                  <li class="has-line-data" data-line-start="111" data-line-end="112">
                     HTTP Header Accept 必須為 ‘application/fhir+json’
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="112"
-                    data-line-end="113"
-                  >
+                  <li class="has-line-data" data-line-start="112" data-line-end="113">
                     HTTP Header Content-Type 不存在
                   </li>
                 </ul>
               </li>
-              <li
-                class="has-line-data"
-                data-line-start="113"
-                data-line-end="118"
-              >
+              <li class="has-line-data" data-line-start="113" data-line-end="118">
                 測試系統<code>刪除</code> Patient 時，符合以下所有條件
                 <ul>
-                  <li
-                    class="has-line-data"
-                    data-line-start="114"
-                    data-line-end="115"
-                  >
+                  <li class="has-line-data" data-line-start="114" data-line-end="115">
                     HTTP Method 必須為 DELETE
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="115"
-                    data-line-end="116"
-                  >
+                  <li class="has-line-data" data-line-start="115" data-line-end="116">
                     HTTP Header Accept 必須為 ‘application/fhir+json’
                   </li>
-                  <li
-                    class="has-line-data"
-                    data-line-start="116"
-                    data-line-end="118"
-                  >
+                  <li class="has-line-data" data-line-start="116" data-line-end="118">
                     HTTP Header Content-Type 不存在
                   </li>
                 </ul>
@@ -583,11 +426,7 @@ export const TraksTabInform = [
             </ul>
             <h3>角色(Actors)</h3>
             <ol>
-              <li
-                class="has-line-data"
-                data-line-start="119"
-                data-line-end="121"
-              >
+              <li class="has-line-data" data-line-start="119" data-line-end="121">
                 <strong>病人基本資料(PAT)角色整理</strong>
               </li>
             </ol>
@@ -676,11 +515,7 @@ export const TraksTabInform = [
             </table>
             <h3>角色與交易關係圖</h3>
             <ol>
-              <li
-                class="has-line-data"
-                data-line-start="140"
-                data-line-end="143"
-              >
+              <li class="has-line-data" data-line-start="140" data-line-end="143">
                 病人基本資料(PAT)之角色與交易關係圖
                 <br />
                 <img src={track1_3} Width="100%" />
@@ -690,8 +525,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: (
           <>
             <h3></h3>
@@ -700,8 +535,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: (
           <>
             <table class="table table-striped table-bordered" border="1">
@@ -751,14 +586,14 @@ export const TraksTabInform = [
     ],
   },
   {
-    Id: "2",
-    TabTitle: "02",
-    ContentTitle: "生理量測數據",
-    Img: "",
+    Id: '2',
+    TabTitle: '02',
+    ContentTitle: '生理量測數據',
+    Img: '',
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
             <p>
@@ -770,8 +605,7 @@ export const TraksTabInform = [
             </p>
             <h3>生理量測數據互通</h3>
             <p>
-              測試生理量測數據存儲規範（創建者 -
-              Creator）和生理量測數據展示（調閲著 -
+              測試生理量測數據存儲規範（創建者 - Creator）和生理量測數據展示（調閲著 -
               Consumer）。測試是通過按照定義的標準規範存儲生理量測數據，並確保在其他系統上準確顯示。生理量測數據包括身高、體重、體溫、進食後血糖、進食前血糖、體脂率、握力、血壓（收縮壓和舒張壓）以及心率等參數。
             </p>
             <p>
@@ -781,8 +615,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits) ",
+        id: '2',
+        Sc: '效益 (Benefits) ',
         content: (
           <>
             <p>
@@ -792,15 +626,15 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details)",
+        id: '3',
+        Sc: '詳細資訊(Details)',
         content: (
           <>
             <p>本賽道的情境描述如下:</p>
             <h3>情境1 - 生命徵象 (Vital signs)</h3>
             <p>
-              本賽道會進行驗證生命徵象資料交換規範的格式。 FHIR Observation 的
-              “code” 欄位可以根據下面顯示的生命徵象項目代碼進行更改。
+              本賽道會進行驗證生命徵象資料交換規範的格式。 FHIR Observation 的 “code”
+              欄位可以根據下面顯示的生命徵象項目代碼進行更改。
             </p>
             <a href="https://mitw.dicom.org.tw/MITW%20WG2%20Vital%20Sign%20Code%20System.xlsx">
               生理信號規格與對應代碼整理表
@@ -897,8 +731,7 @@ export const TraksTabInform = [
             <p>
               本賽道會進行驗證用藥結合血壓與心率量測資料交換規範的格式。
               <br />
-              FHIR Observation 的 “code”
-              欄位可以根據下面顯示的生命徵象項目代碼進行更改。
+              FHIR Observation 的 “code” 欄位可以根據下面顯示的生命徵象項目代碼進行更改。
             </p>
             <table class="table table-striped table-bordered" border="1">
               <thead>
@@ -967,8 +800,7 @@ export const TraksTabInform = [
             <p>
               本賽道會進行驗證骨骼密度資料交換規範的格式。
               <br />
-              FHIR Observation 的 “code”
-              欄位可以根據下面顯示的生命徵象項目代碼進行更改。
+              FHIR Observation 的 “code” 欄位可以根據下面顯示的生命徵象項目代碼進行更改。
             </p>
             <table class="table table-striped table-bordered" border="1">
               <thead>
@@ -1027,19 +859,16 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: (
           <>
-            {" "}
+            {' '}
             <p>本規範涉及涉及的系统有：</p>
             <h3>醫院資訊系統(Hosptial Information System, HIS)</h3>
             <h3>FHIR Client</h3>
             <ul>
-              <li>
-                發起處理請求，並能夠執行 Patient Resource
-                的新增、查詢、修改、刪除操作 (CRUD Operations)
-              </li>
+              <li>發起處理請求，並能夠執行 Patient Resource 的新增、查詢、修改、刪除操作 (CRUD Operations)</li>
               <li>必須使用 FHIR 定義的 REST API 來進行上述操作</li>
               <li>必須能針對 FHIR 定義的 Patient Search Parameters 進行搜尋</li>
               <li>必須能使用 FHIR 定義的 history 參數進行歷史記錄調閱</li>
@@ -1051,23 +880,17 @@ export const TraksTabInform = [
                   <strong>Patient Creator</strong>
                 </p>
                 <ul>
-                  <li>
-                    發起處理請求，必須使用 FHIR 定義的 REST API新增Patient
-                    Resource新增
-                  </li>
-                  <li>
-                    檢核基準：成功新增資料後，測試系統要能正確回傳 id 及病人資料
-                  </li>
+                  <li>發起處理請求，必須使用 FHIR 定義的 REST API新增Patient Resource新增</li>
+                  <li>檢核基準：成功新增資料後，測試系統要能正確回傳 id 及病人資料</li>
                   <li>
                     檢核基準
                     <ul>
                       <li>
-                        調閱資料後，測試系統要能將回傳的病人資料以自行定義的
-                        UI、或以 JSON / XML 等原始文件格式正確呈現
+                        調閱資料後，測試系統要能將回傳的病人資料以自行定義的 UI、或以 JSON / XML 等原始文件格式正確呈現
                       </li>
                       <li>
-                        編輯資料後，測試系統要能將回傳的病人資料及 History ID
-                        以自行定義的 UI、或以 JSON / XML 等原始文件格式正確呈現
+                        編輯資料後，測試系統要能將回傳的病人資料及 History ID 以自行定義的 UI、或以 JSON / XML
+                        等原始文件格式正確呈現
                       </li>
                     </ul>
                   </li>
@@ -1078,13 +901,9 @@ export const TraksTabInform = [
                   <strong>Patient Consumer</strong>
                 </p>
                 <ul>
+                  <li>發起處理請求，必須使用 FHIR 定義的 REST API執行Patient Resource查詢、修改、刪除操作</li>
                   <li>
-                    發起處理請求，必須使用 FHIR 定義的 REST API執行Patient
-                    Resource查詢、修改、刪除操作
-                  </li>
-                  <li>
-                    查詢功能須能支援臺灣核心-用戶端(TW Core
-                    Client)能力聲明中定義的臺灣核心-病人(TW Core
+                    查詢功能須能支援臺灣核心-用戶端(TW Core Client)能力聲明中定義的臺灣核心-病人(TW Core
                     Patient)必要查詢參數，包含如下表:
                   </li>
                 </ul>
@@ -1113,10 +932,7 @@ export const TraksTabInform = [
                       <td>邏輯ID</td>
                       <td>_id</td>
                       <td>token</td>
-                      <td>
-                        GET [base]/Patient?_id=[id],&lt;br&gt;GET
-                        [base]/Patient/[id]
-                      </td>
+                      <td>GET [base]/Patient?_id=[id],&lt;br&gt;GET [base]/Patient/[id]</td>
                     </tr>
                     <tr>
                       <td>出生年月日</td>
@@ -1153,12 +969,11 @@ export const TraksTabInform = [
                   <strong>檢核基準</strong>
                   <ul>
                     <li>
-                      調閱資料後，測試系統要能將回傳的病人資料以自行定義的
-                      UI、或以 JSON / XML 等原始文件格式正確呈現
+                      調閱資料後，測試系統要能將回傳的病人資料以自行定義的 UI、或以 JSON / XML 等原始文件格式正確呈現
                     </li>
                     <li>
-                      編輯資料後，測試系統要能將回傳的病人資料及 History ID
-                      以自行定義的 UI、或以 JSON / XML 等原始文件格式正確呈現
+                      編輯資料後，測試系統要能將回傳的病人資料及 History ID 以自行定義的 UI、或以 JSON / XML
+                      等原始文件格式正確呈現
                     </li>
                   </ul>
                 </p>
@@ -1167,40 +982,28 @@ export const TraksTabInform = [
             <h3>FHIR Server</h3>
             <ul>
               <li>
-                實作或提供一個儲存機制 (repository
-                storage)，並正確處理所接收的處理請求 接收處理請求，並能夠執行
-                Patient Resource 的新增、查詢、修改、刪除操作 (CRUD Operations)
-                必須能夠支援 FHIR Client 使用 FHIR 定義的 REST API
-                來進行上述操作 必須能夠支援 FHIR Client 使用 FHIR
-                定義的查詢參數進行搜尋 必須能夠支援 FHIR Client使用 FHIR 定義的
-                history 參數進行歷史記錄調閱
+                實作或提供一個儲存機制 (repository storage)，並正確處理所接收的處理請求 接收處理請求，並能夠執行 Patient
+                Resource 的新增、查詢、修改、刪除操作 (CRUD Operations) 必須能夠支援 FHIR Client 使用 FHIR 定義的 REST
+                API 來進行上述操作 必須能夠支援 FHIR Client 使用 FHIR 定義的查詢參數進行搜尋 必須能夠支援 FHIR
+                Client使用 FHIR 定義的 history 參數進行歷史記錄調閱
               </li>
               <li>
-                實作或提供一個儲存機制 (repository
-                storage)，並正確處理所接收的處理請求 接收處理請求，並能夠執行
-                Patient Resource 的新增、查詢、修改、刪除操作 (CRUD Operations)
-                必須能夠支援 FHIR Client 使用 FHIR 定義的 REST API
-                來進行上述操作 必須能夠支援 FHIR Client 使用 FHIR
-                定義的查詢參數進行搜尋 必須能夠支援 FHIR Client使用 FHIR 定義的
-                history 參數進行歷史記錄調閱
+                實作或提供一個儲存機制 (repository storage)，並正確處理所接收的處理請求 接收處理請求，並能夠執行 Patient
+                Resource 的新增、查詢、修改、刪除操作 (CRUD Operations) 必須能夠支援 FHIR Client 使用 FHIR 定義的 REST
+                API 來進行上述操作 必須能夠支援 FHIR Client 使用 FHIR 定義的查詢參數進行搜尋 必須能夠支援 FHIR
+                Client使用 FHIR 定義的 history 參數進行歷史記錄調閱
               </li>
               <li>
-                實作或提供一個儲存機制 (repository
-                storage)，並正確處理所接收的處理請求 接收處理請求，並能夠執行
-                Patient Resource 的新增、查詢、修改、刪除操作 (CRUD Operations)
-                必須能夠支援 FHIR Client 使用 FHIR 定義的 REST API
-                來進行上述操作 必須能夠支援 FHIR Client 使用 FHIR
-                定義的查詢參數進行搜尋 必須能夠支援 FHIR Client使用 FHIR 定義的
-                history 參數進行歷史記錄調閱
+                實作或提供一個儲存機制 (repository storage)，並正確處理所接收的處理請求 接收處理請求，並能夠執行 Patient
+                Resource 的新增、查詢、修改、刪除操作 (CRUD Operations) 必須能夠支援 FHIR Client 使用 FHIR 定義的 REST
+                API 來進行上述操作 必須能夠支援 FHIR Client 使用 FHIR 定義的查詢參數進行搜尋 必須能夠支援 FHIR
+                Client使用 FHIR 定義的 history 參數進行歷史記錄調閱
               </li>
               <li>
-                實作或提供一個儲存機制 (repository
-                storage)，並正確處理所接收的處理請求 接收處理請求，並能夠執行
-                Patient Resource 的新增、查詢、修改、刪除操作 (CRUD Operations)
-                必須能夠支援 FHIR Client 使用 FHIR 定義的 REST API
-                來進行上述操作 必須能夠支援 FHIR Client 使用 FHIR
-                定義的查詢參數進行搜尋 必須能夠支援 FHIR Client使用 FHIR 定義的
-                history 參數進行歷史記錄調閱
+                實作或提供一個儲存機制 (repository storage)，並正確處理所接收的處理請求 接收處理請求，並能夠執行 Patient
+                Resource 的新增、查詢、修改、刪除操作 (CRUD Operations) 必須能夠支援 FHIR Client 使用 FHIR 定義的 REST
+                API 來進行上述操作 必須能夠支援 FHIR Client 使用 FHIR 定義的查詢參數進行搜尋 必須能夠支援 FHIR
+                Client使用 FHIR 定義的 history 參數進行歷史記錄調閱
               </li>
             </ul>
             <p>FHIR Server由Patient Repository扮演說明如下:</p>
@@ -1208,25 +1011,11 @@ export const TraksTabInform = [
               <li>
                 Patient Repository
                 <ul>
-                  <li>
-                    實作或提供一個儲存機制 (repository
-                    storage)，並正確處理所接收的處理請求
-                  </li>
-                  <li>
-                    接收處理請求，並能夠執行 Patient Resource
-                    的新增、查詢、修改、刪除操作 (CRUD Operations)
-                  </li>
-                  <li>
-                    必須能夠支援 Patient Client 使用 FHIR 定義的 REST API
-                    來進行上述操作
-                  </li>
-                  <li>
-                    必須能夠支援 Patient Client 使用 FHIR 定義的查詢參數進行搜尋
-                  </li>
-                  <li>
-                    必須能夠支援 Patient Client使用 FHIR 定義的 history
-                    參數進行歷史記錄調閱
-                  </li>
+                  <li>實作或提供一個儲存機制 (repository storage)，並正確處理所接收的處理請求</li>
+                  <li>接收處理請求，並能夠執行 Patient Resource 的新增、查詢、修改、刪除操作 (CRUD Operations)</li>
+                  <li>必須能夠支援 Patient Client 使用 FHIR 定義的 REST API 來進行上述操作</li>
+                  <li>必須能夠支援 Patient Client 使用 FHIR 定義的查詢參數進行搜尋</li>
+                  <li>必須能夠支援 Patient Client使用 FHIR 定義的 history 參數進行歷史記錄調閱</li>
                 </ul>
               </li>
             </ul>
@@ -1234,8 +1023,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
             <p>
@@ -1352,10 +1141,7 @@ export const TraksTabInform = [
                 </tr>
                 <tr>
                   <td>MITW-14</td>
-                  <td>
-                    query &amp; retrieve create vital signs with medication for
-                    scenario 2
-                  </td>
+                  <td>query &amp; retrieve create vital signs with medication for scenario 2</td>
                   <td>查詢與調閱生理量測數據(結合用藥)</td>
                 </tr>
                 <tr>
@@ -1380,13 +1166,13 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: <></>,
       },
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: (
           <>
             <table class="table table-striped table-bordered" border="1">
@@ -1450,32 +1236,30 @@ export const TraksTabInform = [
     ],
   },
   {
-    Id: "3",
-    TabTitle: "03",
-    ContentTitle: "用藥、文件打包及服務請求",
+    Id: '3',
+    TabTitle: '03',
+    ContentTitle: '用藥、文件打包及服務請求',
     Img: [],
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
             <p>
               藥物處方(MedicationRequest)、用藥紀錄(MedicationAdministration)、服務請求(ServiceRequest，在院內情境中常為醫令/醫囑)與電子病歷文件打包(Document
-              Bundle)為門、急、住診醫療照護資料流程的核心元素，幾乎在所有的醫療照護領域都是最常用的資源種類
-              (Resource
+              Bundle)為門、急、住診醫療照護資料流程的核心元素，幾乎在所有的醫療照護領域都是最常用的資源種類 (Resource
               Type)，本工作小組依據台灣國內醫院資訊系統(HIS)、全民健康保險(NHI)申報格式及衛生福利部電子病歷互通交換格式為基礎，設計符合台灣醫療照護應用情境資訊需求之用藥、醫令、電子病歷文件
               FHIR Resource
-              應用規範與範例，提供產業應用交流與參考，以達到基本的跨系統互通性，並相容衛生福利部台灣核心實作指引(TW
-              FHIR Core IG)規。本工作小組任務目標與範圍著重在 FHIR Resource
-              中請求類 Request Resource 為主。
+              應用規範與範例，提供產業應用交流與參考，以達到基本的跨系統互通性，並相容衛生福利部台灣核心實作指引(TW FHIR
+              Core IG)規。本工作小組任務目標與範圍著重在 FHIR Resource 中請求類 Request Resource 為主。
             </p>
           </>
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits) ",
+        id: '2',
+        Sc: '效益 (Benefits) ',
         content: (
           <>
             <p>
@@ -1487,8 +1271,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details)",
+        id: '3',
+        Sc: '詳細資訊(Details)',
         content: (
           <>
             <h3></h3>
@@ -1497,8 +1281,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: (
           <>
             <h3></h3>
@@ -1507,8 +1291,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
             <h3>角色(Actors)</h3>
@@ -1656,8 +1440,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: (
           <>
             <h3></h3>
@@ -1666,8 +1450,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: (
           <>
             <table class="table table-striped table-bordered" border="1">
@@ -1717,97 +1501,86 @@ export const TraksTabInform = [
     ],
   },
   {
-    Id: "4",
-    TabTitle: "04",
-    ContentTitle: "醫學影像與病理",
+    Id: '4',
+    TabTitle: '04',
+    ContentTitle: '醫學影像與病理',
     Img: [],
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
-            {" "}
+            {' '}
             <h3>影像與標記互通 </h3>
             <p>
               測試醫學影像以及數位病理影像儲存管理主機 (Source)以及顯示端
               (Consumer)能依照DICOM或DICOMweb標準查詢與調閱DICOM影像以及能正確顯示影像以及標記，已達到影像顯示一致性(Display
               Consistency)。影像包含:
-              (1)一般醫學影像如:X光、磁振造影、電腦斷層、超音波等、以及(2)超大尺寸數位病理影像(Whole
-              Slide
+              (1)一般醫學影像如:X光、磁振造影、電腦斷層、超音波等、以及(2)超大尺寸數位病理影像(Whole Slide
               Image)。在影像標記註解部分，透過影像與標記標準化，用來解決影像與標記異質性系統之互通性。標註格式可能是影像分割形式的點陣圖型、透過座標定義輪廓之向量圖型等，本賽道主要針對註解標示影像的關注區(regions
               of interest,
               ROIs)的標準化進行驗證。亦希望參加者能提供簡單的標記，作為標準化影像的示範案例，提供異質性系統互通，作為加速影像標準化。
             </p>
             <h3>影像報告與影像整合 </h3>
             <p>
-              本工作小組提出一個基礎文字(Basic
-              Text)的影像報告格式，結合此報告有關的資訊，包含:
+              本工作小組提出一個基礎文字(Basic Text)的影像報告格式，結合此報告有關的資訊，包含:
               病患、檢查資訊、影像連結等，以此來產生一個可交換的影像報告格式，作為電子病歷交換需求。本賽道將以HL7
-              FHIR為核心架構設計不同的Profile，並以FHIR
-              IG方式呈現。本賽以臺灣核心實作指引 (TW core
+              FHIR為核心架構設計不同的Profile，並以FHIR IG方式呈現。本賽以臺灣核心實作指引 (TW core
               IG)為基礎向上設計，透過HL7 FHIR格式設計醫學影像(包含content:
-              放射影像以及數位病理影像)之影像索以及影像報告(包含:
-              放射影像以及數位病理影像)並上傳至影像報告儲存中心 (Report
-              Repository)，結合影像報告與DICOM影像之整合情境，建構電子病歷交換中心(EEC)之跨院調閱單張「醫療影像及報告」設計案例，作為FHIR以及DICOM整合的使用情境。{" "}
+              放射影像以及數位病理影像)之影像索以及影像報告(包含: 放射影像以及數位病理影像)並上傳至影像報告儲存中心
+              (Report
+              Repository)，結合影像報告與DICOM影像之整合情境，建構電子病歷交換中心(EEC)之跨院調閱單張「醫療影像及報告」設計案例，作為FHIR以及DICOM整合的使用情境。{' '}
             </p>
-            <h3>影像檢查流程 </h3>{" "}
+            <h3>影像檢查流程 </h3>{' '}
             <p>
               提供場域針對DICOM相關的醫療儀器與HIS、PACS互通之應用驗證。例如:
               國內廠商自行研發超音波儀器，但苦於現有PACS與HIS廠商進行驗證，每次需要都需要在個別的醫院進行介接測試，本情境提供一個良好的技術交流場域，讓國內外多家廠商聯合測試，已證明產品符合國際醫學資訊標準規範。聯測驗證標準比照國際IHE聯測規格，提供測試IHE
-              SWF(Scheduled Worflow)規範，讓國內業者能依據IHE
-              SWF實作產品作為開拓國際市場前的產品標準化驗證。
+              SWF(Scheduled Worflow)規範，讓國內業者能依據IHE SWF實作產品作為開拓國際市場前的產品標準化驗證。
             </p>
           </>
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits) ",
+        id: '2',
+        Sc: '效益 (Benefits) ',
         content: (
           <>
             <p>
               隨著人工智慧與機器學習(AI/ML)的快速發展，需要加快標準化的醫學影像分析工作流程的軟體開發流程(SDLC)，以及採取更加敏捷的開發方法。參加單位可使用實際或是產品雛型參加此賽道，由於這需要大量的前期開發工作，因此參加者需要具備較高的技術門檻。這也鼓勵參加單位早期投資，希望此標準足夠成熟，進而早期布局，以證明投資的合理性。早日切入醫學影像市場。為了簡化標準化開發流程並鼓勵產業早期實施和測試。透過聯測提供實證場域，鼓勵醫學影像分析專家、軟體工程師、開源工作者參加，並投入開發開源試驗，建立提供醫學影像標準化系統的產品概念驗證(Proof
-              of Concept)。
-              透過自動化排程檢查確保特定數據僅輸入一次來防止手動數據輸入錯誤，用來
-              <span style={{ fontWeight: "bold", margin: 0 }}>
-                減少錯誤並增加醫護人員效率
-              </span>
+              of Concept)。 透過自動化排程檢查確保特定數據僅輸入一次來防止手動數據輸入錯誤，用來
+              <span style={{ fontWeight: 'bold', margin: 0 }}>減少錯誤並增加醫護人員效率</span>
               ，且自動化排程可由統一的檢查單號(申請序號)，可作為檢查流程中的追蹤與識別目前檢查的狀態，減少操作人員在跨系統之間的溝通成本的時間，且能減少病人丟失、或是檢查漏失等情況發生，來
-              <span style={{ fontWeight: "bold" }}>提高檢查量。</span>
+              <span style={{ fontWeight: 'bold' }}>提高檢查量。</span>
             </p>
             <p>
               透過導入標準作業流程以及病歷格式導入國際標準，避免業者與醫院資訊系統進行系統整合時，採用自訂的界接規格，減少自訂規格的時間與成本以及減少測試的時間以及因為跨系統之間的整合產生的費用，例如:維護費、界接費、系統修改等。透過此賽道的驗測，提供一個良好的實證場域，讓業者在產品與系統導入到醫院之前，能有效地域同業進行實際系統驗證，可大幅
-              <span style={{ fontWeight: "bold" }}>降低部屬的成本與時間。</span>{" "}
+              <span style={{ fontWeight: 'bold' }}>降低部屬的成本與時間。</span>{' '}
             </p>
           </>
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details) ",
+        id: '3',
+        Sc: '詳細資訊(Details) ',
         content: (
           <>
-            <ul style={{ listStyleType: "decimal", margin: 0 }}>
+            <ul style={{ listStyleType: 'decimal', margin: 0 }}>
               本賽道的情境描述如下:
               <li>
-                <span style={{ fontWeight: "bold" }}>影像與標記互通:</span>
+                <span style={{ fontWeight: 'bold' }}>影像與標記互通:</span>
                 目的在於驗證DICOM格式之醫學影像以及數位病理影像以及人工智慧標記與註解之呈現，利用DICOM與FHIR的傳輸協定進行跨系統間的查詢與調閱，並能夠在不同的系統重呈現影像與標記註解顯示的一致性。影像的標記註解支援ICOM以及FHIR
                 SVG格式，使用者可透過自選的格式來驗證影像與標記註解的互通性。
               </li>
               <li>
-                <span style={{ fontWeight: "bold" }}>影像報告與影像整合:</span>
-                提供一個影像與報告交換情境，從製作FHIR放射影像索引及放射報告並上傳至影像報告儲存中心
-                (Report Repository)
-                結合影像報告與DICOM影像整合情境，以FHIR以及DICOMweb機制作為傳輸協定。採用以臺灣核心實作指引
-                (TW core
-                IG)為基礎向上設計，設計成電子病歷交換中心(EEC)之跨院調閱單張
-                「醫療影像及報告」 設計案例。
+                <span style={{ fontWeight: 'bold' }}>影像報告與影像整合:</span>
+                提供一個影像與報告交換情境，從製作FHIR放射影像索引及放射報告並上傳至影像報告儲存中心 (Report Repository)
+                結合影像報告與DICOM影像整合情境，以FHIR以及DICOMweb機制作為傳輸協定。採用以臺灣核心實作指引 (TW core
+                IG)為基礎向上設計，設計成電子病歷交換中心(EEC)之跨院調閱單張 「醫療影像及報告」 設計案例。
               </li>
               <li>
-                <span style={{ fontWeight: "bold" }}>影像檢查流程:</span>
-                影像檢查流程情境為提供場域針對DICOM相關的醫療儀器與HIS、PACS互通之應用驗證。
-                例:
+                <span style={{ fontWeight: 'bold' }}>影像檢查流程:</span>
+                影像檢查流程情境為提供場域針對DICOM相關的醫療儀器與HIS、PACS互通之應用驗證。 例:
                 國內廠商自行研發超音波儀器，但苦於現有PACS與HIS廠商進行驗證，每次需要都需要在個別的醫院進行介接測試。此情境提供提供一個良好的實證場域，讓國內外多家廠商聯合測試，已證明產品符合國際醫學資訊標準規範。此項目將與影像與AI結果結合，提供HIS、儀器製造商以及PACS互通之應用驗證。
               </li>
             </ul>
@@ -1815,14 +1588,14 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: (
           <>
             <p> 本規範涉及涉及的系统有：</p>
             <h3>醫院資訊系統(Hosptial Information System, HIS)</h3>
             <ul>
-              <li style={{ fontWeight: "bold" }}>
+              <li style={{ fontWeight: 'bold' }}>
                 病患註冊系統 - ADT (Admission/Discharge/Transfer)
                 <ul>
                   <li>
@@ -1834,29 +1607,25 @@ export const TraksTabInform = [
                   </li>
                 </ul>
               </li>
-              <li style={{ fontWeight: "bold" }}>
-                部門排程與開單系統 - OF (Department System Scheduler/Order
-                Filler)
+              <li style={{ fontWeight: 'bold' }}>
+                部門排程與開單系統 - OF (Department System Scheduler/Order Filler)
                 <ul>
                   <li>
                     <strong>系統功能簡介: </strong>
                     部門資訊系統（例如，放射科或檢驗科），提供與從外部系統或通過部門系統的用戶界面接收的醫令管理相關功能。根據檢查流程作業，讓程序可用於批價。實際導致收費的動作/事件由參與者定義。
                   </li>
                   <li>
-                    <strong>採用標準: </strong>HL7 V2.3, HL7 V 2.5, DICOM
-                    Modality Worklist
+                    <strong>採用標準: </strong>HL7 V2.3, HL7 V 2.5, DICOM Modality Worklist
                   </li>
                 </ul>
               </li>
-              <li style={{ fontWeight: "bold" }}>
+              <li style={{ fontWeight: 'bold' }}>
                 醫令系統 - OP (Order Placer)
                 <ul>
                   <li>
                     <strong>系統功能簡介: </strong>
-                    提供醫院的各個部門產生檢查單並將這些檢查單分發給正確部門。例如:
-                    開立影像檢查單，以HL7 v2訊息(HL7
-                    message)標準提供造影工作清單(Modality
-                    Worklist)上的造影檢查單之新增、刪除、修改等功能。
+                    提供醫院的各個部門產生檢查單並將這些檢查單分發給正確部門。例如: 開立影像檢查單，以HL7 v2訊息(HL7
+                    message)標準提供造影工作清單(Modality Worklist)上的造影檢查單之新增、刪除、修改等功能。
                   </li>
                   <li>
                     <strong>採用標準: </strong>HL7 V2.3, HL7 V 2.5
@@ -1866,48 +1635,43 @@ export const TraksTabInform = [
             </ul>
             <h3>放射科資訊系統(Radiology Information Systm, RIS)</h3>
             <ul>
-              <li style={{ fontWeight: "bold" }}>
+              <li style={{ fontWeight: 'bold' }}>
                 影像檢查程序管理系統 - PPSM (Performed Procedure Step Manager)
                 <ul>
                   <li>
-                    <strong>系統功能簡介: </strong>實作「DICOM Modality
-                    Performed Procedure
-                    Step」，管理從檢查儀器(Modality)或影像產生設備(Image
-                    Creator)傳送到發到OF以及IM。
+                    <strong>系統功能簡介: </strong>實作「DICOM Modality Performed Procedure
+                    Step」，管理從檢查儀器(Modality)或影像產生設備(Image Creator)傳送到發到OF以及IM。
                   </li>
                   <li>
                     <strong>採用標準: </strong>DICOM MPPS
                   </li>
                 </ul>
               </li>
-              <li style={{ fontWeight: "bold" }}>
+              <li style={{ fontWeight: 'bold' }}>
                 影像管理與儲存系統 - IM (Image Manager/Image Archive)
                 <ul>
                   <li>
-                    <strong>系統功能簡介: </strong>{" "}
-                    用於管理DICOM影像儲存與管理，此系統也稱為PACS
+                    <strong>系統功能簡介: </strong> 用於管理DICOM影像儲存與管理，此系統也稱為PACS
                     Server，用於符合DICOM標準格式之影像、波型、結構化報告、標記註解等類型的儲存與管理，並支援標準化DICOM、DICOMweb查詢與調閱協定。DICOM協定常用支援為C-STORE,
-                    C-FIND, C-MOVE,
-                    C-GET等；DICOMweb支援QIDO-RS、WADO-RS/WAOD-URI、STOW-RS等。
+                    C-FIND, C-MOVE, C-GET等；DICOMweb支援QIDO-RS、WADO-RS/WAOD-URI、STOW-RS等。
                   </li>
                   <li>
                     <strong>採用標準: </strong>DICOM, DICOMweb
                   </li>
                 </ul>
               </li>
-              <li style={{ fontWeight: "bold" }}>
+              <li style={{ fontWeight: 'bold' }}>
                 影像佐證建構系統 - EC (Evidence Creator)
                 <ul>
                   <li>
                     <strong>系統功能簡介: </strong>
                     <ul>
                       <li>
-                        在醫學資訊整合系統中，產生已完成檢查的相關影像、關鍵影像(key
-                        Image
+                        在醫學資訊整合系統中，產生已完成檢查的相關影像、關鍵影像(key Image
                         Noate)、標記註解、結構化報告等，並可將結果傳送至影像儲存系統。此系統大多由輔助決策系統或是人工智慧模型產生標準化之DICOM
                         AI結果(AI Resutls)，例如: GSPS, RTSS,
-                        SEG等，上傳至影像儲存系統，並提供影像檢視器之顯示。其驗證包含:
-                        格式驗證以及傳輸協定驗證(請參考 醫療儀器設備說明)
+                        SEG等，上傳至影像儲存系統，並提供影像檢視器之顯示。其驗證包含: 格式驗證以及傳輸協定驗證(請參考
+                        醫療儀器設備說明)
                       </li>
                       <li>
                         影像標記註解亦可支援FHIR格式儲存，可將結果以FHIR方式上傳報告儲存系統中。通過度取資料後經過處理所產生的影像佐證物件，例如:
@@ -1921,7 +1685,7 @@ export const TraksTabInform = [
                 </ul>
               </li>
 
-              <li style={{ fontWeight: "bold" }}>
+              <li style={{ fontWeight: 'bold' }}>
                 醫療儀器設備 -MOD (Modality)
                 <ul>
                   <li>
@@ -1930,16 +1694,13 @@ export const TraksTabInform = [
                     超音波、心電圖、X光機、內視鏡等。主要驗證儀器是否符合DICOM以下規格
                     <ul>
                       <li>
-                        <strong>影像格式驗證: </strong>{" "}
-                        針對儀器製造商提供之符合性宣稱(Conformance
-                        Statement)，針對儀器端產生之DICOM物件進行格式驗證，以符合DICOM
-                        PS 3.3 SOP Class
+                        <strong>影像格式驗證: </strong> 針對儀器製造商提供之符合性宣稱(Conformance
+                        Statement)，針對儀器端產生之DICOM物件進行格式驗證，以符合DICOM PS 3.3 SOP Class
                         UID定義的格式規範。例如:產生的超音波影像是否符合DICOM格式、具備必要欄位、儲存的數值符合欄位規範、OID與UID之正確性等。
                       </li>
                       <li>
                         <strong>傳輸協定驗證: </strong>
-                        針對儀器製造商提供之符合性宣稱(Conformance
-                        Statement)，驗證傳輸功能是否符合DICOM規範，例如:
+                        針對儀器製造商提供之符合性宣稱(Conformance Statement)，驗證傳輸功能是否符合DICOM規範，例如:
                         C-STORE, Storage Commitment, MPPS, C-FIND-MWL等功能。
                       </li>
                     </ul>
@@ -1952,7 +1713,7 @@ export const TraksTabInform = [
             </ul>
             <h3>報告系統 (Report System)</h3>
             <ul>
-              <li style={{ fontWeight: "bold" }}>
+              <li style={{ fontWeight: 'bold' }}>
                 放射影像報告儲存系統(Report Repository)
                 <ul>
                   <li>
@@ -1962,7 +1723,7 @@ export const TraksTabInform = [
                   </li>
                 </ul>
               </li>
-              <li style={{ fontWeight: "bold" }}>
+              <li style={{ fontWeight: 'bold' }}>
                 報告顯示/編輯系統(Reporting System)
                 <ul>
                   <li>
@@ -1982,7 +1743,7 @@ export const TraksTabInform = [
             </ul>
             <h3>顯示系統</h3>
             <ul>
-              <li style={{ fontWeight: "bold" }}>
+              <li style={{ fontWeight: 'bold' }}>
                 (數位病理)影像顯示系統 - ID(Image Display)
                 <ul>
                   <li>
@@ -2011,25 +1772,18 @@ export const TraksTabInform = [
                 of interest,
                 ROIs)的標準化進行驗證。亦希望參加者能提供簡單的標記，作為標準化醫學影像以及病理影像的示範案例，提供異質性系統互通。
               </li>
+              <li>影像標記註解部分，DICOM支援標記規格，例如: GSPS, RTSS, SEG等。FHIR標記註解部分支援SVG格式。</li>
               <li>
-                影像標記註解部分，DICOM支援標記規格，例如: GSPS, RTSS,
-                SEG等。FHIR標記註解部分支援SVG格式。
-              </li>
-              <li>
-                病理影像部分能夠支援顯示DICOM Supplement
-                145定義的超大尺寸數位病理影像(Whole Slide Image,
+                病理影像部分能夠支援顯示DICOM Supplement 145定義的超大尺寸數位病理影像(Whole Slide Image,
                 WSI)，並能正確顯示。
                 <ul>
                   <li>
                     使用DICOMweb階層式查詢方式查詢DICOMweb主機，依照DICOM階層式架構回傳結果。使用WADO-URI或WADO-RS調閱影像。
                   </li>
+                  <li>產生DICOM數位病理影像並透過DICOM標準協定上傳至PACS Servers</li>
                   <li>
-                    產生DICOM數位病理影像並透過DICOM標準協定上傳至PACS Servers
-                  </li>
-                  <li>
-                    產生TID 1500結構化報告或是DIOCM ANN (DICOM Supplement 222:
-                    Whole Slide Microscopy Bulk Annotations Storage SOP
-                    Class格式作為標記註解格式
+                    產生TID 1500結構化報告或是DIOCM ANN (DICOM Supplement 222: Whole Slide Microscopy Bulk Annotations
+                    Storage SOP Class格式作為標記註解格式
                   </li>
                 </ul>
               </li>
@@ -2055,8 +1809,7 @@ export const TraksTabInform = [
               <li>
                 <strong>情境1-2: 病理全切片及DICOM標記呈現</strong>
                 <p>
-                  使用DICOM/DICOMweb階層式查詢方式查詢影像儲存系統，並將回傳數位全切片病理影像(Whole
-                  Slide Image,
+                  使用DICOM/DICOMweb階層式查詢方式查詢影像儲存系統，並將回傳數位全切片病理影像(Whole Slide Image,
                   WSI)，且能正確顯示。根據測試腳本完成基本功能的操作(移動到特定位置、縮放、切換不同Layer層等)，確保相同影像在不同系統中能呈顯一致(Display
                   Consistency)。
                 </p>
@@ -2074,8 +1827,7 @@ export const TraksTabInform = [
               <li>
                 <strong>情境1-3: 醫學影像及FHIR標記呈現</strong>
                 <p>
-                  使用DICOM/DICOMweb階層式查詢方式查詢影像儲存系統，並將回傳影像，且能從FHIR影像報告儲存中心
-                  (Report
+                  使用DICOM/DICOMweb階層式查詢方式查詢影像儲存系統，並將回傳影像，且能從FHIR影像報告儲存中心 (Report
                   Repository)調閱FHIR標記且能正確顯示。根據測試腳本完成基本功能的操作(移動到特定位置、縮放、切換不同Layer層等)，確保相同影像在不同系統中能呈顯一致(Display
                   Consistency)。
                 </p>
@@ -2099,27 +1851,21 @@ export const TraksTabInform = [
             </ul>
             <h3>情境2:報告及影像整合</h3>
             <p>
-              製作FHIR放射影像索引及放射報告並上傳至影像報告儲存中心 (Report
-              Repository) 結合影像報告與DICOM影像整合情境，以臺灣核心實作指引
-              (TW core
+              製作FHIR放射影像索引及放射報告並上傳至影像報告儲存中心 (Report Repository)
+              結合影像報告與DICOM影像整合情境，以臺灣核心實作指引 (TW core
               IG)為基礎向上設計，成為電子病歷交換中心(EEC)之跨院調閱單張「醫療影像及報告」設計案例。
             </p>
             <ul>
-              <li>
-                針對影像報告以及對應的DICOM影像、DICOM標記註解解進行存取調閱、並能正確顯示。
-              </li>
-              <li>
-                產生FHIR
-                診斷報告(DiagnosticReport)以及影像索引(ImagingStudy)並以FHIR方式上傳至報告儲存系統。
-              </li>
+              <li>針對影像報告以及對應的DICOM影像、DICOM標記註解解進行存取調閱、並能正確顯示。</li>
+              <li>產生FHIR 診斷報告(DiagnosticReport)以及影像索引(ImagingStudy)並以FHIR方式上傳至報告儲存系統。</li>
               <li>
                 使用FHIR方式用於查尋與調閱診斷報告(DiagnosticReport)以及影像索引(ImagingStudy)，並能整合報告對應的影像，且適當使用影像檢視器開啟影像與標記。
               </li>
               <li>
                 <strong>情境2-1: 醫學影像報告及影像整合</strong>
                 <p>
-                  製作FHIR放射影像索引及放射報告並上傳至影像報告儲存中心 (Report
-                  Repository) 結合影像報告與DICOM影像整合情境
+                  製作FHIR放射影像索引及放射報告並上傳至影像報告儲存中心 (Report Repository)
+                  結合影像報告與DICOM影像整合情境
                 </p>
                 <ul>
                   <li>
@@ -2136,8 +1882,8 @@ export const TraksTabInform = [
               <li>
                 <strong>情境2-2: 數位病理影像報告及影像整合</strong>
                 <p>
-                  製作FHIR病理影像索引及病理報告並上傳至影像報告儲存中心 (Report
-                  Repository) 結合影像報告與DICOM WSI影像整合情境
+                  製作FHIR病理影像索引及病理報告並上傳至影像報告儲存中心 (Report Repository) 結合影像報告與DICOM
+                  WSI影像整合情境
                 </p>
                 <ul>
                   <li>
@@ -2154,8 +1900,8 @@ export const TraksTabInform = [
               <li>
                 <strong>情境2-3: 影像、標記與影像發現整合</strong>
                 <p>
-                  製作FHIR影像索引及影像報告並上傳至影像報告儲存中心 (Report
-                  Repository) 結合影像報告與影像發現與標記註解整合情境
+                  製作FHIR影像索引及影像報告並上傳至影像報告儲存中心 (Report Repository)
+                  結合影像報告與影像發現與標記註解整合情境
                 </p>
                 <ul>
                   <li>
@@ -2171,49 +1917,36 @@ export const TraksTabInform = [
               </li>
             </ul>
             <p>
-              下圖為影像報告的Profile設計結構，包含: (1)
-              放射影像報告/病理影像報告 (FHIR
+              下圖為影像報告的Profile設計結構，包含: (1) 放射影像報告/病理影像報告 (FHIR
               DiagnosticReport)、(2)影像索引(FHIR ImagingStudy)。
             </p>
-            <p style={{ fontWeight: "bold" }}>
-              放射影像報告/病理影像報告 (FHIR DiagnosticReport)設計結構示意圖
-            </p>{" "}
+            <p style={{ fontWeight: 'bold' }}>放射影像報告/病理影像報告 (FHIR DiagnosticReport)設計結構示意圖</p>{' '}
             <center>
-              {" "}
+              {' '}
               <img src={track4_1} Width="100%" />
-            </center>{" "}
-            <p style={{ fontWeight: "bold" }}>
-              影像索引(FHIR ImagingStudy)設計結構示意圖
-            </p>
+            </center>{' '}
+            <p style={{ fontWeight: 'bold' }}>影像索引(FHIR ImagingStudy)設計結構示意圖</p>
             <center>
-              <img src={track4_2} Width={"50%"} />
+              <img src={track4_2} Width={'50%'} />
             </center>
             <li>
-              {" "}
-              <a
-                target="_blank"
-                href="https://build.fhir.org/imagingstudy-mappings.html"
-              >
+              {' '}
+              <a target="_blank" href="https://build.fhir.org/imagingstudy-mappings.html">
                 DICOM TAG與FHIR對照表
               </a>
             </li>
-            <h5 style={{ fontWeight: "bold" }}>情境1與情境2角色與交易關係圖</h5>
+            <h5 style={{ fontWeight: 'bold' }}>情境1與情境2角色與交易關係圖</h5>
             <center>
-              <img src={track4_3} Width={"50%"} />
+              <img src={track4_3} Width={'50%'} />
             </center>
             <div>
-              <h3 style={{ fontWeight: "bold" }}>情境3:影像檢查流程(SWF)</h3>
-              <span>
-                此情境為建立一個醫學影像的造影檢查流程，此情境完全依照
-              </span>
-              <a
-                target="_blank"
-                href="https://wiki.ihe.net/index.php/Scheduled_Workflow"
-              >
+              <h3 style={{ fontWeight: 'bold' }}>情境3:影像檢查流程(SWF)</h3>
+              <span>此情境為建立一個醫學影像的造影檢查流程，此情境完全依照</span>
+              <a target="_blank" href="https://wiki.ihe.net/index.php/Scheduled_Workflow">
                 IHE Scheduled Workflow Profile
               </a>
               <span>的聯測規範提供參加者驗證系統與產品。</span>
-              <ul style={{ margin: 0, listStyleType: "disc" }}>
+              <ul style={{ margin: 0, listStyleType: 'disc' }}>
                 <li>ADT</li>
                 <li>Order Palcer</li>
                 <li>DDS/Order Filler</li>
@@ -2232,12 +1965,12 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
             <p>涉及到的角色 (Actors)以及交易(Transactions)，說明如下:</p>
-            <h3 style={{ fontWeight: "bold" }}>角色(Actors)</h3>
+            <h3 style={{ fontWeight: 'bold' }}>角色(Actors)</h3>
             <p>1.影像、結構化影像報告(IMAGE)角色整理</p>
             <table class="table table-striped table-bordered" border="1">
               <thead>
@@ -2351,7 +2084,7 @@ export const TraksTabInform = [
               </tbody>
             </table>
 
-            <h3 style={{ fontWeight: "bold" }}>交易(Transactions)</h3>
+            <h3 style={{ fontWeight: 'bold' }}>交易(Transactions)</h3>
             <p>1.影像、結構化影像報告(IMAGE)交易整理</p>
             <table class="table table-striped table-bordered" border="1">
               <thead>
@@ -2450,38 +2183,38 @@ export const TraksTabInform = [
               </tbody>
             </table>
 
-            <h3 style={{ fontWeight: "bold" }}>角色與交易關係圖</h3>
+            <h3 style={{ fontWeight: 'bold' }}>角色與交易關係圖</h3>
             <ul>
-              <li>醫學影像與DICOM標記互通之角色與交易關係圖</li>{" "}
+              <li>醫學影像與DICOM標記互通之角色與交易關係圖</li>{' '}
               <center>
-                {" "}
-                <img src={track4_4} Width={"50%"} />
+                {' '}
+                <img src={track4_4} Width={'50%'} />
               </center>
               <center>
-                {" "}
-                <img src={track4_5} Width={"50%"} />
+                {' '}
+                <img src={track4_5} Width={'50%'} />
               </center>
-              <li>影像、結構化影像報告(IMAGE)、FHIR標記之角色與交易關係圖</li>{" "}
+              <li>影像、結構化影像報告(IMAGE)、FHIR標記之角色與交易關係圖</li>{' '}
               <center>
-                <img src={track4_6} Width={"80%"} />
-              </center>{" "}
-              <li>數位病理影像存取(PATH)之角色與交易關係圖 </li>{" "}
+                <img src={track4_6} Width={'80%'} />
+              </center>{' '}
+              <li>數位病理影像存取(PATH)之角色與交易關係圖 </li>{' '}
               <center>
-                {" "}
-                <img src={track4_7} Width={"50%"} />
+                {' '}
+                <img src={track4_7} Width={'50%'} />
               </center>
-              <li>影像檢查流程之角色與交易關係圖</li>{" "}
+              <li>影像檢查流程之角色與交易關係圖</li>{' '}
               <center>
-                {" "}
-                <img src={track4_8} Width={"50%"} />
+                {' '}
+                <img src={track4_8} Width={'50%'} />
               </center>
             </ul>
           </>
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: (
           <>
             <ul>
@@ -2489,14 +2222,10 @@ export const TraksTabInform = [
                 相關標準
                 <ul>
                   <li>
-                    <a href="https://twcore.mohw.gov.tw/ig/">
-                      臺灣核心實作指引
-                    </a>
+                    <a href="https://twcore.mohw.gov.tw/ig/">臺灣核心實作指引</a>
                   </li>
                   <li>
-                    <a href="https://wiki.ihe.net/index.php/Scheduled_Workflow">
-                      IHE Scheduled Workflow Profle
-                    </a>
+                    <a href="https://wiki.ihe.net/index.php/Scheduled_Workflow">IHE Scheduled Workflow Profle</a>
                   </li>
                   <li>
                     <a href="https://wiki.ihe.net/index.php/Web-based_Image_Access">
@@ -2509,9 +2238,7 @@ export const TraksTabInform = [
                     </a>
                   </li>
                   <li>
-                    <a href="https://mitw.dicom.org.tw/IG/NSCLC/Imageprofiles.html">
-                      醫療影像及報告實作指引
-                    </a>
+                    <a href="https://mitw.dicom.org.tw/IG/NSCLC/Imageprofiles.html">醫療影像及報告實作指引</a>
                   </li>
                 </ul>
               </li>
@@ -2533,8 +2260,8 @@ export const TraksTabInform = [
       },
       ,
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: (
           <>
             <table class="table table-striped table-bordered" border="1">
@@ -2612,14 +2339,14 @@ export const TraksTabInform = [
     ],
   },
   {
-    Id: "5",
-    TabTitle: "05",
-    ContentTitle: "照護協調",
+    Id: '5',
+    TabTitle: '05',
+    ContentTitle: '照護協調',
     Img: [{ img: logo }, { img: logo }, { img: logo }],
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
             <p>
@@ -2634,16 +2361,15 @@ export const TraksTabInform = [
             <br />
             <p>
               今年度照護協調內容主要以慢性病電子處方箋、電子病歷交換中心(EEC)及健保健康存摺(NHI
-              myHealthBank)現有單張規範為基礎，進行資料內容的定義，並將其以台灣現有參考台灣FHIR核心實作指引(Tw
-              Core
+              myHealthBank)現有單張規範為基礎，進行資料內容的定義，並將其以台灣現有參考台灣FHIR核心實作指引(Tw Core
               IG)規範為基礎進行設計，納入整體交換架構規範中，期望讓已經有其基礎的醫療院所、醫療資訊服務提供商可以加速落實互操作架構開發，並推動我國醫療單張跨機構交換之效率。
             </p>
           </>
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits) ",
+        id: '2',
+        Sc: '效益 (Benefits) ',
         content: (
           <>
             <p>
@@ -2659,18 +2385,15 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details)",
+        id: '3',
+        Sc: '詳細資訊(Details)',
         content: (
           <>
             <h3>Scenario 1: 慢性處方箋開立與領用藥流程</h3>
             <h3>Scenario 2: 現有PHR互通格式匯入_EEC門診病歷Bundle</h3>
             <h3>Scenario 3: 現有PHR互通格式匯入_EEC出院病摘Bundle</h3>
             <h3>Scenario 4: 現有PHR互通格式匯入_EEC檢驗報告Bundle</h3>
-            <h3>
-              Scenario 5: 現有PHR互通格式匯入_EEC醫學影像報告Bundle (與 Track#4
-              Scenario 2-1 整合)
-            </h3>
+            <h3>Scenario 5: 現有PHR互通格式匯入_EEC醫學影像報告Bundle (與 Track#4 Scenario 2-1 整合)</h3>
             <h3>Scenario 6: 現有PHR互通格式匯入_健保健康存摺Bundle</h3>
             <h3>Scenario 7: Long-Term Services and Supports (eLTSS)</h3>
             <center>
@@ -2680,8 +2403,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: (
           <>
             <h3></h3>
@@ -2690,8 +2413,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
             <h3>角色(Actors)</h3>
@@ -3155,14 +2878,14 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: <></>,
       },
       ,
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: (
           <>
             <table class="table table-striped table-bordered" border="1">
@@ -3214,11 +2937,7 @@ export const TraksTabInform = [
                   </td>
                   <td></td>
                   <td>
-                    <a
-                      href="mailto:shvoidlee@gmail.com"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:shvoidlee@gmail.com" target="_blank" rel="noopener">
                       <span data-position="50339" data-size="19">
                         shvoidlee@gmail.com
                       </span>
@@ -3243,11 +2962,7 @@ export const TraksTabInform = [
                   </td>
                   <td></td>
                   <td>
-                    <a
-                      href="mailto:billy72325@gmail.com"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:billy72325@gmail.com" target="_blank" rel="noopener">
                       <span data-position="50406" data-size="20">
                         billy72325@gmail.com
                       </span>
@@ -3295,11 +3010,7 @@ export const TraksTabInform = [
                   </td>
                   <td></td>
                   <td>
-                    <a
-                      href="mailto:jennyliu1003@gmail.com"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:jennyliu1003@gmail.com" target="_blank" rel="noopener">
                       <span data-position="50538" data-size="22">
                         jennyliu1003@gmail.com
                       </span>
@@ -3324,11 +3035,7 @@ export const TraksTabInform = [
                   </td>
                   <td></td>
                   <td>
-                    <a
-                      href="mailto:shin66945@gmail.com"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:shin66945@gmail.com" target="_blank" rel="noopener">
                       <span data-position="50607" data-size="19">
                         shin66945@gmail.com
                       </span>
@@ -3353,11 +3060,7 @@ export const TraksTabInform = [
                   </td>
                   <td></td>
                   <td>
-                    <a
-                      href="mailto:reachelyen@gmail.com"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:reachelyen@gmail.com" target="_blank" rel="noopener">
                       <span data-position="50676" data-size="20">
                         reachelyen@gmail.com
                       </span>
@@ -3382,11 +3085,7 @@ export const TraksTabInform = [
                   </td>
                   <td></td>
                   <td>
-                    <a
-                      href="mailto:huangnookashi@gmail.com"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:huangnookashi@gmail.com" target="_blank" rel="noopener">
                       <span data-position="50745" data-size="23">
                         huangnookashi@gmail.com
                       </span>
@@ -3411,11 +3110,7 @@ export const TraksTabInform = [
                   </td>
                   <td></td>
                   <td>
-                    <a
-                      href="mailto:a27114171@gmail.com"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:a27114171@gmail.com" target="_blank" rel="noopener">
                       <span data-position="50806" data-size="19">
                         a27114171@gmail.com
                       </span>
@@ -3430,45 +3125,26 @@ export const TraksTabInform = [
     ],
   },
   {
-    Id: "6",
-    TabTitle: "06",
-    ContentTitle: "基因體標記",
+    Id: '6',
+    TabTitle: '06',
+    ContentTitle: '基因體標記',
     Img: [{ img: logo }, { img: logo }, { img: logo }],
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
-            <ul
-              class="part in-view"
-              data-startline="1027"
-              data-endline="1035"
-              data-position="50997"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1027"
-                data-endline="1027"
-                data-position="50999"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1027" data-endline="1035" data-position="50997" data-size="0">
+              <li class="" data-startline="1027" data-endline="1027" data-position="50999" data-size="0">
                 <p data-position="50997" data-size="0">
                   <span data-position="50999" data-size="212">
-                    次世代定序(Next Generation Sequencing,
-                    NGS)是精準醫學(Precision Medicine,
+                    次世代定序(Next Generation Sequencing, NGS)是精準醫學(Precision Medicine,
                     PM)的核心技術。隨著精準醫學的發展，基因定序的需求日益增加，NGS分析產生的巨量資料對於研究人員及醫師在管理上是項龐大的負擔，而在生物醫學研究中往往需要針對特定染色體、基因區間等條件研究，要在大量的資料間一一擷取是困難且費時的，且不同分析工具所產生的格式定義不同，造成資料整合不易無法有效應用。
                   </span>
                 </p>
               </li>
-              <li
-                class=""
-                data-startline="1028"
-                data-endline="1029"
-                data-position="51214"
-                data-size="0"
-              >
+              <li class="" data-startline="1028" data-endline="1029" data-position="51214" data-size="0">
                 <p data-position="51212" data-size="0">
                   <span data-position="51214" data-size="200">
                     基因資料主要處理基因定序後產生的檔案，包含: VCF(Variant Call
@@ -3477,13 +3153,7 @@ export const TraksTabInform = [
                   </span>
                 </p>
               </li>
-              <li
-                class=""
-                data-startline="1030"
-                data-endline="1032"
-                data-position="51418"
-                data-size="0"
-              >
+              <li class="" data-startline="1030" data-endline="1032" data-position="51418" data-size="0">
                 <p data-position="51416" data-size="0">
                   <span data-position="51418" data-size="22">
                     基因 – 基因定序格式轉換FHIR格式流程圖
@@ -3494,13 +3164,7 @@ export const TraksTabInform = [
                   </center>
                 </p>
               </li>
-              <li
-                class=""
-                data-startline="1033"
-                data-endline="1035"
-                data-position="51481"
-                data-size="0"
-              >
+              <li class="" data-startline="1033" data-endline="1035" data-position="51481" data-size="0">
                 <p data-position="51479" data-size="0">
                   <span data-position="51481" data-size="17">
                     基因 –本次FHIR基因資源結構圖
@@ -3516,39 +3180,20 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits) ",
+        id: '2',
+        Sc: '效益 (Benefits) ',
         content: (
           <>
-            <ul
-              class="part in-view"
-              data-startline="1037"
-              data-endline="1039"
-              data-position="51556"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1037"
-                data-endline="1037"
-                data-position="51558"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1037" data-endline="1039" data-position="51556" data-size="0">
+              <li class="" data-startline="1037" data-endline="1037" data-position="51558" data-size="0">
                 <span data-position="51558" data-size="87">
                   為了協助研究人員與醫師有效管理與調閱NGS分析資料，FHIR Genomic
                   Resource儲存，使用FHIR不僅能整合不同工具的分析結果，亦能解決格式差異難以應用的問題。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1038"
-                data-endline="1039"
-                data-position="51648"
-                data-size="0"
-              >
+              <li class="" data-startline="1038" data-endline="1039" data-position="51648" data-size="0">
                 <span data-position="51648" data-size="167">
-                  為提供臨床研究可互操作性的應用，HL7發布基因組學實作指引
-                  (Genomics Implementation
+                  為提供臨床研究可互操作性的應用，HL7發布基因組學實作指引 (Genomics Implementation
                   Guidance)，定義基因組學資源擴充與架構，並新增MolecularSequence資源作為儲存序列相關資訊，FHIR提煉並簡化基因分析產生的數據，提供標準化框架可依照臨床需求擴增，及有助於跨組織平台交換基因組分析資訊。
                 </span>
               </li>
@@ -3557,8 +3202,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details)",
+        id: '3',
+        Sc: '詳細資訊(Details)',
         content: (
           <>
             <h3></h3>
@@ -3567,38 +3212,20 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: (
           <>
             <p>本規範涉及涉及的系统有：</p>
-            <ul
-              class="part in-view"
-              data-startline="1043"
-              data-endline="1045"
-              data-position="51877"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1043"
-                data-endline="1043"
-                data-position="51879"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1043" data-endline="1045" data-position="51877" data-size="0">
+              <li class="" data-startline="1043" data-endline="1043" data-position="51879" data-size="0">
                 <strong data-position="51879" data-size="0">
                   <span data-position="51881" data-size="7">
                     資料產生系統:
                   </span>
                 </strong>
               </li>
-              <li
-                class=""
-                data-startline="1044"
-                data-endline="1045"
-                data-position="51894"
-                data-size="0"
-              >
+              <li class="" data-startline="1044" data-endline="1045" data-position="51894" data-size="0">
                 <strong data-position="51894" data-size="0">
                   <span data-position="51896" data-size="7">
                     資料分析系統:
@@ -3623,51 +3250,25 @@ export const TraksTabInform = [
                 <span class="octicon octicon-link"></span>
               </a>
               <span data-position="51912" data-size="66">
-                情境1 –
-                產生新的基因定序資訊(MolecularSequence)以及變異點資料(Observation)
-                - (Source)
+                情境1 – 產生新的基因定序資訊(MolecularSequence)以及變異點資料(Observation) - (Source)
               </span>
             </h3>
-            <p
-              class="part in-view"
-              data-startline="1047"
-              data-endline="1047"
-              data-position="51979"
-              data-size="0"
-            >
+            <p class="part in-view" data-startline="1047" data-endline="1047" data-position="51979" data-size="0">
               <span data-position="51979" data-size="66">
                 FHIR
                 Client產生一個新的序列實例(，且透過一個基因規範來表現基因資料以及觀察實例(DNA變異、RNA序列、以及結構變異等)
               </span>
             </p>
 
-            <ul
-              class="part in-view"
-              data-startline="1048"
-              data-endline="1050"
-              data-position="52046"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1048"
-                data-endline="1050"
-                data-position="52048"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1048" data-endline="1050" data-position="52046" data-size="0">
+              <li class="" data-startline="1048" data-endline="1050" data-position="52048" data-size="0">
                 <strong data-position="52048" data-size="0">
                   <span data-position="52050" data-size="5">
                     產生文件:
                   </span>
                 </strong>
                 <ul data-position="52061" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1049"
-                    data-endline="1050"
-                    data-position="52063"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1049" data-endline="1050" data-position="52063" data-size="0">
                     <span data-position="52063" data-size="30">
                       基因定序資訊(FHIR MolecularSequence)
                     </span>
@@ -3695,44 +3296,20 @@ export const TraksTabInform = [
                 情境2 – 調閱臨床序列 Germline Testing (Consumer)
               </span>
             </h3>
-            <p
-              class="part in-view"
-              data-startline="1052"
-              data-endline="1052"
-              data-position="52140"
-              data-size="0"
-            >
+            <p class="part in-view" data-startline="1052" data-endline="1052" data-position="52140" data-size="0">
               <span data-position="52140" data-size="45">
                 FHIR Client使用給定的病歷號搜索目標基因譜的觀察(Observeration)。
               </span>
             </p>
-            <ul
-              class="part in-view"
-              data-startline="1053"
-              data-endline="1055"
-              data-position="52186"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1053"
-                data-endline="1055"
-                data-position="52188"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1053" data-endline="1055" data-position="52186" data-size="0">
+              <li class="" data-startline="1053" data-endline="1055" data-position="52188" data-size="0">
                 <strong data-position="52188" data-size="0">
                   <span data-position="52190" data-size="5">
                     產生文件:
                   </span>
                 </strong>
                 <ul data-position="52201" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1054"
-                    data-endline="1055"
-                    data-position="52203"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1054" data-endline="1055" data-position="52203" data-size="0">
                     <span data-position="52203" data-size="23">
                       變異點資料(FHIR Observation)
                     </span>
@@ -3744,8 +3321,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
             <h3>角色(Actors)</h3>
@@ -3986,8 +3563,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: (
           <>
             <h3></h3>
@@ -3997,8 +3574,8 @@ export const TraksTabInform = [
       },
       ,
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: (
           <>
             <table class="table table-striped table-bordered" border="1">
@@ -4123,11 +3700,7 @@ export const TraksTabInform = [
                     </span>
                   </td>
                   <td>
-                    <a
-                      href="mailto:chungyueh@ntunhs.edu.tw"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:chungyueh@ntunhs.edu.tw" target="_blank" rel="noopener">
                       <span data-position="53574" data-size="23">
                         chungyueh@ntunhs.edu.tw
                       </span>
@@ -4142,112 +3715,75 @@ export const TraksTabInform = [
     ],
   },
   {
-    Id: "7",
-    TabTitle: "07",
-    ContentTitle: "緊急醫療救護",
+    Id: '7',
+    TabTitle: '07',
+    ContentTitle: '緊急醫療救護',
     Img: [],
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
             <p>
               本賽道主要目的在於測試緊急醫療救護情境中，跨系統間的資料交換。生理量測儀器可透過此賽道規範的情境回傳標準化的資料至急救端系統、救護車或責任醫院系統，透過將救護紀錄表及四大急重症表單標準化以解決急救資料互通性的問題。本賽道主要針對上述救護紀錄表與四大急重症表單／病摘使用的
-              Resource 進行驗證，並確保未來與電子病歷（TW Core
-              IG）進行資料互通的能力。
+              Resource 進行驗證，並確保未來與電子病歷（TW Core IG）進行資料互通的能力。
             </p>
             <h3>目標:</h3>
-            <ul
-              class="part in-view"
-              data-startline="1100"
-              data-endline="1105"
-              data-position="53961"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1100"
-                data-endline="1100"
-                data-position="53963"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1100" data-endline="1105" data-position="53961" data-size="0">
+              <li class="" data-startline="1100" data-endline="1100" data-position="53963" data-size="0">
                 <strong data-position="53963" data-size="0">
                   <span data-position="53965" data-size="7">
                     資料互通機制：
                   </span>
                 </strong>
                 <span data-position="53974" data-size="47">
-                  {" "}
+                  {' '}
                   整合現行急就照護情境中，包含消防局、醫院、醫療救護體系中的各單位，建立到院前的資料互通機制。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1101"
-                data-endline="1101"
-                data-position="54024"
-                data-size="0"
-              >
+              <li class="" data-startline="1101" data-endline="1101" data-position="54024" data-size="0">
                 <strong data-position="54024" data-size="0">
                   <span data-position="54026" data-size="8">
                     跨單位系統介接：
                   </span>
                 </strong>
                 <span data-position="54036" data-size="25">
-                  {" "}
+                  {' '}
                   基於上述互通機制，介接各單位系統，達成資料互通。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1102"
-                data-endline="1102"
-                data-position="54064"
-                data-size="0"
-              >
+              <li class="" data-startline="1102" data-endline="1102" data-position="54064" data-size="0">
                 <strong data-position="54064" data-size="0">
                   <span data-position="54066" data-size="8">
                     資料交換與整合：
                   </span>
                 </strong>
                 <span data-position="54076" data-size="61">
-                  {" "}
-                  項目包括現場傷病患生命徵象與其他相關量測資料，並具備與電子病歷（臺灣核心規範，TW
-                  Core IG）進行資料互通的能力。
+                  {' '}
+                  項目包括現場傷病患生命徵象與其他相關量測資料，並具備與電子病歷（臺灣核心規範，TW Core
+                  IG）進行資料互通的能力。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1103"
-                data-endline="1103"
-                data-position="54140"
-                data-size="0"
-              >
+              <li class="" data-startline="1103" data-endline="1103" data-position="54140" data-size="0">
                 <strong data-position="54140" data-size="0">
                   <span data-position="54142" data-size="5">
                     資料安全：
                   </span>
                 </strong>
                 <span data-position="54149" data-size="47">
-                  {" "}
+                  {' '}
                   因應存取傷病患個人資料，需要一個標準化認證授權機制，確保資料交換安全性（Security）。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1104"
-                data-endline="1105"
-                data-position="54199"
-                data-size="0"
-              >
+              <li class="" data-startline="1104" data-endline="1105" data-position="54199" data-size="0">
                 <strong data-position="54199" data-size="0">
                   <span data-position="54201" data-size="10">
                     院內外連線遠距醫療：
                   </span>
                 </strong>
                 <span data-position="54213" data-size="25">
-                  {" "}
+                  {' '}
                   若情況允許的話，支援現場與醫院連線實施遠距醫療。
                 </span>
               </li>
@@ -4256,8 +3792,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits)",
+        id: '2',
+        Sc: '效益 (Benefits)',
         content: (
           <>
             <p>
@@ -4270,301 +3806,146 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details)",
+        id: '3',
+        Sc: '詳細資訊(Details)',
         content: (
           <>
             <p>
-              聯測分成兩大情境: (1) 核心資料交換(Core
-              Resource)用於定義救護紀錄表 FHIR 標準化，並整合核心救護流程、 (2)
-              重大傷病資料交換定義四大急重症表單 FHIR
-              標準化（OHCA、Trauma、CVA、ACS）、(3)
+              聯測分成兩大情境: (1) 核心資料交換(Core Resource)用於定義救護紀錄表 FHIR 標準化，並整合核心救護流程、 (2)
+              重大傷病資料交換定義四大急重症表單 FHIR 標準化（OHCA、Trauma、CVA、ACS）、(3)
               生理量測資料交換定義救護車上儀器的生理量測資料，依據情境詳細資訊說明如下:
             </p>
             <br />
 
             <h3>情境1：核心資料交換(Core Resource)</h3>
-            <ul
-              class="part in-view"
-              data-startline="1112"
-              data-endline="1113"
-              data-position="54758"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1112"
-                data-endline="1113"
-                data-position="54760"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1112" data-endline="1113" data-position="54758" data-size="0">
+              <li class="" data-startline="1112" data-endline="1113" data-position="54760" data-size="0">
                 <span data-position="54760" data-size="64">
-                  本情境參照內政部消防機關救護紀錄表欄位進行定義，可與情境2、情境3等應用情境進行連結，並保留對
-                  TW Core IG 的相容性。
+                  本情境參照內政部消防機關救護紀錄表欄位進行定義，可與情境2、情境3等應用情境進行連結，並保留對 TW Core
+                  IG 的相容性。
                 </span>
               </li>
               <center>
                 <img src={track7_1} Width="70%" />
               </center>
-              <li
-                class=""
-                data-startline="1116"
-                data-endline="1116"
-                data-position="54867"
-                data-size="0"
-              >
+              <li class="" data-startline="1116" data-endline="1116" data-position="54867" data-size="0">
                 <span data-position="54867" data-size="21">
                   調閱傷病患資料與派遣任務，並顯示於畫面上。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1117"
-                data-endline="1117"
-                data-position="54891"
-                data-size="0"
-              >
+              <li class="" data-startline="1117" data-endline="1117" data-position="54891" data-size="0">
                 <span data-position="54891" data-size="107">
-                  新增救護紀錄表（以 Composition 表示），其中各 Resource
-                  必須分別上傳至 FHIR Server 後，以 Reference
-                  進行聯結，救護紀錄表須包含以下各部資料（R 為必填、O
-                  為選擇性）：
+                  新增救護紀錄表（以 Composition 表示），其中各 Resource 必須分別上傳至 FHIR Server 後，以 Reference
+                  進行聯結，救護紀錄表須包含以下各部資料（R 為必填、O 為選擇性）：
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1118"
-                data-endline="1139"
-                data-position="55001"
-                data-size="0"
-              >
+              <li class="" data-startline="1118" data-endline="1139" data-position="55001" data-size="0">
                 <span data-position="55001" data-size="18">
                   R: 派遣資料（Encounter)
                 </span>
                 <ul data-position="55022" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1119"
-                    data-endline="1119"
-                    data-position="55024"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1119" data-endline="1119" data-position="55024" data-size="0">
                     <span data-position="55024" data-size="8">
                       R: 各流程時間
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1120"
-                    data-endline="1120"
-                    data-position="55037"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1120" data-endline="1120" data-position="55037" data-size="0">
                     <span data-position="55037" data-size="10">
                       O: 送往醫院或地點
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1121"
-                    data-endline="1122"
-                    data-position="55052"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1121" data-endline="1122" data-position="55052" data-size="0">
                     <span data-position="55052" data-size="17">
                       R: 傷病患資料（Patient)
                     </span>
                     <ul data-position="55075" data-size="0">
-                      <li
-                        class=""
-                        data-startline="1122"
-                        data-endline="1122"
-                        data-position="55077"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1122" data-endline="1122" data-position="55077" data-size="0">
                         <span data-position="55077" data-size="54">
-                          可引用 Track#1 SC3 建立的 Patient
-                          資料，惟須補上本情境要求的 Patient 必填欄位
+                          可引用 Track#1 SC3 建立的 Patient 資料，惟須補上本情境要求的 Patient 必填欄位
                         </span>
                       </li>
                     </ul>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1123"
-                    data-endline="1123"
-                    data-position="55136"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1123" data-endline="1123" data-position="55136" data-size="0">
                     <span data-position="55136" data-size="19">
                       R: 現場狀況 (Condition)
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1124"
-                    data-endline="1124"
-                    data-position="55160"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1124" data-endline="1124" data-position="55160" data-size="0">
                     <span data-position="55160" data-size="31">
                       O: 傷病患主訴（QuestionnaireResponse）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1125"
-                    data-endline="1125"
-                    data-position="55196"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1125" data-endline="1125" data-position="55196" data-size="0">
                     <span data-position="55196" data-size="18">
                       R: 過去病史（Condition）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1126"
-                    data-endline="1126"
-                    data-position="55219"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1126" data-endline="1126" data-position="55219" data-size="0">
                     <span data-position="55219" data-size="26">
                       R: 過敏史（AllergyIntolerance）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1127"
-                    data-endline="1127"
-                    data-position="55250"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1127" data-endline="1127" data-position="55250" data-size="0">
                     <span data-position="55250" data-size="18">
                       O: 處置項目（Procedure）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1128"
-                    data-endline="1128"
-                    data-position="55273"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1128" data-endline="1128" data-position="55273" data-size="0">
                     <span data-position="55273" data-size="20">
                       O: ALS 處置（Procedure）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1129"
-                    data-endline="1129"
-                    data-position="55298"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1129" data-endline="1129" data-position="55298" data-size="0">
                     <span data-position="55298" data-size="31">
                       O: 給藥（MedicationAdministration）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1130"
-                    data-endline="1130"
-                    data-position="55334"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1130" data-endline="1130" data-position="55334" data-size="0">
                     <span data-position="55334" data-size="20">
                       R: 生命跡象（Observation）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1131"
-                    data-endline="1135"
-                    data-position="55359"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1131" data-endline="1135" data-position="55359" data-size="0">
                     <span data-position="55359" data-size="5">
                       急重症登錄
                     </span>
                     <ul data-position="55369" data-size="0">
-                      <li
-                        class=""
-                        data-startline="1132"
-                        data-endline="1132"
-                        data-position="55371"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1132" data-endline="1132" data-position="55371" data-size="0">
                         <span data-position="55371" data-size="24">
                           R: 心肺功能停止登錄（Observation）
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1133"
-                        data-endline="1133"
-                        data-position="55402"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1133" data-endline="1133" data-position="55402" data-size="0">
                         <span data-position="55402" data-size="27">
                           O: OHCA 事故地點型態（Observation）
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1134"
-                        data-endline="1134"
-                        data-position="55436"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1134" data-endline="1134" data-position="55436" data-size="0">
                         <span data-position="55436" data-size="24">
                           O: 疑似心肌梗塞登錄（Observation）
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1135"
-                        data-endline="1135"
-                        data-position="55467"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1135" data-endline="1135" data-position="55467" data-size="0">
                         <span data-position="55467" data-size="25">
                           O: 符合疑似腦中風指標（Observation）
                         </span>
                       </li>
                     </ul>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1136"
-                    data-endline="1136"
-                    data-position="55497"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1136" data-endline="1136" data-position="55497" data-size="0">
                     <span data-position="55497" data-size="16">
                       O: 補述（Narrative）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1137"
-                    data-endline="1137"
-                    data-position="55518"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1137" data-endline="1137" data-position="55518" data-size="0">
                     <span data-position="55518" data-size="23">
                       R: 檢傷分級（RiskAssessment）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1138"
-                    data-endline="1139"
-                    data-position="55546"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1138" data-endline="1139" data-position="55546" data-size="0">
                     <span data-position="55546" data-size="4">
-                      O:{" "}
+                      O:{' '}
                     </span>
                     <s data-position="55550" data-size="0">
                       <span data-position="55552" data-size="24">
@@ -4572,25 +3953,15 @@ export const TraksTabInform = [
                       </span>
                     </s>
                     <span data-position="55578" data-size="4">
-                      {" "}
+                      {' '}
                       不定義
                     </span>
                     <ul data-position="55587" data-size="0">
-                      <li
-                        class=""
-                        data-startline="1139"
-                        data-endline="1139"
-                        data-position="55589"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1139" data-endline="1139" data-position="55589" data-size="0">
                         <span data-position="55589" data-size="13">
                           僅記錄救護紀錄表填寫人員（
                         </span>
-                        <a
-                          href="http://Practitioner.name"
-                          target="_blank"
-                          rel="noopener"
-                        >
+                        <a href="http://Practitioner.name" target="_blank" rel="noopener">
                           <span data-position="55602" data-size="17">
                             Practitioner.name
                           </span>
@@ -4603,32 +3974,16 @@ export const TraksTabInform = [
                   </li>
                 </ul>
               </li>
-              <li
-                class=""
-                data-startline="1140"
-                data-endline="1143"
-                data-position="55623"
-                data-size="0"
-              >
+              <li class="" data-startline="1140" data-endline="1143" data-position="55623" data-size="0">
                 <span data-position="55623" data-size="15">
                   調閱救護紀錄表，並顯示於畫面上
                 </span>
                 <ul data-position="55641" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1141"
-                    data-endline="1141"
-                    data-position="55643"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1141" data-endline="1141" data-position="55643" data-size="0">
                     <span data-position="55643" data-size="7">
                       以傷病患名稱（
                     </span>
-                    <a
-                      href="http://Patient.name"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="http://Patient.name" target="_blank" rel="noopener">
                       <span data-position="55650" data-size="12">
                         Patient.name
                       </span>
@@ -4637,21 +3992,11 @@ export const TraksTabInform = [
                       ）或唯一識別碼（Patient.Identifier）調閱
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1142"
-                    data-endline="1143"
-                    data-position="55696"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1142" data-endline="1143" data-position="55696" data-size="0">
                     <span data-position="55696" data-size="12">
                       以救護紀錄表唯一識別碼（
                     </span>
-                    <a
-                      href="http://Composition.id"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="http://Composition.id" target="_blank" rel="noopener">
                       <span data-position="55708" data-size="14">
                         Composition.id
                       </span>
@@ -4666,120 +4011,58 @@ export const TraksTabInform = [
 
             <h3>情境2：重大傷病資料交換</h3>
             <p>
-              以 OHCA 及 Trauma
-              資料交換為主，參考衛福部公告的重大創傷病摘與到院前心跳停止病摘欄位定義聯測項目。其餘
-              ACS 與 CVA/Stroke
-              兩項待標準公告後納入聯測項目。病摘定義的是到院後針對四大急重症的資料交換，並保留對
-              TW Core IG 的相容性。參測單位須在 SC1
+              以 OHCA 及 Trauma 資料交換為主，參考衛福部公告的重大創傷病摘與到院前心跳停止病摘欄位定義聯測項目。其餘 ACS
+              與 CVA/Stroke 兩項待標準公告後納入聯測項目。病摘定義的是到院後針對四大急重症的資料交換，並保留對 TW Core
+              IG 的相容性。參測單位須在 SC1
               建立救護紀錄表後，方可在本情境單獨進行生理量測資料交換。若參測單位單獨參加本項情境者，也可以使用大會事先建立的範例救護紀錄表進行聯結。
             </p>
             <br />
-            <ul
-              class="part in-view"
-              data-startline="1146"
-              data-endline="1155"
-              data-position="55958"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1146"
-                data-endline="1148"
-                data-position="55960"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1146" data-endline="1155" data-position="55958" data-size="0">
+              <li class="" data-startline="1146" data-endline="1148" data-position="55960" data-size="0">
                 <span data-position="55960" data-size="15">
                   調閱救護紀錄表，並顯示於畫面上
                 </span>
                 <ul data-position="55979" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1147"
-                    data-endline="1147"
-                    data-position="55981"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1147" data-endline="1147" data-position="55981" data-size="0">
                     <span data-position="55981" data-size="34">
                       有參測 SC1 的單位，須先在 SC1 新增救護紀錄表後調閱該筆資料
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1148"
-                    data-endline="1148"
-                    data-position="56020"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1148" data-endline="1148" data-position="56020" data-size="0">
                     <span data-position="56020" data-size="32">
-                      沒有參測 SC1
-                      的單位，須調閱大會事先建立的範例救護紀錄表資料
+                      沒有參測 SC1 的單位，須調閱大會事先建立的範例救護紀錄表資料
                     </span>
                   </li>
                 </ul>
               </li>
-              <li
-                class=""
-                data-startline="1149"
-                data-endline="1151"
-                data-position="56055"
-                data-size="0"
-              >
+              <li class="" data-startline="1149" data-endline="1151" data-position="56055" data-size="0">
                 <span data-position="56055" data-size="85">
-                  新增重大傷病資料病摘（Composition），其中各 Resource
-                  必須分別上傳至 FHIR Server 後以 Reference
+                  新增重大傷病資料病摘（Composition），其中各 Resource 必須分別上傳至 FHIR Server 後以 Reference
                   進行聯結，下列至少須完成一項：
                 </span>
                 <ul data-position="56143" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1150"
-                    data-endline="1150"
-                    data-position="56145"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1150" data-endline="1150" data-position="56145" data-size="0">
                     <span data-position="56145" data-size="15">
                       到院前心跳停止病摘（OHCA）
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1151"
-                    data-endline="1151"
-                    data-position="56165"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1151" data-endline="1151" data-position="56165" data-size="0">
                     <span data-position="56165" data-size="14">
                       重大創傷病摘（Trauma）
                     </span>
                   </li>
                 </ul>
               </li>
-              <li
-                class=""
-                data-startline="1152"
-                data-endline="1155"
-                data-position="56182"
-                data-size="0"
-              >
+              <li class="" data-startline="1152" data-endline="1155" data-position="56182" data-size="0">
                 <span data-position="56182" data-size="18">
                   調閱重大傷病資料表單，並顯示於畫面上
                 </span>
                 <ul data-position="56203" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1153"
-                    data-endline="1153"
-                    data-position="56205"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1153" data-endline="1153" data-position="56205" data-size="0">
                     <span data-position="56205" data-size="7">
                       以傷病患名稱（
                     </span>
-                    <a
-                      href="http://Patient.name"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="http://Patient.name" target="_blank" rel="noopener">
                       <span data-position="56212" data-size="12">
                         Patient.name
                       </span>
@@ -4788,13 +4071,7 @@ export const TraksTabInform = [
                       ）或唯一識別碼（Patient.Identifier）調閱
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1154"
-                    data-endline="1155"
-                    data-position="56258"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1154" data-endline="1155" data-position="56258" data-size="0">
                     <span data-position="56258" data-size="9">
                       以表單 id 調閱
                     </span>
@@ -4805,181 +4082,84 @@ export const TraksTabInform = [
 
             <h3>情境3：生理量測資料交換</h3>
             <p>
-              本情境適用於儀器／設備廠商，主要針對救護車上的生理量測數據定義聯測項目。儀器經完成量測後直接上傳至
-              FHIR Server 並與派遣案件（救護紀錄表）聯結，後續可應用於與 EEC
-              進行資料交換的情境。參測單位須在 SC1
+              本情境適用於儀器／設備廠商，主要針對救護車上的生理量測數據定義聯測項目。儀器經完成量測後直接上傳至 FHIR
+              Server 並與派遣案件（救護紀錄表）聯結，後續可應用於與 EEC 進行資料交換的情境。參測單位須在 SC1
               建立救護紀錄表後，方可在本情境單獨進行生理量測資料交換。若參測單位單獨參加本項情境者，也可以使用主辦單位事先建立的範例救護紀錄表進行聯結。
             </p>
             <br />
-            <ul
-              class="part in-view"
-              data-startline="1158"
-              data-endline="1172"
-              data-position="56467"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1158"
-                data-endline="1172"
-                data-position="56469"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1158" data-endline="1172" data-position="56467" data-size="0">
+              <li class="" data-startline="1158" data-endline="1172" data-position="56469" data-size="0">
                 <span data-position="56469" data-size="15">
                   調閱救護紀錄表，並顯示於畫面上
                 </span>
                 <ul data-position="56487" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1159"
-                    data-endline="1159"
-                    data-position="56489"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1159" data-endline="1159" data-position="56489" data-size="0">
                     <span data-position="56489" data-size="33">
-                      有參測情境1的單位，須先在情境1 -
-                      新增救護紀錄表後調閱該筆資料
+                      有參測情境1的單位，須先在情境1 - 新增救護紀錄表後調閱該筆資料
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1160"
-                    data-endline="1160"
-                    data-position="56527"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1160" data-endline="1160" data-position="56527" data-size="0">
                     <span data-position="56527" data-size="31">
-                      沒有參測情境1
-                      的單位，須調閱大會事先建立的範例救護紀錄表資料
+                      沒有參測情境1 的單位，須調閱大會事先建立的範例救護紀錄表資料
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1161"
-                    data-endline="1169"
-                    data-position="56563"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1161" data-endline="1169" data-position="56563" data-size="0">
                     <span data-position="56563" data-size="36">
                       新增生理量測資料（Observation），並至少須要完成以下其中一項：
                     </span>
                     <ul data-position="56604" data-size="0">
-                      <li
-                        class=""
-                        data-startline="1162"
-                        data-endline="1162"
-                        data-position="56606"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1162" data-endline="1162" data-position="56606" data-size="0">
                         <span data-position="56606" data-size="12">
                           12 Leads ECG
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1163"
-                        data-endline="1163"
-                        data-position="56625"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1163" data-endline="1163" data-position="56625" data-size="0">
                         <span data-position="56625" data-size="16">
                           Body Temperature
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1164"
-                        data-endline="1164"
-                        data-position="56648"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1164" data-endline="1164" data-position="56648" data-size="0">
                         <span data-position="56648" data-size="16">
                           Respiratory Rate
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1165"
-                        data-endline="1165"
-                        data-position="56671"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1165" data-endline="1165" data-position="56671" data-size="0">
                         <span data-position="56671" data-size="53">
                           Oxygen saturation in Arterial blood by Pulse oximetry
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1166"
-                        data-endline="1166"
-                        data-position="56731"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1166" data-endline="1166" data-position="56731" data-size="0">
                         <span data-position="56731" data-size="34">
                           Capillary refill[Time] of Nail bed
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1167"
-                        data-endline="1167"
-                        data-position="56772"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1167" data-endline="1167" data-position="56772" data-size="0">
                         <span data-position="56772" data-size="30">
                           Glucose [Mass/volume] in Blood
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1168"
-                        data-endline="1168"
-                        data-position="56809"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1168" data-endline="1168" data-position="56809" data-size="0">
                         <span data-position="56809" data-size="28">
                           Heart rate by Pulse oximetry
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1169"
-                        data-endline="1169"
-                        data-position="56844"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1169" data-endline="1169" data-position="56844" data-size="0">
                         <span data-position="56844" data-size="20">
                           Blood Pressure Panel
                         </span>
                       </li>
                     </ul>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1170"
-                    data-endline="1172"
-                    data-position="56869"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1170" data-endline="1172" data-position="56869" data-size="0">
                     <span data-position="56869" data-size="29">
                       調閱傷病患在單一救護紀錄表上的所有量測資料，並顯示於畫面上
                     </span>
                     <ul data-position="56903" data-size="0">
-                      <li
-                        class=""
-                        data-startline="1171"
-                        data-endline="1171"
-                        data-position="56905"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1171" data-endline="1171" data-position="56905" data-size="0">
                         <span data-position="56905" data-size="7">
                           以傷病患名稱（
                         </span>
-                        <a
-                          href="http://Patient.name"
-                          target="_blank"
-                          rel="noopener"
-                        >
+                        <a href="http://Patient.name" target="_blank" rel="noopener">
                           <span data-position="56912" data-size="12">
                             Patient.name
                           </span>
@@ -4988,13 +4168,7 @@ export const TraksTabInform = [
                           ）或唯一識別碼（Patient.Identifier）調閱
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1172"
-                        data-endline="1172"
-                        data-position="56960"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1172" data-endline="1172" data-position="56960" data-size="0">
                         <span data-position="56960" data-size="9">
                           以表單 id 調閱
                         </span>
@@ -5006,115 +4180,50 @@ export const TraksTabInform = [
             </ul>
 
             <h3>賽道通過基準</h3>
-            <ul
-              class="part in-view"
-              data-startline="1174"
-              data-endline="1182"
-              data-position="56981"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1174"
-                data-endline="1174"
-                data-position="56983"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1174" data-endline="1182" data-position="56981" data-size="0">
+              <li class="" data-startline="1174" data-endline="1174" data-position="56983" data-size="0">
                 <span data-position="56983" data-size="49">
-                  本賽道各情境的通過基準為獨立判斷，參測單位完成所有標記為
-                  R（必須）的聯測步驟時，才算完成該情境。
+                  本賽道各情境的通過基準為獨立判斷，參測單位完成所有標記為 R（必須）的聯測步驟時，才算完成該情境。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1175"
-                data-endline="1175"
-                data-position="57035"
-                data-size="0"
-              >
+              <li class="" data-startline="1175" data-endline="1175" data-position="57035" data-size="0">
                 <span data-position="57035" data-size="30">
                   參測單位通過一情境時，將會於核發的通過證明上註記通過的情境。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1176"
-                data-endline="1182"
-                data-position="57068"
-                data-size="0"
-              >
+              <li class="" data-startline="1176" data-endline="1182" data-position="57068" data-size="0">
                 <span data-position="57068" data-size="57">
                   僅完成部分項目者，核發的通過證明將註記「部分通過」與其通過項目，並於官網聯測松結果（Matrix）公告通過的項目。
                 </span>
                 <ul data-position="57128" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1177"
-                    data-endline="1182"
-                    data-position="57130"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1177" data-endline="1182" data-position="57130" data-size="0">
                     <span data-position="57130" data-size="57">
-                      例如 A 廠商通過 SC1（所有交換項目）、SC3（僅有 12 Leads
-                      ECG），核發的通過證明將會如下註記：
+                      例如 A 廠商通過 SC1（所有交換項目）、SC3（僅有 12 Leads ECG），核發的通過證明將會如下註記：
                     </span>
                     <ul data-position="57192" data-size="0">
-                      <li
-                        class=""
-                        data-startline="1178"
-                        data-endline="1178"
-                        data-position="57194"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1178" data-endline="1178" data-position="57194" data-size="0">
                         <span data-position="57194" data-size="10">
                           參測單位： A 廠商
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1179"
-                        data-endline="1179"
-                        data-position="57211"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1179" data-endline="1179" data-position="57211" data-size="0">
                         <span data-position="57211" data-size="25">
                           參測賽道： Track #7 緊急醫療救護情境賽道
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1180"
-                        data-endline="1182"
-                        data-position="57243"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1180" data-endline="1182" data-position="57243" data-size="0">
                         <span data-position="57243" data-size="5">
                           通過項目：
                         </span>
                         <ul data-position="57255" data-size="0">
-                          <li
-                            class=""
-                            data-startline="1181"
-                            data-endline="1181"
-                            data-position="57257"
-                            data-size="0"
-                          >
+                          <li class="" data-startline="1181" data-endline="1181" data-position="57257" data-size="0">
                             <span data-position="57257" data-size="34">
-                              Scenario
-                              1（完全通過）：通過所有流程，及所有資料交換項目。
+                              Scenario 1（完全通過）：通過所有流程，及所有資料交換項目。
                             </span>
                           </li>
-                          <li
-                            class=""
-                            data-startline="1182"
-                            data-endline="1182"
-                            data-position="57300"
-                            data-size="0"
-                          >
+                          <li class="" data-startline="1182" data-endline="1182" data-position="57300" data-size="0">
                             <span data-position="57300" data-size="46">
-                              Scenario
-                              3（部分通過）：通過所有流程，及以下資料交換項目：12
-                              Leads ECG
+                              Scenario 3（部分通過）：通過所有流程，及以下資料交換項目：12 Leads ECG
                             </span>
                           </li>
                         </ul>
@@ -5128,13 +4237,13 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: <></>,
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
             <h3>角色(Actors)</h3>
@@ -5211,24 +4320,12 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: (
           <>
-            <ol
-              class="part in-view"
-              data-startline="1207"
-              data-endline="1212"
-              data-position="58026"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1207"
-                data-endline="1207"
-                data-position="58029"
-                data-size="0"
-              >
+            <ol class="part in-view" data-startline="1207" data-endline="1212" data-position="58026" data-size="0">
+              <li class="" data-startline="1207" data-endline="1207" data-position="58029" data-size="0">
                 <a
                   href="https://www.nfa.gov.tw/pro/index.php?code=list&amp;flag=detail&amp;ids=115&amp;article_id=6639"
                   target="_blank"
@@ -5239,13 +4336,7 @@ export const TraksTabInform = [
                   </span>
                 </a>
               </li>
-              <li
-                class=""
-                data-startline="1208"
-                data-endline="1208"
-                data-position="58135"
-                data-size="0"
-              >
+              <li class="" data-startline="1208" data-endline="1208" data-position="58135" data-size="0">
                 <a
                   href="https://emr.mohw.gov.tw/emr/doc/110/%E5%88%B0%E9%99%A2%E5%89%8D%E5%BF%83%E8%B7%B3%E5%81%9C%E6%AD%A2(OHCA)%E7%97%85%E6%91%98%E4%BA%A4%E6%8F%9B%E6%AC%84%E4%BD%8D%E8%88%87%E6%A0%BC%E5%BC%8F%E4%B9%8B%E6%A8%99%E6%BA%96%E8%A6%8F%E7%AF%84_1101213.pdf"
                   target="_blank"
@@ -5256,13 +4347,7 @@ export const TraksTabInform = [
                   </span>
                 </a>
               </li>
-              <li
-                class=""
-                data-startline="1209"
-                data-endline="1209"
-                data-position="58411"
-                data-size="0"
-              >
+              <li class="" data-startline="1209" data-endline="1209" data-position="58411" data-size="0">
                 <a
                   href="https://emr.mohw.gov.tw/emr/doc/110/%E9%87%8D%E5%A4%A7%E5%89%B5%E5%82%B7(TRAUMA)%E7%97%85%E6%91%98%E4%BA%A4%E6%8F%9B%E6%AC%84%E4%BD%8D%E8%88%87%E6%A0%BC%E5%BC%8F%E4%B9%8B%E6%A8%99%E6%BA%96%E8%A6%8F%E7%AF%84_1101213.pdf"
                   target="_blank"
@@ -5273,13 +4358,7 @@ export const TraksTabInform = [
                   </span>
                 </a>
               </li>
-              <li
-                class=""
-                data-startline="1210"
-                data-endline="1210"
-                data-position="58659"
-                data-size="0"
-              >
+              <li class="" data-startline="1210" data-endline="1210" data-position="58659" data-size="0">
                 <a
                   href="https://emr.mohw.gov.tw/emr/doc/110/%E6%80%A5%E8%A8%BA%E7%97%85%E6%91%98%E4%BA%A4%E6%8F%9B%E6%AC%84%E4%BD%8D%E8%88%87%E6%A0%BC%E5%BC%8F%E4%B9%8B%E6%A8%99%E6%BA%96%E8%A6%8F%E7%AF%84_1101116.pdf"
                   target="_blank"
@@ -5290,35 +4369,15 @@ export const TraksTabInform = [
                   </span>
                 </a>
               </li>
-              <li
-                class=""
-                data-startline="1211"
-                data-endline="1211"
-                data-position="58879"
-                data-size="0"
-              >
-                <a
-                  href="https://fhir.ch/ig/ch-ems/index.html"
-                  target="_blank"
-                  rel="noopener"
-                >
+              <li class="" data-startline="1211" data-endline="1211" data-position="58879" data-size="0">
+                <a href="https://fhir.ch/ig/ch-ems/index.html" target="_blank" rel="noopener">
                   <span data-position="58880" data-size="20">
                     瑞士緊急醫療實作指引 CH.EMS.IG
                   </span>
                 </a>
               </li>
-              <li
-                class=""
-                data-startline="1212"
-                data-endline="1212"
-                data-position="58943"
-                data-size="0"
-              >
-                <a
-                  href="https://build.fhir.org/ig/HL7/fhir-ips/"
-                  target="_blank"
-                  rel="noopener"
-                >
+              <li class="" data-startline="1212" data-endline="1212" data-position="58943" data-size="0">
+                <a href="https://build.fhir.org/ig/HL7/fhir-ips/" target="_blank" rel="noopener">
                   <span data-position="58944" data-size="13">
                     FHIR IPS 實作指引
                   </span>
@@ -5329,8 +4388,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: (
           <>
             <table class="table table-striped table-bordered" border="1">
@@ -5373,14 +4432,14 @@ export const TraksTabInform = [
     ],
   },
   {
-    Id: "8",
-    TabTitle: "08",
-    ContentTitle: "醫療保險理賠",
+    Id: '8',
+    TabTitle: '08',
+    ContentTitle: '醫療保險理賠',
     Img: [{ img: logo }, { img: logo }, { img: logo }],
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
             <p>
@@ -5402,24 +4461,12 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits) ",
+        id: '2',
+        Sc: '效益 (Benefits) ',
         content: (
           <>
-            <ul
-              class="part in-view"
-              data-startline="1239"
-              data-endline="1243"
-              data-position="60140"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1239"
-                data-endline="1240"
-                data-position="60142"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1239" data-endline="1243" data-position="60140" data-size="0">
+              <li class="" data-startline="1239" data-endline="1240" data-position="60142" data-size="0">
                 <p data-position="60140" data-size="0">
                   <strong data-position="60142" data-size="0">
                     <span data-position="60144" data-size="2">
@@ -5433,13 +4480,7 @@ export const TraksTabInform = [
                   </span>
                 </p>
               </li>
-              <li
-                class=""
-                data-startline="1241"
-                data-endline="1241"
-                data-position="60431"
-                data-size="0"
-              >
+              <li class="" data-startline="1241" data-endline="1241" data-position="60431" data-size="0">
                 <p data-position="60429" data-size="0">
                   <strong data-position="60431" data-size="0">
                     <span data-position="60433" data-size="4">
@@ -5452,13 +4493,7 @@ export const TraksTabInform = [
                   </span>
                 </p>
               </li>
-              <li
-                class=""
-                data-startline="1242"
-                data-endline="1243"
-                data-position="60598"
-                data-size="0"
-              >
+              <li class="" data-startline="1242" data-endline="1243" data-position="60598" data-size="0">
                 <p data-position="60596" data-size="0">
                   <strong data-position="60598" data-size="0">
                     <span data-position="60600" data-size="9">
@@ -5477,51 +4512,26 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details)",
+        id: '3',
+        Sc: '詳細資訊(Details)',
         content: (
           <>
             <p>本賽道的理賠情境描述如下:</p>
             <br />
-            <ol
-              class="part in-view"
-              data-startline="1246"
-              data-endline="1249"
-              data-position="60805"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1246"
-                data-endline="1246"
-                data-position="60808"
-                data-size="0"
-              >
+            <ol class="part in-view" data-startline="1246" data-endline="1249" data-position="60805" data-size="0">
+              <li class="" data-startline="1246" data-endline="1246" data-position="60808" data-size="0">
                 <span data-position="60808" data-size="101">
-                  保戶填寫個資同意書，送交至交換系統，經過醫院審核通過，向醫院資訊系統(Hospital
-                  Information System,
+                  保戶填寫個資同意書，送交至交換系統，經過醫院審核通過，向醫院資訊系統(Hospital Information System,
                   簡稱HIS)調閱病歷資料，根據本工作小組設計的IG規格轉換成FHIR格式，
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1247"
-                data-endline="1247"
-                data-position="60913"
-                data-size="0"
-              >
+              <li class="" data-startline="1247" data-endline="1247" data-position="60913" data-size="0">
                 <span data-position="60913" data-size="62">
                   將理賠申請書(未列入本次聯測規格)、收據、以及病歷附件 (包含:
                   診斷證明書、檢驗檢查)等文件傳送至保險公司的系統進行審核。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1248"
-                data-endline="1249"
-                data-position="60979"
-                data-size="0"
-              >
+              <li class="" data-startline="1248" data-endline="1249" data-position="60979" data-size="0">
                 <span data-position="60979" data-size="42">
                   當審核通過後，計算抵繳金額後再將經費轉帳給醫院後，即完成抵繳(未列入本次聯測規格)。
                 </span>
@@ -5531,78 +4541,42 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: (
           <>
             <p>本規範涉及涉及的系统有：</p>
             <br />
-            <ul
-              class="part in-view"
-              data-startline="1252"
-              data-endline="1257"
-              data-position="61064"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1252"
-                data-endline="1252"
-                data-position="61066"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1252" data-endline="1257" data-position="61064" data-size="0">
+              <li class="" data-startline="1252" data-endline="1252" data-position="61066" data-size="0">
                 <strong data-position="61066" data-size="0">
                   <span data-position="61068" data-size="5">
                     批價系統:
                   </span>
                 </strong>
               </li>
-              <li
-                class=""
-                data-startline="1253"
-                data-endline="1253"
-                data-position="61079"
-                data-size="0"
-              >
+              <li class="" data-startline="1253" data-endline="1253" data-position="61079" data-size="0">
                 <strong data-position="61079" data-size="0">
                   <span data-position="61081" data-size="7">
                     電子病歷系統:
                   </span>
                 </strong>
               </li>
-              <li
-                class=""
-                data-startline="1254"
-                data-endline="1254"
-                data-position="61094"
-                data-size="0"
-              >
+              <li class="" data-startline="1254" data-endline="1254" data-position="61094" data-size="0">
                 <strong data-position="61094" data-size="0">
                   <span data-position="61096" data-size="8">
                     索引與交換中心:
                   </span>
                 </strong>
               </li>
-              <li
-                class=""
-                data-startline="1255"
-                data-endline="1255"
-                data-position="61110"
-                data-size="0"
-              >
+              <li class="" data-startline="1255" data-endline="1255" data-position="61110" data-size="0">
                 <strong data-position="61110" data-size="0">
                   <span data-position="61112" data-size="7">
                     收據調閱系統:
                   </span>
                 </strong>
               </li>
-              <li
-                class=""
-                data-startline="1256"
-                data-endline="1257"
-                data-position="61125"
-                data-size="0"
-              >
+              <li class="" data-startline="1256" data-endline="1257" data-position="61125" data-size="0">
                 <strong data-position="61125" data-size="0">
                   <span data-position="61127" data-size="7">
                     病歷調閱系統:
@@ -5617,113 +4591,52 @@ export const TraksTabInform = [
             <h3>情境1:理賠申請文件打包上傳</h3>
             <p>
               病患向保險公司(Payer)申請健康保險給付，經過病患授權後，由醫院(Provider/EHR)開立收據(Invoice)與收據明細(ChargeItem)與理賠病歷附件，由上傳系統(Creator)將資料傳送至交換中心(Repository)，由保險公司調閱(Consumer)。病例附件部分包含:
-              診斷證明書 、檢驗檢查、放射影像報告與醫學影像 (後續擴充)、病理報告
-              (後續擴充)。
+              診斷證明書 、檢驗檢查、放射影像報告與醫學影像 (後續擴充)、病理報告 (後續擴充)。
             </p>
-            <ul
-              class="part in-view"
-              data-startline="1263"
-              data-endline="1272"
-              data-position="61379"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1263"
-                data-endline="1272"
-                data-position="61381"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1263" data-endline="1272" data-position="61379" data-size="0">
+              <li class="" data-startline="1263" data-endline="1272" data-position="61381" data-size="0">
                 <strong data-position="61381" data-size="0">
                   <span data-position="61383" data-size="5">
                     產生文件:
                   </span>
                 </strong>
                 <ul data-position="61394" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1264"
-                    data-endline="1272"
-                    data-position="61396"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1264" data-endline="1272" data-position="61396" data-size="0">
                     <span data-position="61396" data-size="27">
                       醫療保險申請書文件打包(Bundle)，包含以下內容:
                     </span>
                     <ul data-position="61429" data-size="0">
-                      <li
-                        class=""
-                        data-startline="1265"
-                        data-endline="1265"
-                        data-position="61431"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1265" data-endline="1265" data-position="61431" data-size="0">
                         <span data-position="61431" data-size="14">
                           醫療保險申請書(Claim)
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1266"
-                        data-endline="1266"
-                        data-position="61452"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1266" data-endline="1266" data-position="61452" data-size="0">
                         <span data-position="61452" data-size="28">
                           收據(Invoice)與收據明細(ChargeItem)
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1267"
-                        data-endline="1267"
-                        data-position="61487"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1267" data-endline="1267" data-position="61487" data-size="0">
                         <span data-position="61487" data-size="24">
                           診斷證明書 (DiagnosticReport)
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1268"
-                        data-endline="1268"
-                        data-position="61518"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1268" data-endline="1268" data-position="61518" data-size="0">
                         <span data-position="61518" data-size="19">
                           檢驗檢查 (以Observation)
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1269"
-                        data-endline="1269"
-                        data-position="61544"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1269" data-endline="1269" data-position="61544" data-size="0">
                         <span data-position="61544" data-size="24">
                           放射影像報告(DiagnosticReport)
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1270"
-                        data-endline="1270"
-                        data-position="61575"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1270" data-endline="1270" data-position="61575" data-size="0">
                         <span data-position="61575" data-size="25">
                           醫學影像(ImagingStudy, DICOM)
                         </span>
                       </li>
-                      <li
-                        class=""
-                        data-startline="1271"
-                        data-endline="1272"
-                        data-position="61607"
-                        data-size="0"
-                      >
+                      <li class="" data-startline="1271" data-endline="1272" data-position="61607" data-size="0">
                         <span data-position="61607" data-size="23">
                           病理報告 (DiagnosticReport)
                         </span>
@@ -5741,97 +4654,43 @@ export const TraksTabInform = [
             <p>
               申請理賠後，需更新理賠病歷附件，經過病患授權後，由醫院(Provider/EHR)產生病歷附件後，由上傳系統(Creator)將保險申請書以更新的方式傳送至交換中心(Repository)，由保險公司調閱(Consumer)。
             </p>
-            <ul
-              class="part in-view"
-              data-startline="1278"
-              data-endline="1288"
-              data-position="61813"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1278"
-                data-endline="1285"
-                data-position="61815"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1278" data-endline="1288" data-position="61813" data-size="0">
+              <li class="" data-startline="1278" data-endline="1285" data-position="61815" data-size="0">
                 <strong>產生文件</strong>
                 <ul data-position="61828" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1279"
-                    data-endline="1279"
-                    data-position="61830"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1279" data-endline="1279" data-position="61830" data-size="0">
                     <span data-position="61830" data-size="28">
                       收據(Invoice)與收據明細(ChargeItem)
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1280"
-                    data-endline="1280"
-                    data-position="61863"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1280" data-endline="1280" data-position="61863" data-size="0">
                     <span data-position="61863" data-size="24">
                       診斷證明書 (DiagnosticReport)
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1281"
-                    data-endline="1281"
-                    data-position="61892"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1281" data-endline="1281" data-position="61892" data-size="0">
                     <span data-position="61892" data-size="19">
                       檢驗檢查 (以Observation)
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1282"
-                    data-endline="1282"
-                    data-position="61916"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1282" data-endline="1282" data-position="61916" data-size="0">
                     <span data-position="61916" data-size="24">
                       放射影像報告(DiagnosticReport)
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1283"
-                    data-endline="1283"
-                    data-position="61945"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1283" data-endline="1283" data-position="61945" data-size="0">
                     <span data-position="61945" data-size="25">
                       醫學影像(ImagingStudy, DICOM)
                     </span>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1284"
-                    data-endline="1285"
-                    data-position="61975"
-                    data-size="0"
-                  >
+                  <li class="" data-startline="1284" data-endline="1285" data-position="61975" data-size="0">
                     <span data-position="61975" data-size="23">
                       病理報告 (DiagnosticReport)
                     </span>
                   </li>
                 </ul>
               </li>
-              <li
-                class=""
-                data-startline="1286"
-                data-endline="1288"
-                data-position="62002"
-                data-size="0"
-              >
+              <li class="" data-startline="1286" data-endline="1288" data-position="62002" data-size="0">
                 <p data-position="62000" data-size="0">
                   <strong data-position="62002" data-size="0">
                     <span data-position="62004" data-size="6">
@@ -5850,37 +4709,19 @@ export const TraksTabInform = [
             <p>
               保險公司調閱(Consumer)，由情境1與2的理賠申請書資料，透過指定的查詢參數調閱理賠申請書以及附件，並在畫面上恰當呈現此次理賠的佐證資料
             </p>
-            <ul
-              class="part in-view"
-              data-startline="1292"
-              data-endline="1295"
-              data-position="62149"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1292"
-                data-endline="1292"
-                data-position="62151"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1292" data-endline="1295" data-position="62149" data-size="0">
+              <li class="" data-startline="1292" data-endline="1292" data-position="62151" data-size="0">
                 <strong data-position="62151" data-size="0">
                   <span data-position="62153" data-size="5">
                     產生文件:
                   </span>
                 </strong>
                 <span data-position="62160" data-size="2">
-                  {" "}
+                  {' '}
                   無
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1293"
-                data-endline="1295"
-                data-position="62165"
-                data-size="0"
-              >
+              <li class="" data-startline="1293" data-endline="1295" data-position="62165" data-size="0">
                 <strong data-position="62165" data-size="0">
                   <span data-position="62167" data-size="6">
                     角色與交易圖
@@ -5896,36 +4737,18 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
             <h3>規格</h3>
-            <ul
-              class="part in-view"
-              data-startline="1298"
-              data-endline="1300"
-              data-position="62253"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1298"
-                data-endline="1298"
-                data-position="62255"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1298" data-endline="1300" data-position="62253" data-size="0">
+              <li class="" data-startline="1298" data-endline="1298" data-position="62255" data-size="0">
                 <span data-position="62255" data-size="22">
                   台灣醫療收據與診斷證明書實作指引: IG連結
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1299"
-                data-endline="1300"
-                data-position="62280"
-                data-size="0"
-              >
+              <li class="" data-startline="1299" data-endline="1300" data-position="62280" data-size="0">
                 <span data-position="62280" data-size="14">
                   台灣核心實作指引: IG連結
                 </span>
@@ -5934,20 +4757,8 @@ export const TraksTabInform = [
             <p>涉及到的角色 (Actors)以及交易(Transactions)，說明如下:</p>
             <br />
             <h3>角色(Actors)</h3>
-            <ol
-              class="part in-view"
-              data-startline="1304"
-              data-endline="1305"
-              data-position="62352"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1304"
-                data-endline="1305"
-                data-position="62355"
-                data-size="0"
-              >
+            <ol class="part in-view" data-startline="1304" data-endline="1305" data-position="62352" data-size="0">
+              <li class="" data-startline="1304" data-endline="1305" data-position="62355" data-size="0">
                 <strong data-position="62355" data-size="0">
                   <span data-position="62357" data-size="15">
                     保險理賠(CLAIM)角色整理
@@ -5988,20 +4799,8 @@ export const TraksTabInform = [
               </table>
             </ol>
             <h3>交易(Transactions)</h3>
-            <ol
-              class="part in-view"
-              data-startline="1313"
-              data-endline="1314"
-              data-position="62631"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1313"
-                data-endline="1314"
-                data-position="62634"
-                data-size="0"
-              >
+            <ol class="part in-view" data-startline="1313" data-endline="1314" data-position="62631" data-size="0">
+              <li class="" data-startline="1313" data-endline="1314" data-position="62634" data-size="0">
                 <strong data-position="62634" data-size="0">
                   <span data-position="62636" data-size="15">
                     保險理賠(CLAIM)交易整理
@@ -6054,14 +4853,14 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: <></>,
       },
       ,
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: (
           <>
             <table class="table table-striped table-bordered" border="1">
@@ -6118,23 +4917,20 @@ export const TraksTabInform = [
     ],
   },
   {
-    Id: "9",
-    TabTitle: "09",
-    ContentTitle: "遠距醫療",
+    Id: '9',
+    TabTitle: '09',
+    ContentTitle: '遠距醫療',
     Img: [{ img: logo }, { img: logo }, { img: logo }],
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
             <p>
               遠距醫療照護的需求隨著COVID-19疫情與產業發展快速演進，衛生福利部也研議逐步放寬【通訊診察治療辦法】的適用範圍，但截至目前遠距醫療照護資料流程與標準尚未有一致性的規範，各級政府、醫療體系、醫療照護院所之間對於遠距醫療照護涉及的資料範圍、欄位等均無統一的標準支持。故本工作小組在今年2023聯測預計新增遠距醫療相關的情境主題，預計先以衛福部的遠距醫療相關計畫為基礎，發展遠距醫療常用情境的FHIR互通標準。預計相關應用情境包括:
             </p>
-            <p>
-              Scenario 0: OAuth2 Access Token 存取認證
-              (與大會OAuth動態Token驗證整合)
-            </p>
+            <p>Scenario 0: OAuth2 Access Token 存取認證 (與大會OAuth動態Token驗證整合)</p>
             <p>Scenario 1: 遠距醫療病患基本資料維護</p>
             <p>Scenario 2: 遠距端掛號作業</p>
             <p>Scenario 3: 在地端檢驗檢查上傳與遠距端診斷結果回傳</p>
@@ -6143,8 +4939,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits) ",
+        id: '2',
+        Sc: '效益 (Benefits) ',
         content: (
           <>
             <p>
@@ -6154,56 +4950,32 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details)",
+        id: '3',
+        Sc: '詳細資訊(Details)',
         content: <></>,
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: (
           <>
             <p>本規範涉及涉及的系统有：</p>
-            <ul
-              class="part in-view"
-              data-startline="1351"
-              data-endline="1354"
-              data-position="64265"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1351"
-                data-endline="1351"
-                data-position="64267"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1351" data-endline="1354" data-position="64265" data-size="0">
+              <li class="" data-startline="1351" data-endline="1351" data-position="64267" data-size="0">
                 <strong data-position="64267" data-size="0">
                   <span data-position="64269" data-size="7">
                     遠距醫療系統:
                   </span>
                 </strong>
               </li>
-              <li
-                class=""
-                data-startline="1352"
-                data-endline="1352"
-                data-position="64282"
-                data-size="0"
-              >
+              <li class="" data-startline="1352" data-endline="1352" data-position="64282" data-size="0">
                 <strong data-position="64282" data-size="0">
                   <span data-position="64284" data-size="7">
                     電子病歷系統:
                   </span>
                 </strong>
               </li>
-              <li
-                class=""
-                data-startline="1353"
-                data-endline="1354"
-                data-position="64297"
-                data-size="0"
-              >
+              <li class="" data-startline="1353" data-endline="1354" data-position="64297" data-size="0">
                 <strong data-position="64297" data-size="0">
                   <span data-position="64299" data-size="9">
                     遠距醫療交換中心:
@@ -6234,8 +5006,8 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
             <h3>角色(Actors)</h3>
@@ -6489,82 +5261,51 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: <></>,
       },
       ,
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: <></>,
       },
     ],
   },
   {
-    Id: "10",
-    TabTitle: "10",
-    ContentTitle: "癌症登記",
+    Id: '10',
+    TabTitle: '10',
+    ContentTitle: '癌症登記',
     Img: [{ img: logo }, { img: logo }, { img: logo }],
     List: [
       {
-        id: "1",
-        Sc: "簡介 (Summary)",
+        id: '1',
+        Sc: '簡介 (Summary)',
         content: (
           <>
-            <ul
-              class="part in-view"
-              data-startline="1410"
-              data-endline="1414"
-              data-position="66206"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1410"
-                data-endline="1410"
-                data-position="66208"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1410" data-endline="1414" data-position="66206" data-size="0">
+              <li class="" data-startline="1410" data-endline="1410" data-position="66208" data-size="0">
                 <span data-position="66208" data-size="155">
                   癌症登記做為管理、儲存、分析癌症患者相關數據的基礎，記錄了病患的就醫資訊，綜上所述，早期診斷及正確的治療方案對癌症的影響甚大，透過癌症登記資料可以得到良好的改善，各個國家的相關法規也開始要求收集病患的癌症資料，並依據各自的文化及需求規範，訂定相應的措施及標準，以盡可能收集完整的癌症病歷、診斷及治療的臨床資訊。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1411"
-                data-endline="1411"
-                data-position="66366"
-                data-size="0"
-              >
+              <li class="" data-startline="1411" data-endline="1411" data-position="66366" data-size="0">
                 <span data-position="66366" data-size="158">
                   為了掌握癌症患者的狀況及診療情形，臺灣衛生福利部國民健康署癌症登記中心建立臺灣癌症資料庫（Taiwan
                   Cancer Database,
                   TCDB），儲存個案至醫院就診、檢驗、治療等過程，在設計上以預防疾病、降低死亡率及發生率為出發點，考量後續資料應用分析及個案追蹤，將癌症個案以最小需求進行資料收集並彙整至資料庫。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1412"
-                data-endline="1412"
-                data-position="66527"
-                data-size="0"
-              >
+              <li class="" data-startline="1412" data-endline="1412" data-position="66527" data-size="0">
                 <span data-position="66527" data-size="131">
                   然而，臺灣癌症登記的設計以統計分析為目的，並未考慮到資料的互通性，使癌症登記與病患資料、病理報告、基因檢測數據分散，無法有效透過資料庫進行串聯，造成臺灣癌症登記的架構無法涵蓋一個人所有的醫療數據，這影響未來精準醫療（precision
                   medicine）的應用。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1413"
-                data-endline="1414"
-                data-position="66661"
-                data-size="0"
-              >
+              <li class="" data-startline="1413" data-endline="1414" data-position="66661" data-size="0">
                 <span data-position="66661" data-size="47">
-                  使用規格: 臺灣癌症登記長/短表摘錄手冊–2022年修訂版:
-                  短表45個欄位、長表115個欄位
+                  使用規格: 臺灣癌症登記長/短表摘錄手冊–2022年修訂版: 短表45個欄位、長表115個欄位
                 </span>
               </li>
             </ul>
@@ -6572,35 +5313,17 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "2",
-        Sc: "效益 (Benefits) ",
+        id: '2',
+        Sc: '效益 (Benefits) ',
         content: (
           <>
-            <ul
-              class="part in-view"
-              data-startline="1416"
-              data-endline="1418"
-              data-position="66729"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1416"
-                data-endline="1416"
-                data-position="66731"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1416" data-endline="1418" data-position="66729" data-size="0">
+              <li class="" data-startline="1416" data-endline="1416" data-position="66731" data-size="0">
                 <span data-position="66731" data-size="116">
                   現在的臺灣癌症登記格式已為臺灣統一標準，所有醫院須按照癌症登記摘錄手冊像國健署申報，但在醫院內部研究使用上，由於目前醫院內的電子病歷並沒有使用統一的醫療標準格式，造成院內癌症登記資料庫仍為獨立資料庫，與醫院內的其他電子病歷無法互通。
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1417"
-                data-endline="1418"
-                data-position="66850"
-                data-size="0"
-              >
+              <li class="" data-startline="1417" data-endline="1418" data-position="66850" data-size="0">
                 <span data-position="66850" data-size="170">
                   為了改善現有癌症登記無法與電子病歷有效整合的問題，並將其作為串聯完整腫瘤學電子病歷的關鍵要素，使癌症登記不再只是單一資料庫，能夠與病患資料、病理報告、基因檢測數據整合應用，將現有臺灣癌症登記資料轉換為符合國際標準FHIR的資料格式，參考美國mCODE架構，以過去癌症登記規範為主要原則，同時考量電子病歷架構，設計能夠前後相容的癌症登記格式。
                 </span>
@@ -6610,36 +5333,18 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "3",
-        Sc: "詳細資訊(Details)",
+        id: '3',
+        Sc: '詳細資訊(Details)',
         content: (
           <>
             <p>本賽道的使用情境描述如下:</p>
-            <ol
-              class="part in-view"
-              data-startline="1421"
-              data-endline="1424"
-              data-position="67055"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1421"
-                data-endline="1421"
-                data-position="67058"
-                data-size="0"
-              >
+            <ol class="part in-view" data-startline="1421" data-endline="1424" data-position="67055" data-size="0">
+              <li class="" data-startline="1421" data-endline="1421" data-position="67058" data-size="0">
                 <span data-position="67058" data-size="60">
                   癌登個案管理師從HIS調閱癌登相關資訊，並根據本工作小組設計的IG規格轉換成FHIR格式後，上傳至癌症登記索引與交換中心
                 </span>
               </li>
-              <li
-                class=""
-                data-startline="1422"
-                data-endline="1424"
-                data-position="67122"
-                data-size="0"
-              >
+              <li class="" data-startline="1422" data-endline="1424" data-position="67122" data-size="0">
                 <span data-position="67122" data-size="54">
                   癌症登記管理系統依照IG的能力聲明中用戶端(Client)之能力聲明，對癌症登記索引與交換中心進行查詢與調閱
                 </span>
@@ -6649,51 +5354,27 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "4",
-        Sc: "涉及系統(Systems Affected)",
+        id: '4',
+        Sc: '涉及系統(Systems Affected)',
         content: (
           <>
             <p>本規範涉及的系统有：</p>
-            <ul
-              class="part in-view"
-              data-startline="1427"
-              data-endline="1430"
-              data-position="67218"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1427"
-                data-endline="1427"
-                data-position="67220"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1427" data-endline="1430" data-position="67218" data-size="0">
+              <li class="" data-startline="1427" data-endline="1427" data-position="67220" data-size="0">
                 <strong data-position="67220" data-size="0">
                   <span data-position="67222" data-size="8">
                     癌症登記上傳系統
                   </span>
                 </strong>
               </li>
-              <li
-                class=""
-                data-startline="1428"
-                data-endline="1428"
-                data-position="67236"
-                data-size="0"
-              >
+              <li class="" data-startline="1428" data-endline="1428" data-position="67236" data-size="0">
                 <strong data-position="67236" data-size="0">
                   <span data-position="67238" data-size="8">
                     癌症登記管理系統
                   </span>
                 </strong>
               </li>
-              <li
-                class=""
-                data-startline="1429"
-                data-endline="1430"
-                data-position="67252"
-                data-size="0"
-              >
+              <li class="" data-startline="1429" data-endline="1430" data-position="67252" data-size="0">
                 <strong data-position="67252" data-size="0">
                   <span data-position="67254" data-size="11">
                     癌症登記索引與交換中心
@@ -6706,27 +5387,24 @@ export const TraksTabInform = [
             </p>
             <h3>情境1:癌登短表交換</h3>
             <li>
-              癌症登記短表上傳系統(Creator)，依照臺灣癌症登記短表 FHIR
-              IG規格將資料轉換為 FHIR 格式，並以Bundle格式上傳TCR FHIR儲存庫
+              癌症登記短表上傳系統(Creator)，依照臺灣癌症登記短表 FHIR IG規格將資料轉換為 FHIR
+              格式，並以Bundle格式上傳TCR FHIR儲存庫
             </li>
             <h3>情境2:癌登短表交換</h3>
             <li>
-              癌症登記長表上傳系統(Creator)，依照臺灣癌症登記短表 FHIR
-              IG規格將資料轉換為 FHIR 格式，並以Bundle格式上傳TCR FHIR儲存庫
+              癌症登記長表上傳系統(Creator)，依照臺灣癌症登記短表 FHIR IG規格將資料轉換為 FHIR
+              格式，並以Bundle格式上傳TCR FHIR儲存庫
             </li>
             <center>
               <img src={track10_1} Width="70%" />
             </center>
             <p>
-              表10-1以及表10-2為台灣癌症登記癌登的Profile設計對照台灣癌症登記格式對照表。Profile主要設計概念包含:
-              (1)
+              表10-1以及表10-2為台灣癌症登記癌登的Profile設計對照台灣癌症登記格式對照表。Profile主要設計概念包含: (1)
               病患基本資料(Patient)、(2)醫事機構資訊(Organization)、(3)醫事人員資訊(Practitioner)、(4)病患就診資訊(首次就診日期)(Encounter)、(5)癌症診斷資訊(Condition)、(6)癌症登錄相關資訊(Observation)、(7)癌症治療相關(Procedure)。
             </p>
             <h3>臺灣癌症登記短表格式轉換FHIR Profile對照</h3>
             <p>
-              <center>
-                表10-1、臺灣癌症登記短表格式轉換FHIR Profile對照表
-              </center>
+              <center>表10-1、臺灣癌症登記短表格式轉換FHIR Profile對照表</center>
             </p>
             <table class="table table-striped table-bordered" border="1">
               <thead>
@@ -6791,11 +5469,7 @@ export const TraksTabInform = [
                     </span>
                   </td>
                   <td>
-                    <a
-                      href="http://Patient.name"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="http://Patient.name" target="_blank" rel="noopener">
                       <span data-position="68278" data-size="12">
                         Patient.name
                       </span>
@@ -7520,9 +6194,7 @@ export const TraksTabInform = [
             </table>
             <h3>臺灣癌症登記長表格式轉換FHIR Profile對照</h3>
             <p>
-              <center>
-                表10-1、臺灣癌症登記長表格式轉換FHIR Profile對照表
-              </center>
+              <center>表10-1、臺灣癌症登記長表格式轉換FHIR Profile對照表</center>
             </p>
             <table class="table table-striped table-bordered" border="1">
               <thead>
@@ -7587,11 +6259,7 @@ export const TraksTabInform = [
                     </span>
                   </td>
                   <td>
-                    <a
-                      href="http://Patient.name"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="http://Patient.name" target="_blank" rel="noopener">
                       <span data-position="73004" data-size="12">
                         Patient.name
                       </span>
@@ -9508,57 +8176,25 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "5",
-        Sc: "規格(Specification)",
+        id: '5',
+        Sc: '規格(Specification)',
         content: (
           <>
-            <ul
-              class="part in-view"
-              data-startline="1617"
-              data-endline="1620"
-              data-position="83963"
-              data-size="0"
-            >
-              <li
-                class=""
-                data-startline="1617"
-                data-endline="1620"
-                data-position="83965"
-                data-size="0"
-              >
+            <ul class="part in-view" data-startline="1617" data-endline="1620" data-position="83963" data-size="0">
+              <li class="" data-startline="1617" data-endline="1620" data-position="83965" data-size="0">
                 <span data-position="83965" data-size="16">
                   台灣癌症登記短表與長表實作指引:
                 </span>
                 <ul data-position="83987" data-size="0">
-                  <li
-                    class=""
-                    data-startline="1618"
-                    data-endline="1618"
-                    data-position="83989"
-                    data-size="0"
-                  >
-                    <a
-                      href="https://mitw.dicom.org.tw/IG/TWCR_LF/"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                  <li class="" data-startline="1618" data-endline="1618" data-position="83989" data-size="0">
+                    <a href="https://mitw.dicom.org.tw/IG/TWCR_LF/" target="_blank" rel="noopener">
                       <span data-position="83990" data-size="12">
                         台灣癌症登記長表實作指引
                       </span>
                     </a>
                   </li>
-                  <li
-                    class=""
-                    data-startline="1619"
-                    data-endline="1620"
-                    data-position="84049"
-                    data-size="0"
-                  >
-                    <a
-                      href="https://mitw.dicom.org.tw/IG/TWCR_SF/"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                  <li class="" data-startline="1619" data-endline="1620" data-position="84049" data-size="0">
+                    <a href="https://mitw.dicom.org.tw/IG/TWCR_SF/" target="_blank" rel="noopener">
                       <span data-position="84050" data-size="12">
                         台灣癌症登記短表實作指引
                       </span>
@@ -9791,14 +8427,14 @@ export const TraksTabInform = [
         ),
       },
       {
-        id: "6",
-        Sc: "其他(See Also)",
+        id: '6',
+        Sc: '其他(See Also)',
         content: <></>,
       },
       ,
       {
-        id: "7",
-        Sc: "作者與貢獻者",
+        id: '7',
+        Sc: '作者與貢獻者',
         content: (
           <>
             <table class="table table-striped table-bordered" border="1">
@@ -9854,11 +8490,7 @@ export const TraksTabInform = [
                     </span>
                   </td>
                   <td>
-                    <a
-                      href="mailto:lily220487@gmail.com"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:lily220487@gmail.com" target="_blank" rel="noopener">
                       <span data-position="85207" data-size="20">
                         lily220487@gmail.com
                       </span>
@@ -9887,11 +8519,7 @@ export const TraksTabInform = [
                     </span>
                   </td>
                   <td>
-                    <a
-                      href="mailto:aewqoo832456@gmail.com"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:aewqoo832456@gmail.com" target="_blank" rel="noopener">
                       <span data-position="85279" data-size="22">
                         aewqoo832456@gmail.com
                       </span>
@@ -9920,11 +8548,7 @@ export const TraksTabInform = [
                     </span>
                   </td>
                   <td>
-                    <a
-                      href="mailto:chungyueh@ntunhs.edu.tw"
-                      target="_blank"
-                      rel="noopener"
-                    >
+                    <a href="mailto:chungyueh@ntunhs.edu.tw" target="_blank" rel="noopener">
                       <span data-position="85360" data-size="23">
                         chungyueh@ntunhs.edu.tw
                       </span>
@@ -9961,4 +8585,4 @@ export const TraksTabInform = [
       },
     ],
   },
-];
+]

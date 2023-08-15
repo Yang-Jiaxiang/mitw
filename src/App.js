@@ -22,41 +22,41 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import NewNavBar from './Components/Navbar/NewNavBar'
 
 const ScrollToTop = () => {
-    const { pathname } = useLocation()
+  const { pathname } = useLocation()
 
-    useEffect(() => {
-        window.scrollTo({ top: 0, behavior: 'instant' })
-    }, [pathname])
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'instant' })
+  }, [pathname])
 
-    return null
+  return null
 }
 
 function App() {
-    const location = useLocation()
+  const location = useLocation()
 
-    return (
-        <>
-            <NewNavBar />
-            <ScrollToTop />
-            <Routes>
-                <Route path="/" element={<Main />} />
-                <Route path="/News" element={<News />} />
-                <Route path="/Introduction" element={<Introduction />} />
-                <Route path="/Signup" element={<Signup />} />
+  return (
+    <>
+      <NewNavBar />
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/News" element={<News />} />
+        <Route path="/Introduction" element={<Introduction />} />
+        <Route path="/Signup" element={<Signup />} />
 
-                <Route path="/Specification" element={<Specification />} />
-                <Route path="/Tracks" element={<Traks />} />
-                <Route path="/Tracks/:id" element={<Traks />} />
-                <Route path="/Result" element={<Result />} />
-                <Route path="/Successcase" element={<Successcase />} />
-                <Route path="/Recruit" element={<Recruit />} />
-                <Route path="/Member" element={<Member />} />
-                <Route path="/Workgroupactivity" element={<Workgroupactivity />} />
-                <Route path="/Relatedactivity" element={<Relatedactivity />} />
-            </Routes>
-            {location.pathname !== '/' && <Footer />}
-        </>
-    )
+        <Route path="/Specification" element={<Specification />} />
+        <Route path="/Tracks" element={<Traks />} />
+        <Route path="/Tracks/:id" element={<Traks />} />
+        <Route path="/Result" element={<Result />} />
+        <Route path="/Successcase" element={<Successcase />} />
+        <Route path="/Recruit" element={<Recruit />} />
+        <Route path="/Member" element={<Member />} />
+        <Route path="/Workgroupactivity" element={<Workgroupactivity />} />
+        <Route path="/Relatedactivity" element={<Relatedactivity />} />
+      </Routes>
+      {location.pathname !== '/' && <Footer />}
+    </>
+  )
 }
 
 export default App

@@ -2,15 +2,15 @@
 export const active = [
   //頁面上靠近頂部的要從前面塞
   {
-    title: "SIG交流活動",
+    title: 'SIG交流活動',
     content: (
       <td>
         【時間】8/25(五)
         <br />
         【主題】以標準化方式建置醫學影像之人工智慧雲端服務 <br />
-        【說明】醫學影像人工智慧(AI)應用蓬勃發展，但極少整合至醫院的影像傳輸與管理系統(PACS)。醫學影像AI研究在實驗室階段雖有很好的成果，一旦整合至PACS，處理成本將會提高很多。如何降低系統整合門檻，已成為未來發展醫療AI應用至醫院資訊系統的重點競爭策略。本次研討會將介紹使用國際標準DICOM的架構以及雲端佈署，透過標準化的方式有效整合醫學影像AI模型至PACS。另外介紹實際AI模型上雲的整合案例，期望透過標準化的整合方式加速AI落地至醫師工作場域。{" "}
+        【說明】醫學影像人工智慧(AI)應用蓬勃發展，但極少整合至醫院的影像傳輸與管理系統(PACS)。醫學影像AI研究在實驗室階段雖有很好的成果，一旦整合至PACS，處理成本將會提高很多。如何降低系統整合門檻，已成為未來發展醫療AI應用至醫院資訊系統的重點競爭策略。本次研討會將介紹使用國際標準DICOM的架構以及雲端佈署，透過標準化的方式有效整合醫學影像AI模型至PACS。另外介紹實際AI模型上雲的整合案例，期望透過標準化的整合方式加速AI落地至醫師工作場域。{' '}
         <br />
-        【報名連結】{" "}
+        【報名連結】{' '}
         <a href="https://IEvents.iii.org.tw/EventS.aspx?t=0&id=2196">
           https://IEvents.iii.org.tw/EventS.aspx?t=0&id=2196
         </a>
@@ -18,7 +18,7 @@ export const active = [
     ),
   },
   {
-    title: "開源人年會（COSCUP）",
+    title: '開源人年會（COSCUP）',
     content: (
       <td>
         【時間】07/29、07/30
@@ -29,8 +29,7 @@ export const active = [
         <br />
         【說明】
         <br />
-        社團法人台灣醫療影像資訊標準協會今年與軟體自由協會合作於開源人年會（
-        COSCUP ）有獨立議程軌
+        社團法人台灣醫療影像資訊標準協會今年與軟體自由協會合作於開源人年會（ COSCUP ）有獨立議程軌
         <br />
         主要講解FHIR、DICOM、ODF、SVG 等開放標準以及相關的解決方案
         <br />
@@ -44,7 +43,7 @@ export const active = [
     ),
   },
   {
-    title: "雲端醫學影像標準化整合應用研討會及 AI 協作人員招募",
+    title: '雲端醫學影像標準化整合應用研討會及 AI 協作人員招募',
     content: (
       <td>
         【時間】07/20(四) 20:00-22:00
@@ -71,27 +70,19 @@ export const active = [
         <ul>
           <li>AI在醫學影像之應用 講者 陽明交大生醫光電所 吳育德 教授 30 min</li>
           <li>數位病理影像 講者 成功大學電資學院 詹寶珠院長 10 min</li>
-          <li>
-            IHE AIW、AIR、及 FHIR 醫學影像整合規範 講者 慈濟大學醫資系 蕭嘉宏 10
-            min
-          </li>
-          <li>
-            影像 FHIR 影像發現、報告、及 SVG 標記 講者 慈濟大學醫資系 洪彬彬 20
-            min
-          </li>
+          <li>IHE AIW、AIR、及 FHIR 醫學影像整合規範 講者 慈濟大學醫資系 蕭嘉宏 10 min</li>
+          <li>影像 FHIR 影像發現、報告、及 SVG 標記 講者 慈濟大學醫資系 洪彬彬 20 min</li>
           <li>醫資標準種子教師及工作人員招募 30 min</li>
         </ul>
         【免報名，視訊連結】
-        <a href="https://meet.google.com/gie-hphd-zxd">
-          https://meet.google.com/gie-hphd-zxd
-        </a>
+        <a href="https://meet.google.com/gie-hphd-zxd">https://meet.google.com/gie-hphd-zxd</a>
         <br />
         註:本研習活動採計 111 學年度『教師增能研習認列一次』
       </td>
     ),
   },
   {
-    title: "標準化遠距醫護及健康促進線上研討會及 AI 協作人員招募",
+    title: '標準化遠距醫護及健康促進線上研討會及 AI 協作人員招募',
     content: (
       <td>
         【時間】07/18(二) 15:00-17:00
@@ -118,28 +109,21 @@ export const active = [
         <ul>
           <li>遠距醫護之應用需求: 講者 慈濟醫院醫事處 張菁育副主任 20 min</li>
           <li>標準化物聯網及PHR: 講者 慈濟大學醫資系 陳亦翔同學 10 min</li>
-          <li>
-            FHIR observation and IoT on FHIR: 講者 MISAC WG2 專案經理 林欣怡 10
-            min
-          </li>
+          <li>FHIR observation and IoT on FHIR: 講者 MISAC WG2 專案經理 林欣怡 10 min</li>
           <li>HTML canvas 呈現連續性波形: 講者 慈大醫資 Canvas 團隊 10 min</li>
           <li>影像及波形標註規格: 講者 慈濟大學醫資系 洪彬彬 10 min</li>
-          <li>
-            IoT 在標準化遠距醫護及健康促進之應用探討 chatGPT 協作展示 10 min
-          </li>
+          <li>IoT 在標準化遠距醫護及健康促進之應用探討 chatGPT 協作展示 10 min</li>
           <li>醫資標準種子教師及工作人員招募 30 min</li>
         </ul>
         【免報名，視訊連結】
-        <a href="https://meet.google.com/gie-hphd-zxd">
-          https://meet.google.com/gie-hphd-zxd
-        </a>
+        <a href="https://meet.google.com/gie-hphd-zxd">https://meet.google.com/gie-hphd-zxd</a>
         <br />
         註:本研習活動採計 111 學年度『教師增能研習認列一次』
       </td>
     ),
   },
   {
-    title: "醫療AI服務上雲與數位轉型之發展趨勢圓桌會議 ",
+    title: '醫療AI服務上雲與數位轉型之發展趨勢圓桌會議 ',
     content: (
       <div>
         【時間】6/7(三) 09:30-12:00 (報到時間：09:15-09:30)
@@ -174,4 +158,4 @@ export const active = [
       </div>
     ),
   },
-];
+]

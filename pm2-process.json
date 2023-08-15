@@ -1,8 +1,6 @@
 {
-	"script": "serve -s build",
-	"watch": true,
-	"ignore_watch": [
-		"node_modules"
-	],
-	"name": "mitw"
+  "script": "serve -s build",
+  "watch": true,
+  "ignore_watch": ["node_modules"],
+  "name": "mitw"
 }

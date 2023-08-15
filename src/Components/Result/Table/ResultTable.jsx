@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import TRACK from "./Inform";
-import { Table } from "antd";
-import "./ResultTable.css";
-import { useEffect } from "react";
+import React, { useState } from 'react'
+import TRACK from './Inform'
+import { Table } from 'antd'
+import './ResultTable.css'
+import { useEffect } from 'react'
 
 function TraksTable({ id }) {
-  const [tableData, setTableData] = useState([]);
+  const [tableData, setTableData] = useState([])
   useEffect(() => {
-    setTableData(TRACK[id]);
-  }, [id]);
+    setTableData(TRACK[id])
+  }, [id])
   return (
     <>
       {tableData.map(({ column, data }, index) => {
@@ -21,14 +21,14 @@ function TraksTable({ id }) {
             size="small"
             style={{
               //margin: "5vw 20vh 0"
-              width: "80%",
+              width: '80%',
             }}
             key={index}
           />
-        );
+        )
       })}
     </>
-  );
+  )
 }
 
-export default TraksTable;
+export default TraksTable

@@ -1,9 +1,9 @@
-import React from "react";
-import { HospitalInform } from "../../../Pages/Successcase/Inform";
-import { Grid } from "@mui/material";
-import { motion } from "framer-motion";
-import SeeMore from "../../Function/SeeMore";
-import "../Successcase.css";
+import React from 'react'
+import { HospitalInform } from '../../../Pages/Successcase/Inform'
+import { Grid } from '@mui/material'
+import { motion } from 'framer-motion'
+import SeeMore from '../../Function/SeeMore'
+import '../Successcase.css'
 function Hospital() {
   return (
     <>
@@ -17,39 +17,39 @@ function Hospital() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <Grid container spacing={1} key={i} sx={{ marginTop: "1rem" }}>
+            <Grid container spacing={1} key={i} sx={{ marginTop: '1rem' }}>
               {/* 左 */}
               <Grid item sm={12} md={4} lg={3}>
                 <Grid container spacing={1} direction="column">
                   <Grid item>
-                    {" "}
+                    {' '}
                     <img
                       src={item.img}
                       className="HosImg"
                       style={{
-                        objectFit: "cover",
-                        marginBottom: "1rem",
+                        objectFit: 'cover',
+                        marginBottom: '1rem',
                       }}
                     />
                   </Grid>
                   <Grid item>
-                    {" "}
+                    {' '}
                     <a
                       href={item.link}
                       target="_blank"
                       style={{
-                        textDecoration: "none ",
-                        color: "#0081a7",
-                        width: "100%",
-                        marginRight: "3rem",
+                        textDecoration: 'none ',
+                        color: '#0081a7',
+                        width: '100%',
+                        marginRight: '3rem',
                       }}
                     >
                       {item.linkname}
                     </a>
                   </Grid>
                   <Grid item>
-                    <p style={{ whiteSpace: "pre-line" }}>{item.tracks}</p>
-                  </Grid>{" "}
+                    <p style={{ whiteSpace: 'pre-line' }}>{item.tracks}</p>
+                  </Grid>{' '}
                 </Grid>
               </Grid>
               {/* 右 */}
@@ -58,7 +58,7 @@ function Hospital() {
                   <Grid item>
                     <h3>{item.name}</h3>
                   </Grid>
-                  <Grid item style={{ whiteSpace: "pre-line" }}>
+                  <Grid item style={{ whiteSpace: 'pre-line' }}>
                     <p>
                       {/* <SeeMore introduce={item.introduce} /> */}
                       {item.introduce}
@@ -96,10 +96,10 @@ function Hospital() {
           //   <div style={{ margin: "2rem 1rem 0 0" }}>{item.introduce}</div>
           //   {/* 下半 */}
           // </Grid>
-        );
+        )
       })}
     </>
-  );
+  )
 }
 
-export default Hospital;
+export default Hospital

@@ -1,7 +1,7 @@
 //最新活動從上面加入
 export const active = [
   {
-    title: "PHR 及 EMR 互通所需人員組織",
+    title: 'PHR 及 EMR 互通所需人員組織',
     content: (
       <div>
         【時間】2023/07/07(五) 15:00
@@ -19,15 +19,13 @@ export const active = [
         </a>
         <br />
         【視訊連結】
-        <a href="https://meet.google.com/gie-hphd-zxd">
-          https://meet.google.com/gie-hphd-zxd
-        </a>
+        <a href="https://meet.google.com/gie-hphd-zxd">https://meet.google.com/gie-hphd-zxd</a>
         <br />
       </div>
     ),
   },
   {
-    title: "照護協調互通標準制定工作小組 Care Coodination WG 規格討論會議",
+    title: '照護協調互通標準制定工作小組 Care Coodination WG 規格討論會議',
     content: (
       <div>
         【時間】2023/06/27(二) 10:00-11:00
@@ -38,8 +36,7 @@ export const active = [
         <br />
         【說明】
         <br />
-        本次會議預計討論 慢性處方箋開立與領用藥流程、EEC 電子病歷交換單張對應之
-        FHIR Bundle 格式與存取流程
+        本次會議預計討論 慢性處方箋開立與領用藥流程、EEC 電子病歷交換單張對應之 FHIR Bundle 格式與存取流程
         <br />
         有興趣的夥伴歡迎線上與會，提供您寶貴的意見
         <br />
@@ -60,15 +57,13 @@ export const active = [
         Scenario 7: Long-Term Services and Supports (eLTSS)
         <br />
         【視訊連結】
-        <a href="https://meet.google.com/yne-ogyh-qyo">
-          https://meet.google.com/yne-ogyh-qyo
-        </a>
+        <a href="https://meet.google.com/yne-ogyh-qyo">https://meet.google.com/yne-ogyh-qyo</a>
         <br />
       </div>
     ),
   },
   {
-    title: "遠距醫療互通標準制定工作小組 Telemedicine WG 規格討論會議",
+    title: '遠距醫療互通標準制定工作小組 Telemedicine WG 規格討論會議',
     content: (
       <div>
         【時間】2023/05/31(三) 10:00-11:00
@@ -92,21 +87,17 @@ export const active = [
         Scenario 5: 在地端診療診斷結果上傳
         <br />
         【視訊連結】
-        <a href="https://meet.google.com/hes-rhgc-ceq">
-          https://meet.google.com/hes-rhgc-ceq
-        </a>
+        <a href="https://meet.google.com/hes-rhgc-ceq">https://meet.google.com/hes-rhgc-ceq</a>
         <br />
       </div>
     ),
   },
   {
-    title: "documentReference 規範說明、JWT ID 及 Access tokens 規格說明",
-    content: (
-      <div>documentReference 規範說明、JWT ID 及 Access tokens 規格說明</div>
-    ),
+    title: 'documentReference 規範說明、JWT ID 及 Access tokens 規格說明',
+    content: <div>documentReference 規範說明、JWT ID 及 Access tokens 規格說明</div>,
   },
   {
-    title: "XDS on FHIR 病歷互通架構，及其所需之人員組織管理",
+    title: 'XDS on FHIR 病歷互通架構，及其所需之人員組織管理',
     content: (
       <div>
         【時間】2023/05/17(三) 10:00-11:00
@@ -117,23 +108,19 @@ export const active = [
         <br />
         【說明】
         <br />
-        基於 XDS on FHIR 架構:{" "}
-        <a href="https://hackmd.io/3-YA4NIlSduzirHccnIq6A">
-          https://hackmd.io/3-YA4NIlSduzirHccnIq6A
-        </a>
+        基於 XDS on FHIR 架構:{' '}
+        <a href="https://hackmd.io/3-YA4NIlSduzirHccnIq6A">https://hackmd.io/3-YA4NIlSduzirHccnIq6A</a>
         <br />
         Patient portal 之人員組織管理、雲端資源管理、認證授權憑證也須有標準規格
         <br />
         【視訊連結】
-        <a href="https://meet.google.com/gie-hphd-zxd">
-          https://meet.google.com/gie-hphd-zxd
-        </a>
+        <a href="https://meet.google.com/gie-hphd-zxd">https://meet.google.com/gie-hphd-zxd</a>
         <br />
       </div>
     ),
   },
   {
-    title: "遠距醫療互通標準制定工作小組 Telemedicine WG 啟動會議",
+    title: '遠距醫療互通標準制定工作小組 Telemedicine WG 啟動會議',
     content: (
       <div>
         【時間】2023/05/10(三) 10:00-11:00
@@ -157,11 +144,9 @@ export const active = [
         Scenario 5: 在地端診療診斷結果上傳
         <br />
         【視訊連結】
-        <a href="https://meet.google.com/hes-rhgc-ceq">
-          https://meet.google.com/hes-rhgc-ceq
-        </a>
+        <a href="https://meet.google.com/hes-rhgc-ceq">https://meet.google.com/hes-rhgc-ceq</a>
         <br />
       </div>
     ),
   },
-];
+]

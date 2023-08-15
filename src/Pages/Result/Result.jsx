@@ -1,6 +1,6 @@
-import React from "react";
-import ResultTab from "../../Components/Result/ResultTab";
-import Table from "../../Components/Result/Table/ResultTable";
+import React from 'react'
+import ResultTab from '../../Components/Result/ResultTab'
+import Table from '../../Components/Result/Table/ResultTable'
 function Result() {
   return (
     <div
@@ -12,7 +12,7 @@ function Result() {
     >
       <ResultTab />
     </div>
-  );
+  )
 }
 
-export default Result;
+export default Result

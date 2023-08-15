@@ -1,47 +1,47 @@
-import React from "react";
-import { Inform } from "./Inform";
-import { Grid } from "@mui/material";
-import "./Signup.css";
+import React from 'react'
+import { Inform } from './Inform'
+import { Grid } from '@mui/material'
+import './Signup.css'
 function Signup() {
   return (
     <div
       className="AllBackground"
       style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
         // background:
         //   "linear-gradient(180deg, #000000 0%, #6AADD9 0.01%, rgba(0, 249, 255, 0) 56.56%, rgba(240, 240, 240, 0) 100%)",
       }}
     >
       <div
         style={{
-          minHeight: "80vh",
-          background: "#fdfdfd",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          width: "100%",
+          minHeight: '80vh',
+          background: '#fdfdfd',
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          width: '100%',
         }}
       >
         <div
           style={{
-            display: "flex",
-            flexDirection: "column",
-            justifyContent: "center",
-            alignItems: "center",
-            margin: "2vw 0 0",
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            margin: '2vw 0 0',
           }}
         >
           <h1
             style={{
-              borderWidth: "2px",
-              paddingTop: "1vw",
-              fontWeight: "bold",
-              marginBottom: "2rem",
-              padding: " 1rem 5rem 1.5rem",
-              borderBottom: "solid 4px #fbc170",
+              borderWidth: '2px',
+              paddingTop: '1vw',
+              fontWeight: 'bold',
+              marginBottom: '2rem',
+              padding: ' 1rem 5rem 1.5rem',
+              borderBottom: 'solid 4px #fbc170',
               // borderStyle: "solid",
 
               // boxShadow: " rgb(118, 189, 213) 2px 1px 3px 2px",
@@ -56,10 +56,10 @@ function Signup() {
         <Grid
           container
           sx={{
-            display: "flex",
-            justifyContent: "center",
-            alignContent: "center",
-            margin: "3rem 0",
+            display: 'flex',
+            justifyContent: 'center',
+            alignContent: 'center',
+            margin: '3rem 0',
           }}
           gap={3}
         >
@@ -70,35 +70,35 @@ function Signup() {
                 <img
                   src={item.icon}
                   style={{
-                    color: "#3087a7",
-                    width: "2.5rem",
-                    filter: " saturate(2)",
-                    marginRight: "2rem",
+                    color: '#3087a7',
+                    width: '2.5rem',
+                    filter: ' saturate(2)',
+                    marginRight: '2rem',
                   }}
                 />
 
                 <a href={item.link} target="_blank" className="SignupLink">
                   <h3
                     style={{
-                      display: "flex",
-                      justifyContent: "flex-start",
-                      alignContent: "center",
-                      fontWeight: "bold",
-                      whiteSpace: "nowrap",
+                      display: 'flex',
+                      justifyContent: 'flex-start',
+                      alignContent: 'center',
+                      fontWeight: 'bold',
+                      whiteSpace: 'nowrap',
                     }}
                   >
-                    {" "}
+                    {' '}
                     {item.title}
                   </h3>
                 </a>
                 {/* </div> */}
               </Grid>
-            );
+            )
           })}
         </Grid>
       </div>
     </div>
-  );
+  )
 }
 
-export default Signup;
+export default Signup

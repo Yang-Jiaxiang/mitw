@@ -1,12 +1,12 @@
-import { useState, React } from "react";
-import MemberSlider from "./MemberSlider";
-import MemberCard from "./MemberCard";
-import { Grid } from "@mui/material";
-import { Tabs, Mem } from "../../Pages/Member/Inform";
+import { useState, React } from 'react'
+import MemberSlider from './MemberSlider'
+import MemberCard from './MemberCard'
+import { Grid } from '@mui/material'
+import { Tabs, Mem } from '../../Pages/Member/Inform'
 
 function TrackTab() {
-  const [clickId, setClickId] = useState(1);
-  console.log(clickId, "aaa");
+  const [clickId, setClickId] = useState(1)
+  console.log(clickId, 'aaa')
 
   // const [mem, setMem] = useState([]);
   // const [Open, setOpen] = useState(false);
@@ -25,41 +25,40 @@ function TrackTab() {
           <hr />
         </Grid>
         <Grid item sm={1} md={1} lg={2}>
-          <p style={{ fontSize: "2rem" }}>Track</p>
+          <p style={{ fontSize: '2rem' }}>Track</p>
           {Tabs.map((item) => {
             return (
-              <div key={item} style={{ display: "flex" }}>
+              <div key={item} style={{ display: 'flex' }}>
                 <button
                   style={{
-                    background: "none",
-                    marginBottom: "0.5rem",
-                    border: "none",
+                    background: 'none',
+                    marginBottom: '0.5rem',
+                    border: 'none',
                   }}
                   onClick={() => {
-                    setClickId(item.id);
+                    setClickId(item.id)
                   }}
                 >
                   <p
                     key={item.id}
                     style={{
-                      paddingLeft: "10px",
-                      fontSize: clickId === item.id ? "1.5rem" : "1rem",
-                      borderLeft:
-                        clickId === item.id ? "2px solid #000" : "none",
+                      paddingLeft: '10px',
+                      fontSize: clickId === item.id ? '1.5rem' : '1rem',
+                      borderLeft: clickId === item.id ? '2px solid #000' : 'none',
                     }}
                   >
                     {item.title}
                   </p>
                 </button>
               </div>
-            );
+            )
           })}
         </Grid>
         <MemberCard TabId={clickId} />
         {/* <MemberSlider id={clickId} /> */}
       </Grid>
     </>
-  );
+  )
 }
 
-export default TrackTab;
+export default TrackTab

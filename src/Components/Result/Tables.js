@@ -13,9 +13,9 @@ export const trackstable = {
           class="rwd-table "
           cellpadding="10px"
           style={{
-            textAlign: "center",
-            width: "100%",
-            border: "1px #dcdcdc solid",
+            textAlign: 'center',
+            width: '100%',
+            border: '1px #dcdcdc solid',
           }}
         >
           <tbody>
@@ -302,8 +302,7 @@ export const trackstable = {
               <td bgcolor="#D1E9E9">
                 醫合股份有限公司
                 <br />
-                An architecture and management platform for blockchain-based
-                FHIR personal 版本2.0.0
+                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
               </td>
               <td>✓</td>
               <td>✓</td>
@@ -316,12 +315,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="44%">
@@ -661,8 +655,7 @@ export const trackstable = {
               <td bgcolor="#D1E9E9">
                 醫合股份有限公司
                 <br />
-                An architecture and management platform for blockchain-based
-                FHIR personal 版本2.0.0
+                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
               </td>
               <td>✓</td>
               <td>✓</td>
@@ -675,12 +668,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="44%">
@@ -749,12 +737,7 @@ export const trackstable = {
   2: [
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="50%">
@@ -1040,8 +1023,7 @@ export const trackstable = {
               <td bgcolor="#D1E9E9">
                 醫合股份有限公司
                 <br />
-                An architecture and management platform for blockchain-based
-                FHIR personal 版本2.0.0
+                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
               </td>
               <td>✓</td>
               <td>✓</td>
@@ -1064,12 +1046,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="52%">
@@ -1376,8 +1353,7 @@ export const trackstable = {
               <td bgcolor="#D1E9E9">
                 醫合股份有限公司
                 <br />
-                An architecture and management platform for blockchain-based
-                FHIR personal 版本2.0.0
+                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
               </td>
               <td>✓</td>
               <td>✓</td>
@@ -1421,12 +1397,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -1493,8 +1464,7 @@ export const trackstable = {
               <td bgcolor="#D1E9E9">
                 醫合股份有限公司
                 <br />
-                An architecture and management platform for blockchain-based
-                FHIR personal 版本2.0.0
+                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
               </td>
               <td>✓</td>
               <td>✓</td>
@@ -1505,12 +1475,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="52%">
@@ -1624,12 +1589,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="52%">
@@ -1754,12 +1714,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="44%">
@@ -1816,12 +1771,7 @@ export const trackstable = {
   3: [
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -1888,8 +1838,7 @@ export const trackstable = {
               <td bgcolor="#D1E9E9">
                 醫合股份有限公司
                 <br />
-                An architecture and management platform for blockchain-based
-                FHIR personal 版本2.0.0
+                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
               </td>
               <td>✓</td>
               <td>
@@ -1903,12 +1852,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -1968,12 +1912,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2058,8 +1997,7 @@ export const trackstable = {
               <td bgcolor="#D1E9E9">
                 醫合股份有限公司
                 <br />
-                An architecture and management platform for blockchain-based
-                FHIR personal 版本2.0.0
+                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
               </td>
               <td>✓</td>
               <td>✓</td>
@@ -2070,12 +2008,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2160,8 +2093,7 @@ export const trackstable = {
               <td bgcolor="#D1E9E9">
                 醫合股份有限公司
                 <br />
-                An architecture and management platform for blockchain-based
-                FHIR personal 版本2.0.0
+                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
               </td>
               <td>✓</td>
               <td>✓</td>
@@ -2174,12 +2106,7 @@ export const trackstable = {
   4: [
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2248,12 +2175,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2307,12 +2229,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2366,12 +2283,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2404,12 +2316,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="30%">
@@ -2469,12 +2376,7 @@ export const trackstable = {
   5: [
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2540,12 +2442,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2578,12 +2475,7 @@ export const trackstable = {
   6: [
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2643,12 +2535,7 @@ export const trackstable = {
     },
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2692,12 +2579,7 @@ export const trackstable = {
   7: [
     {
       table: (
-        <table
-          class="rwd-table "
-          border="1"
-          cellpadding="10px"
-          style={{ textAlign: "center", width: "100%" }}
-        >
+        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
           <tbody>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
@@ -2764,8 +2646,8 @@ export const trackstable = {
               <td bgcolor="#D1E9E9">
                 醫合股份有限公司
                 <br />
-                An architecture and management platform for blockchain-based
-                FHIR personal health record exchange 版本2.0.0
+                An architecture and management platform for blockchain-based FHIR personal health record exchange
+                版本2.0.0
               </td>
               <td>✓</td>
               <td>✓</td>
@@ -2775,4 +2657,4 @@ export const trackstable = {
       ),
     },
   ],
-};
+}
