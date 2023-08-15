@@ -102,7 +102,7 @@ td {
     font-size: 16px;
   }
   .AllBackground {
-    padding: 5rem 0 2vh;
+    /* padding: 5rem 0 2vh; */
   }
 }
 @media screen and (max-width: 500px) {
@@ -112,6 +112,6 @@ td {
     font-size: 1rem;
   }
   .AllBackground {
-    padding: 5rem 0 2vh;
+    /* padding: 5rem 0 2vh; */
   }
 }

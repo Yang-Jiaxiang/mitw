@@ -30,17 +30,7 @@ function Traks() {
         >
           <SectionListTab onHandle={onHandle} Click={Click} setClick={setClick} />
 
-          <Grid
-            item
-            xs={8}
-            sm={8}
-            md={8}
-            lg={9}
-            sx={{
-              margin: 0,
-            }}
-          >
-            」
+          <Grid item xs={8} sm={8} md={8} lg={9}>
             <Grid
               item
               xs={12}
@@ -48,7 +38,6 @@ function Traks() {
               md={12}
               lg={12}
               sx={{
-                // width: "80%",
                 paddingBottom: '3rem ',
                 margin: 0,
                 display: 'flex',

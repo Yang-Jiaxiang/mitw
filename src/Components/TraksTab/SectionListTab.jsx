@@ -18,7 +18,6 @@ function SectionListTab({ Click, setClick, onHandle }) {
         alignItems: 'flex-start',
         alignContent: 'space-around',
         position: 'sticky',
-        // left: "3rem",
         height: '100%',
         width: '100%',
         top: '15rem',
@@ -32,7 +31,7 @@ function SectionListTab({ Click, setClick, onHandle }) {
             style={{
               border: 'none',
               background: 'none',
-              fontSize: Click === sectiontab.id ? '1.25rem' : '1rem',
+              fontSize: Click === sectiontab.id ? '1.1rem' : '1rem',
               fontWeight: Click === sectiontab.id ? 'bold' : 'normal',
               color: '#000',
               textDecoration: 'none',

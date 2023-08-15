@@ -38,7 +38,7 @@ function ResponsiveAppBar() {
   })
 
   return (
-    <AppBar position="sticky" sx={{ background: '#fdfdfd', boxShadow: 0 }} component="nav">
+    <AppBar position="sticky" sx={{ background: '#fdfdfd', boxShadow: 0, zIndex: 1000 }} component="nav">
       <Container maxWidth="xxl">
         <Toolbar disableGutters>
           <Typography
