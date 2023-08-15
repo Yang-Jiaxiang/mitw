@@ -52,6 +52,7 @@ import ImgDialog from '../Dialog/Dialog'
 // 圖片放入<ImgDialog Img={Ts1} Width={"80%"} />頁面終能放大圖片顯示
 // Img={Ts1}裡面引入圖片
 // Width={"80%"}一般檢視頁面中的大小
+import ReactPlayer from 'react-player/youtube'
 
 export const TraksTabInform = [
   {
@@ -529,8 +530,15 @@ export const TraksTabInform = [
         Sc: '其他(See Also)',
         content: (
           <>
-            <h3></h3>
-            <p></p>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/XA-8ddfFvA8" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1h_pxZWnYVmIbqtN7wJoaXoR-Zq7N0q3d/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
           </>
         ),
       },
@@ -1168,7 +1176,19 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: <></>,
+        content: (
+          <>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/REAL2DsjLrA" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1DCBOkQn2lWaeX_oiXpQPrHlosxn-Ppv0/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
+          </>
+        ),
       },
       {
         id: '7',
@@ -1444,8 +1464,15 @@ export const TraksTabInform = [
         Sc: '其他(See Also)',
         content: (
           <>
-            <h3></h3>
-            <p></p>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/Hdw43e1_lFQ" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1i1U1ZAqbeIqMFV87JqD8xahGNHGeO9NZ/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
           </>
         ),
       },
@@ -2255,6 +2282,15 @@ export const TraksTabInform = [
               </li>
               <li>參考網址</li>
             </ul>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/WAIDi2cHnKw" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1h_0AxAD4jwWEkW4Bh5p9YwvLIYO12Krq/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
           </>
         ),
       },
@@ -2880,7 +2916,19 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: <></>,
+        content: (
+          <>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/u9skDJcMxXo" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1i6_qOodMipdgk0LyzS-_znmtvBkGBC2x/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
+          </>
+        ),
       },
       ,
       {
@@ -3567,8 +3615,15 @@ export const TraksTabInform = [
         Sc: '其他(See Also)',
         content: (
           <>
-            <h3></h3>
-            <p></p>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/jSYB5ZICec4" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1hKZYzOQJKcZStq26u0lrUDKhhaAj5POQ/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
           </>
         ),
       },
@@ -4384,6 +4439,15 @@ export const TraksTabInform = [
                 </a>
               </li>
             </ol>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/4Bb91YxGL94" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1ha7MrS5ZNfAQHGpsE0xf11mbV6kysh3f/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
           </>
         ),
       },
@@ -4855,7 +4919,19 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: <></>,
+        content: (
+          <>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/HeQocyAPPLY" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1hKaNzFpLGFickoMrXprAbhf3TttIUq74/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
+          </>
+        ),
       },
       ,
       {
@@ -5263,7 +5339,19 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: <></>,
+        content: (
+          <>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/HzZla7PIvjA" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1i7S_51kmXbWLE8ZGRL6fDVJBnnRM0tEk/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
+          </>
+        ),
       },
       ,
       {
@@ -8429,7 +8517,19 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: <></>,
+        content: (
+          <>
+            <h3>賽道介紹</h3>
+            <ReactPlayer url="https://youtu.be/GLsm8sRmnMQ" width="50vw" />
+            <h3>賽道簡報</h3>
+            <iframe
+              src="https://drive.google.com/file/d/1hLXvniYeCK1V8H2lQHwVQKtYh8hM_wnS/preview"
+              width="100%"
+              height="480"
+              allow="autoplay"
+            ></iframe>
+          </>
+        ),
       },
       ,
       {
