@@ -42,7 +42,7 @@ function IntroductionTab() {
                 }}
                 key={item}
               >
-                <div className="Tab" style={{ padding: '1rem 0', fontSize: windwosWidth < 1000 ? '1rem' : '1.3rem' }}>
+                <div className="Tab" style={{ padding: '1rem 0', fontSize: windwosWidth < 1000 ? '1.2rem' : '1.5rem' }}>
                   <icon style={{ paddingRight: '5px', fontSize: '2rem' }}>{item.icon}</icon>
                   {item.Tabtitle}
                 </div>
