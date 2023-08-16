@@ -35,73 +35,9 @@
 
 @media screen and (max-width: 600px) {
   /* 600以下 */
-
-  .CardContainer {
-    margin-top: 5vw;
-  }
-  .Tracks {
-    font-size: 3rem;
-    width: 2.5rem;
-    border-bottom: 3px solid pink;
-  }
   .TracksTitle {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
-  .Name {
-    font-size: 1rem;
-  }
-  .ImgContainer {
-    height: 60%;
-    width: 60%;
-  }
-}
-@media screen and (min-width: 600px) and (max-width: 740px) {
-  /* 600~740 */
-
-  .ImgContainer {
-    height: 15rem;
-    width: 15rem;
-  }
-  .Bluetag {
-    font-size: 1.5vw;
-    height: 2.5vw;
-  }
-  .Tracks {
-    width: 4vw;
-    border-bottom: 2px solid pink;
-    font-size: 5vw;
-  }
-  .TracksTitle {
-    font-size: 1.25rem;
-  }
-  .Name {
-    font-size: 1rem;
-    height: 3cm;
-  }
-}
-@media screen and (min-width: 740px) and (max-width: 1200px) {
-  /* 740~1200 */
-
-  .Bluetag {
-    font-size: 1.5vw;
-    height: 2.5vw;
-  }
-  .Tracks {
-    width: 5vw;
-    border-bottom: 3px solid pink;
-    font-size: 5vw;
-  }
-  .TracksTitle {
-    font-size: 1.25rem;
-  }
-  .Name {
-    font-size: 1rem;
-    height: 2cm;
-  }
-}
-@media screen and (min-width: 1200px) {
-  /* 1600以上 */
-
   .CardContainer {
     width: 80%;
   }
@@ -110,13 +46,97 @@
     width: 90%;
   }
   .Bluetag {
-    font-size: 1.5vw;
-    height: 2vw;
+    font-size: 1rem;
+    height: 2rem;
   }
   .Tracks {
     width: 5vw;
-    font-size: 3.5vw;
+    font-size: 2.5rem;
     border-bottom: 3px solid pink;
+  }
+  .Name {
+    font-size: 0.8rem;
+    height: 1.7rem;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 740px) {
+  /* 600~740 */
+
+  .TracksTitle {
+    font-size: 1.3rem;
+  }
+  .CardContainer {
+    width: 80%;
+  }
+  .ImgContainer {
+    height: 90%;
+    width: 90%;
+  }
+  .Bluetag {
+    font-size: 1.5rem;
+    height: 3rem;
+  }
+  .Tracks {
+    width: 5vw;
+    font-size: 2.5rem;
+    border-bottom: 3px solid pink;
+  }
+  .Name {
+    font-size: 1rem;
+    height: 2.5rem;
+  }
+}
+@media screen and (min-width: 740px) and (max-width: 1200px) {
+  /* 740~1200 */
+
+  .TracksTitle {
+    font-size: 1.3rem;
+  }
+  .CardContainer {
+    width: 80%;
+  }
+  .ImgContainer {
+    height: 90%;
+    width: 90%;
+  }
+  .Bluetag {
+    font-size: 1rem;
+    height: 2rem;
+  }
+  .Tracks {
+    width: 5vw;
+    font-size: 2.5rem;
+    border-bottom: 3px solid pink;
+  }
+  .Name {
+    font-size: 1rem;
+    height: 2.5rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* 1600以上 */
+  .TracksTitle {
+    font-size: 1.3rem;
+  }
+  .CardContainer {
+    width: 80%;
+  }
+  .ImgContainer {
+    height: 90%;
+    width: 90%;
+  }
+  .Bluetag {
+    font-size: 1.5rem;
+    height: 3rem;
+  }
+  .Tracks {
+    width: 5vw;
+    font-size: 2.5rem;
+    border-bottom: 3px solid pink;
+  }
+  .Name {
+    font-size: 1rem;
+    height: 2.5rem;
   }
   /* font size */
 }

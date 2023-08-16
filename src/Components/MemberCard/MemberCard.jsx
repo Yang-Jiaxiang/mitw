@@ -1,22 +1,30 @@
 import { useState, useEffect } from 'react'
-import { Dialog, DialogContent, DialogContentText } from '@mui/material'
+import { Dialog, DialogContent, DialogContentText, FormControl, List, ListItem, MenuItem, Select } from '@mui/material'
 import { Tabs, Mem } from '../../Pages/Member/Inform'
 import Card from './Card'
 import { Box, Grid } from '@mui/material'
 import { CCard, CCardImage, CCardText, CCardTitle } from '@coreui/react'
 import './MemberCard.css'
 import MemberSlider from './MemberSlider'
+
 function MemberCard() {
-  // const { Id, Traks, Img, Members, Tollger } = props.item;
   const [clickTrackId, setclickTrackId] = useState(1)
   const [Tracksopen, setTracksopen] = useState('MemSec')
   const onToggle = () => {
     Tracksopen === 'MemSec' ? setTracksopen('MemSec_click') : setTracksopen('MemSec')
   }
-  // vvvvvvv dialog use
   const [memId, setMemId] = useState(null)
   const [Open, setOpen] = useState(false)
   const [id, setId] = useState(null)
+
+  const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowsWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
 
   const handleClickOpen = (ID) => {
     setMemId(ID)
@@ -27,6 +35,65 @@ function MemberCard() {
   }
   useEffect(() => {}, [clickTrackId])
 
+  const TrackList = () => {
+    return (
+      <List sx={{ paddingTop: '1rem' }}>
+        {Tabs.map((item) => {
+          return (
+            <ListItem
+              style={{
+                cursor: 'pointer',
+                background: 'none',
+                border: 'none',
+                padding: '0 0 0 1rem',
+              }}
+              onClick={() => {
+                setclickTrackId(item.id)
+              }}
+            >
+              <p
+                key={item.id}
+                className={Tracksopen}
+                onClick={() => {
+                  onToggle()
+                }}
+                style={{
+                  fontSize: windwosWidth > 1200 ? '1.1rem' : '0.9rem',
+                  fontWeight: clickTrackId === item.id ? 'bold' : 'normal',
+                  borderLeft: clickTrackId === item.id ? '4px solid orange' : 'none',
+                }}
+              >
+                {item.title}
+                {item.name}
+              </p>
+            </ListItem>
+          )
+        })}
+      </List>
+    )
+  }
+
+  const SmallList = () => {
+    return (
+      <FormControl style={{ marginLeft: '1rem', width: '12rem' }}>
+        <Select
+          onChange={(e) => setclickTrackId(e.target.value)}
+          value={clickTrackId}
+          sx={{ boxShadow: 'none', '.MuiOutlinedInput-notchedOutline': { border: 0 } }}
+        >
+          {Tabs.map((item) => {
+            console.log(item)
+            return (
+              <MenuItem value={item.id}>
+                {item.id}-{item.name}
+              </MenuItem>
+            )
+          })}
+        </Select>
+      </FormControl>
+    )
+  }
+
   return (
     <>
       <Grid
@@ -34,9 +101,7 @@ function MemberCard() {
         className="AllContentbackground"
         style={{
           justifyContent: 'center',
-          // margin: "2vw 5vw",
-
-          padding: '5vh 10vh',
+          padding: '5vh 2rem',
           background: '#fff',
           minHeight: '80vh',
         }}
@@ -50,92 +115,62 @@ function MemberCard() {
           item
           xs={12}
           sm={12}
-          md={2}
-          lg={2}
+          md={3}
+          lg={3}
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            justifyContent: 'space-between',
           }}
         >
-          <p style={{ fontSize: '2rem' }}>Track</p>
-          {Tabs.map((item) => {
-            return (
-              <div>
-                <button
-                  style={{
-                    background: 'none',
-                    marginBottom: '1vw',
-                    border: 'none',
-                  }}
-                  onClick={() => {
-                    setclickTrackId(item.id)
-                  }}
-                >
-                  <p
-                    key={item.id}
-                    className={Tracksopen}
-                    onClick={() => {
-                      onToggle()
-                    }}
-                    style={{
-                      margin: 0,
-                      paddingLeft: '10px',
-                      fontSize: clickTrackId === item.id ? '1.4rem' : '1.2rem',
-
-                      fontWeight: clickTrackId === item.id ? 'bold' : 'normal',
-                      borderLeft: clickTrackId === item.id ? '4px solid orange' : 'none',
-                    }}
-                  >
-                    {item.title}
-                    {item.name}
-                  </p>
-                </button>
-              </div>
-            )
-          })}
+          <p style={{ fontSize: '2rem' }}>
+            Track{' '}
+            {windwosWidth > 960 ? (
+              <TrackList />
+            ) : (
+              <>
+                -
+                <SmallList />
+              </>
+            )}
+          </p>
         </Grid>
 
         {/* 卡片 */}
-        <Grid item xs={12} sm={10} md={10} lg={10}>
+        <Grid item xs={12} sm={10} md={9} lg={9}>
           <Grid
             container
-            gap={1}
+            spacing={2}
             style={{
-              // height: "100%",
               width: '100%',
-              // flexWrap: "nowrap",
               justifyContent: 'space-evenly',
             }}
           >
             {Mem.filter(({ Track }) => Track === clickTrackId).map((item, i) => {
               return (
-                <Grid item xs={10} sm={10} md={5} lg={5} key={i} sx={{ display: 'flex' }}>
+                <Grid item xs={10} sm={10} md={6} lg={6} key={i} sx={{ display: 'flex' }}>
                   <CCard className="CardContainer" style={{ width: '100%', border: 'none' }}>
                     <p className="Tracks"> {item.Track}</p>
-                    <h2 className="TracksTitle">{item.TraksTitle}</h2>
-                    <div style={{ height: '3.5rem' }}>
-                      <h5 className="Name">{item.Name}</h5>
-                    </div>
+                    <p className="TracksTitle">{item.TraksTitle}</p>
+                    <p className="Name">{item.Name}</p>
                     <CCardImage
-                      style={{ width: '90%', cursor: 'pointer' }}
+                      style={{ width: '85%', cursor: 'pointer' }}
                       src={item.Img}
                       onClick={() => {
                         handleClickOpen(item.Id)
                       }}
                     />
-
                     <div
                       style={{
                         display: 'flex',
-                        justifyContent: 'flex-end',
                         width: '100%',
+                        justifyContent: 'flex-end',
                       }}
                     >
                       <span
                         style={{
                           display: 'flex',
                           flexDirection: 'row-reverse',
+                          marginTop: '1rem',
                         }}
                       >
                         <h4 className="Bluetag">{item.Position}</h4>
