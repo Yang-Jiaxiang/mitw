@@ -22,6 +22,11 @@ const routerList = [
     Component: <News />,
   },
   {
+    name: '論壇',
+    path: 'https://www.youtube.com/',
+    liComponent: '',
+  },
+  {
     name: '簡介',
     icon: null,
     path: '/Introduction',
@@ -62,17 +67,11 @@ const routerList = [
   },
   {
     name: '活動',
-
     iconOpened: <AiFillCaretUp style={iconStyle} />,
     iconClosed: <AiFillCaretDown style={iconStyle} />,
     path: '',
     Component: '',
     li: [
-      {
-        liname: '論壇',
-        lipath: '',
-        liComponent: '',
-      },
       {
         liname: '工作小組',
         lipath: '/Workgroupactivity',
@@ -83,11 +82,6 @@ const routerList = [
         lipath: '/Relatedactivity',
         liComponent: <Relatedactivity />,
       },
-      // {
-      //   liname: "教育訓練",
-      //   lipath: "/training",
-      //   liComponent: "",
-      // },
     ],
   },
   {
