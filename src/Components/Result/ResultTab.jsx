@@ -26,7 +26,7 @@ function ResultTab({ windwosWidth }) {
           justifyContent: 'center',
           position: 'sticky',
           background: '#fdfdfd',
-          top: topList[0] > 0 ? topList[0] - 5 : null,
+          top: topList[0] > 0 ? topList[0] - 10 : null,
           zIndex: 500,
         }}
       >
