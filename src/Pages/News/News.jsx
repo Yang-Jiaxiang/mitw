@@ -24,7 +24,7 @@ function News() {
   })
   return (
     <>
-      <div className={windwosWidth > 500 && 'AllBackground'} style={{ color: '#000' }}>
+      <div className={windwosWidth > 600 && 'AllBackground'} style={{ color: '#000' }}>
         {/* -----------------首圖------------------ */}
         <Box className="AllContentBackground">
           <Grid container spacing={1} direction="column" alignContent="center" alignItems="center">
@@ -70,7 +70,7 @@ function News() {
                 marginBottom: '2rem',
               }}
             >
-              <Grid container direction="row" className="ContentBlock">
+              <Grid container direction="row" className="ContentBlock" width="100%">
                 {newsData.map((item) => {
                   return (
                     <Grid
@@ -83,11 +83,11 @@ function News() {
                         padding: '1rem',
                         marginTop: '1rem',
                         background: '#f1f1f1',
+                        width: '100%',
                       }}
                     >
                       <div
                         style={{
-                          width: '100%',
                           justifyContent: 'center',
                           alignItems: 'center',
                           display: 'flex',
@@ -139,7 +139,6 @@ function News() {
                   style={{
                     display: 'flex',
                     justifyContent: 'flex-start',
-                    // padding: "0 2rem",
                   }}
                 >
                   <img src={p1Img} alt="p1img" style={{ objectFit: 'cover', width: '100%' }} />
@@ -150,10 +149,11 @@ function News() {
                     className="NewsH3"
                     style={{
                       marginBottom: '3rem',
-                      textAlign: 'center',
-                      justifyContent: 'center',
+                      textAlign: 'left',
+                      justifyContent: 'left',
                       fontWeight: 'bold',
                       whiteSpace: 'pre',
+                      paddingLeft: '1rem',
                     }}
                   >
                     {NewsInform.title.p1}
@@ -172,8 +172,8 @@ function News() {
                     <h4>{NewsInform.p1.hash2}</h4>
                     {NewsInform.p1.context.map((item) => {
                       return (
-                        <li style={{ margin: '2rem 0', wordBreak: 'normal' }}>
-                          <p>{item}</p>
+                        <li className="NewsContent" style={{ margin: '2rem 0', wordBreak: 'normal' }}>
+                          {item}
                         </li>
                       )
                     })}
