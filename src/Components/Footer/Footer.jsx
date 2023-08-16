@@ -11,8 +11,7 @@ function Footer() {
         spacing={1}
         style={{
           background: '#000',
-          paddingTop: '1rem',
-          // justifyContent: "center",
+          padding: '1rem',
         }}
       >
         {/* 左 */}
@@ -24,8 +23,6 @@ function Footer() {
           style={{
             display: 'flex',
             flexDirection: 'column',
-            paddingLeft: '2vh',
-            justifyContent: ' space-between',
           }}
         >
           {FooterContext.map((item) => {
@@ -38,11 +35,11 @@ function Footer() {
                   lg={3}
                   className="LeftBlock"
                   style={{
-                    display: 'flex',
-                    whiteSpace: 'nowrap',
+                    paddingLeft: '2vh',
+                    justifyContent: ' space-between',
                   }}
                 >
-                  <p key={item} style={{ color: '#fff' }}>
+                  <p key={item} style={{ color: '#fff', fontSize: '1rem' }}>
                     {item.title}
                   </p>
                 </Grid>
@@ -58,6 +55,7 @@ function Footer() {
                 >
                   <ul
                     style={{
+                      fontSize: '1rem',
                       margin: 0,
                       padding: '0 0 0 1vw ',
                       flexDirection: 'column',
@@ -70,6 +68,7 @@ function Footer() {
                           style={{
                             listStyle: 'none',
                             marginBottom: '0.3rem',
+                            fontSize: '1rem',
                           }}
                         >
                           <Link
@@ -79,6 +78,7 @@ function Footer() {
                               color: '#fff',
                               maxWidth: '100%',
                               whiteSpace: 'nowrap',
+                              fontSize: '1rem',
                             }}
                           >
                             {item.name}
@@ -95,24 +95,26 @@ function Footer() {
 
         {/* 右 */}
         <Grid item sm={6} md={6} lg={6} style={{ paddingLeft: '2vh' }}>
-          <h3
+          <p
             style={{
               color: '#fff',
               display: 'flex',
               margin: '0 0 0.5rem',
               justifyContent: 'start',
+              fontSize: '1.1rem',
             }}
           >
             聯絡我們
-          </h3>
+          </p>
           {Connection.map((item) => {
             return (
               <p
                 key={item}
                 style={{
                   color: '#fff',
-                  marginBottom: '0.5rem',
+                  marginBottom: '0.3rem',
                   wordWrap: 'break-word', //空格換行
+                  fontSize: '1rem',
                 }}
               >
                 {item.title}

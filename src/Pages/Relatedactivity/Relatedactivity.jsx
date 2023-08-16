@@ -1,19 +1,17 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { active } from './Inform'
 import './Relatedactivity.css'
 function Relatedactivity() {
+  const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowsWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
   return (
-    <div
-      className="AllBackground"
-      // style={{
-      //   display: "flex",
-      //   flexDirection: "column",
-      //   justifyContent: "center",
-      //   alignItems: "center",
-      //   background:
-      //     "linear-gradient(180deg, #000000 0%, #6AADD9 0.01%, rgba(0, 249, 255, 0) 56.56%, rgba(240, 240, 240, 0) 100%)",
-      // }}
-    >
+    <div className={windwosWidth > 500 && 'AllBackground'}>
       <div
         // className="AllContentBackground"
         style={{

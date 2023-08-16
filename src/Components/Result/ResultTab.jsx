@@ -5,7 +5,7 @@ import ResultTable from '../Result/Table/ResultTable'
 import { motion } from 'framer-motion'
 import { Grid, duration, Box } from '@mui/material'
 import './Result.css'
-function ResultTab() {
+function ResultTab({ windwosWidth }) {
   const [track, setTrack] = useState(1)
 
   const inputRef = useRef(null)
@@ -81,11 +81,10 @@ function ResultTab() {
                       )}
                       <p
                         style={{
-                          fontSize: track === item.Id ? '2.5rem' : '2rem',
+                          fontSize: windwosWidth > 650 ? '2rem' : '1.2rem',
                           color: track === item.Id ? '#fff' : '#8b8b8b',
                           margin: 0,
                           position: 'relative',
-                          // top:"2rem"
                         }}
                       >
                         {item.TabTitle}

@@ -17,6 +17,14 @@ function Traks() {
   const inputRef = useRef(null)
   const [topList, setTopList] = useState([])
   const [firstRender, setFirstRender] = useState(true)
+  const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowsWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
   useEffect(() => {
     setTopList([...topList, inputRef.current.offsetTop])
   }, [])
@@ -32,7 +40,7 @@ function Traks() {
   }, [id])
 
   return (
-    <div className="AllBackground">
+    <div className={windwosWidth > 500 && 'AllBackground'}>
       <Box sx={{ background: '#fdfdfd', margin: 0, minHeight: '100vh' }}>
         <TracksTab setOnHandle={setOnHandle} onHandle={onHandle} setFirstRender={setFirstRender} />
         <Grid

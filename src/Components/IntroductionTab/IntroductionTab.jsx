@@ -15,7 +15,7 @@ function IntroductionTab() {
 
   return (
     <>
-      <div className="AllContentBackground" style={{ padding: '3rem 3rem' }}>
+      <div className="AllContentBackground" style={{ padding: windwosWidth > 500 ? '3rem 3rem' : '1rem 1rem' }}>
         {/* 上方按鈕 */}
         <div
           style={{

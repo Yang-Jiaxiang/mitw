@@ -14,28 +14,18 @@ function OpenSource() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-            // left->right
-            // initial={{
-            //   x: "-150%",
-            // }}
-            // whileInView={{ opacity: 1 }}
-            // viewport={{ once: true }}
-            // animate={{
-            //   x: "0%",
-            // }}
-            // transition={{ delay: 0.7, duration: 0.7 }}
           >
             {/* -----------------------------上下布局-------------------------------- */}
             <Grid container spacing={1} sx={{ marginTop: '1rem' }}>
               {/* 上 */}
               <Grid item sx={12} sm={12} md={12} lg={12}>
-                <Grid container spacing={1} direction="row" key={i} gap={1}>
+                <Grid container spacing={1} direction="row" key={i}>
                   {/* 照片 */}
                   <Grid
                     item
                     sx={12}
-                    sm={3}
-                    md={3}
+                    sm={4}
+                    md={4}
                     style={{
                       display: 'flex',
                       alignItems: 'center',
@@ -91,14 +81,14 @@ function OpenSource() {
               </Grid>
               {/* 下 */}
               <Grid item>
-                <Grid container direction="row" gap={1.5}>
+                <Grid container direction="row">
                   {/* 參與賽道 */}
                   <Grid
                     item
                     sx={3}
                     sm={3}
-                    md={3}
-                    lg={3}
+                    md={4}
+                    lg={4}
                     style={{
                       whiteSpace: 'pre-line',
                       display: 'flex',
@@ -130,7 +120,7 @@ function OpenSource() {
                     </p>
                   </Grid>
                   {/* 介紹 */}
-                  <Grid item sx={9} sm={8.5} md={8.5} lg={8.5} xs={{ width: '100%' }}>
+                  <Grid item sx={9} sm={8.5} md={8} lg={8} xs={{ width: '100%' }}>
                     <p>{item.introduce}</p>
                   </Grid>{' '}
                 </Grid>{' '}

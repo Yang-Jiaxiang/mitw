@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { active } from './Inform'
 import './Workgroupactivity.css'
 function Workgroupactivity() {
+  const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowsWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
   return (
     <div
-      className="AllBackground"
+      className={windwosWidth > 500 && 'AllBackground'}
       style={{
         display: 'flex',
         flexDirection: 'column',

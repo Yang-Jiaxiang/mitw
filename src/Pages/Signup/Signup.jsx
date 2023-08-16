@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import { Inform } from './Inform'
 import { Grid } from '@mui/material'
 import './Signup.css'
 function Signup() {
+  const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowsWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
   return (
     <div
-      className="AllBackground"
+      className={windwosWidth > 500 && 'AllBackground'}
       style={{
         display: 'flex',
         flexDirection: 'column',

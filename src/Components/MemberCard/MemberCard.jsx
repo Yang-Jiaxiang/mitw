@@ -123,7 +123,7 @@ function MemberCard() {
           }}
         >
           <p style={{ fontSize: '2rem' }}>
-            Track{' '}
+            Tracks
             {windwosWidth > 960 ? (
               <TrackList />
             ) : (

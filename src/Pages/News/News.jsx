@@ -7,16 +7,24 @@ import NewsInform from './NewsInform.json'
 import TTime from '../../assets/TTimeblack.png'
 
 import { Grid, Box } from '@mui/material'
-import { useRef } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import { useInView } from 'framer-motion'
 import { motion, useMotionTemplate, useMotionValue } from 'framer-motion'
+import { newsData } from './Inform'
 
 function News() {
   const ref = useRef(null)
   const isInView = useInView(ref)
+  const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
+  useEffect(() => {
+    function handleResize() {
+      setWindowsWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
   return (
     <>
-      <div className="AllBackground" style={{ color: '#000' }}>
+      <div className={windwosWidth > 500 && 'AllBackground'} style={{ color: '#000' }}>
         {/* -----------------首圖------------------ */}
         <Box className="AllContentBackground">
           <Grid container spacing={1} direction="column" alignContent="center" alignItems="center">
@@ -47,12 +55,62 @@ function News() {
               {/* 地圖 */}
             </Grid>
 
+            <Grid
+              item
+              xs={11}
+              sm={11}
+              md={11}
+              lg={11}
+              style={{
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                padding: 0,
+                width: '100%',
+                marginBottom: '2rem',
+              }}
+            >
+              <Grid container direction="row" className="ContentBlock">
+                {newsData.map((item) => {
+                  return (
+                    <Grid
+                      item
+                      sx={12}
+                      sm={12}
+                      md={12}
+                      lg={12}
+                      style={{
+                        padding: '1rem',
+                        marginTop: '1rem',
+                        background: '#f1f1f1',
+                      }}
+                    >
+                      <div
+                        style={{
+                          width: '100%',
+                          justifyContent: 'center',
+                          alignItems: 'center',
+                          display: 'flex',
+                          fontWeight: 'bold',
+                          fontSize: windwosWidth > 1400 ? '1.5rem' : windwosWidth > 1000 ? '1.3rem' : '1.2rem',
+                          marginBottom: '1rem',
+                        }}
+                      >
+                        {item.title}
+                      </div>
+                      <div>{item.Content}</div>
+                    </Grid>
+                  )
+                })}
+              </Grid>
+            </Grid>
+
             {/*----------- 意見小組 -----------*/}
             <Grid
               item
-              xs={12}
-              sm={12}
-              md={12}
+              xs={11}
+              sm={11}
+              md={11}
               lg={11}
               style={{
                 display: 'flex',

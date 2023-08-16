@@ -1,36 +1,85 @@
-import { React, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import { ListTitle, List } from './Inform'
 import './Successcase.css'
-import { Grid } from '@mui/material'
+import { Box, Grid } from '@mui/material'
 import { motion } from 'framer-motion'
 
 function Successcase() {
-  const [onHandle, setOnHandle] = useState('1')
-  // const case={
+  const inputRef = useRef(null)
 
-  // }
+  const [onHandle, setOnHandle] = useState('1')
+  const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
+  const [topList, setTopList] = useState([])
+  useEffect(() => {
+    setTopList([...topList, inputRef.current.offsetTop])
+  }, [])
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowsWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
+
   return (
-    <div className="AllBackground">
+    <div
+      className={windwosWidth > 500 && 'AllBackground'}
+      style={{
+        padding: windwosWidth <= 500 && '0rem 1rem',
+      }}
+    >
       {/*格局 左|上下*/}
+
+      {windwosWidth < 900 && (
+        <div
+          style={{
+            position: 'sticky',
+            top: topList > 0 ? topList[0] - 35 : null,
+            background: '#fdfdfd',
+            height: '40px',
+            zIndex: 998,
+          }}
+        >
+          <Box
+            style={{
+              display: 'flex',
+              width: '100%',
+              justifyContent: 'space-between',
+              padding: '0.5rem 1rem 1rem 1rem',
+              height: '40px',
+            }}
+          >
+            {ListTitle.map((item) => {
+              return (
+                <p
+                  onClick={() => setOnHandle(item.id)}
+                  style={{
+                    fontWeight: 'bold',
+                    fontSize: windwosWidth < 700 ? (windwosWidth < 500 ? '0.6rem' : '0.6rem') : '1rem',
+                  }}
+                >
+                  {item.title}
+                </p>
+              )
+            })}
+          </Box>
+        </div>
+      )}
 
       <Grid
         container
         spacing={1}
-        // direction="row"
-        // gap={5}
+        ref={inputRef}
         style={{
-          // background: "#fdfdfd",
-          // padding: "2rem 0",
           justifyContent: 'space-around',
           minHeight: '100vh',
         }}
         className="AllContentBackground"
       >
-        {/*左--選單 */}
         <Grid
           item
           xs={12}
-          sm={2}
+          sm={12}
           md={2}
           lg={1.5}
           style={{
@@ -38,21 +87,12 @@ function Successcase() {
             justifyContent: 'center',
           }}
         >
-          {/* 選單 */}
-          <motion.div
-            initial={{ x: -200 }}
-            animate={{ x: 0 }}
-            transition={{ duration: 0.8 }}
-            //style={{ width: "20%" }}
-            style={{
-              position: 'sticky',
-              top: '5rem',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'flex-start',
-            }}
-          >
-            <div
+          {windwosWidth > 900 && (
+            <motion.div
+              initial={{ x: -200 }}
+              animate={{ x: 0 }}
+              transition={{ duration: 0.8 }}
+              //style={{ width: "20%" }}
               style={{
                 position: 'sticky',
                 top: '5rem',
@@ -61,46 +101,53 @@ function Successcase() {
                 alignItems: 'flex-start',
               }}
             >
-              {ListTitle.map((item, i) => {
-                return (
-                  <>
-                    <button
-                      onClick={() => setOnHandle(item.id)}
-                      className="SuccessSectionTab"
-                      style={{
-                        backgroundColor: 'Transparent',
-                        backgroundRepeat: 'no-repeat',
-                        border: 'none',
-                        cursor: 'pointer',
-                        overflow: 'hidden',
-                        fontSize: onHandle === item.id ? '1.1rem' : '1rem',
-                        margin: 0,
-                        color: onHandle === item.id ? '#000' : '#949494',
-                        marginBottom: '0.5rem',
-                        padding: 0,
-                      }}
-                      key={i}
-                    >
-                      {item.title}
-                    </button>
-                  </>
-                )
-              })}
-            </div>
-          </motion.div>
+              <div
+                style={{
+                  position: 'sticky',
+                  top: '5rem',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'flex-start',
+                }}
+              >
+                {ListTitle.map((item, i) => {
+                  return (
+                    <>
+                      <button
+                        onClick={() => setOnHandle(item.id)}
+                        className="SuccessSectionTab"
+                        style={{
+                          backgroundColor: 'Transparent',
+                          backgroundRepeat: 'no-repeat',
+                          border: 'none',
+                          cursor: 'pointer',
+                          overflow: 'hidden',
+                          fontSize: onHandle === item.id ? '1.1rem' : '1rem',
+                          margin: 0,
+                          color: onHandle === item.id ? '#000' : '#949494',
+                          marginBottom: '0.5rem',
+                          padding: 0,
+                        }}
+                        key={i}
+                      >
+                        {item.title}
+                      </button>
+                    </>
+                  )
+                })}
+              </div>
+            </motion.div>
+          )}
+          {/* 選單 */}
         </Grid>
         {/* 上--目前案例 */}
-        <Grid item xs={12} sm={9} md={9} lg={9}>
+        <Grid item xs={12} sm={12} md={9} lg={9}>
           <Grid container spacing={1} direction="column">
             <Grid
               item
               style={{
-                // width: "85%",
                 borderLeft: '5px solid orange',
-                // height: "50px",
                 paddingLeft: '1rem',
-
-                // marginTop: "2%",
                 alignItems: 'flex-end',
               }}
             >

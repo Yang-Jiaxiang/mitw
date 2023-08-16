@@ -8,6 +8,7 @@ import { motion } from 'framer-motion'
 import { Waypoint } from 'react-waypoint'
 function Specification() {
   const [onHandle, setOnHandle] = useState('1')
+  const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
 
   const inputRef = useRef(null)
   const [topList, setTopList] = useState([])
@@ -15,9 +16,16 @@ function Specification() {
   useEffect(() => {
     setTopList([...topList, inputRef.current.offsetTop])
   }, [])
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowsWidth(window.innerWidth)
+    }
+    window.addEventListener('resize', handleResize)
+  })
   return (
     <>
-      <div className="AllBackground">
+      <div className={windwosWidth > 500 && 'AllBackground'}>
         <div className="AllContentBackground" style={{ padding: '2vw 5vw' }}>
           {/* 公開意見徵求 */}
           <motion.div

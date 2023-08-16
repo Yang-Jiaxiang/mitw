@@ -58,7 +58,11 @@ function Main() {
               <a
                 href="https://goo.gl/maps/yUavFiSYCd612aS37"
                 target="_blank"
-                style={{ color: '#fff', marginBottom: '3vh', fontSize: windwosWidth < 600 ? '1.2rem' : '1.5rem' }}
+                style={{
+                  color: '#fff',
+                  marginBottom: '3vh',
+                  fontSize: windwosWidth < 600 ? (windwosWidth < 600 ? '1rem' : '1.2rem') : '1.5rem',
+                }}
               >
                 <NearMeIcon />
                 台北市信義區松仁路9號(國泰金融會議中心)
