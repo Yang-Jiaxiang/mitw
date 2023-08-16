@@ -104,7 +104,7 @@ function Specification() {
                       paddingTop: firstRender ? 0 : topList > 0 ? topList[0] - 5 : null,
                     }}
                   >
-                    <Waypoint onEnter={() => setOnHandle(item.id)} />
+                    <Waypoint onEnter={() => setOnHandle(item.id)} bottomOffset={(window.innerHeight / 4) * 3} />
                     <motion.h2
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
