@@ -82,7 +82,6 @@ function MemberCard() {
           sx={{ boxShadow: 'none', '.MuiOutlinedInput-notchedOutline': { border: 0 } }}
         >
           {Tabs.map((item) => {
-            console.log(item)
             return (
               <MenuItem value={item.id}>
                 {item.id}-{item.name}

@@ -16,7 +16,6 @@ function Traks() {
 
   const inputRef = useRef(null)
   const [topList, setTopList] = useState([])
-  const [firstRender, setFirstRender] = useState(true)
   const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
 
   useEffect(() => {
@@ -31,27 +30,25 @@ function Traks() {
 
   useEffect(() => {
     setClick('1')
-    setFirstRender(true)
   }, [onHandle, id])
 
   useEffect(() => {
     setClick('1')
-    setFirstRender(true)
   }, [id])
 
   return (
     <div className={windwosWidth > 500 && 'AllBackground'}>
       <Box sx={{ background: '#fdfdfd', margin: 0, minHeight: '100vh' }}>
-        <TracksTab setOnHandle={setOnHandle} onHandle={onHandle} setFirstRender={setFirstRender} />
+        <TracksTab setOnHandle={setOnHandle} onHandle={onHandle} />
         <Grid
           container
           sx={{
             justifyContent: 'space-around',
           }}
         >
-          <SectionListTab onHandle={onHandle} Click={Click} setClick={setClick} setFirstRender={setFirstRender} />
+          <SectionListTab onHandle={onHandle} Click={Click} setClick={setClick} windwosWidth={windwosWidth} />
 
-          <Grid item xs={8} sm={8} md={8} lg={9}>
+          <Grid item xs={12} sm={8} md={8} lg={9}>
             <Grid
               item
               xs={12}
@@ -59,6 +56,7 @@ function Traks() {
               md={12}
               lg={12}
               sx={{
+                padding: windwosWidth <= 500 && '0 1rem',
                 paddingBottom: '3rem ',
                 margin: 0,
                 display: 'flex',

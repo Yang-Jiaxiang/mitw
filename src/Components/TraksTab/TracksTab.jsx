@@ -5,7 +5,7 @@ import { NavLink, useParams } from 'react-router-dom'
 
 import { Grid, Box } from '@mui/material'
 
-function TracksTab({ setOnHandle, onHandle, setFirstRender }) {
+function TracksTab({ setOnHandle, onHandle, windwosWidth }) {
   const inputRef = useRef(null)
   const [topList, setTopList] = useState([])
 
@@ -35,7 +35,6 @@ function TracksTab({ setOnHandle, onHandle, setFirstRender }) {
               key={item}
               onClick={() => {
                 setOnHandle(item.Id)
-                setFirstRender(false)
               }}
               style={{
                 color: onHandle === item.Id ? '#000' : null,
