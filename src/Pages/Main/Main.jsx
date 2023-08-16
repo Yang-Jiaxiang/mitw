@@ -66,7 +66,7 @@ function Main() {
         }}
       >
         <ReactPlayer
-          url="https://youtu.be/fzyurYjOLn8"
+          url={process.env.REACT_APP_MAIN_VIDEO}
           width={window.innerWidth * 0.9}
           height={((window.innerWidth * 0.9) / 16) * 8}
           style={{ margin: '1rem 5% 0 5%' }}
