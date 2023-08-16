@@ -64,12 +64,7 @@ function Specification() {
               }}
             >
               {/* 選單 */}
-              <motion.div
-                initial={{ x: -200 }}
-                animate={{ x: 0 }}
-                transition={{ duration: 0.8 }}
-                //style={{ width: "20%" }}
-              >
+              <motion.div initial={{ x: -200 }} animate={{ x: 0 }} transition={{ duration: 0.8 }}>
                 <div style={{ position: 'sticky', top: '5.5rem' }}>
                   {ListTitle.map((item) => {
                     return (
@@ -105,14 +100,19 @@ function Specification() {
                 return (
                   <section
                     key={item.id}
-                    id={item.id}
                     style={{
                       display: 'flex',
                       flexDirection: 'column',
-                      paddingTop: firstRender ? 0 : topList > 0 ? topList[0] - 5 : null,
                     }}
                   >
-                    <Waypoint onEnter={() => setOnHandle(item.id)} bottomOffset={(window.innerHeight / 4) * 3} />
+                    <div
+                      id={item.id}
+                      style={{
+                        position: 'relative',
+                        top: -topList[0],
+                      }}
+                    ></div>
+                    <Waypoint onEnter={() => setOnHandle(item.id)} bottomOffset={window.innerHeight - topList[0]} />
                     <motion.h2
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}

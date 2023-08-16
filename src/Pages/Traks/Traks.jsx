@@ -70,14 +70,17 @@ function Traks() {
             >
               {TraksTabInform.find((item) => item.Id === onHandle).List.map((sc) => {
                 return (
-                  <section
-                    id={sc.id}
-                    key={sc.id}
-                    style={{ paddingTop: firstRender ? 0 : topList > 0 ? topList[0] - 5 : null, minHeight: '50vh' }}
-                  >
+                  <section key={sc.id}>
+                    <div
+                      id={sc.id}
+                      style={{
+                        position: 'relative',
+                        top: -topList[0],
+                      }}
+                    ></div>
                     <Waypoint
-                      bottomOffset={(window.innerHeight / 4) * 3}
-                      onEnter={({ previousPosition, currentPosition, waypointTop, viewportTop }) => {
+                      bottomOffset={window.innerHeight - topList[0]}
+                      onEnter={() => {
                         setClick(sc.id)
                       }}
                     />

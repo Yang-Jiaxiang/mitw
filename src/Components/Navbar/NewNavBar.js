@@ -36,7 +36,6 @@ function ResponsiveAppBar() {
     }
     window.addEventListener('resize', handleResize)
   })
-
   return (
     <AppBar position="sticky" sx={{ background: '#fdfdfd', boxShadow: 0, zIndex: 1000 }} component="nav">
       <Container maxWidth="xxl">
