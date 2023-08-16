@@ -5,7 +5,7 @@ import maintitle from '../../assets/Title.png'
 import { useInView } from 'framer-motion'
 import { motion } from 'framer-motion'
 import ReactPlayer from 'react-player/youtube'
-
+import NearMeIcon from '@mui/icons-material/NearMe'
 import './Main.css'
 
 function Main() {
@@ -51,11 +51,36 @@ function Main() {
           alignItems: 'flex-end',
         }}
       >
-        <a href="https://goo.gl/maps/yUavFiSYCd612aS37" target="_blank" style={{ color: '#fff', marginBottom: '3vh' }}>
-          <h3>台北市信義區松仁路9號(國泰金融會議中心)</h3>
-        </a>
+        {windwosWidth < 1000 ? (
+          <>
+            <p style={{ color: '#fff', fontSize: windwosWidth < 600 ? '1.2rem' : '1.5rem' }}>10/03(二)-10/06(五)</p>
+            <p style={{ color: '#fff', fontSize: windwosWidth < 600 ? '1.2rem' : '1.5rem' }}>
+              <a
+                href="https://goo.gl/maps/yUavFiSYCd612aS37"
+                target="_blank"
+                style={{ color: '#fff', marginBottom: '3vh', fontSize: windwosWidth < 600 ? '1.2rem' : '1.5rem' }}
+              >
+                <NearMeIcon />
+                台北市信義區松仁路9號(國泰金融會議中心)
+              </a>
+            </p>
+          </>
+        ) : (
+          <p style={{ color: '#fff', fontSize: '1.5rem' }}>
+            10/03(二)-10/06(五)- 地點：
+            <a
+              href="https://goo.gl/maps/yUavFiSYCd612aS37"
+              target="_blank"
+              style={{ color: '#fff', marginBottom: '3vh', fontSize: '1.5rem' }}
+            >
+              <NearMeIcon />
+              台北市信義區松仁路9號(國泰金融會議中心)
+            </a>
+          </p>
+        )}
+
         <a href="https://mitw.dicom.org.tw/pdf/mitw2023_DM.pdf" target="_blank" style={{ color: '#fff' }}>
-          MITW-DM 宣傳單下載 <AiOutlineDownload />
+          MITW-DM 宣傳單下載
         </a>
       </motion.div>
 

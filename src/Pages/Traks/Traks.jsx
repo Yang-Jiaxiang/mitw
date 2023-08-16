@@ -17,7 +17,6 @@ function Traks() {
   const inputRef = useRef(null)
   const [topList, setTopList] = useState([])
   const [firstRender, setFirstRender] = useState(true)
-
   useEffect(() => {
     setTopList([...topList, inputRef.current.offsetTop])
   }, [])
@@ -25,7 +24,12 @@ function Traks() {
   useEffect(() => {
     setClick('1')
     setFirstRender(true)
-  }, [onHandle])
+  }, [onHandle, id])
+
+  useEffect(() => {
+    setClick('1')
+    setFirstRender(true)
+  }, [id])
 
   return (
     <div className="AllBackground">
@@ -63,13 +67,12 @@ function Traks() {
                     key={sc.id}
                     style={{ paddingTop: firstRender ? 0 : topList > 0 ? topList[0] - 5 : null, minHeight: '50vh' }}
                   >
-                    <div
-                      style={{
-                        background: '#000',
+                    <Waypoint
+                      bottomOffset={(window.innerHeight / 4) * 3}
+                      onEnter={({ previousPosition, currentPosition, waypointTop, viewportTop }) => {
+                        setClick(sc.id)
                       }}
-                    >
-                      <Waypoint onEnter={() => setClick(sc.id)} />
-                    </div>
+                    />
 
                     <h2
                       className="TracksH1"

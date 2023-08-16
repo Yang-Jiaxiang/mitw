@@ -28,7 +28,6 @@ function TracksTab({ setOnHandle, onHandle, setFirstRender }) {
       }}
     >
       {TraksTabInform.map((item) => {
-        console.log(item)
         return (
           <NavLink to={`../Tracks/${item.Id}`}>
             <button
