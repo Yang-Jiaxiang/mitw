@@ -54,6 +54,7 @@ function Successcase() {
                 <p
                   onClick={() => setOnHandle(item.id)}
                   style={{
+                    cursor: 'pointer',
                     fontWeight: 'bold',
                     fontSize: windwosWidth < 700 ? (windwosWidth < 500 ? '0.6rem' : '0.6rem') : '1rem',
                   }}
@@ -92,10 +93,7 @@ function Successcase() {
               initial={{ x: -200 }}
               animate={{ x: 0 }}
               transition={{ duration: 0.8 }}
-              //style={{ width: "20%" }}
               style={{
-                position: 'sticky',
-                top: '5rem',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'flex-start',
@@ -103,9 +101,9 @@ function Successcase() {
             >
               <div
                 style={{
-                  position: 'sticky',
-                  top: '5rem',
                   display: 'flex',
+                  position: 'sticky',
+                  top: topList[0] + 10,
                   flexDirection: 'column',
                   alignItems: 'flex-start',
                 }}
