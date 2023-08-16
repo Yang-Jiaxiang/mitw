@@ -53,7 +53,6 @@ import ImgDialog from '../Dialog/Dialog'
 // Img={Ts1}裡面引入圖片
 // Width={"80%"}一般檢視頁面中的大小
 import ReactPlayer from 'react-player/youtube'
-
 export const TraksTabInform = [
   {
     Id: '1',
@@ -65,7 +64,7 @@ export const TraksTabInform = [
         id: '1',
         Sc: '簡介 (Summary)',
         content: (
-          <>
+          <div width="100%">
             <ul>
               <li>
                 病患基本資料為醫療資訊系統中最基本元素，涵蓋所有電子病歷的範疇。本工作小組主要分析台灣病人基本資料之規格，根據國內現況制定出適合台灣病患基本資要用跨系統交換，以達到基本的互通性，並相容台灣核心規範。
@@ -78,7 +77,20 @@ export const TraksTabInform = [
                 </ol>
               </li>
             </ul>
-          </>
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/XA-8ddfFvA8" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1h_pxZWnYVmIbqtN7wJoaXoR-Zq7N0q3d/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
         ),
       },
       {
@@ -528,19 +540,7 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: (
-          <>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/XA-8ddfFvA8" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1h_pxZWnYVmIbqtN7wJoaXoR-Zq7N0q3d/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
-          </>
-        ),
+        content: <></>,
       },
       {
         id: '7',
@@ -603,7 +603,7 @@ export const TraksTabInform = [
         id: '1',
         Sc: '簡介 (Summary)',
         content: (
-          <>
+          <div>
             <p>
               生理量測數據是為了患者監測和識別健康變化或問題而記錄的重要信息。生理量測數據包括身高、體重、體溫、進食後血糖、進食前血糖、體脂率、握力、血壓
               (收縮壓、舒張壓)、心率等數據。生理量測數據通常在各種醫療保健場所定期和常規進行，包括入院檢查、住院監護、術後醫療程序、治療和療法程序以及密切監護。
@@ -619,7 +619,20 @@ export const TraksTabInform = [
             <p>
               本工作小組制定台灣的生理量測數據交換標準規範，並鼓勵參與者在開發涉及生理量測數據記錄功能的系統時遵循本規範。
             </p>
-          </>
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/REAL2DsjLrA" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1DCBOkQn2lWaeX_oiXpQPrHlosxn-Ppv0/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
+          </div>
         ),
       },
       {
@@ -1176,19 +1189,7 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: (
-          <>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/REAL2DsjLrA" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1DCBOkQn2lWaeX_oiXpQPrHlosxn-Ppv0/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
-          </>
-        ),
+        content: <></>,
       },
       {
         id: '7',
@@ -1274,6 +1275,19 @@ export const TraksTabInform = [
               應用規範與範例，提供產業應用交流與參考，以達到基本的跨系統互通性，並相容衛生福利部台灣核心實作指引(TW FHIR
               Core IG)規。本工作小組任務目標與範圍著重在 FHIR Resource 中請求類 Request Resource 為主。
             </p>
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/Hdw43e1_lFQ" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1i1U1ZAqbeIqMFV87JqD8xahGNHGeO9NZ/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </>
         ),
       },
@@ -1462,19 +1476,7 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: (
-          <>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/Hdw43e1_lFQ" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1i1U1ZAqbeIqMFV87JqD8xahGNHGeO9NZ/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
-          </>
-        ),
+        content: <></>,
       },
       {
         id: '7',
@@ -1565,6 +1567,19 @@ export const TraksTabInform = [
               國內廠商自行研發超音波儀器，但苦於現有PACS與HIS廠商進行驗證，每次需要都需要在個別的醫院進行介接測試，本情境提供一個良好的技術交流場域，讓國內外多家廠商聯合測試，已證明產品符合國際醫學資訊標準規範。聯測驗證標準比照國際IHE聯測規格，提供測試IHE
               SWF(Scheduled Worflow)規範，讓國內業者能依據IHE SWF實作產品作為開拓國際市場前的產品標準化驗證。
             </p>
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/WAIDi2cHnKw" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1h_0AxAD4jwWEkW4Bh5p9YwvLIYO12Krq/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </>
         ),
       },
@@ -2282,15 +2297,6 @@ export const TraksTabInform = [
               </li>
               <li>參考網址</li>
             </ul>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/WAIDi2cHnKw" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1h_0AxAD4jwWEkW4Bh5p9YwvLIYO12Krq/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
           </>
         ),
       },
@@ -2400,6 +2406,19 @@ export const TraksTabInform = [
               myHealthBank)現有單張規範為基礎，進行資料內容的定義，並將其以台灣現有參考台灣FHIR核心實作指引(Tw Core
               IG)規範為基礎進行設計，納入整體交換架構規範中，期望讓已經有其基礎的醫療院所、醫療資訊服務提供商可以加速落實互操作架構開發，並推動我國醫療單張跨機構交換之效率。
             </p>
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/u9skDJcMxXo" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1i6_qOodMipdgk0LyzS-_znmtvBkGBC2x/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </>
         ),
       },
@@ -2916,19 +2935,7 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: (
-          <>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/u9skDJcMxXo" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1i6_qOodMipdgk0LyzS-_znmtvBkGBC2x/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
-          </>
-        ),
+        content: <></>,
       },
       ,
       {
@@ -3224,6 +3231,19 @@ export const TraksTabInform = [
                 </p>
               </li>
             </ul>
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/jSYB5ZICec4" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1hKZYzOQJKcZStq26u0lrUDKhhaAj5POQ/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </>
         ),
       },
@@ -3613,19 +3633,7 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: (
-          <>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/jSYB5ZICec4" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1hKZYzOQJKcZStq26u0lrUDKhhaAj5POQ/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
-          </>
-        ),
+        content: <></>,
       },
       ,
       {
@@ -3843,6 +3851,19 @@ export const TraksTabInform = [
                 </span>
               </li>
             </ul>
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/4Bb91YxGL94" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1ha7MrS5ZNfAQHGpsE0xf11mbV6kysh3f/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </>
         ),
       },
@@ -4439,15 +4460,6 @@ export const TraksTabInform = [
                 </a>
               </li>
             </ol>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/4Bb91YxGL94" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1ha7MrS5ZNfAQHGpsE0xf11mbV6kysh3f/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
           </>
         ),
       },
@@ -4521,6 +4533,20 @@ export const TraksTabInform = [
             <center>
               <img src={track8_1} Width="70%" />
             </center>
+
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/HeQocyAPPLY" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1hKaNzFpLGFickoMrXprAbhf3TttIUq74/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </>
         ),
       },
@@ -4919,19 +4945,7 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: (
-          <>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/HeQocyAPPLY" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1hKaNzFpLGFickoMrXprAbhf3TttIUq74/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
-          </>
-        ),
+        content: <></>,
       },
       ,
       {
@@ -5010,7 +5024,20 @@ export const TraksTabInform = [
             <p>Scenario 1: 遠距醫療病患基本資料維護</p>
             <p>Scenario 2: 遠距端掛號作業</p>
             <p>Scenario 3: 在地端檢驗檢查上傳與遠距端診斷結果回傳</p>
-            <p>Scenario 4: 在地端診療診斷結果上傳</p>
+            <p>Scenario 4: 在地端診療診斷結果上傳</p>{' '}
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/HzZla7PIvjA" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1i7S_51kmXbWLE8ZGRL6fDVJBnnRM0tEk/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </>
         ),
       },
@@ -5339,19 +5366,7 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: (
-          <>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/HzZla7PIvjA" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1i7S_51kmXbWLE8ZGRL6fDVJBnnRM0tEk/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
-          </>
-        ),
+        content: <></>,
       },
       ,
       {
@@ -5397,6 +5412,19 @@ export const TraksTabInform = [
                 </span>
               </li>
             </ul>
+            <div width="100%">
+              <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
+              <ReactPlayer url="https://youtu.be/GLsm8sRmnMQ" width="100%" />
+            </div>
+            <div width="100%" style={{ marginTop: '1rem' }}>
+              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
+              <iframe
+                src="https://drive.google.com/file/d/1hLXvniYeCK1V8H2lQHwVQKtYh8hM_wnS/preview"
+                width="100%"
+                height="480"
+                allow="autoplay"
+              ></iframe>
+            </div>
           </>
         ),
       },
@@ -8517,19 +8545,7 @@ export const TraksTabInform = [
       {
         id: '6',
         Sc: '其他(See Also)',
-        content: (
-          <>
-            <h3>賽道介紹</h3>
-            <ReactPlayer url="https://youtu.be/GLsm8sRmnMQ" width="50vw" />
-            <h3>賽道簡報</h3>
-            <iframe
-              src="https://drive.google.com/file/d/1hLXvniYeCK1V8H2lQHwVQKtYh8hM_wnS/preview"
-              width="100%"
-              height="480"
-              allow="autoplay"
-            ></iframe>
-          </>
-        ),
+        content: <></>,
       },
       ,
       {
