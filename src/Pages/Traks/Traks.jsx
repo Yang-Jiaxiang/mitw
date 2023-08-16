@@ -83,7 +83,7 @@ function Traks() {
                       {sc.Sc}
                     </h2>
 
-                    {sc.content}
+                    <div>{sc.content}</div>
                   </section>
                 )
               })}
