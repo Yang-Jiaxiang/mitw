@@ -88,7 +88,7 @@ function News() {
                 </Grid>
                 {/* 右半文字 */}
                 <Grid item sx={8} sm={8} md={8} lg={8} padding="2vw" width="100%">
-                  <h3
+                  <p
                     className="NewsH3"
                     style={{
                       marginBottom: '3rem',
@@ -99,7 +99,7 @@ function News() {
                     }}
                   >
                     {NewsInform.title.p1}
-                  </h3>
+                  </p>
                   <ul style={{ margin: 0 }}>
                     <h4>
                       {NewsInform.p1.hash1}
