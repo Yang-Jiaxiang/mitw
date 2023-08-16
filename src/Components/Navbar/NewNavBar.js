@@ -45,6 +45,7 @@ function ResponsiveAppBar() {
             variant="h6"
             noWrap
             component="a"
+            href={process.env.REACT_APP_APP_HOST}
             sx={{
               mr: 2,
               display: 'flex',
