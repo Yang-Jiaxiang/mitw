@@ -2,7 +2,7 @@
   "name": "mitw",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ling7927.github.io",
+  "homepage": "https://Yang-Jiaxiang.github.io/mitw",
   "dependencies": {
     "@coreui/react": "^5.0.0-alpha.0",
     "@emotion/react": "^11.10.6",

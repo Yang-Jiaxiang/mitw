@@ -30,16 +30,16 @@ function Footer() {
               <Grid container alignItems="baseline" justifyContent="flex-start">
                 <Grid
                   item
-                  sm={3}
-                  md={3}
-                  lg={3}
+                  sm={4}
+                  md={4}
+                  lg={4}
                   className="LeftBlock"
                   style={{
                     paddingLeft: '2vh',
                     justifyContent: ' space-between',
                   }}
                 >
-                  <p key={item} style={{ color: '#fff', fontSize: '1rem' }}>
+                  <p key={item} style={{ color: '#fff', fontSize: '1rem', textAlign: 'right' }}>
                     {item.title}
                   </p>
                 </Grid>
