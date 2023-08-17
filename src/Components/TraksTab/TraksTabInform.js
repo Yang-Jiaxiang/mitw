@@ -63,6 +63,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1h_pxZWnYVmIbqtN7wJoaXoR-Zq7N0q3d/preview',
         content: (
           <div width="100%">
             <ul>
@@ -80,15 +81,6 @@ export const TraksTabInform = [
             <div width="100%">
               <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
               <ReactPlayer url="https://youtu.be/XA-8ddfFvA8" width="100%" />
-            </div>
-            <div width="100%" style={{ marginTop: '1rem' }}>
-              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1h_pxZWnYVmIbqtN7wJoaXoR-Zq7N0q3d/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </div>
         ),
@@ -602,6 +594,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1IE4n9qyKPifLtp8zDTE-jfCIQXICGUre/view',
         content: (
           <div>
             <p>
@@ -622,15 +615,6 @@ export const TraksTabInform = [
             <div width="100%">
               <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
               <ReactPlayer url="https://youtu.be/REAL2DsjLrA" width="100%" />
-            </div>
-            <div width="100%" style={{ marginTop: '1rem' }}>
-              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1DCBOkQn2lWaeX_oiXpQPrHlosxn-Ppv0/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </div>
         ),
@@ -1265,6 +1249,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1i1U1ZAqbeIqMFV87JqD8xahGNHGeO9NZ/preview',
         content: (
           <>
             <p>
@@ -1278,15 +1263,6 @@ export const TraksTabInform = [
             <div width="100%">
               <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
               <ReactPlayer url="https://youtu.be/Hdw43e1_lFQ" width="100%" />
-            </div>
-            <div width="100%" style={{ marginTop: '1rem' }}>
-              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1i1U1ZAqbeIqMFV87JqD8xahGNHGeO9NZ/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </>
         ),
@@ -1538,9 +1514,9 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1h_0AxAD4jwWEkW4Bh5p9YwvLIYO12Krq/preview',
         content: (
           <>
-            {' '}
             <h3>影像與標記互通 </h3>
             <p>
               測試醫學影像以及數位病理影像儲存管理主機 (Source)以及顯示端
@@ -1570,15 +1546,6 @@ export const TraksTabInform = [
             <div width="100%">
               <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
               <ReactPlayer url="https://youtu.be/WAIDi2cHnKw" width="100%" />
-            </div>
-            <div width="100%" style={{ marginTop: '1rem' }}>
-              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1h_0AxAD4jwWEkW4Bh5p9YwvLIYO12Krq/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </>
         ),
@@ -2389,6 +2356,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1i6_qOodMipdgk0LyzS-_znmtvBkGBC2x/preview',
         content: (
           <>
             <p>
@@ -2409,15 +2377,6 @@ export const TraksTabInform = [
             <div width="100%">
               <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
               <ReactPlayer url="https://youtu.be/u9skDJcMxXo" width="100%" />
-            </div>
-            <div width="100%" style={{ marginTop: '1rem' }}>
-              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1i6_qOodMipdgk0LyzS-_znmtvBkGBC2x/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </>
         ),
@@ -3188,6 +3147,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1hKZYzOQJKcZStq26u0lrUDKhhaAj5POQ/preview',
         content: (
           <>
             <ul class="part in-view" data-startline="1027" data-endline="1035" data-position="50997" data-size="0">
@@ -3234,15 +3194,6 @@ export const TraksTabInform = [
             <div width="100%">
               <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
               <ReactPlayer url="https://youtu.be/jSYB5ZICec4" width="100%" />
-            </div>
-            <div width="100%" style={{ marginTop: '1rem' }}>
-              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1hKZYzOQJKcZStq26u0lrUDKhhaAj5POQ/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </>
         ),
@@ -3786,6 +3737,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1ha7MrS5ZNfAQHGpsE0xf11mbV6kysh3f/preview',
         content: (
           <>
             <p>
@@ -3854,15 +3806,6 @@ export const TraksTabInform = [
             <div width="100%">
               <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
               <ReactPlayer url="https://youtu.be/4Bb91YxGL94" width="100%" />
-            </div>
-            <div width="100%" style={{ marginTop: '1rem' }}>
-              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1ha7MrS5ZNfAQHGpsE0xf11mbV6kysh3f/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </>
         ),
@@ -4516,6 +4459,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1hKaNzFpLGFickoMrXprAbhf3TttIUq74/preview',
         content: (
           <>
             <p>
@@ -4540,12 +4484,6 @@ export const TraksTabInform = [
             </div>
             <div width="100%" style={{ marginTop: '1rem' }}>
               <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1hKaNzFpLGFickoMrXprAbhf3TttIUq74/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </>
         ),
@@ -5015,6 +4953,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1i7S_51kmXbWLE8ZGRL6fDVJBnnRM0tEk/preview',
         content: (
           <>
             <p>
@@ -5028,15 +4967,6 @@ export const TraksTabInform = [
             <div width="100%">
               <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
               <ReactPlayer url="https://youtu.be/HzZla7PIvjA" width="100%" />
-            </div>
-            <div width="100%" style={{ marginTop: '1rem' }}>
-              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1i7S_51kmXbWLE8ZGRL6fDVJBnnRM0tEk/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </>
         ),
@@ -5385,6 +5315,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
+        profile: 'https://drive.google.com/file/d/1hLXvniYeCK1V8H2lQHwVQKtYh8hM_wnS/preview',
         content: (
           <>
             <ul class="part in-view" data-startline="1410" data-endline="1414" data-position="66206" data-size="0">
@@ -5415,15 +5346,6 @@ export const TraksTabInform = [
             <div width="100%">
               <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
               <ReactPlayer url="https://youtu.be/GLsm8sRmnMQ" width="100%" />
-            </div>
-            <div width="100%" style={{ marginTop: '1rem' }}>
-              <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
-              <iframe
-                src="https://drive.google.com/file/d/1hLXvniYeCK1V8H2lQHwVQKtYh8hM_wnS/preview"
-                width="100%"
-                height="480"
-                allow="autoplay"
-              ></iframe>
             </div>
           </>
         ),

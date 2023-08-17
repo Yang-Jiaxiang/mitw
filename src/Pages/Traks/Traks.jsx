@@ -4,9 +4,10 @@ import { TraksTabInform } from '../../Components/TraksTab/TraksTabInform'
 import Section from '../../Components/TraksTab/Section'
 import TracksTab from '../../Components/TraksTab/TracksTab'
 import SectionListTab from '../../Components/TraksTab/SectionListTab'
-import { Grid, Box } from '@mui/material'
+import { Grid, Box, Button } from '@mui/material'
 import '../../Components/TraksTab/TraksTab.css'
 import { useParams } from 'react-router-dom'
+import SendIcon from '@mui/icons-material/Send'
 import { Waypoint } from 'react-waypoint'
 
 function Traks() {
@@ -93,6 +94,23 @@ function Traks() {
                       }}
                     >
                       {sc.Sc}
+                      {sc.id === '1' && (
+                        <Button
+                          variant="outlined"
+                          startIcon={<SendIcon />}
+                          onClick={() => {
+                            window.open(sc.profile, '_blank', 'noopener,noreferrer')
+                          }}
+                          style={{
+                            marginLeft: '2rem',
+                            color: '#000',
+                            borderColor: '#000',
+                            fontWeight: 'bold',
+                          }}
+                        >
+                          展開簡報
+                        </Button>
+                      )}
                     </h2>
 
                     <div>{sc.content}</div>
