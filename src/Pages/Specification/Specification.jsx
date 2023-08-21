@@ -12,7 +12,7 @@ function Specification() {
 
   const inputRef = useRef(null)
   const [topList, setTopList] = useState([])
-  const [firstRender, setFirstRender] = useState(true)
+
   useEffect(() => {
     setTopList([...topList, inputRef.current.offsetTop])
   }, [])
@@ -72,7 +72,6 @@ function Specification() {
                         to={`#${item.id}`}
                         onClick={() => {
                           setOnHandle(item.id)
-                          setFirstRender(false)
                         }}
                         key={item.id}
                         style={{
