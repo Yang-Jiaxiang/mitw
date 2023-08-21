@@ -1,9 +1,11 @@
 import s1 from '../../assets/specification_1.png'
 import s4 from '../../assets/specification_4.png'
+import Authorization from '../../assets/Authorization.png'
 import SpecificantionTable from '../../Components/Specificantion/SpecificantionTable/SpecificantionTable'
 import LevelTable from '../../Components/Specificantion/LevelTable/LevelTable'
 import OpenSourceTable from '../../Components/Specificantion/OpenSourceTable/OpenSourceTable'
 import ImgDialog from '../../Components/Dialog/Dialog'
+
 const P1 = {
   title: '公開徵求意見(Call for public comments)',
   context:
@@ -60,7 +62,7 @@ const List = [
             成果展示：
             參加者通過聯測後，將提供成果展示活動，包含實體論壇、線上文宣以及網站公告等方式，展示聯測成果。聯測成果亦將作為醫院採購產品之參考依據。將聯測成果辦理應用推廣活動，推廣健康醫療資訊相關創新應用，推廣到產官學研機構、醫療院所單位團體、數據相關業者、與新創企業等。可透過每年的聯測松結果以及成果發表媒合有意提供健康醫療數據交換與加值應用之業者。
           </li>
-          <p>聯測規格運作機制架構請參考下圖</p>
+          <p style={{ marginTop: '1rem' }}>聯測規格運作機制架構請參考下圖</p>
           <img src={s1} Width={'100%'} />
         </ul>
       </div>
@@ -127,7 +129,51 @@ const List = [
             <LevelTable />
           </li>
           <li>提供OAuth2 Server，驗證參加單位OAuth2 Client，大會提供Keycloak Server作為認證主機。</li>
+          <li>
+            參考JavaScript實作OAuth2範例:{' '}
+            <a href="https://github.com/kevin20888802/Javascript_OAuth_Example" target="_black">
+              Javascript_OAuth_Example
+            </a>
+          </li>
         </ul>
+        <h3 style={{ marginTop: '1rem', fontWeight: 'bold' }}>Level I 能力聲明驗證規則說明</h3>
+        <ol style={{ margin: '0 0 1rem 0' }}>
+          <li>
+            參加者須具備
+            <a href="https://datatracker.ietf.org/doc/html/rfc6749#section-4.4" target="blod">
+              OAuth 2.0 RFC 6749, section 4.4: Client Credentials flow
+            </a>
+            標準實作能力，在存取DIOCMweb以及FHIR聯測主機以前，需經過Client Credentials flow向大會授權主機 (Keycloak
+            OAuth Server)取得存取授權Token後，使用Token存取DIOCMweb以及FHIR聯測主機
+            <ul>
+              <li>
+                <b>例外條件:</b> #Track #4中，使用DICOM DMISE的交易排除OAuth2條件
+              </li>
+            </ul>
+          </li>
+          <li>需滿足指定參加的賽道的角色的測試劇本(Test Script),並符合測試規範，並由督察員認證。</li>
+        </ol>
+        <ul>
+          <li>Client Credentials Flow定義請參考下圖(節錄標準規範)</li>
+        </ul>
+        <pre>
+          <code>{`
++---------+                                  +---------------+
+|         |                                  |               |
+|         |>--(A)- Client Authentication --->| Authorization |
+| Client  |                                  |     Server    |
+|         |<--(B)---- Access Token ---------<|               |
+|         |                                  |               |
++---------+                                  +---------------+
+          `}</code>
+        </pre>
+        <ul>
+          <li>測試流程請參考以下循序圖範例 - 以使用GET取得FHIR Server中指定FHIR Resources為例)</li>
+        </ul>
+        <h3 style={{ marginTop: '1rem', fontWeight: 'bold' }}>
+          Authorization Code flow範例 - 以賽道4 - WADO-RS調閱DICOM影像為例
+        </h3>
+        <img src={Authorization} width="100%"></img>
       </div>
     ),
   },
@@ -177,7 +223,6 @@ const List = [
         </p>
         <li>有人提交開源工具提交，經過基本審查後提出會議討論。</li>
         <div style={{ width: '100%' }}>
-          {' '}
           <OpenSourceTable />
         </div>
       </div>
