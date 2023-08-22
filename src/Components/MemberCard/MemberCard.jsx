@@ -19,7 +19,6 @@ function MemberCard() {
   const [id, setId] = useState(null)
 
   const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
-
   useEffect(() => {
     function handleResize() {
       setWindowsWidth(window.innerWidth)
@@ -148,8 +147,17 @@ function MemberCard() {
             {Mem.filter(({ Track }) => Track.includes(clickTrackId))
               .filter(({ isContributor }) => isContributor)
               .map((item, i) => {
+                const inTrackUserLength = Mem.filter(({ Track }) => Track.includes(clickTrackId)).length
                 return (
-                  <Grid item xs={12} sm={10} md={6} lg={4} key={i} sx={{ display: 'flex' }}>
+                  <Grid
+                    item
+                    xs={12}
+                    sm={10}
+                    md={6}
+                    lg={inTrackUserLength <= 2 ? 5 : 4}
+                    key={i}
+                    sx={{ display: 'flex' }}
+                  >
                     <CCard className="CardContainer" style={{ width: '100%', border: 'none', minHeight: '50vh' }}>
                       <p className="Tracks"> {clickTrackId}</p>
                       <p className="TracksTitle">{Tabs.find((item) => item.id === clickTrackId).name}</p>
