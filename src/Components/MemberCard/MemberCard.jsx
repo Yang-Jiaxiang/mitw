@@ -145,11 +145,11 @@ function MemberCard() {
               justifyContent: 'space-evenly',
             }}
           >
-            {Mem.filter(({ Track }) => Track === clickTrackId).map((item, i) => {
+            {Mem.filter(({ Track }) => Track.includes(clickTrackId)).map((item, i) => {
               return (
                 <Grid item xs={12} sm={10} md={6} lg={4} key={i} sx={{ display: 'flex' }}>
                   <CCard className="CardContainer" style={{ width: '100%', border: 'none', minHeight: '50vh' }}>
-                    <p className="Tracks"> {item.Track}</p>
+                    <p className="Tracks"> {clickTrackId}</p>
                     <p className="TracksTitle">{item.TraksTitle}</p>
                     <p className="Name">{item.Name}</p>
                     <CCardImage
