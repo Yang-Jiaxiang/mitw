@@ -5,8 +5,8 @@ import Specification from '../Pages/Specification/Specification'
 import Traks from '../Pages/Traks/Traks'
 import Result from '../Pages/Result/Result'
 import Successcase from '../Pages/Successcase/Successcase'
-
 import Member from '../Pages/Member/Member'
+import Contributor from '../Pages/Contributor/Contributor'
 import Recruit from '../Pages/Recruit/Recruit'
 import Workgroupactivity from '../Pages/Workgroupactivity/Workgroupactivity'
 import Relatedactivity from '../Pages/Relatedactivity/Relatedactivity'
@@ -39,16 +39,20 @@ const routerList = [
   },
   {
     name: '招募',
-
+    path: '/Recruit',
+    Component: <Recruit />,
+  },
+  {
+    name: '團隊介紹',
     iconOpened: <AiFillCaretUp style={iconStyle} />,
     iconClosed: <AiFillCaretDown style={iconStyle} />,
     path: '',
     Component: '',
     li: [
-      { liname: '賽道工作小組', lipath: '/Member', liComponent: <Member /> },
+      { liname: '賽道工作小組', lipath: '/Contributor', liComponent: <Contributor /> },
       {
-        liname: '工作小組志工\n與聯測督察員招募',
-        lipath: '/Recruit',
+        liname: '督察員',
+        lipath: '/Member',
         liComponent: <Recruit />,
       },
     ],

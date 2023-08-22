@@ -11,9 +11,10 @@ import Traks from './Pages/Traks/Traks'
 import Result from './Pages/Result/Result'
 import Recruit from './Pages/Recruit/Recruit'
 import Successcase from './Pages/Successcase/Successcase'
-import Member from './Pages/Member/Member'
+import Contributor from './Pages/Contributor/Contributor'
 import Workgroupactivity from './Pages/Workgroupactivity/Workgroupactivity'
 import Relatedactivity from './Pages/Relatedactivity/Relatedactivity'
+import Member from './Pages/Member/Member'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -43,14 +44,14 @@ function App() {
         <Route path="/News" element={<News />} />
         <Route path="/Introduction" element={<Introduction />} />
         <Route path="/Signup" element={<Signup />} />
-
+        <Route path="/Member" element={<Member />} />
         <Route path="/Specification" element={<Specification />} />
         <Route path="/Tracks" element={<Traks />} />
         <Route path="/Tracks/:id" element={<Traks />} />
         <Route path="/Result" element={<Result />} />
         <Route path="/Successcase" element={<Successcase />} />
         <Route path="/Recruit" element={<Recruit />} />
-        <Route path="/Member" element={<Member />} />
+        <Route path="/Contributor" element={<Contributor />} />
         <Route path="/Workgroupactivity" element={<Workgroupactivity />} />
         <Route path="/Relatedactivity" element={<Relatedactivity />} />
       </Routes>

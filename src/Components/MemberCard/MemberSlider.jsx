@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react'
 import Slider from 'react-slick'
 import SliderCard from './SliderCard'
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
-import { Mem } from '../../Pages/Member/Inform'
+import { Mem } from '../../Pages/Contributor/Inform'
 
 function MemberSlider(props) {
   const { TabId } = props

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import './MemberCard.css'
-import { Mem } from '../../Pages/Member/Inform'
+import { Mem } from '../../Pages/Contributor/Inform'
 import ReactCardFlip from 'react-card-flip'
 
 function Card({ item }) {

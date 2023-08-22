@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Dialog, DialogContent, DialogContentText, FormControl, List, ListItem, MenuItem, Select } from '@mui/material'
-import { Tabs, Mem } from '../../Pages/Member/Inform'
+import { Tabs, Mem } from '../../Pages/Contributor/Inform'
 import Card from './Card'
 import { Box, Grid } from '@mui/material'
 import { CCard, CCardImage, CCardText, CCardTitle } from '@coreui/react'
@@ -145,52 +145,54 @@ function MemberCard() {
               justifyContent: 'space-evenly',
             }}
           >
-            {Mem.filter(({ Track }) => Track.includes(clickTrackId)).map((item, i) => {
-              return (
-                <Grid item xs={12} sm={10} md={6} lg={4} key={i} sx={{ display: 'flex' }}>
-                  <CCard className="CardContainer" style={{ width: '100%', border: 'none', minHeight: '50vh' }}>
-                    <p className="Tracks"> {clickTrackId}</p>
-                    <p className="TracksTitle">{item.TraksTitle}</p>
-                    <p className="Name">{item.Name}</p>
-                    <CCardImage
-                      style={{ width: '85%', cursor: 'pointer' }}
-                      src={item.Img || presetImage}
-                      onClick={() => {
-                        handleClickOpen(item.Id)
-                      }}
-                    />
-                    <div
-                      style={{
-                        display: 'flex',
-                        width: '100%',
-                        justifyContent: 'flex-end',
-                      }}
-                    >
-                      <span
+            {Mem.filter(({ Track }) => Track.includes(clickTrackId))
+              .filter(({ isContributor }) => isContributor)
+              .map((item, i) => {
+                return (
+                  <Grid item xs={12} sm={10} md={6} lg={4} key={i} sx={{ display: 'flex' }}>
+                    <CCard className="CardContainer" style={{ width: '100%', border: 'none', minHeight: '50vh' }}>
+                      <p className="Tracks"> {clickTrackId}</p>
+                      <p className="TracksTitle">{Tabs.find((item) => item.id === clickTrackId).name}</p>
+                      <p className="Name">{item.Name}</p>
+                      <CCardImage
+                        style={{ width: '85%', cursor: 'pointer' }}
+                        src={item.Img || presetImage}
+                        onClick={() => {
+                          handleClickOpen(item.Id)
+                        }}
+                      />
+                      <div
                         style={{
                           display: 'flex',
-                          flexDirection: 'row-reverse',
-                          marginTop: '1rem',
+                          width: '100%',
+                          justifyContent: 'flex-end',
                         }}
                       >
-                        <h4 className="Bluetag">{item.Position}</h4>
-                      </span>
-                    </div>
-                  </CCard>
-                  {Open === true && memId === item.Id ? (
-                    <Dialog open={Open} onClose={handleClose}>
-                      <DialogContent>
-                        <DialogContentText>
-                          <div style={{ width: '50vw' }}>{item.Tollger}</div>
-                        </DialogContentText>
-                      </DialogContent>
-                    </Dialog>
-                  ) : (
-                    ''
-                  )}
-                </Grid>
-              )
-            })}
+                        <span
+                          style={{
+                            display: 'flex',
+                            flexDirection: 'row-reverse',
+                            marginTop: '1rem',
+                          }}
+                        >
+                          <h4 className="Bluetag">{item.Position}</h4>
+                        </span>
+                      </div>
+                    </CCard>
+                    {Open === true && memId === item.Id ? (
+                      <Dialog open={Open} onClose={handleClose}>
+                        <DialogContent>
+                          <DialogContentText>
+                            <div style={{ width: '50vw' }}>{item.Tollger}</div>
+                          </DialogContentText>
+                        </DialogContent>
+                      </Dialog>
+                    ) : (
+                      ''
+                    )}
+                  </Grid>
+                )
+              })}
           </Grid>
         </Grid>
       </Grid>
