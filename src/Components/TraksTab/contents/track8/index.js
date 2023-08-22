@@ -5,6 +5,7 @@ import track8_2 from '../../../../assets/WG8_2.png'
 import track8_3 from '../../../../assets/WG8_3.png'
 import track8_4 from '../../../../assets/WG8_4.png'
 import track8_5 from '../../../../assets/WG8_5.png'
+import track8_bounes from '../../../../assets/wg8_bonus.png'
 const h3_style = {
   fontWeight: 'bold',
   fontSize: '1.5em',
@@ -12,6 +13,8 @@ const h3_style = {
 const Track8_Summary_content = () => {
   return (
     <div>
+      <img src={track8_bounes} width={'100%'} />
+
       <p>
         為了同解決病患(保戶)、醫院、保險公司三方的關於保險給付的問題，本工作小組提出一個適用於台灣保險理賠情境的技術規格，讓保戶在申請保險理賠時能以電子化方式申請。本賽道將以HL7
         FHIR為核心架構設計不同的Profile，並以FHIR IG方式呈現，建構醫療收據與診斷證明書的資料格式，因應資料互通性的需求。
@@ -30,9 +33,6 @@ const Track8_Summary_content = () => {
       <div width="100%">
         <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
         <ReactPlayer url="https://youtu.be/HeQocyAPPLY" width="100%" />
-      </div>
-      <div width="100%" style={{ marginTop: '1rem' }}>
-        <p style={{ fontWeight: 'bold' }}>賽道簡報</p>
       </div>
     </div>
   )
