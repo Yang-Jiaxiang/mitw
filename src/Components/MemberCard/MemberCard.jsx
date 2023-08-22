@@ -6,6 +6,7 @@ import { Box, Grid } from '@mui/material'
 import { CCard, CCardImage, CCardText, CCardTitle } from '@coreui/react'
 import './MemberCard.css'
 import MemberSlider from './MemberSlider'
+import presetImage from '../../assets/preset.png'
 
 function MemberCard() {
   const [clickTrackId, setclickTrackId] = useState(1)
@@ -146,14 +147,14 @@ function MemberCard() {
           >
             {Mem.filter(({ Track }) => Track === clickTrackId).map((item, i) => {
               return (
-                <Grid item xs={12} sm={10} md={6} lg={6} key={i} sx={{ display: 'flex' }}>
-                  <CCard className="CardContainer" style={{ width: '100%', border: 'none' }}>
+                <Grid item xs={12} sm={10} md={6} lg={4} key={i} sx={{ display: 'flex' }}>
+                  <CCard className="CardContainer" style={{ width: '100%', border: 'none', minHeight: '50vh' }}>
                     <p className="Tracks"> {item.Track}</p>
                     <p className="TracksTitle">{item.TraksTitle}</p>
                     <p className="Name">{item.Name}</p>
                     <CCardImage
                       style={{ width: '85%', cursor: 'pointer' }}
-                      src={item.Img}
+                      src={item.Img || presetImage}
                       onClick={() => {
                         handleClickOpen(item.Id)
                       }}

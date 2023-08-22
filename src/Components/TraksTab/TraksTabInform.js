@@ -1,32 +1,4 @@
 import logo from '../../assets/Logo.png'
-import track5_1 from '../../assets/WG5_1.png'
-import track5_2 from '../../assets/WG5_2.png'
-
-import track6_1 from '../../assets/WG6_1.png'
-import track6_2 from '../../assets/WG6_2.png'
-
-import track7_1 from '../../assets/WG7_1.png'
-import track7_2 from '../../assets/WG7_2.png'
-
-import track8_1 from '../../assets/WG8_1.png'
-import track8_2 from '../../assets/WG8_2.png'
-import track8_3 from '../../assets/WG8_3.png'
-import track8_4 from '../../assets/WG8_4.png'
-import track8_5 from '../../assets/WG8_5.png'
-
-import track9_1 from '../../assets/WG9_1.png'
-import track9_2 from '../../assets/WG9_2.png'
-
-import track10_1 from '../../assets/WG10_1.png'
-import track10_2 from '../../assets/WG10_2.png'
-
-import ImgDialog from '../Dialog/Dialog'
-
-//有需要輪播圖的話import後放入Img:[]
-// 圖片放入<ImgDialog Img={Ts1} Width={"80%"} />頁面終能放大圖片顯示
-// Img={Ts1}裡面引入圖片
-// Width={"80%"}一般檢視頁面中的大小
-import ReactPlayer from 'react-player/youtube'
 
 import {
   Track1_details_content,
