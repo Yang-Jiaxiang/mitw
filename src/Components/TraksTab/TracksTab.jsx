@@ -5,13 +5,12 @@ import { NavLink, useParams } from 'react-router-dom'
 
 import { Grid, Box } from '@mui/material'
 
-function TracksTab({ setOnHandle, onHandle, windwosWidth }) {
+function TracksTab({ setOnHandle, onHandle, windwosWidth, navBarHeight, setTracksTabHeight }) {
   const inputRef = useRef(null)
-  const [topList, setTopList] = useState([])
-
   useEffect(() => {
-    setTopList([...topList, inputRef.current.offsetTop])
-  }, [])
+    setTracksTabHeight(inputRef.current.clientHeight)
+  }, [navBarHeight])
+
   return (
     <div
       ref={inputRef}
@@ -23,7 +22,7 @@ function TracksTab({ setOnHandle, onHandle, windwosWidth }) {
         overflowX: 'scroll',
         padding: '0 2rem 0 2rem',
         background: '#fff',
-        top: topList > 0 ? topList[0] - 5 : null,
+        top: navBarHeight,
         zIndex: 999,
       }}
     >

@@ -4,7 +4,7 @@ import { Grid, Select, MenuItem, FormControl } from '@mui/material'
 import { HashLink as Link } from 'react-router-hash-link' //section nagetive on same page
 import { useNavigate } from 'react-router-dom'
 
-function SectionListTab({ Click, setClick, onHandle, windwosWidth }) {
+function SectionListTab({ Click, setClick, onHandle, windwosWidth, tracksTabHeight, navBarHeight }) {
   const navigate = useNavigate()
   const inputRef = useRef(null)
   const [topList, setTopList] = useState([])
@@ -15,7 +15,7 @@ function SectionListTab({ Click, setClick, onHandle, windwosWidth }) {
 
   const smallStyle = {
     position: 'sticky',
-    top: topList > 0 ? topList[0] - 10 : null,
+    top: tracksTabHeight + navBarHeight,
   }
 
   const bigStyle = {
@@ -27,7 +27,7 @@ function SectionListTab({ Click, setClick, onHandle, windwosWidth }) {
     position: 'sticky',
     height: '100%',
     width: '100%',
-    top: topList > 0 ? topList[0] - 5 : null,
+    top: tracksTabHeight + navBarHeight + 20,
     paddingLeft: '1vh',
   }
 

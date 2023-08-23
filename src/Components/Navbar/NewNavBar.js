@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
 import Toolbar from '@mui/material/Toolbar'
@@ -17,7 +17,8 @@ import NewNavBarMenu from './NewNavBarMenu'
 import SmallNewNavBarMenu from './SmallNewNavBarMenu'
 import { List } from '@mui/material'
 
-function ResponsiveAppBar() {
+function ResponsiveAppBar({ setNavBarHeight }) {
+  const ref = useRef(null)
   const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
   const [anchorElNav, setAnchorElNav] = useState(null)
   const [openID, setOpenID] = useState('')
@@ -35,8 +36,12 @@ function ResponsiveAppBar() {
     }
     window.addEventListener('resize', handleResize)
   })
+  useEffect(() => {
+    setNavBarHeight(ref.current.clientHeight)
+  }, [windwosWidth])
+
   return (
-    <AppBar position="sticky" sx={{ background: '#fdfdfd', boxShadow: 0, zIndex: 1000 }} component="nav">
+    <AppBar position="sticky" sx={{ background: '#fdfdfd', boxShadow: 0, zIndex: 1000 }} component="nav" ref={ref}>
       <Container maxWidth="xxl">
         <Toolbar disableGutters>
           <Typography

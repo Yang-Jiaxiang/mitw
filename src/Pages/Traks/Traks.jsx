@@ -10,14 +10,13 @@ import { useParams } from 'react-router-dom'
 import SendIcon from '@mui/icons-material/Send'
 import { Waypoint } from 'react-waypoint'
 
-function Traks() {
+function Traks({ navBarHeight }) {
   const { id } = useParams()
   const [onHandle, setOnHandle] = useState(id || '1') //Trackbutton
   const [Click, setClick] = useState('1') //section
-
   const inputRef = useRef(null)
-  const [topList, setTopList] = useState([])
   const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
+  const [tracksTabHeight, setTracksTabHeight] = useState(0)
 
   useEffect(() => {
     function handleResize() {
@@ -25,9 +24,6 @@ function Traks() {
     }
     window.addEventListener('resize', handleResize)
   })
-  useEffect(() => {
-    setTopList([...topList, inputRef.current.offsetTop])
-  }, [])
 
   useEffect(() => {
     setClick('1')
@@ -40,14 +36,26 @@ function Traks() {
   return (
     <div className={windwosWidth > 500 && 'AllBackground'}>
       <Box sx={{ background: '#fdfdfd', margin: 0, minHeight: '100vh' }}>
-        <TracksTab setOnHandle={setOnHandle} onHandle={onHandle} />
+        <TracksTab
+          setOnHandle={setOnHandle}
+          onHandle={onHandle}
+          navBarHeight={navBarHeight}
+          setTracksTabHeight={setTracksTabHeight}
+        />
         <Grid
           container
           sx={{
             justifyContent: 'space-around',
           }}
         >
-          <SectionListTab onHandle={onHandle} Click={Click} setClick={setClick} windwosWidth={windwosWidth} />
+          <SectionListTab
+            onHandle={onHandle}
+            Click={Click}
+            setClick={setClick}
+            windwosWidth={windwosWidth}
+            tracksTabHeight={tracksTabHeight}
+            navBarHeight={navBarHeight}
+          />
 
           <Grid item xs={12} sm={8} md={8} lg={9}>
             <Grid
@@ -74,11 +82,11 @@ function Traks() {
                       id={sc.id}
                       style={{
                         position: 'relative',
-                        top: -topList[0],
+                        top: navBarHeight,
                       }}
                     ></div>
                     <Waypoint
-                      bottomOffset={window.innerHeight - topList[0]}
+                      bottomOffset={window.innerHeight - navBarHeight}
                       onEnter={() => {
                         setClick(sc.id)
                       }}

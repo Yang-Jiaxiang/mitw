@@ -34,10 +34,10 @@ const ScrollToTop = () => {
 
 function App() {
   const location = useLocation()
-
+  const [navBarHeight, setNavBarHeight] = useState(0)
   return (
     <>
-      <NewNavBar />
+      <NewNavBar setNavBarHeight={setNavBarHeight} />
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<Main />} />
@@ -46,8 +46,8 @@ function App() {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Member" element={<Member />} />
         <Route path="/Specification" element={<Specification />} />
-        <Route path="/Tracks" element={<Traks />} />
-        <Route path="/Tracks/:id" element={<Traks />} />
+        <Route path="/Tracks" element={<Traks navBarHeight={navBarHeight} />} />
+        <Route path="/Tracks/:id" element={<Traks navBarHeight={navBarHeight} />} />
         <Route path="/Result" element={<Result />} />
         <Route path="/Successcase" element={<Successcase />} />
         <Route path="/Recruit" element={<Recruit />} />
