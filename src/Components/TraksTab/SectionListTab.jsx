@@ -32,8 +32,8 @@ function SectionListTab({ Click, setClick, onHandle, windwosWidth, tracksTabHeig
   }
 
   return (
-    <Grid item xs={12} sm={2} md={2} lg={2} ref={inputRef} style={windwosWidth <= 500 ? smallStyle : bigStyle}>
-      {windwosWidth <= 500 ? (
+    <Grid item xs={12} sm={2} md={2} lg={2} ref={inputRef} style={windwosWidth <= 600 ? smallStyle : bigStyle}>
+      {windwosWidth <= 600 ? (
         <FormControl style={{ width: '100%', background: '#fff' }}>
           <Select
             onChange={(e) => {
