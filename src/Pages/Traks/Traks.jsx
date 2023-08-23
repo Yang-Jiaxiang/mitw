@@ -82,11 +82,11 @@ function Traks({ navBarHeight }) {
                       id={sc.id}
                       style={{
                         position: 'relative',
-                        top: navBarHeight,
+                        top: -(navBarHeight + tracksTabHeight),
                       }}
                     ></div>
                     <Waypoint
-                      bottomOffset={window.innerHeight - navBarHeight}
+                      bottomOffset={window.innerHeight - navBarHeight - tracksTabHeight}
                       onEnter={() => {
                         setClick(sc.id)
                       }}
