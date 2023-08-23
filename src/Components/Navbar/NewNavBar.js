@@ -21,7 +21,6 @@ function ResponsiveAppBar() {
   const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
   const [anchorElNav, setAnchorElNav] = useState(null)
   const [openID, setOpenID] = useState('')
-
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget)
   }
@@ -135,11 +134,15 @@ function ResponsiveAppBar() {
                       onClick={handleCloseNavMenu}
                       disableRipple
                       sx={{
-                        margin: windwosWidth < 1600 ? '0 0.3 rem' : '0 0.6 rem', // 調整margin
                         my: 2,
-                        padding: windwosWidth < 1600 ? null : '0.5rem 1rem', // 調整padding
+                        padding:
+                          windwosWidth < 1700
+                            ? windwosWidth < 1400
+                              ? '0.25rem 0.25rem'
+                              : '0.5rem 0.5rem'
+                            : '0.5rem 1rem',
                         color: '#646363',
-                        fontSize: windwosWidth < 1600 ? '1.2rem' : '1.5rem',
+                        fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.5rem',
                         fontFamily: 'Noto Sans TC,sans-serif',
                         '&:hover': {
                           color: '#000',

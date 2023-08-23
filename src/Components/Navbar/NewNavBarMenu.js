@@ -28,11 +28,9 @@ const NewNavBarMenu = ({ page, windwosWidth }) => {
         onClick={handleClick}
         onMouseOver={handleClick}
         sx={{
-          margin: windwosWidth < 1600 ? '0 0.3rem' : '0 0.6rem',
-          my: 2,
-          padding: windwosWidth < 1600 ? null : '0.5rem 1rem',
+          padding: windwosWidth < 1700 ? (windwosWidth < 1400 ? '0.25rem 0.25rem' : '0.5rem 0.5rem') : '0.5rem 1rem',
           color: '#646363',
-          fontSize: windwosWidth < 1600 ? '1.2rem' : '1.5rem',
+          fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.5rem',
           fontFamily: 'Noto Sans TC, sans-serif',
           ':hover': {
             color: '#000',
