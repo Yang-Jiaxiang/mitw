@@ -173,6 +173,9 @@ const List = [
         <h3 style={{ marginTop: '1rem', fontWeight: 'bold' }}>
           Authorization Code flow範例 - 以賽道4 - WADO-RS調閱DICOM影像為例
         </h3>
+        <ul>
+          <li>循序圖: grant type=authorization code 瀏覽器跳轉登入驗證的方式</li>
+        </ul>
         <img src={Authorization} width="100%"></img>
       </div>
     ),
