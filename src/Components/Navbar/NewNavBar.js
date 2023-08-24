@@ -81,6 +81,7 @@ function ResponsiveAppBar({ setNavBarHeight }) {
               onClose={handleCloseNavMenu}
               sx={{
                 display: windwosWidth < 1200 ? 'block' : 'none',
+                zIndex: 3000,
               }}
               PaperProps={{
                 style: {
