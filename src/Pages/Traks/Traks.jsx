@@ -17,6 +17,7 @@ function Traks({ navBarHeight }) {
   const inputRef = useRef(null)
   const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
   const [tracksTabHeight, setTracksTabHeight] = useState(0)
+  const [sectionListTabHeight, setSectionListTabHeight] = useState(0)
 
   useEffect(() => {
     function handleResize() {
@@ -55,6 +56,7 @@ function Traks({ navBarHeight }) {
             windwosWidth={windwosWidth}
             tracksTabHeight={tracksTabHeight}
             navBarHeight={navBarHeight}
+            setSectionListTabHeight={setSectionListTabHeight}
           />
 
           <Grid item xs={12} sm={8} md={8} lg={9}>
@@ -82,11 +84,11 @@ function Traks({ navBarHeight }) {
                       id={sc.id}
                       style={{
                         position: 'relative',
-                        top: -(navBarHeight + tracksTabHeight),
+                        top: -(navBarHeight + tracksTabHeight + sectionListTabHeight),
                       }}
                     ></div>
                     <Waypoint
-                      bottomOffset={window.innerHeight - navBarHeight - tracksTabHeight}
+                      bottomOffset={window.innerHeight - navBarHeight - tracksTabHeight - sectionListTabHeight}
                       onEnter={() => {
                         setClick(sc.id)
                       }}

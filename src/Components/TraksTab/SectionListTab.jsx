@@ -4,18 +4,32 @@ import { Grid, Select, MenuItem, FormControl } from '@mui/material'
 import { HashLink as Link } from 'react-router-hash-link' //section nagetive on same page
 import { useNavigate } from 'react-router-dom'
 
-function SectionListTab({ Click, setClick, onHandle, windwosWidth, tracksTabHeight, navBarHeight }) {
+function SectionListTab({
+  Click,
+  setClick,
+  onHandle,
+  windwosWidth,
+  tracksTabHeight,
+  navBarHeight,
+  setSectionListTabHeight,
+}) {
   const navigate = useNavigate()
   const inputRef = useRef(null)
   const [topList, setTopList] = useState([])
+  const selectionInputRef = useRef(null)
 
   useEffect(() => {
     setTopList([...topList, inputRef.current.offsetTop])
   }, [])
 
+  useEffect(() => {
+    setSectionListTabHeight(windwosWidth <= 600 ? selectionInputRef.current.clientHeight : 0)
+  }, [windwosWidth])
+
   const smallStyle = {
     position: 'sticky',
     top: tracksTabHeight + navBarHeight,
+    zIndex: 3000,
   }
 
   const bigStyle = {
@@ -34,13 +48,17 @@ function SectionListTab({ Click, setClick, onHandle, windwosWidth, tracksTabHeig
   return (
     <Grid item xs={12} sm={2} md={2} lg={2} ref={inputRef} style={windwosWidth <= 600 ? smallStyle : bigStyle}>
       {windwosWidth <= 600 ? (
-        <FormControl style={{ width: '100%', background: '#fff' }}>
+        <FormControl style={{ width: '100%', background: '#fff' }} ref={selectionInputRef}>
           <Select
             onChange={(e) => {
               setClick(e.target.value)
             }}
             value={Click}
-            sx={{ boxShadow: 'none', '.MuiOutlinedInput-notchedOutline': { border: 0, width: '100%' }, width: '100%' }}
+            sx={{
+              boxShadow: 'none',
+              '.MuiOutlinedInput-notchedOutline': { border: 0, width: '100%' },
+              width: '100%',
+            }}
           >
             {TraksTabInform.filter((item) => item.Id === onHandle)[0].List.map((sectiontab) => {
               return (
