@@ -112,7 +112,7 @@ function Traks({ navBarHeight }) {
                             window.open(sc.profile, '_blank', 'noopener,noreferrer')
                           }}
                           style={{
-                            marginLeft: '2rem',
+                            marginLeft: '1rem',
                             color: '#000',
                             borderColor: '#000',
                             fontWeight: 'bold',
