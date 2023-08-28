@@ -425,7 +425,7 @@ const Track4_SystemsAffected_content = () => {
       </center>
       <p style={{ fontWeight: 'bold' }}>影像索引(FHIR ImagingStudy)設計結構示意圖</p>
       <center>
-        <img src={track4_2} Width={'50%'} />
+        <img src={track4_2} Width={'100%'} />
       </center>
       <li>
         <a target="_blank" href="https://build.fhir.org/imagingstudy-mappings.html">
@@ -434,7 +434,7 @@ const Track4_SystemsAffected_content = () => {
       </li>
       <h5 style={{ fontWeight: 'bold' }}>情境1與情境2角色與交易關係圖</h5>
       <center>
-        <img src={track4_3} Width={'50%'} />
+        <img src={track4_3} Width={'100%'} />
       </center>
       <div>
         <p style={h3_style}>情境3:影像檢查流程(SWF)</p>

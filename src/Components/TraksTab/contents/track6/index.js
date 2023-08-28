@@ -393,7 +393,7 @@ const Track6_Specification_content = () => {
 
       <p style={h3_style}>角色與交易關係圖</p>
       <p>1. 基因體標記(GEN)之角色與交易關係圖</p>
-      <img src={track6_2_1} width={'100%'} />
+      <img src={track6_2_1} width={'40%'} />
     </div>
   )
 }
