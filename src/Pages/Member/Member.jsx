@@ -83,7 +83,7 @@ function Member() {
                   <Dialog open={Open} onClose={handleClose}>
                     <DialogContent>
                       <DialogContentText>
-                        <div style={{ width: '50vw' }}>{item.Tollger}</div>
+                        <div style={{ width: windwosWidth < 800 ? '90vw' : '60vw' }}>{item.Tollger}</div>
                       </DialogContentText>
                     </DialogContent>
                   </Dialog>
