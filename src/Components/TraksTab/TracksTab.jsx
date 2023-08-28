@@ -22,7 +22,7 @@ function TracksTab({ setOnHandle, onHandle, windwosWidth, navBarHeight, setTrack
         overflowX: 'scroll',
         padding: '0 2rem 0 2rem',
         background: '#fff',
-        top: navBarHeight,
+        top: navBarHeight - 5,
         zIndex: 999,
       }}
     >
