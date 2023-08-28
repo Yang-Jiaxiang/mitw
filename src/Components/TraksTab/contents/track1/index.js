@@ -717,7 +717,7 @@ const Track1_Specification_content = () => {
             </strong>
           </li>
         </ol>
-        <img src={track1_4} width="100%" />
+        <img src={track1_4} width="70%" />
       </div>
     </div>
   )

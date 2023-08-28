@@ -705,7 +705,7 @@ const Track5_Specification_content = () => {
       <ul>
         <li>處方調劑與個人健康管理系統</li>
       </ul>
-      <img src={wg5_2_1} width="100%" />
+      <img src={wg5_2_1} width="30%" />
       <center>
         <img src={track5_2} Width="100%" />
       </center>

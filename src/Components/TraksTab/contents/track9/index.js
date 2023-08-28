@@ -342,7 +342,7 @@ const Track9_Specification_content = () => {
       </table>
       <p style={h3_style}>角色與交易關係圖</p>
       <center>
-        <img src={track9_2} Width="100%" />
+        <img src={track9_2} Width="30%" />
       </center>
     </div>
   )
