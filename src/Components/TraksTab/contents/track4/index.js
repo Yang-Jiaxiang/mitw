@@ -688,10 +688,10 @@ const Track4_Specification_content = () => {
       <ul>
         <li>醫學影像與DICOM標記互通之角色與交易關係圖</li>
         <center>
-          <img src={track4_4} Width={'50%'} />
+          <img src={track4_4} Width={'20%'} />
         </center>
         <center>
-          <img src={track4_5} Width={'50%'} />
+          <img src={track4_5} Width={'40%'} />
         </center>
         <li>影像、結構化影像報告(IMAGE)、FHIR標記之角色與交易關係圖</li>
         <center>
@@ -699,7 +699,7 @@ const Track4_Specification_content = () => {
         </center>
         <li>數位病理影像存取(PATH)之角色與交易關係圖 </li>
         <center>
-          <img src={track4_7} Width={'50%'} />
+          <img src={track4_7} Width={'30%'} />
         </center>
         <li>影像檢查流程之角色與交易關係圖</li>
         <center>

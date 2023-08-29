@@ -882,9 +882,7 @@ const Track7_Specification_content = () => {
 
       <p style={h3_style}>角色與交易關係圖</p>
       <p>1. 緊急醫療救護(EMS)之角色與交易關係圖</p>
-      <center>
-        <img src={track7_2} Width="30%" />
-      </center>
+      <img src={track7_2} Width="30%" />
     </div>
   )
 }

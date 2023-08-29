@@ -26,9 +26,7 @@ const Track8_Summary_content = () => {
         RESTful
         API方式傳輸至保險公司的交換中心進行保險審核。完成核保後再由保險公司逕付保險費用給醫院，並且讓病人不需要代墊保險理賠金額，省去大量的時間成本。醫院也會節省核發紙本診斷證明書以及收據，保險公司也會節省人力成本，民眾也不需要先行墊付費用，已達到病患、醫院以及保險公司三贏的局面。期望能善患者的照護，提高醫療保健服務的效率，並降低醫療保健的成本。
       </p>
-      <center>
-        <img src={track8_1} Width="70%" />
-      </center>
+      <img src={track8_1} Width="40%" />
 
       <div width="100%">
         <p style={{ fontWeight: 'bold' }}>賽道介紹</p>
@@ -419,9 +417,7 @@ const Track8_Specification_content = () => {
         </table>
       </ol>
       <p style={h3_style}>角色與交易關係圖</p>
-      <center>
-        <img src={track8_5} Width="30%" />
-      </center>
+      <img src={track8_5} Width="30%" />
     </div>
   )
 }
