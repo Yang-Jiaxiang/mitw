@@ -6,7 +6,7 @@ import {
   DialogContentText,
   Box,
   Grid,
-  FormControl,
+  Modal,
   List,
   ListItem,
   MenuItem,
@@ -80,13 +80,24 @@ function Member() {
                   </div>
                 </CCard>
                 {Open === true && memId === item.Id ? (
-                  <Dialog open={Open} onClose={handleClose}>
-                    <DialogContent>
-                      <DialogContentText>
-                        <div style={{ width: windwosWidth < 800 ? '90vw' : '60vw' }}>{item.Tollger}</div>
-                      </DialogContentText>
-                    </DialogContent>
-                  </Dialog>
+                  <Modal open={Open} onClose={handleClose}>
+                    <div
+                      style={{
+                        background: '#fff',
+                        position: 'absolute',
+                        padding: '1rem',
+                        top: '50%',
+                        left: '50%',
+                        transform: 'translate(-50%, -50%)',
+                        width: windwosWidth < 800 ? '90vw' : '60vw',
+                        bgcolor: 'background.paper',
+                        boxShadow: 24,
+                        borderRadius: '0.5rem',
+                      }}
+                    >
+                      {item.Tollger}
+                    </div>
+                  </Modal>
                 ) : (
                   ''
                 )}

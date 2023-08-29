@@ -1,5 +1,15 @@
 import { useState, useEffect } from 'react'
-import { Dialog, DialogContent, DialogContentText, FormControl, List, ListItem, MenuItem, Select } from '@mui/material'
+import {
+  Dialog,
+  DialogContent,
+  DialogContentText,
+  FormControl,
+  List,
+  ListItem,
+  MenuItem,
+  Modal,
+  Select,
+} from '@mui/material'
 import { Tabs, Mem } from '../../Pages/Contributor/Inform'
 import Card from './Card'
 import { Box, Grid } from '@mui/material'
@@ -188,13 +198,24 @@ function MemberCard() {
                       </div>
                     </CCard>
                     {Open === true && memId === item.Id ? (
-                      <Dialog open={Open} onClose={handleClose}>
-                        <DialogContent>
-                          <DialogContentText>
-                            <div style={{ width: windwosWidth < 800 ? '90vw' : '60vw' }}>{item.Tollger}</div>
-                          </DialogContentText>
-                        </DialogContent>
-                      </Dialog>
+                      <Modal open={Open} onClose={handleClose}>
+                        <div
+                          style={{
+                            background: '#fff',
+                            position: 'absolute',
+                            padding: '1rem',
+                            top: '50%',
+                            left: '50%',
+                            transform: 'translate(-50%, -50%)',
+                            width: windwosWidth < 800 ? '90vw' : '60vw',
+                            bgcolor: 'background.paper',
+                            boxShadow: 24,
+                            borderRadius: '0.5rem',
+                          }}
+                        >
+                          {item.Tollger}
+                        </div>
+                      </Modal>
                     ) : (
                       ''
                     )}
