@@ -55,7 +55,13 @@ const NewNavBarMenu = ({ page, windwosWidth }) => {
                 fontSize: windwosWidth < 1600 ? '1rem' : '1.2rem',
                 fontFamily: 'Noto Sans TC, sans-serif',
               }}
-              onClick={handleMenuMouseLeave}
+              onClick={() => {
+                if (item.lipath.includes('http')) {
+                  const newWindow = window.open(item.lipath, '_blank', 'noopener,noreferrer')
+                  if (newWindow) newWindow.opener = null
+                }
+                handleMenuMouseLeave()
+              }}
             >
               {item.liname}
             </MenuItem>
