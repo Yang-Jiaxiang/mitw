@@ -28,7 +28,6 @@ const NewNavBarMenu = ({ page, windwosWidth }) => {
         sx={{
           padding: windwosWidth < 1700 ? (windwosWidth < 1400 ? '0.25rem 0.25rem' : '0.5rem 0.5rem') : '0.5rem 1rem',
           color: '#646363',
-          fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.5rem',
           fontFamily: 'Noto Sans TC, sans-serif',
           ':hover': {
             color: '#000',
@@ -36,7 +35,11 @@ const NewNavBarMenu = ({ page, windwosWidth }) => {
           },
         }}
       >
-        <Dropdown onMouseLeave={() => setShowDropdown(false)} onMouseOver={() => setShowDropdown(true)}>
+        <Dropdown
+          onMouseLeave={() => setShowDropdown(false)}
+          onMouseOver={() => setShowDropdown(true)}
+          style={{ fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.5rem' }}
+        >
           {page.name} {showDropdown ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}
           <Dropdown.Menu show={showDropdown}>
             {page.li.map((item) => (
