@@ -23,7 +23,7 @@ const routerList = [
   },
   {
     name: '論壇',
-    path: 'https://www.youtube.com/',
+    path: '/',
     liComponent: '',
   },
   {
