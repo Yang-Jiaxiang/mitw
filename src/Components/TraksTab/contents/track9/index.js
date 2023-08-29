@@ -71,26 +71,18 @@ const Track9_SystemsAffected_content = () => {
       <p>
         <strong>本工作小組制定的使用情境依序說明如下:</strong>
       </p>
-      <p style={h3_style}>情境1:遠距醫療病患基本資料維護</p>
-      <center>
-        <img src={track9_1} Width="100%" />
-      </center>
-      <p style={h3_style}>情境2:遠距端掛號作業</p>
-      <center>
-        <img src={track9_1} Width="100%" />
-      </center>
-      <p style={h3_style}>情境3:在地端檢驗檢查上傳與遠距端診斷結果回傳</p>
-      <center>
-        <img src={track9_1} Width="100%" />
-      </center>
-      <p style={h3_style}>情境4:在地端診療診斷結果上傳</p>
-      <center>
-        <img src={track9_2_2} Width="100%" />
-      </center>
+      <p style={{ ...h3_style, marginTop: '1rem' }}>情境1:遠距醫療病患基本資料維護</p>
+      <img src={track9_1} Width="60%" />
+      <p style={{ ...h3_style, marginTop: '1rem' }}>情境2:遠距端掛號作業</p>
+      <img src={track9_1} Width="60%" />
+      <p style={{ ...h3_style, marginTop: '1rem' }}>情境3:在地端檢驗檢查上傳與遠距端診斷結果回傳</p>
+      <img src={track9_1} Width="60%" />
+      <p style={{ ...h3_style, marginTop: '1rem' }}>情境4:在地端診療診斷結果上傳</p>
+      <img src={track9_2_2} Width="60%" />
       <ul>
         <li>角色與交易圖</li>
       </ul>
-      <img src={track9_2_1} Width="100%" />
+      <img src={track9_2_1} Width="60%" />
     </div>
   )
 }
