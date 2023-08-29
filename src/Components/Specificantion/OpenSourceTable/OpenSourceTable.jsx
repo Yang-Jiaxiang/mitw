@@ -7,7 +7,7 @@ function OpenSourceTable() {
     <div>
       <Table bordered style={{ backgroundColor: '#f3f4f6' }}>
         <thead>
-          <tr>
+          <tr style={{ letterSpacing: '1rem' }}>
             <th>
               <strong>名稱</strong>
             </th>
