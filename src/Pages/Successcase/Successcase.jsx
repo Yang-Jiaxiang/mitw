@@ -94,9 +94,9 @@ function Successcase() {
         >
           {windwosWidth > 900 && (
             <motion.div
-              initial={{ x: -200 }}
-              animate={{ x: 0 }}
-              transition={{ duration: 0.8 }}
+              // initial={{ x: -200 }}
+              // animate={{ x: 0 }}
+              // transition={{ duration: 0.8 }}
               style={{
                 display: 'flex',
                 flexDirection: 'column',
@@ -124,7 +124,7 @@ function Successcase() {
                           border: 'none',
                           cursor: 'pointer',
                           overflow: 'hidden',
-                          fontSize: onHandle === item.id ? '1.1rem' : '1rem',
+                          fontSize: '1.1rem',
                           margin: 0,
                           color: onHandle === item.id ? '#000' : '#949494',
                           marginBottom: '0.5rem',
