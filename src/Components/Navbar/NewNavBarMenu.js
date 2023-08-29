@@ -38,7 +38,7 @@ const NewNavBarMenu = ({ page, windwosWidth }) => {
         <Dropdown
           onMouseLeave={() => setShowDropdown(false)}
           onMouseOver={() => setShowDropdown(true)}
-          style={{ fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.5rem' }}
+          style={{ fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.3rem' }}
         >
           {page.name} {showDropdown ? <ArrowDropUpIcon /> : <ArrowDropDownIcon />}
           <Dropdown.Menu show={showDropdown}>

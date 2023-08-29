@@ -36,6 +36,7 @@ function ResponsiveAppBar({ setNavBarHeight }) {
     }
     window.addEventListener('resize', handleResize)
   })
+
   useEffect(() => {
     setNavBarHeight(ref.current.clientHeight)
   }, [windwosWidth])
@@ -148,7 +149,7 @@ function ResponsiveAppBar({ setNavBarHeight }) {
                               : '0.5rem 0.5rem'
                             : '0.5rem 1rem',
                         color: '#646363',
-                        fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.5rem',
+                        fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.3rem',
                         fontFamily: 'Noto Sans TC,sans-serif',
                         '&:hover': {
                           color: '#000',

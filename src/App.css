@@ -52,7 +52,7 @@ td {
   p,
   li,
   a {
-    font-size: 18px;
+    font-size: 1.1rem;
   }
 }
 @media screen and (min-width: 930px) and (max-width: 1400px) {
@@ -74,7 +74,7 @@ td {
   p,
   li,
   a {
-    font-size: 18px;
+    font-size: 1.1rem;
   }
   /* p {
     font-size: 1rem;
@@ -99,7 +99,7 @@ td {
   p,
   li,
   a {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .AllBackground {
     /* padding: 5rem 0 2vh; */
