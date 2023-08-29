@@ -15,6 +15,7 @@ import Contributor from './Pages/Contributor/Contributor'
 import Workgroupactivity from './Pages/Workgroupactivity/Workgroupactivity'
 import Relatedactivity from './Pages/Relatedactivity/Relatedactivity'
 import Member from './Pages/Member/Member'
+import Training from './Pages/Training/Training'
 import { Routes, Route, useLocation } from 'react-router-dom'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
@@ -54,6 +55,7 @@ function App() {
         <Route path="/Contributor" element={<Contributor />} />
         <Route path="/Workgroupactivity" element={<Workgroupactivity />} />
         <Route path="/Relatedactivity" element={<Relatedactivity />} />
+        <Route path="/Training" element={<Training />} />
       </Routes>
       {location.pathname !== '/' && <Footer />}
     </>

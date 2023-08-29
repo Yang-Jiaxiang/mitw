@@ -10,6 +10,7 @@ import Contributor from '../Pages/Contributor/Contributor'
 import Recruit from '../Pages/Recruit/Recruit'
 import Workgroupactivity from '../Pages/Workgroupactivity/Workgroupactivity'
 import Relatedactivity from '../Pages/Relatedactivity/Relatedactivity'
+import Training from '../Pages/Training/Training'
 import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai'
 const iconStyle = {
   marginLeft: '5px',
@@ -85,6 +86,11 @@ const routerList = [
         liname: '相關活動',
         lipath: '/Relatedactivity',
         liComponent: <Relatedactivity />,
+      },
+      {
+        liname: '教育訓練',
+        lipath: '/training',
+        liComponent: <Training />,
       },
     ],
   },
