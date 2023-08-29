@@ -62,27 +62,28 @@ function ResultTab({ windwosWidth }) {
                     >
                       {track === item.Id && (
                         <motion.div
-                          layoutId="active-pill"
-                          transition={{ duration: 0.6 }}
-                          style={{
-                            background: track === item.Id ? ' rgba(0, 249, 255,0.75)' : 'none',
+                        // layoutId="active-pill"
+                        // transition={{ duration: 0.6 }}
+                        // style={{
+                        //   background: track === item.Id ? ' rgba(0, 249, 255,0.75)' : 'none',
 
-                            boxShadow:
-                              track === item.Id
-                                ? '0 1rem 1.25rem rgba(0, 249, 255,0.35),0 0.5rem 1.25rem #00F9FF, 0 0 1.25rem #00F9FF,0 0 1.25rem #53F3D3'
-                                : '',
-                            height: '3vw',
-                            width: '3vw',
-                            filter: 'blur(5px)',
-                            borderRadius: '50%',
-                            position: 'absolute',
-                          }}
+                        //   boxShadow:
+                        //     track === item.Id
+                        //       ? '0 1rem 1.25rem rgba(0, 249, 255,0.35),0 0.5rem 1.25rem #00F9FF, 0 0 1.25rem #00F9FF,0 0 1.25rem #53F3D3'
+                        //       : '',
+                        //   height: '3vw',
+                        //   width: '3vw',
+                        //   filter: 'blur(5px)',
+                        //   borderRadius: '50%',
+                        //   position: 'absolute',
+                        // }}
                         />
                       )}
                       <p
                         style={{
                           fontSize: windwosWidth > 650 ? '2rem' : '1.2rem',
-                          color: track === item.Id ? '#fff' : '#8b8b8b',
+                          fontWeight: item.Id === track ? 'bold' : null,
+                          color: item.Id === track ? '#000' : '#8b8b8b',
                           margin: 0,
                           position: 'relative',
                         }}

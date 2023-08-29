@@ -20,7 +20,7 @@ export const trackstable = {
         >
           <tbody>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="44%">
+              <td rowspan="2" width="44%" style={{ maxWidth: '44%' }}>
                 <font color="white">
                   <b>單位-產品-版本</b>
                 </font>
@@ -57,7 +57,7 @@ export const trackstable = {
               </td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司 (數數發)
                 <br />
                 iFHIR Center 版本1.0
@@ -68,7 +68,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 遠距報告系統 版本1.0.0
@@ -79,7 +79,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 大心生物科技股份有限公司
                 <br />
                 Daxin Dashboard 版本1.0
@@ -90,7 +90,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 財團法人工業技術研究院 (生醫所)
                 <br />
                 ITRI_BDL_Consumer 版本1.0
@@ -101,7 +101,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -112,7 +112,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -123,7 +123,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 奇唯科技股份有限公司
                 <br />
                 個案導向醫療資源計畫整合平台 (POMRP) ; 奇小葳 版本2.0
@@ -134,7 +134,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 昊慧股份有限公司
                 <br />
                 AI Clerk Platform 版本1.0
@@ -145,7 +145,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 矽塔資訊服務有限公司
                 <br />
                 FHIR 智慧醫療數據服務中台 版本1.0.0
@@ -156,7 +156,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -167,7 +167,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 財團法人工業技術研究院服務系統科技中心
                 <br />
                 iMAS智慧醫療資訊平台 版本1.0
@@ -178,7 +178,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 陞和醫院管理顧問有限公司
                 <br />
                 小幫手 版本1.0
@@ -189,7 +189,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立臺北護理健康大學-影像資訊學實驗室
                 <br />
                 RedpandaV2-React 版本1.0
@@ -200,7 +200,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立臺北護理健康大學-影像資訊學實驗室
                 <br />
                 RedpandaV2-Vue 版本1.0
@@ -211,7 +211,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 童綜合醫療社團法人童綜合醫院
                 <br />
                 Tung HIS 版本1.0
@@ -222,7 +222,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 慈濟大學 (醫學資訊學系)
                 <br />
                 TCU Consumer System 版本1.0
@@ -233,7 +233,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 臺中榮民總醫院 (臨床資訊科)
                 <br />
                 台中榮總基因體報告查詢系統 版本1.0
@@ -244,7 +244,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 遠傳電信股份有限公司
                 <br />
                 遠距醫療 版本1.0
@@ -255,7 +255,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 摩爾資通有限公司
                 <br />
                 m4FHIR 數據平台 版本1.0
@@ -266,7 +266,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 緯謙科技股份有限公司
                 <br />
                 FHIR Portal 2.0 版本2.0
@@ -277,7 +277,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 衛生福利部桃園醫院
                 <br />
                 EWS臨床預警系統 版本1.0
@@ -288,7 +288,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 衛利生物科技股份有限公司
                 <br />
                 Cmate telecare system-CSM 版本1.0
@@ -299,7 +299,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
@@ -355,7 +355,7 @@ export const trackstable = {
               </td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司 (數數發)
                 <br />
                 iFHIR Center 版本1.0
@@ -366,7 +366,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 遠距報告系統 版本1.0.0
@@ -377,7 +377,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
                 <br />
                 TSGH_FHIR 版本1.0.0
@@ -388,7 +388,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 大心生物科技股份有限公司
                 <br />
                 Daxin Dashboard 版本1.0
@@ -399,7 +399,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 財團法人工業技術研究院 (生醫所)
                 <br />
                 ITRI_BDL_Creater 版本1.0
@@ -410,7 +410,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -421,7 +421,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -432,7 +432,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 奇唯科技股份有限公司
                 <br />
                 個案導向醫療資源計畫整合平台 (POMRP) ; 奇小葳 版本2.0
@@ -443,7 +443,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 昊慧股份有限公司
                 <br />
                 AI Clerk Platform 版本1.0
@@ -454,7 +454,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 矽塔資訊服務有限公司
                 <br />
                 FHIR 智慧醫療數據服務中台 版本1.0.0
@@ -465,7 +465,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 矽塔資訊服務有限公司
                 <br />
                 FHIR Universal Conversion Kit 版本1.0.0
@@ -476,7 +476,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -487,7 +487,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長德醫院管理顧問有限公司
                 <br />
                 Changde-EdenLab 版本1.0
@@ -498,7 +498,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 財團法人工業技術研究院服務系統科技中心
                 <br />
                 iMAS智慧醫療資訊平台 版本1.0
@@ -509,7 +509,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 陞和醫院管理顧問有限公司
                 <br />
                 小幫手 版本1.0
@@ -520,7 +520,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立臺北護理健康大學-影像資訊學實驗室
                 <br />
                 RedpandaV2-React 版本1.0
@@ -531,7 +531,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立臺北護理健康大學-影像資訊學實驗室
                 <br />
                 RedpandaV2-Vue 版本1.0
@@ -542,7 +542,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立中山大學 (醫學科技研究所)
                 <br />
                 NSYSU 版本1.0
@@ -553,7 +553,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 童綜合醫療社團法人童綜合醫院
                 <br />
                 Tung HIS 版本1.0
@@ -564,7 +564,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 慈濟大學 (醫學資訊學系)
                 <br />
                 TCU System 版本1.0
@@ -575,7 +575,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 臺中榮民總醫院 (臨床資訊科)
                 <br />
                 台中榮總基因體報告查詢系統 版本1.0
@@ -586,7 +586,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 遠傳電信股份有限公司
                 <br />
                 遠距醫療 版本1.0
@@ -597,7 +597,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 摩爾資通有限公司
                 <br />
                 m4FHIR 數據平台 版本1.0
@@ -608,7 +608,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 緯謙科技股份有限公司
                 <br />
                 FHIR Portal 2.0 版本2.0
@@ -619,7 +619,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 衛生福利部桃園醫院
                 <br />
                 EWS臨床預警系統 版本1.0
@@ -630,7 +630,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 衛利生物科技股份有限公司
                 <br />
                 Cmate telecare system-CSM 版本1.0
@@ -641,7 +641,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 衛利生物科技股份有限公司
                 <br />
                 Cmate telecare system-CRT 版本1.0
@@ -652,7 +652,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
@@ -708,7 +708,7 @@ export const trackstable = {
               </td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 EBM FHIR SERVER 版本0.1.0
@@ -719,7 +719,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 玳康科技有限公司
                 <br />
                 Burni 版本2.6.0
@@ -768,7 +768,7 @@ export const trackstable = {
               <td width="3.5%">CRT</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 遠距報告系統 版本1.0.0
@@ -789,7 +789,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -810,7 +810,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -831,7 +831,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 昊慧股份有限公司
                 <br />
                 AI Clerk Platform 版本1.0
@@ -852,7 +852,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -873,7 +873,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 財團法人工業技術研究院服務系統科技中心
                 <br />
                 iMAS智慧醫療資訊平台 版本1.0
@@ -894,7 +894,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 童綜合醫療社團法人童綜合醫院
                 <br />
                 Tung HIS 版本1.0
@@ -915,7 +915,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 慈濟大學 (醫學資訊學系)
                 <br />
                 TCU Consumer System 版本1.0
@@ -936,7 +936,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 遠傳電信股份有限公司
                 <br />
                 遠距醫療 版本1.0
@@ -957,7 +957,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 摩爾資通有限公司
                 <br />
                 m4FHIR 數據平台 版本1.0
@@ -978,7 +978,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 衛生福利部桃園醫院
                 <br />
                 EWS臨床預警系統 版本1.0
@@ -999,7 +999,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 衛利生物科技股份有限公司
                 <br />
                 Cmate telecare system-CSM 版本1.0
@@ -1020,7 +1020,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
@@ -1077,7 +1077,7 @@ export const trackstable = {
               <td width="3.5%">CRT</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
                 <br />
                 TSGH_FHIR 版本1.0.0
@@ -1098,7 +1098,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -1119,7 +1119,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -1140,7 +1140,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 昊慧股份有限公司
                 <br />
                 AI Clerk Platform 版本1.0
@@ -1161,7 +1161,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -1182,7 +1182,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 財團法人工業技術研究院服務系統科技中心
                 <br />
                 iMAS智慧醫療資訊平台 版本1.0
@@ -1203,7 +1203,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立中山大學 (醫學科技研究所)
                 <br />
                 NSYSU 版本1.0
@@ -1224,7 +1224,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 童綜合醫療社團法人童綜合醫院
                 <br />
                 Tung HIS 版本1.0
@@ -1245,7 +1245,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 慈濟大學 (醫學資訊學系)
                 <br />
                 TCU System 版本1.0
@@ -1266,7 +1266,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 遠傳電信股份有限公司
                 <br />
                 遠距醫療 版本1.0
@@ -1287,7 +1287,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 摩爾資通有限公司
                 <br />
                 m4FHIR 數據平台 版本1.0
@@ -1308,7 +1308,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 衛生福利部桃園醫院
                 <br />
                 EWS臨床預警系統 版本1.0
@@ -1329,7 +1329,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 衛利生物科技股份有限公司
                 <br />
                 Cmate telecare system-CRT 版本1.0
@@ -1350,7 +1350,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
@@ -1371,7 +1371,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 MIS 版本1.0.0
@@ -1416,7 +1416,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -1425,7 +1425,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -1434,7 +1434,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -1443,7 +1443,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 慈濟大學 (醫學資訊學系)
                 <br />
                 TCU Consumer System 版本1.0
@@ -1452,7 +1452,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 慈濟大學 (醫學資訊學系)
                 <br />
                 TCU System 版本1.0
@@ -1461,7 +1461,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
@@ -1496,7 +1496,7 @@ export const trackstable = {
               <td width="12%">腰椎骨密度</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 遠距報告系統 版本1.0.0
@@ -1507,7 +1507,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -1518,7 +1518,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -1529,7 +1529,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 昊慧股份有限公司
                 <br />
                 AI Clerk Platform 版本1.0
@@ -1540,7 +1540,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -1551,7 +1551,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 童綜合醫療社團法人童綜合醫院
                 <br />
                 Tung HIS 版本1.0
@@ -1562,7 +1562,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 遠傳電信股份有限公司
                 <br />
                 遠距醫療 版本1.0
@@ -1573,7 +1573,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 摩爾資通有限公司
                 <br />
                 m4FHIR 數據平台 版本1.0
@@ -1610,7 +1610,7 @@ export const trackstable = {
               <td width="12%">腰椎骨密度</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 遠距報告系統 版本1.0.0
@@ -1621,7 +1621,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
                 <br />
                 TSGH_FHIR 版本1.0.0
@@ -1632,7 +1632,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -1643,7 +1643,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -1654,7 +1654,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 昊慧股份有限公司
                 <br />
                 AI Clerk Platform 版本1.0
@@ -1665,7 +1665,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -1676,7 +1676,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 童綜合醫療社團法人童綜合醫院
                 <br />
                 Tung HIS 版本1.0
@@ -1687,7 +1687,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 遠傳電信股份有限公司
                 <br />
                 遠距醫療 版本1.0
@@ -1698,7 +1698,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 摩爾資通有限公司
                 <br />
                 m4FHIR 數據平台 版本1.0
@@ -1737,7 +1737,7 @@ export const trackstable = {
               </td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -1746,7 +1746,7 @@ export const trackstable = {
               <td colspan="4">✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -1755,7 +1755,7 @@ export const trackstable = {
               <td colspan="4">✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 摩爾資通有限公司
                 <br />
                 m4FHIR 數據平台 版本1.0
@@ -1790,7 +1790,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司(數數發)
                 <br />
                 iFHIR Center 版本1.0
@@ -1799,7 +1799,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -1808,7 +1808,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -1817,7 +1817,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -1826,7 +1826,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 陞和醫院管理顧問有限公司
                 <br />
                 小幫手 版本1.0
@@ -1835,7 +1835,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
@@ -1871,7 +1871,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司(數數發)
                 <br />
                 iFHIR Center 版本1.0
@@ -1880,7 +1880,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -1889,7 +1889,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -1898,7 +1898,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -1931,7 +1931,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司(數數發)
                 <br />
                 iFHIR Center 版本1.0
@@ -1940,7 +1940,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 遠距報告系統 版本1.0.0
@@ -1949,7 +1949,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
                 <br />
                 TSGH_FHIR 版本1.0.0
@@ -1958,7 +1958,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -1967,7 +1967,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -1976,7 +1976,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -1985,7 +1985,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 臺中榮民總醫院 (臨床資訊科)
                 <br />
                 台中榮總病人報告處方查詢系統 版本1.0
@@ -1994,7 +1994,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
@@ -2027,7 +2027,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司(數數發)
                 <br />
                 iFHIR Center 版本1.0
@@ -2036,7 +2036,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 遠距報告系統 版本1.0.0
@@ -2045,7 +2045,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
                 <br />
                 TSGH_FHIR 版本1.0.0
@@ -2054,7 +2054,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
                 <br />
                 中華電信智慧醫療服務 版本1.0
@@ -2063,7 +2063,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 佛教慈濟醫療財團法人花蓮慈濟醫院
                 <br />
                 PACIFIC_2022 版本1.0
@@ -2072,7 +2072,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長庚醫療財團法人林口長庚紀念醫院
                 <br />
                 遠距醫療資料交換系統 版本1.0
@@ -2081,7 +2081,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 臺中榮民總醫院 (臨床資訊科)
                 <br />
                 台中榮總病人報告處方查詢系統 版本1.0
@@ -2090,7 +2090,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
@@ -2125,7 +2125,7 @@ export const trackstable = {
               <td width="20%">SOURCE</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 UW360 版本1.2
@@ -2137,7 +2137,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
                 <br />
                 TSGH_FHIR 版本1.0.0
@@ -2149,7 +2149,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 玳康科技有限公司
                 <br />
                 Bluelight 版本1.0.0
@@ -2158,7 +2158,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 緯謙科技股份有限公司
                 <br />
                 FHIR Portal 2.0 版本2.0
@@ -2194,7 +2194,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
                 <br />
                 遠距報告系統 版本1.0.0
@@ -2203,7 +2203,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
                 <br />
                 TSGH_FHIR 版本1.0.0
@@ -2212,7 +2212,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 緯謙科技股份有限公司
                 <br />
                 FHIR Portal 2.0 版本2.0
@@ -2248,7 +2248,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
                 <br />
                 TSGH_FHIR 版本1.0.0
@@ -2257,7 +2257,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 長德醫院管理顧問有限公司
                 <br />
                 Changde-EdenLab 版本1.0
@@ -2266,7 +2266,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 緯謙科技股份有限公司
                 <br />
                 FHIR Portal 2.0 版本2.0
@@ -2302,7 +2302,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
                 <br />
                 TSGH_FHIR 版本1.0.0
@@ -2341,12 +2341,14 @@ export const trackstable = {
               <td width="20%">ID</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 倍利科技股份有限公司
                 <br />
                 V5-MED-LU01_COPY_0 版本1.0.1
               </td>
-              <td bgcolor="#D1E9E9">EC</td>
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
+                EC
+              </td>
               <td>
                 ✓<br />
                 (No Storage Commitment)
@@ -2355,12 +2357,14 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 慶旺科技股份有限公司
                 <br />
                 QED3000 版本1.0
               </td>
-              <td bgcolor="#D1E9E9">MOD</td>
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
+                MOD
+              </td>
               <td>
                 ✓<br />
                 (Worklist SCUI does not support all requirements)
@@ -2395,7 +2399,7 @@ export const trackstable = {
               <td width="20%">REPOSITORY</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 玳康科技有限公司
                 <br />
                 Raccoon 版本1.4.0
@@ -2404,7 +2408,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 奇唯科技股份有限公司
                 <br />
                 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 版本2.0
@@ -2416,7 +2420,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 奇唯科技股份有限公司
                 <br />
                 SyspowerDICOMweb 版本0.1
@@ -2428,7 +2432,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立臺北護理健康大學-影像資訊學實驗室
                 <br />
                 Mainecoon 版本0.1
@@ -2460,7 +2464,7 @@ export const trackstable = {
               <td width="60%">CONSUMER</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立臺北護理健康大學-影像資訊學實驗室
                 <br />
                 Mainecoon 版本0.1
@@ -2494,7 +2498,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 財團法人工業技術研究院 (生醫所)
                 <br />
                 ITRI_BDL_Genome_Consumer 版本1.0
@@ -2503,7 +2507,7 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 財團法人工業技術研究院 (生醫所)
                 <br />
                 ITRI_BDL_Genome_Consumer 版本1.0
@@ -2512,7 +2516,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 臺中榮民總醫院 (臨床資訊科)
                 <br />
                 台中榮總基因體報告查詢系統 版本1.0
@@ -2521,7 +2525,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 緯謙科技股份有限公司
                 <br />
                 FHIR Portal 2.0 版本2.0
@@ -2554,7 +2558,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 臺中榮民總醫院 (臨床資訊科)
                 <br />
                 台中榮總基因體報告查詢系統 版本1.0
@@ -2563,7 +2567,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 緯謙科技股份有限公司
                 <br />
                 FHIR Portal 2.0 版本2.0
@@ -2598,7 +2602,7 @@ export const trackstable = {
               <td width="20%">CREATOR</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司 (數數發)
                 <br />
                 iFHIR Center 版本1.0
@@ -2607,7 +2611,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 奇唯科技股份有限公司
                 <br />
                 個案導向醫療資源計畫整合平台 (POMRP) ; 奇小葳 版本2.0
@@ -2616,7 +2620,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立中山大學 (醫學科技研究所)
                 <br />
                 NSYSU 版本1.0
@@ -2625,7 +2629,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 遠傳電信股份有限公司
                 <br />
                 遠距醫療 版本1.0
@@ -2634,7 +2638,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 摩爾資通有限公司
                 <br />
                 m4FHIR 數據平台 版本1.0
@@ -2643,7 +2647,7 @@ export const trackstable = {
               <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9">
+              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 醫合股份有限公司
                 <br />
                 An architecture and management platform for blockchain-based FHIR personal health record exchange
