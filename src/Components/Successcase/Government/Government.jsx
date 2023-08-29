@@ -15,9 +15,9 @@ function Goverment() {
               marginTop: '1rem',
               borderBottom: '1px solid #dfdfdf',
             }}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
+            // initial={{ opacity: 0, scale: 0.8 }}
+            // animate={{ opacity: 1, scale: 1 }}
+            // transition={{ duration: 0.6 }}
             // initial={{
             //   x: "-150%",
             // }}

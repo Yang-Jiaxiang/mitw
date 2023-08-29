@@ -11,9 +11,9 @@ function OpenSource() {
         return (
           <motion.div
             key={i}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
+            // initial={{ opacity: 0, scale: 0.8 }}
+            // animate={{ opacity: 1, scale: 1 }}
+            // transition={{ duration: 0.8 }}
           >
             {/* -----------------------------上下布局-------------------------------- */}
             <Grid container spacing={1} sx={{ marginTop: '1rem' }}>

@@ -77,9 +77,9 @@ function Industry() {
 
           <motion.div
             key={i}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6 }}
+            // initial={{ opacity: 0, scale: 0.8 }}
+            // animate={{ opacity: 1, scale: 1 }}
+            // transition={{ duration: 0.6 }}
             style={{
               marginBottom: '2vw',
               paddingBottom: '2vw',

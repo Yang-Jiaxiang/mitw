@@ -13,9 +13,9 @@ function Hospital() {
           // -------左右---------
           <motion.div
             key={i}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
+            // initial={{ opacity: 0, scale: 0.8 }}
+            // animate={{ opacity: 1, scale: 1 }}
+            // transition={{ duration: 0.8 }}
           >
             <Grid container spacing={1} key={i} sx={{ marginTop: '1rem' }}>
               {/* 左 */}
