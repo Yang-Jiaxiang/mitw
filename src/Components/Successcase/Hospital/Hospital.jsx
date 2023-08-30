@@ -20,9 +20,8 @@ function Hospital() {
             <Grid container spacing={1} key={i} sx={{ marginTop: '1rem' }}>
               {/* 左 */}
               <Grid item sm={12} md={4} lg={4}>
-                <Grid container spacing={1} direction="column">
+                <Grid container direction="column">
                   <Grid item>
-                    {' '}
                     <img
                       src={item.img}
                       className="HosImg"
@@ -33,7 +32,6 @@ function Hospital() {
                     />
                   </Grid>
                   <Grid item>
-                    {' '}
                     <a
                       href={item.link}
                       target="_blank"

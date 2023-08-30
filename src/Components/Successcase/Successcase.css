@@ -6,7 +6,7 @@
     width: 25vh;
   }
   .HosImg {
-    width: 25vh;
+    width: 90%;
   }
 }
 
@@ -18,7 +18,7 @@
     width: 100%;
   }
   .HosImg {
-    width: 100%;
+    width: 90%;
   }
 }
 /* sm */
