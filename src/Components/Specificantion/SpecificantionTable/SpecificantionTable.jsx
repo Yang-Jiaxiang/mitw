@@ -1,28 +1,28 @@
 import React from 'react'
 import { Title, TBody } from './Inform'
 import { Table } from 'reactstrap'
-
+import './SpecificantionTable.css'
 function SpecificantionTable() {
   return (
     <div>
       <Table bordered style={{ backgroundColor: '#f3f4f6' }}>
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '15%' }}>
               <strong data-position="6027" data-size="0">
                 <span data-position="6029" data-size="2">
                   領域
                 </span>
               </strong>
             </th>
-            <th>
+            <th style={{ width: '10%' }}>
               <strong data-position="6035" data-size="0">
                 <span data-position="6037" data-size="2">
                   賽道
                 </span>
               </strong>
             </th>
-            <th>
+            <th style={{ width: '15%' }}>
               <strong data-position="6043" data-size="0">
                 <span data-position="6045" data-size="2">
                   簡稱

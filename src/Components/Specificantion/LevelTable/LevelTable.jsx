@@ -1,6 +1,7 @@
 import React from 'react'
 import { Title, TBody } from './Inform'
 import { Table } from 'reactstrap'
+
 function LevelTable() {
   return (
     <div>
@@ -8,7 +9,11 @@ function LevelTable() {
         <thead>
           <tr>
             {Title.map((item, i) => {
-              return <th key={i}>{item}</th>
+              return (
+                <th key={i} style={{ width: i === 0 ? '15%' : 'auto' }}>
+                  {item}
+                </th>
+              )
             })}
           </tr>
         </thead>
@@ -17,8 +22,8 @@ function LevelTable() {
             return (
               <tr key={i}>
                 <th scope="row">{item.level}</th>
-                <th>{item.name}</th>
-                <th>{item.describe}</th>
+                <th style={{ textAlign: 'left' }}>{item.name}</th>
+                <th style={{ textAlign: 'left' }}>{item.describe}</th>
               </tr>
             )
           })}
