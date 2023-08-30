@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { useLocation } from 'react-router-dom'
+
 import AppBar from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
 import Toolbar from '@mui/material/Toolbar'
@@ -21,6 +23,7 @@ import { List } from '@mui/material'
 
 function ResponsiveAppBar({ setNavBarHeight }) {
   const ref = useRef(null)
+  const location = useLocation()
   const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
   const [anchorElNav, setAnchorElNav] = useState(null)
   const [openID, setOpenID] = useState('')
@@ -44,7 +47,16 @@ function ResponsiveAppBar({ setNavBarHeight }) {
   }, [windwosWidth])
 
   return (
-    <AppBar position="sticky" sx={{ background: '#fdfdfd', boxShadow: 0, zIndex: 1000 }} component="nav" ref={ref}>
+    <AppBar
+      position={location.pathname === '/' ? 'fixed' : 'sticky'}
+      sx={{
+        backgroundColor: location.pathname === '/' ? 'rgb(255,255,255,0.9)' : '#fdfdfd',
+        boxShadow: 0.5,
+        zIndex: 1000,
+      }}
+      component="nav"
+      ref={ref}
+    >
       <Container maxWidth="xxl">
         <Toolbar disableGutters>
           <Typography
@@ -146,7 +158,7 @@ function ResponsiveAppBar({ setNavBarHeight }) {
                         marginLeft: '1rem',
                         padding: 0,
                         border: 'none',
-                        background: '#fdfdfd',
+                        backgroundColor: 'transparent',
                         color: '#646363',
                         fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.3rem',
                         fontFamily: 'Noto Sans TC,sans-serif',
