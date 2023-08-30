@@ -163,14 +163,14 @@ const Track6_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '20%' }}>
               <strong data-position="52290" data-size="0">
                 <span data-position="52292" data-size="7">
                   Keyword
                 </span>
               </strong>
             </th>
-            <th>
+            <th style={{ width: '40%' }}>
               <strong data-position="52307" data-size="0">
                 <span data-position="52309" data-size="2">
                   名稱
@@ -296,14 +296,14 @@ const Track6_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '20%' }}>
               <strong data-position="52824" data-size="0">
                 <span data-position="52826" data-size="2">
                   編號
                 </span>
               </strong>
             </th>
-            <th>
+            <th style={{ width: '40%' }}>
               <strong data-position="52834" data-size="0">
                 <span data-position="52836" data-size="2">
                   名稱
