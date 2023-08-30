@@ -65,7 +65,7 @@ function ResponsiveAppBar({ setNavBarHeight }) {
 
           <Box sx={{ flexGrow: 1 }}></Box>
 
-          <Box sx={{ display: windwosWidth < 1200 ? 'felx' : 'none' }}>
+          <Box sx={{ display: windwosWidth < 1200 ? 'flex' : 'none' }}>
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
@@ -129,7 +129,7 @@ function ResponsiveAppBar({ setNavBarHeight }) {
             </Menu>
           </Box>
 
-          <Box sx={{ display: windwosWidth < 1200 ? 'none' : 'felx' }}>
+          <Box sx={{ display: windwosWidth < 1200 ? 'none' : 'flex' }}>
             {routerList.map((page) => {
               if (page.li) {
                 return <NewNavBarMenu page={page} windwosWidth={windwosWidth} />
