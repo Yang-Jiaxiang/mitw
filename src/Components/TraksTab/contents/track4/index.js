@@ -585,7 +585,7 @@ const Track4_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '15%' }}>
               <strong>編號</strong>
             </th>
             <th>
@@ -654,7 +654,7 @@ const Track4_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '15%' }}>
               <strong>編號</strong>
             </th>
             <th>
