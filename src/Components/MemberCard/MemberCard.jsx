@@ -17,6 +17,7 @@ import { CCard, CCardImage, CCardText, CCardTitle } from '@coreui/react'
 import './MemberCard.css'
 import MemberSlider from './MemberSlider'
 import presetImage from '../../assets/preset.png'
+import ClearIcon from '@mui/icons-material/Clear'
 
 function MemberCard() {
   const [clickTrackId, setclickTrackId] = useState(1)
@@ -214,6 +215,27 @@ function MemberCard() {
                             borderRadius: '0.5rem',
                           }}
                         >
+                          <div
+                            style={{
+                              borderRadius: '50%',
+                              background: '#aeafb0',
+                              width: '2rem',
+                              height: '2rem',
+                              display: 'flex',
+                              justifyContent: 'center',
+                              alignItems: 'center',
+                              color: '#fff',
+                              position: 'absolute',
+                              top: '0.5rem',
+                              right: '0.5rem',
+                              cursor: 'pointer',
+                            }}
+                            onClick={() => {
+                              handleClose()
+                            }}
+                          >
+                            <ClearIcon />
+                          </div>
                           {item.Tollger}
                         </div>
                       </Modal>

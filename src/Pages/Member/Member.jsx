@@ -15,6 +15,7 @@ import {
 import { Mem } from '../Contributor/Inform'
 import presetImage from '../../assets/preset.png'
 import './Member.css'
+import ClearIcon from '@mui/icons-material/Clear'
 function Member() {
   const [windwosWidth, setWindowsWidth] = useState(window.innerWidth)
   const [memId, setMemId] = useState(null)
@@ -95,6 +96,27 @@ function Member() {
                         borderRadius: '0.5rem',
                       }}
                     >
+                      <div
+                        style={{
+                          borderRadius: '50%',
+                          background: '#aeafb0',
+                          width: '2rem',
+                          height: '2rem',
+                          display: 'flex',
+                          justifyContent: 'center',
+                          alignItems: 'center',
+                          color: '#fff',
+                          position: 'absolute',
+                          top: '0.5rem',
+                          right: '0.5rem',
+                          cursor: 'pointer',
+                        }}
+                        onClick={() => {
+                          handleClose()
+                        }}
+                      >
+                        <ClearIcon />
+                      </div>
                       {item.Tollger}
                     </div>
                   </Modal>
