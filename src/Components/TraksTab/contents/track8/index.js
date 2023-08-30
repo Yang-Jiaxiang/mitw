@@ -339,10 +339,10 @@ const Track8_Specification_content = () => {
         <table class="table table-striped table-bordered" border="1">
           <thead>
             <tr>
-              <th>
+              <th style={{ width: '30%' }}>
                 <strong>Keyword</strong>
               </th>
-              <th>
+              <th style={{ width: '30%' }}>
                 <strong>名稱</strong>
               </th>
               <th>
@@ -381,7 +381,7 @@ const Track8_Specification_content = () => {
         <table class="table table-striped table-bordered" border="1">
           <thead>
             <tr>
-              <th>
+              <th style={{ width: '15%' }}>
                 <strong>編號</strong>
               </th>
               <th>
