@@ -51,7 +51,7 @@ function ResponsiveAppBar({ setNavBarHeight }) {
       position={location.pathname === '/' ? 'fixed' : 'sticky'}
       sx={{
         backgroundColor: location.pathname === '/' ? 'rgb(255,255,255,0.9)' : '#fdfdfd',
-        boxShadow: 0.5,
+        boxShadow: location.pathname === '/' ? 0.5 : 0,
         zIndex: 1000,
       }}
       component="nav"
