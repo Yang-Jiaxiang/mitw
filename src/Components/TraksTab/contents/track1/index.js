@@ -186,13 +186,13 @@ const Track1_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th width="20%">
+            <th width="15%">
               <strong>名稱</strong>
             </th>
-            <th width="20%">
+            <th width="15%">
               <strong>參數</strong>
             </th>
-            <th width="20%">
+            <th width="15%">
               <strong>類型</strong>
             </th>
             <th>
