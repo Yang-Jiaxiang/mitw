@@ -8,16 +8,16 @@ function OpenSourceTable() {
       <Table bordered style={{ backgroundColor: '#f3f4f6' }}>
         <thead>
           <tr style={{ letterSpacing: '1rem' }}>
-            <th>
+            <th style={{ width: '20%' }}>
               <strong>名稱</strong>
             </th>
             <th>
               <strong>簡介</strong>
             </th>
-            <th>
+            <th style={{ width: '20%' }}>
               <strong>適用賽道</strong>
             </th>
-            <th>
+            <th style={{ width: '15%' }}>
               <strong>貢獻者</strong>
             </th>
           </tr>
@@ -32,7 +32,14 @@ function OpenSourceTable() {
                     verticalAlign: 'middle',
                   }}
                 >
-                  {item.img.length > 0 ? <img src={item.img} width={'30%'} style={{ height: '100%' }} /> : ''}
+                  {item.img.length > 0 ? (
+                    <>
+                      <img src={item.img} width={'30%'} style={{ height: '100%', marginBottom: '1rem' }} />
+                      <br />
+                    </>
+                  ) : (
+                    ''
+                  )}
 
                   <a
                     href={item.link}
