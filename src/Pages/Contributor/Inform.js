@@ -6,9 +6,17 @@ import wg3_2 from '../../assets/wg3_2.jpg'
 import wg4_1 from '../../assets/wg4_1.jpg'
 import wg4_2 from '../../assets/wg4_2.jpg'
 import wg6_2 from '../../assets/wg6_2.jpg'
-import wg7_2 from '../../assets/wg7_2.jpeg'
+import wg7_2 from '../../assets/wg7_2.jpg'
 import wg8_2 from '../../assets/wg8_2.jpg'
 import wg10_2 from '../../assets/wg10_2.jpg'
+import v2wg3_1 from '../../assets/v2wg3_1.jpg'
+import v2wg4_1 from '../../assets/v2wg4_1.jpg'
+import v2wg9_1 from '../../assets/v2wg9_1.jpg'
+import v2wg0_1 from '../../assets/v2wg0_1.jpg'
+import v2wg0_2 from '../../assets/v2wg0_2.jpg'
+import v2wg0_3 from '../../assets/v2wg0_3.jpg'
+import v2wg0_4 from '../../assets/v2wg0_4.jpg'
+import v2wg0_5 from '../../assets/v2wg0_5.jpg'
 
 const Tabs = [
   { id: 1, title: '#01', name: '病人基本資料' },
@@ -178,7 +186,7 @@ const Mem = [
     isContributor: true,
     isMember: true,
     TraksTitle: ' 用藥、文件打包及服務請求',
-    Img: null,
+    Img: v2wg3_1,
     Position: '聯繫窗口',
     Name: '楊宗翰 | 國立陽明交通大學生物醫學資訊所 研究生',
     Tollger: (
@@ -271,7 +279,7 @@ const Mem = [
     Track: [4],
     isContributor: true,
     TraksTitle: ' 醫學影像與病理',
-    Img: null,
+    Img: v2wg4_1,
     Position: '聯絡窗口',
     Name: '鄧瑞均 | 國立臺北護理健康大學資訊管理系 碩士生',
     Tollger: (
@@ -399,7 +407,7 @@ const Mem = [
     Track: [9],
     isContributor: true,
     TraksTitle: ' 遠距醫療',
-    Img: null,
+    Img: v2wg9_1,
     Position: '成員',
     Name: '張榮峻 | 遠傳電信智慧醫療 開發經理',
     Tollger: (
@@ -463,7 +471,7 @@ const Mem = [
     isContributor: false,
     isMember: true,
     TraksTitle: ' 癌症登記',
-    Img: null,
+    Img: v2wg0_1,
     Position: '聯絡窗口',
     Name: '李麗惠 | 國立臺北護理健康大學 健康事業管理系	助理教授',
     Tollger: <>國立臺北護理健康大學 健康事業管理系 助理教授</>,
@@ -474,7 +482,7 @@ const Mem = [
     isContributor: false,
     isMember: true,
     TraksTitle: ' 癌症登記',
-    Img: null,
+    Img: v2wg0_2,
     Position: '聯絡窗口',
     Name: '龔筠庭 | 國泰金控 架構師',
     Tollger: <>國泰金控 架構師</>,
@@ -507,7 +515,7 @@ const Mem = [
     isContributor: false,
     isMember: true,
     TraksTitle: ' 癌症登記',
-    Img: null,
+    Img: v2wg0_3,
     Position: '聯絡窗口',
     Name: '張修書 | 臺中榮民總醫院	資訊工程師',
     Tollger: <>臺中榮民總醫院 資訊工程師</>,
@@ -529,7 +537,7 @@ const Mem = [
     isContributor: false,
     isMember: true,
     TraksTitle: ' 癌症登記',
-    Img: null,
+    Img: v2wg0_4,
     Position: '聯絡窗口',
     Name: '李偉帆 | 商之器科技股份有限公司 應用研發部經理',
     Tollger: <>商之器科技股份有限公司 應用研發部經理</>,
@@ -552,7 +560,7 @@ const Mem = [
     isMember: true,
     isPractice: true,
     TraksTitle: ' 癌症登記',
-    Img: null,
+    Img: v2wg0_5,
     Position: '聯絡窗口',
     Name: '李昀陞 | 財團法人資訊工業策進會 工程師',
     Tollger: <> 財團法人資訊工業策進會 工程師</>,
