@@ -30,9 +30,9 @@ function Specification() {
           {/* 公開意見徵求 */}
           <motion.div
             ref={inputRef}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8 }}
+            // initial={{ opacity: 0, scale: 0.8 }}
+            // animate={{ opacity: 1, scale: 1 }}
+            // transition={{ duration: 0.8 }}
             style={{
               display: 'flex',
               position: 'relative',
@@ -64,7 +64,9 @@ function Specification() {
               }}
             >
               {/* 選單 */}
-              <motion.div initial={{ x: -200 }} animate={{ x: 0 }} transition={{ duration: 0.8 }}>
+              <motion.div
+              // initial={{ x: -200 }} animate={{ x: 0 }} transition={{ duration: 0.8 }}
+              >
                 <div style={{ position: 'sticky', top: '5.5rem' }}>
                   {ListTitle.map((item) => {
                     return (
@@ -113,9 +115,9 @@ function Specification() {
                     ></div>
                     <Waypoint onEnter={() => setOnHandle(item.id)} bottomOffset={window.innerHeight - topList[0]} />
                     <motion.h2
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      transition={{ duration: 1.2 }}
+                      // initial={{ opacity: 0, scale: 0.8 }}
+                      // animate={{ opacity: 1, scale: 1 }}
+                      // transition={{ duration: 1.2 }}
                       className="SpecificationH5"
                       style={{
                         margin: '1rem 0',
@@ -127,9 +129,9 @@ function Specification() {
                       {item.title}
                     </motion.h2>
                     <motion.div
-                      initial={{ opacity: 0, scale: 0.8 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      transition={{ duration: 1 }}
+                    // initial={{ opacity: 0, scale: 0.8 }}
+                    // animate={{ opacity: 1, scale: 1 }}
+                    // transition={{ duration: 1 }}
                     >
                       {item.content}
                     </motion.div>

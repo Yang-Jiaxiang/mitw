@@ -135,7 +135,7 @@ const Track10_SystemsAffected_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th></th>
+            <th style={{ width: '20%' }}></th>
             <th>
               <span data-position="67861" data-size="6">
                 癌登欄位名稱
@@ -195,11 +195,9 @@ const Track10_SystemsAffected_content = () => {
               </span>
             </td>
             <td>
-              <a href="http://Patient.name" target="_blank" rel="noopener">
-                <span data-position="68278" data-size="12">
-                  Patient.name
-                </span>
-              </a>
+              <span data-position="68278" data-size="12">
+                Patient.name
+              </span>
             </td>
           </tr>
           <tr>
@@ -925,7 +923,8 @@ const Track10_SystemsAffected_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th></th>
+            <th style={{ width: '20%' }}></th>
+
             <th>
               <span data-position="72579" data-size="6">
                 癌登欄位名稱
@@ -985,11 +984,9 @@ const Track10_SystemsAffected_content = () => {
               </span>
             </td>
             <td>
-              <a href="http://Patient.name" target="_blank" rel="noopener">
-                <span data-position="73004" data-size="12">
-                  Patient.name
-                </span>
-              </a>
+              <span data-position="73004" data-size="12">
+                Patient.name
+              </span>
             </td>
           </tr>
           <tr>
