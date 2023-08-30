@@ -46,12 +46,12 @@ const Track2_details_content = () => {
       本賽道的情境描述如下:
       <p style={h3_style}>情境1 - 生命徵象 (Vital signs)</p>
       <table class="table table-striped table-bordered" border="1">
-        <thead>
+        <thead style={{ textAlign: 'left' }}>
           <tr>
-            <th>
+            <th style={{ width: '15%' }}>
               <strong>項目</strong>
             </th>
-            <th>
+            <th style={{ width: '15%' }}>
               <strong>類型</strong>
             </th>
             <th>
@@ -60,15 +60,15 @@ const Track2_details_content = () => {
             <th>
               <strong>Code</strong>
             </th>
-            <th>
+            <th style={{ width: '10%' }}>
               <strong>Unit</strong>
             </th>
             <th>
-              <strong>Unit Code&lt;br&gt;(UCUM Code)</strong>
+              <strong>Unit Code (UCUM Code)</strong>
             </th>
           </tr>
         </thead>
-        <tbody style={{ textAlign: 'center' }}>
+        <tbody style={{ textAlign: 'left' }}>
           <tr>
             <td>身高</td>
             <td>Vital Signs</td>
@@ -166,29 +166,29 @@ const Track2_details_content = () => {
         欄位可以根據下面顯示的生命徵象項目代碼進行更改。
       </p>
       <table class="table table-striped table-bordered" border="1">
-        <thead>
+        <thead style={{ textAlign: 'left' }}>
           <tr>
-            <th>
-              <strong>血壓</strong>
+            <th style={{ width: '15%' }}>
+              <strong>項目</strong>
+            </th>
+            <th style={{ width: '15%' }}>
+              <strong>類型</strong>
             </th>
             <th>
-              <strong>Vital Signs</strong>
+              <strong>Code system</strong>
             </th>
             <th>
-              <strong>LoincCode</strong>
+              <strong>Code</strong>
+            </th>
+            <th style={{ width: '10%' }}>
+              <strong>Unit</strong>
             </th>
             <th>
-              <strong>35094-2</strong>
-            </th>
-            <th>
-              <strong>mmHg</strong>
-            </th>
-            <th>
-              <strong>mmHg&lt;br&gt;(UCUM Code)</strong>
+              <strong>Unit Code (UCUM Code)</strong>
             </th>
           </tr>
         </thead>
-        <tbody style={{ textAlign: 'center' }}>
+        <tbody style={{ textAlign: 'left' }}>
           <tr>
             <td>收縮壓</td>
             <td>Vital Signs</td>
@@ -252,21 +252,21 @@ const Track2_details_content = () => {
         欄位可以根據下面顯示的生命徵象項目代碼進行更改。
       </p>
       <table class="table table-striped table-bordered" border="1">
-        <thead>
+        <thead style={{ textAlign: 'left' }}>
           <tr>
-            <th>
-              <strong>股骨骨密度</strong>
+            <th style={{ width: '15%' }}>
+              <strong>項目</strong>
+            </th>
+            <th style={{ width: '15%' }}>
+              <strong>類型</strong>
             </th>
             <th>
-              <strong>Image</strong>
+              <strong>Code system</strong>
             </th>
             <th>
-              <strong>LoincCode</strong>
+              <strong>Code</strong>
             </th>
-            <th>
-              <strong>38263-0</strong>
-            </th>
-            <th>
+            <th style={{ width: '10%' }}>
               <strong>Unit</strong>
             </th>
             <th>
@@ -274,7 +274,7 @@ const Track2_details_content = () => {
             </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody style={{ textAlign: 'left' }}>
           <tr>
             <td>左股骨骨密度</td>
             <td>Image</td>
