@@ -86,7 +86,7 @@ const Track5_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '30%' }}>
               <strong data-position="47948" data-size="0">
                 <span data-position="47950" data-size="7">
                   Keyword
@@ -322,7 +322,7 @@ const Track5_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '15%' }}>
               <strong data-position="49130" data-size="0">
                 <span data-position="49132" data-size="2">
                   編號
@@ -488,7 +488,7 @@ const Track5_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '15%' }}>
               <strong data-position="49130" data-size="0">
                 <span data-position="49132" data-size="2">
                   編號
