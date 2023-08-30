@@ -2,9 +2,10 @@ import React from 'react'
 import { Title, TBody } from './Inform'
 import { Table } from 'reactstrap'
 import './SpecificantionTable.css'
+
 function SpecificantionTable() {
   return (
-    <div>
+    <div className="SpecificantionTable">
       <Table bordered style={{ backgroundColor: '#f3f4f6' }}>
         <thead>
           <tr>
