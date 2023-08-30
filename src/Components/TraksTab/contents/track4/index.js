@@ -781,8 +781,8 @@ const Track4_Author_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th width="10%">角色</th>
-            <th width="10%">姓名</th>
+            <th style={{ width: '15%' }}>角色</th>
+            <th style={{ width: '15%' }}>姓名</th>
             <th width="40%">所屬單位</th>
             <th width="30%">貢獻</th>
           </tr>

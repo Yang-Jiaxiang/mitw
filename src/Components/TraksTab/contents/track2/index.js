@@ -431,55 +431,48 @@ const Track2_Author_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>角色</th>
-            <th>姓名</th>
+            <th style={{ width: '15%' }}>角色</th>
+            <th style={{ width: '15%' }}>姓名</th>
             <th>所屬單位</th>
             <th>貢獻</th>
-            <th>聯絡方式</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody style={{ textAlign: 'left' }}>
           <tr>
             <td>作者</td>
             <td>蕭嘉宏</td>
             <td>慈濟大學 - 醫學資訊學系</td>
             <td>Profiling, 聯測測試情境設計</td>
-            <td></td>
           </tr>
           <tr>
             <td>作者</td>
             <td>洪苑容</td>
             <td>馬雅資訊股份有限公司軟體工程師</td>
             <td>profiling, 測試工具開發, 聯測測試情境設計</td>
-            <td></td>
           </tr>
           <tr>
             <td>作者</td>
             <td>湯士滄</td>
             <td>銘傳大學 - 生物醫學工程學系</td>
             <td>聯測測試情境設計</td>
-            <td></td>
           </tr>
           <tr>
             <td>貢獻者</td>
             <td>林欣怡</td>
             <td></td>
             <td>Profiling</td>
-            <td></td>
           </tr>
           <tr>
             <td>貢獻者</td>
             <td>莊舒雅</td>
             <td>慈濟大學 - 醫學資訊學系</td>
             <td>測試支援</td>
-            <td></td>
           </tr>
           <tr>
             <td>貢獻者</td>
             <td>洪彬彬</td>
             <td>慈濟大學 - 醫學資訊學系</td>
             <td>測試支援</td>
-            <td></td>
           </tr>
         </tbody>
       </table>

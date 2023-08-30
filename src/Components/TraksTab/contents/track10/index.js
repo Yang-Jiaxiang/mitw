@@ -3156,16 +3156,8 @@ const Track10_Author_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th style={{ width: '10%' }}>
-              <span data-position="85080" data-size="2">
-                角色
-              </span>
-            </th>
-            <th style={{ width: '10%' }}>
-              <span data-position="85085" data-size="2">
-                姓名
-              </span>
-            </th>
+            <th style={{ width: '15%' }}>角色</th>
+            <th style={{ width: '15%' }}>姓名</th>
             <th>
               <span data-position="85090" data-size="4">
                 所屬單位

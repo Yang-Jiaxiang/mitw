@@ -728,11 +728,10 @@ const Track1_Author_content = () => {
     <table class="table table-striped table-bordered" border="1">
       <thead>
         <tr>
-          <th>角色</th>
-          <th>姓名</th>
+          <th style={{ width: '15%' }}>角色</th>
+          <th style={{ width: '15%' }}>姓名</th>
           <th>所屬單位</th>
           <th>貢獻</th>
-          <th>聯絡方式</th>
         </tr>
       </thead>
       <tbody style={{ textAlign: 'left' }}>
@@ -741,28 +740,24 @@ const Track1_Author_content = () => {
           <td>楊宇凡</td>
           <td>矽塔資訊服務有限公司</td>
           <td>專案管理、Profiling、聯測測試情境設計</td>
-          <td>ceo@sita.tech</td>
         </tr>
         <tr>
           <td>作者</td>
           <td>蕭嘉宏</td>
           <td>慈濟大學 - 醫學資訊學系</td>
           <td>Profiling、 系統分析與設計、聯測測試情境設計</td>
-          <td>chhsiao@gms.tcu.edu.tw</td>
         </tr>
         <tr>
           <td>貢獻者</td>
           <td>施岳勳</td>
           <td>國立陽明交通大學 - 生物醫學工程學系</td>
           <td>聯測測試情境設計</td>
-          <td></td>
         </tr>
         <tr>
           <td>貢獻者</td>
           <td>湯士滄</td>
           <td>銘傳大學 - 生物醫學工程學系</td>
           <td>聯測測試情境設計</td>
-          <td></td>
         </tr>
       </tbody>
     </table>

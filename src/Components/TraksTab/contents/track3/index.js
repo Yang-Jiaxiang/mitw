@@ -216,8 +216,8 @@ const Track3_Author_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>角色</th>
-            <th>姓名</th>
+            <th style={{ width: '15%' }}>角色</th>
+            <th style={{ width: '15%' }}>姓名</th>
             <th>所屬單位</th>
             <th>貢獻</th>
           </tr>

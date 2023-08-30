@@ -85,7 +85,7 @@ const TBody = [
     introduce:
       '提供JavaScript實作OAuth2功能範例，提供開發網頁以及系統後端實作參考，包含: (1)瀏覽器版本以及(2)伺服器版本(node.js)。',
     traks: '所有賽道',
-    contributor: '王泓鑫@國北護CYLAB',
+    contributor: '王泓鑫',
     clink: 'https://cylab.dicom.tw/',
   },
 ]
