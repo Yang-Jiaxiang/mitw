@@ -831,7 +831,7 @@ const Track7_Specification_content = () => {
             </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody style={{ textAlign: 'left' }}>
           <tr>
             <td>EMS_CREATOR</td>
             <td>EMS Creator</td>
@@ -866,7 +866,7 @@ const Track7_Specification_content = () => {
             </th>
           </tr>
         </thead>
-        <tbody>
+        <tbody style={{ textAlign: 'left' }}>
           <tr>
             <td>MITW-33</td>
             <td>EMS resource create</td>
