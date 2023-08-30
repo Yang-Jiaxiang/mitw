@@ -135,8 +135,8 @@ const Track10_SystemsAffected_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th style={{ width: '20%' }}></th>
-            <th>
+            <th style={{ width: '10%' }}></th>
+            <th style={{ width: '40%' }}>
               <span data-position="67861" data-size="6">
                 癌登欄位名稱
               </span>
@@ -923,9 +923,8 @@ const Track10_SystemsAffected_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th style={{ width: '20%' }}></th>
-
-            <th>
+            <th style={{ width: '10%' }}></th>
+            <th style={{ width: '40%' }}>
               <span data-position="72579" data-size="6">
                 癌登欄位名稱
               </span>
