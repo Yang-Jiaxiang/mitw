@@ -12,12 +12,12 @@ const FooterContext = [
     title: '主辦單位:',
     data: [
       {
-        name: '國泰金控',
-        path: 'https://www.cathayholdings.com/holdings/',
-      },
-      {
         name: '社團法人台灣醫療影像資訊標準協會',
         path: 'https://www.dicom.org.tw/',
+      },
+      {
+        name: '國泰金控',
+        path: 'https://www.cathayholdings.com/holdings/',
       },
     ],
   },
