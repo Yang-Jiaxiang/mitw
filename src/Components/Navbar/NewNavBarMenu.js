@@ -32,11 +32,10 @@ const NewNavBarMenu = ({ page, windwosWidth }) => {
       }}
     >
       <Dropdown.Toggle
-        id="dropdown-basic"
         style={{
-          margin: 2,
-          padding: windwosWidth < 1700 ? (windwosWidth < 1400 ? '0.25rem 0.25rem' : '0.5rem 0.5rem') : '0.5rem 1rem',
-          transform: 'translate(0, 50%)',
+          marginLeft: '1rem',
+          padding: 0,
+          paddingTop: 1,
           color: '#646363',
           background: '#fdfdfd',
           border: 'none',
@@ -49,25 +48,23 @@ const NewNavBarMenu = ({ page, windwosWidth }) => {
 
       <Dropdown.Menu show={showDropdown}>
         {page.li.map((item) => (
-          <NavLink to={item.lipath} key={item.liname} style={{ textDecoration: 'none' }}>
-            <MenuItem
-              style={{
-                color: '#646363',
-                fontSize: windwosWidth < 1600 ? '1rem' : '1.2rem',
-                fontFamily: 'Noto Sans TC, sans-serif',
-              }}
-              onClick={() => {
-                if (item.lipath.includes('http')) {
-                  const newWindow = window.open(item.lipath, '_blank', 'noopener,noreferrer')
-                  if (newWindow) newWindow.opener = null
-                }
-                handleMenuMouseLeave()
-                setShowDropdown(false)
-              }}
-            >
-              {item.liname}
-            </MenuItem>
-          </NavLink>
+          <MenuItem
+            style={{
+              color: '#646363',
+              fontSize: windwosWidth < 1600 ? '1rem' : '1.2rem',
+              fontFamily: 'Noto Sans TC, sans-serif',
+            }}
+            onClick={() => {
+              if (item.lipath.includes('http')) {
+                const newWindow = window.open(item.lipath, '_blank', 'noopener,noreferrer')
+                if (newWindow) newWindow.opener = null
+              }
+              handleMenuMouseLeave()
+              setShowDropdown(false)
+            }}
+          >
+            {item.liname}
+          </MenuItem>
         ))}
       </Dropdown.Menu>
     </Dropdown>

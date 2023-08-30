@@ -55,7 +55,7 @@ function MemberCard() {
                 cursor: 'pointer',
                 background: 'none',
                 border: 'none',
-                padding: '0 0 0 1rem',
+                padding: '0 0 0 1em',
               }}
               onClick={() => {
                 setclickTrackId(item.id)
@@ -71,6 +71,7 @@ function MemberCard() {
                   fontSize: windwosWidth > 1200 ? '1.1rem' : '0.9rem',
                   fontWeight: clickTrackId === item.id ? 'bold' : 'normal',
                   borderLeft: clickTrackId === item.id ? '4px solid orange' : 'none',
+                  paddingLeft: '0.5rem',
                 }}
               >
                 {item.title}

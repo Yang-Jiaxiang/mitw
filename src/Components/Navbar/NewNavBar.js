@@ -7,8 +7,10 @@ import Typography from '@mui/material/Typography'
 import Menu from '@mui/material/Menu'
 import MenuIcon from '@mui/icons-material/Menu'
 import Container from '@mui/material/Container'
-import Button from '@mui/material/Button'
+// import Button from '@mui/material/Button'
 import ListItemButton from '@mui/material/ListItemButton'
+
+import { Button } from 'react-bootstrap'
 
 import Logo from '../../assets/Logo.png'
 import { routerList } from '../RouterList'
@@ -140,14 +142,11 @@ function ResponsiveAppBar({ setNavBarHeight }) {
                       key={page.name}
                       onClick={handleCloseNavMenu}
                       disableRipple
-                      sx={{
-                        my: 2,
-                        padding:
-                          windwosWidth < 1700
-                            ? windwosWidth < 1400
-                              ? '0.25rem 0.25rem'
-                              : '0.5rem 0.5rem'
-                            : '0.5rem 1rem',
+                      style={{
+                        marginLeft: '1rem',
+                        padding: 0,
+                        border: 'none',
+                        background: '#fdfdfd',
                         color: '#646363',
                         fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.3rem',
                         fontFamily: 'Noto Sans TC,sans-serif',
