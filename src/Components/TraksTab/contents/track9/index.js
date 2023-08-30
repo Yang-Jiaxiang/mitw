@@ -95,14 +95,14 @@ const Track9_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '30%' }}>
               <strong data-position="64735" data-size="0">
                 <span data-position="64737" data-size="7">
                   Keyword
                 </span>
               </strong>
             </th>
-            <th>
+            <th style={{ width: '30%' }}>
               <strong data-position="64755" data-size="0">
                 <span data-position="64757" data-size="2">
                   名稱
@@ -176,7 +176,7 @@ const Track9_Specification_content = () => {
       <table class="table table-striped table-bordered" border="1">
         <thead>
           <tr>
-            <th>
+            <th style={{ width: '20%' }}>
               <span data-position="65086" data-size="7">
                 Keyword
               </span>
