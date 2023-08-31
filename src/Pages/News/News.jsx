@@ -5,6 +5,7 @@ import p1Img from '../../assets/example.png'
 import Traks from '../../Components/Traklist/Trakslist'
 import NewsInform from './NewsInform.json'
 import TTime from '../../assets/TTimeblack.png'
+import yechen from '../../assets/yechen.jpg'
 
 import { Grid, Box } from '@mui/material'
 import { useRef, useState, useEffect } from 'react'
@@ -53,6 +54,25 @@ function News() {
               </div>
 
               {/* 地圖 */}
+            </Grid>
+            <Grid
+              xs={12}
+              sm={12}
+              md={12}
+              lg={12}
+              item
+              style={{
+                display: 'flex',
+                alignItems: 'flex-end',
+                marginBottom: '3vw',
+                width: '80%',
+              }}
+            >
+              <div>
+                <center>
+                  <img src={yechen} alt="time" style={{ width: '80%' }} />
+                </center>
+              </div>
             </Grid>
 
             <Grid
