@@ -91,12 +91,13 @@ const Mem = [
         </ul>
         <b>3. 經歷：</b>
         <ul>
-          <li>2021 MI-TW Connectathon 參與者</li>
-          <li>2021 臺北慈濟醫院 資訊室 實習生</li>
+          <li>MI-TW Connectathon WG2 負責人/督察員</li>
         </ul>
         <b>4. 簡介：</b>
         <ul>
-          畢業於慈濟大學醫學資訊學系，目前就讀慈濟大學醫學資訊學系碩士班。主要研究主題為FHIR在雲端儲存應用。積極參與FHIR標準應用的討論和推廣。
+          7 年程式撰寫經驗，使用過 C++、Arduino、Python 等 <br />4 年網頁全端開發經驗，包含前後端、API 與 DB 能夠使用
+          Python Flask、QtWebApp、ASP.NET MVC、ASP.NET Core MVC 等後端架構 以及 jQuery、React 等前端架構 <br />4
+          年醫療資訊標準 HL7 FHIR 實作經驗，探討心電圖資料的儲存方式 目前正在開發眼科資訊系統與TPR表單建置系統"
         </ul>
       </>
     ),
@@ -206,7 +207,10 @@ const Mem = [
           <li>國立陽明交通大學生資所</li>
           <li>銘傳大學醫工系</li>
         </ul>
-
+        <b>2. 現職：</b>
+        <ul>
+          <li>國立陽明交通大學生物醫學資訊所 研究生</li>
+        </ul>
         <b>3.　經歷：</b>
         <ul>
           <li>2022 MI-TW 台灣醫學資訊互通聯測松 實習督察員</li>
@@ -584,7 +588,7 @@ const Mem = [
     Name: '葉倖玫 | 台達電子工業股份有限公司 資訊資深工程師',
     Tollger: (
       <>
-        <b>1.學歷：</b>
+        <b>1. 學歷：</b>
         <ul>
           <li>慈濟大學醫學資訊 碩士</li>
         </ul>
