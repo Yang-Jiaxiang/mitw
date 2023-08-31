@@ -1,7 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react'
 import { AiOutlineDownload } from 'react-icons/ai'
 import Main1 from '../../assets/mainbackground.jpg'
-import maintitle from '../../assets/Title.png'
+import maintitle from '../../assets/MI-TWConnectathon.png'
 import { useInView } from 'framer-motion'
 import { motion } from 'framer-motion'
 import ReactPlayer from 'react-player/youtube'
