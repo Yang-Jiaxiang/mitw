@@ -112,7 +112,7 @@ const Track7_details_content = () => {
           </span>
         </li>
         <center>
-          <img src={track7_1} Width="70%" />
+          <img src={track7_1} Width="90%" />
         </center>
         <li class="" data-startline="1116" data-endline="1116" data-position="54867" data-size="0">
           <span data-position="54867" data-size="21">
