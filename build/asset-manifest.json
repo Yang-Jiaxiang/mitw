@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mitw/static/css/main.1b7d9427.css",
-    "main.js": "/mitw/static/js/main.75e3b276.js",
+    "main.js": "/mitw/static/js/main.43d4841d.js",
     "static/media/v2wg0_4.jpg": "/mitw/static/media/v2wg0_4.71969d8cd6954932a373.jpg",
     "static/media/example.png": "/mitw/static/media/example.f7115d2160881d53afb8.png",
     "static/media/v2wg9_1.jpg": "/mitw/static/media/v2wg9_1.e75788c4cd5d4f1a0e71.jpg",
@@ -28,6 +28,7 @@
     "static/media/v2wg0_1.jpg": "/mitw/static/media/v2wg0_1.872b7cfd7df2047e71d8.jpg",
     "static/media/wg6_2_1.png": "/mitw/static/media/wg6_2_1.7c8b8554f1b40d31328a.png",
     "static/media/wg8_2.jpg": "/mitw/static/media/wg8_2.8fa3880ce6d657933982.jpg",
+    "static/media/WG10_2.png": "/mitw/static/media/WG10_2.d6872b12201bbf5460a8.png",
     "static/media/wg5_1_2.png": "/mitw/static/media/wg5_1_2.9b7c416f1a90f1795370.png",
     "static/media/c2.png": "/mitw/static/media/c2.8b49520da596cf7a9d8a.png",
     "static/media/Wg5_1_1.png": "/mitw/static/media/Wg5_1_1.da7c9a6431183cc9e10c.png",
@@ -35,11 +36,10 @@
     "static/media/training_1.jpg": "/mitw/static/media/training_1.a70d3c32dd4570100a99.jpg",
     "static/media/WG1_2.png": "/mitw/static/media/WG1_2.db689733915379b8c81c.png",
     "static/media/c1.png": "/mitw/static/media/c1.f96d4cefb874e92e0177.png",
-    "static/media/WG10_2.png": "/mitw/static/media/WG10_2.5e772417f8ec904aac1c.png",
     "static/media/WG8_5.png": "/mitw/static/media/WG8_5.a3e25dc186d53a7f01dc.png",
     "static/media/wg2_1.jpg": "/mitw/static/media/wg2_1.efaf1efe67c2d0bfddca.jpg",
-    "static/media/WG7_2.png": "/mitw/static/media/WG7_2.dc2ca65a947420833a41.png",
     "static/media/TTimeblack.png": "/mitw/static/media/TTimeblack.02563a531f269391e3c2.png",
+    "static/media/WG7_2.png": "/mitw/static/media/WG7_2.8e88aa14a94ee4a3e430.png",
     "static/media/Authorization.png": "/mitw/static/media/Authorization.86fd22f7cd641d311669.png",
     "static/media/Sitatech.png": "/mitw/static/media/Sitatech.7e6a89e35a066bcfab1c.png",
     "static/media/DAXIN.png": "/mitw/static/media/DAXIN.cbc66d15ae5e56b2db3a.png",
@@ -106,10 +106,10 @@
     "index.html": "/mitw/index.html",
     "static/media/slick.woff": "/mitw/static/media/slick.295183786cd8a1389865.woff",
     "main.1b7d9427.css.map": "/mitw/static/css/main.1b7d9427.css.map",
-    "main.75e3b276.js.map": "/mitw/static/js/main.75e3b276.js.map"
+    "main.43d4841d.js.map": "/mitw/static/js/main.43d4841d.js.map"
   },
   "entrypoints": [
     "static/css/main.1b7d9427.css",
-    "static/js/main.75e3b276.js"
+    "static/js/main.43d4841d.js"
   ]
 }
