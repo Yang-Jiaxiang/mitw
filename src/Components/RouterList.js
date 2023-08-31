@@ -24,7 +24,7 @@ const routerList = [
   },
   {
     name: '論壇',
-    path: 'https://mitwforum.dicom.org.tw',
+    path: '/', //https://mitwforum.dicom.org.tw
     liComponent: '',
   },
   {
