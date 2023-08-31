@@ -31,15 +31,24 @@ const FooterContext = [
     ],
   },
   {
+    title: '協辦單位:',
+    data: [
+      {
+        name: '國泰人壽',
+        path: 'https://www.cathaylife.com.tw/cathaylife/',
+      },
+    ],
+  },
+  {
     title: '合作單位:',
     data: [
       {
-        name: '慈濟大學—醫學資訊學系',
-        path: 'https://mi.tcu.edu.tw/',
-      },
-      {
         name: '社團法人台灣醫學資訊學會',
         path: 'http://www.medinfo.org.tw/',
+      },
+      {
+        name: '慈濟大學—醫學資訊學系',
+        path: 'https://mi.tcu.edu.tw/',
       },
     ],
   },
