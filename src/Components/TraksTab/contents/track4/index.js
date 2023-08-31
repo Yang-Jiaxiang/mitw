@@ -7,6 +7,10 @@ import track4_5 from '../../../../assets/WG4_5.png'
 import track4_6 from '../../../../assets/track4_5.png'
 import track4_7 from '../../../../assets/track4_6.png'
 import track4_8 from '../../../../assets/track4_7.png'
+
+import Lightbox from 'react-image-lightbox'
+import { useState } from 'react'
+
 const h3_style = {
   fontWeight: 'bold',
   fontSize: '1.5em',
@@ -463,6 +467,9 @@ const Track4_SystemsAffected_content = () => {
 }
 
 const Track4_Specification_content = () => {
+  const [srcImg, setSrcImg] = useState(null)
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       <p>涉及到的角色 (Actors)以及交易(Transactions)，說明如下:</p>
@@ -688,22 +695,62 @@ const Track4_Specification_content = () => {
       <ul>
         <li>醫學影像與DICOM標記互通之角色與交易關係圖</li>
         <center>
-          <img src={track4_4} Width={'20%'} />
+          <img
+            src={track4_4}
+            width="20%"
+            onClick={() => {
+              setSrcImg(track4_4)
+              setLightboxOpen(true)
+            }}
+          />
+          {/* <img src={track4_4} Width={'20%'} /> */}
         </center>
         <center>
-          <img src={track4_5} Width={'40%'} />
+          <img
+            src={track4_5}
+            width="40%"
+            onClick={() => {
+              setSrcImg(track4_5)
+              setLightboxOpen(true)
+            }}
+          />
+          {/* <img src={track4_5} Width={'40%'} /> */}
         </center>
         <li>影像、結構化影像報告(IMAGE)、FHIR標記之角色與交易關係圖</li>
         <center>
-          <img src={track4_6} Width={'80%'} />
+          <img
+            src={track4_6}
+            width="80%"
+            onClick={() => {
+              setSrcImg(track4_6)
+              setLightboxOpen(true)
+            }}
+          />
+          {/* <img src={track4_6} Width={'80%'} /> */}
         </center>
         <li>數位病理影像存取(PATH)之角色與交易關係圖 </li>
         <center>
-          <img src={track4_7} Width={'30%'} />
+          <img
+            src={track4_7}
+            width="30%"
+            onClick={() => {
+              setSrcImg(track4_7)
+              setLightboxOpen(true)
+            }}
+          />
+          {/* <img src={track4_7} Width={'30%'} /> */}
         </center>
         <li>影像檢查流程之角色與交易關係圖</li>
         <center>
-          <img src={track4_8} Width={'50%'} />
+          <img
+            src={track4_8}
+            width="50%"
+            onClick={() => {
+              setSrcImg(track4_8)
+              setLightboxOpen(true)
+            }}
+          />
+          {/* <img src={track4_8} Width={'50%'} /> */}
         </center>
       </ul>
       <h3 style={{ fontWeight: 'bold' }}>角色能力聲明</h3>
@@ -771,6 +818,14 @@ const Track4_Specification_content = () => {
           </tr>
         </tbody>
       </table>
+      {lightboxOpen && (
+        <Lightbox
+          imageLoadErrorMessage="無法載入圖片"
+          imagePadding={window.innerWidth / 10}
+          mainSrc={srcImg}
+          onCloseRequest={() => setLightboxOpen(false)}
+        />
+      )}
     </div>
   )
 }

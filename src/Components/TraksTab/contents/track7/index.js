@@ -114,7 +114,7 @@ const Track7_details_content = () => {
           </span>
         </li>
         <center>
-          <img src={track7_1} Width="90%" />
+          <img src={track7_1} Width="100%" />
         </center>
         <li class="" data-startline="1116" data-endline="1116" data-position="54867" data-size="0">
           <span data-position="54867" data-size="21">
@@ -815,8 +815,8 @@ const Track7_SystemsAffected_content = () => {
 }
 
 const Track7_Specification_content = () => {
+  const [srcImg, setSrcImg] = useState(null)
   const [lightboxOpen, setLightboxOpen] = useState(false)
-
   return (
     <div>
       <p style={h3_style}>角色(Actors)</p>
@@ -888,7 +888,14 @@ const Track7_Specification_content = () => {
       <p>1. 緊急醫療救護(EMS)之角色與交易關係圖</p>
 
       <img src={track7_2} alt="trackImg" width="40%" onClick={() => setLightboxOpen(true)} />
-      {lightboxOpen && <Lightbox mainSrc={track7_2} onCloseRequest={() => setLightboxOpen(false)} />}
+      {lightboxOpen && (
+        <Lightbox
+          imageLoadErrorMessage="無法載入圖片"
+          imagePadding={window.innerWidth / 10}
+          mainSrc={track7_2}
+          onCloseRequest={() => setLightboxOpen(false)}
+        />
+      )}
     </div>
   )
 }

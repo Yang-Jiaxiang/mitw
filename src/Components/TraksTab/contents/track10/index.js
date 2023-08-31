@@ -3146,7 +3146,14 @@ const Track10_Specification_content = () => {
       </table>
       <p style={h3_style}>角色與交易關係圖</p>
       <img src={track10_2} alt="trackImg" width="40%" onClick={() => setLightboxOpen(true)} />
-      {lightboxOpen && <Lightbox mainSrc={track10_2} onCloseRequest={() => setLightboxOpen(false)} />}
+      {lightboxOpen && (
+        <Lightbox
+          imageLoadErrorMessage="無法載入圖片"
+          imagePadding={window.innerWidth / 10}
+          mainSrc={track10_2}
+          onCloseRequest={() => setLightboxOpen(false)}
+        />
+      )}
     </div>
   )
 }

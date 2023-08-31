@@ -425,7 +425,14 @@ const Track2_Specification_content = () => {
         </li>
       </ol>
       <img src={trackImg} alt="trackImg" width="100%" onClick={() => setLightboxOpen(true)} />
-      {lightboxOpen && <Lightbox mainSrc={trackImg} onCloseRequest={() => setLightboxOpen(false)} />}
+      {lightboxOpen && (
+        <Lightbox
+          imageLoadErrorMessage="無法載入圖片"
+          imagePadding={window.innerWidth / 10}
+          mainSrc={trackImg}
+          onCloseRequest={() => setLightboxOpen(false)}
+        />
+      )}
     </div>
   )
 }

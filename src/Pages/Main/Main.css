@@ -24,8 +24,9 @@
     width: 100%;
   }
   .Maintitle {
+    margin-right: 3rem;
     /* margin-top: 2vw; */
-    width: 55%;
+    width: 52%;
     /* height: 60%; */
   }
 }

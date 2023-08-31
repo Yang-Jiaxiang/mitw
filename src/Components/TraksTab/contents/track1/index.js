@@ -722,7 +722,14 @@ const Track1_Specification_content = () => {
           </li>
         </ol>
         <img src={track1_4} width="50%" onClick={() => setLightboxOpen(true)} />
-        {lightboxOpen && <Lightbox mainSrc={track1_4} onCloseRequest={() => setLightboxOpen(false)} />}
+        {lightboxOpen && (
+          <Lightbox
+            imageLoadErrorMessage="無法載入圖片"
+            imagePadding={window.innerWidth / 10}
+            mainSrc={track1_4}
+            onCloseRequest={() => setLightboxOpen(false)}
+          />
+        )}
         {/* <img src={track1_4} width="70%" /> */}
       </div>
     </div>

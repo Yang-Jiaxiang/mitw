@@ -399,7 +399,14 @@ const Track6_Specification_content = () => {
       <p>1. 基因體標記(GEN)之角色與交易關係圖</p>
 
       <img src={track6_2_1} alt="trackImg" width="40%" onClick={() => setLightboxOpen(true)} />
-      {lightboxOpen && <Lightbox mainSrc={track6_2_1} onCloseRequest={() => setLightboxOpen(false)} />}
+      {lightboxOpen && (
+        <Lightbox
+          imageLoadErrorMessage="無法載入圖片"
+          imagePadding={window.innerWidth / 10}
+          mainSrc={track6_2_1}
+          onCloseRequest={() => setLightboxOpen(false)}
+        />
+      )}
     </div>
   )
 }

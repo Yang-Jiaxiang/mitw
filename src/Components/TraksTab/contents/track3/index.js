@@ -210,7 +210,14 @@ const Track3_Specification_content = () => {
       <h3>角色與交易關係圖</h3>
       <p>1.處方用藥與文件打包(MED&DOC)之角色與交易關係圖</p>
       <img src={track3_1} alt="trackImg" width="100%" onClick={() => setLightboxOpen(true)} />
-      {lightboxOpen && <Lightbox mainSrc={track3_1} onCloseRequest={() => setLightboxOpen(false)} />}
+      {lightboxOpen && (
+        <Lightbox
+          imageLoadErrorMessage="無法載入圖片"
+          imagePadding={window.innerWidth / 10}
+          mainSrc={track3_1}
+          onCloseRequest={() => setLightboxOpen(false)}
+        />
+      )}
     </div>
   )
 }

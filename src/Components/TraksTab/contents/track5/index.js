@@ -730,7 +730,14 @@ const Track5_Specification_content = () => {
         />
       </center>
 
-      {lightboxOpen && <Lightbox mainSrc={srcImg} onCloseRequest={() => setLightboxOpen(false)} />}
+      {lightboxOpen && (
+        <Lightbox
+          imageLoadErrorMessage="無法載入圖片"
+          imagePadding={window.innerWidth / 10}
+          mainSrc={srcImg}
+          onCloseRequest={() => setLightboxOpen(false)}
+        />
+      )}
     </div>
   )
 }
