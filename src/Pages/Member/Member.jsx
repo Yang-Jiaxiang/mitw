@@ -91,9 +91,11 @@ function Member() {
                   <Modal open={Open} onClose={handleClose}>
                     <div
                       style={{
+                        overflowY: 'scroll',
                         background: '#fff',
                         position: 'absolute',
                         padding: '1rem',
+                        height: windwosWidth < 600 && '80vh',
                         top: '50%',
                         left: '50%',
                         transform: 'translate(-50%, -50%)',

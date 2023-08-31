@@ -203,6 +203,9 @@ function MemberCard() {
                       <Modal open={Open} onClose={handleClose}>
                         <div
                           style={{
+                            overflowY: 'scroll',
+                            height: windwosWidth < 600 && '80vh',
+
                             background: '#fff',
                             position: 'absolute',
                             padding: '1rem',
