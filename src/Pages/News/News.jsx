@@ -69,7 +69,9 @@ function News() {
               }}
             >
               <div>
-                <center>{/* <img src={yechen} alt="time" style={{ width: '80%' }} /> */}</center>
+                <center>
+                  <img src={yechen} alt="time" style={{ width: '80%' }} />
+                </center>
               </div>
             </Grid>
 
