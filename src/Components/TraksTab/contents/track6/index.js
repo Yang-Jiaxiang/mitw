@@ -3,6 +3,8 @@ import ReactPlayer from 'react-player/youtube'
 import track6_1 from '../../../../assets/WG6_1.png'
 import track6_2 from '../../../../assets/WG6_2.png'
 import track6_2_1 from '../../../../assets/wg6_2_1.png'
+import Lightbox from 'react-image-lightbox'
+import { useState } from 'react'
 const h3_style = {
   fontWeight: 'bold',
   fontSize: '1.5em',
@@ -156,6 +158,8 @@ const Track6_SystemsAffected_content = () => {
 }
 
 const Track6_Specification_content = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       <p style={h3_style}>角色(Actors)</p>
@@ -393,7 +397,9 @@ const Track6_Specification_content = () => {
 
       <p style={h3_style}>角色與交易關係圖</p>
       <p>1. 基因體標記(GEN)之角色與交易關係圖</p>
-      <img src={track6_2_1} width={'40%'} />
+
+      <img src={track6_2_1} alt="trackImg" width="40%" onClick={() => setLightboxOpen(true)} />
+      {lightboxOpen && <Lightbox mainSrc={track6_2_1} onCloseRequest={() => setLightboxOpen(false)} />}
     </div>
   )
 }

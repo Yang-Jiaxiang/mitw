@@ -4,6 +4,8 @@ import track9_1 from '../../../../assets/WG9_1.png'
 import track9_2 from '../../../../assets/WG9_2.png'
 import track9_2_1 from '../../../../assets/WG9_2_1.png'
 import track9_2_2 from '../../../../assets/WG9_2_2.png'
+import Lightbox from 'react-image-lightbox'
+import { useState } from 'react'
 const h3_style = {
   fontWeight: 'bold',
   fontSize: '1.5em',
@@ -88,6 +90,8 @@ const Track9_SystemsAffected_content = () => {
 }
 
 const Track9_Specification_content = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       <p style={h3_style}>角色(Actors)</p>
@@ -333,7 +337,8 @@ const Track9_Specification_content = () => {
         </tbody>
       </table>
       <p style={h3_style}>角色與交易關係圖</p>
-      <img src={track9_2} Width="30%" />
+      <img src={track9_2} alt="trackImg" width="40%" onClick={() => setLightboxOpen(true)} />
+      {lightboxOpen && <Lightbox mainSrc={track9_2} onCloseRequest={() => setLightboxOpen(false)} />}
     </div>
   )
 }

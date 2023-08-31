@@ -2,6 +2,8 @@ import ReactPlayer from 'react-player/youtube'
 
 import track10_1 from '../../../../assets/WG10_1.png'
 import track10_2 from '../../../../assets/WG10_2.png'
+import Lightbox from 'react-image-lightbox'
+import { useState } from 'react'
 const h3_style = {
   fontWeight: 'bold',
   fontSize: '1.5em',
@@ -2899,6 +2901,8 @@ const Track10_SystemsAffected_content = () => {
 }
 
 const Track10_Specification_content = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       <ul class="part in-view" data-startline="1617" data-endline="1620" data-position="83963" data-size="0">
@@ -3141,7 +3145,8 @@ const Track10_Specification_content = () => {
         </tbody>
       </table>
       <p style={h3_style}>角色與交易關係圖</p>
-      <img src={track10_2} Width="40%" />
+      <img src={track10_2} alt="trackImg" width="40%" onClick={() => setLightboxOpen(true)} />
+      {lightboxOpen && <Lightbox mainSrc={track10_2} onCloseRequest={() => setLightboxOpen(false)} />}
     </div>
   )
 }

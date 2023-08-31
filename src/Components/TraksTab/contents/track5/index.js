@@ -1,4 +1,6 @@
 import ReactPlayer from 'react-player/youtube'
+import { useState } from 'react'
+import Lightbox from 'react-image-lightbox'
 
 import track5_2 from '../../../../assets/WG5_2.png'
 import wg5_1_1 from '../../../../assets/Wg5_1_1.png'
@@ -79,6 +81,9 @@ const Track5_SystemsAffected_content = () => {
 }
 
 const Track5_Specification_content = () => {
+  const [srcImg, setSrcImg] = useState(null)
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       <p style={h3_style}>角色(Actors)</p>
@@ -705,10 +710,27 @@ const Track5_Specification_content = () => {
       <ul>
         <li>處方調劑與個人健康管理系統</li>
       </ul>
-      <img src={wg5_2_1} width="30%" />
+      <img
+        src={wg5_2_1}
+        width="30%"
+        onClick={() => {
+          setSrcImg(wg5_2_1)
+          setLightboxOpen(true)
+        }}
+      />
+
       <center>
-        <img src={track5_2} Width="100%" />
+        <img
+          src={track5_2}
+          Width="100%"
+          onClick={() => {
+            setSrcImg(track5_2)
+            setLightboxOpen(true)
+          }}
+        />
       </center>
+
+      {lightboxOpen && <Lightbox mainSrc={srcImg} onCloseRequest={() => setLightboxOpen(false)} />}
     </div>
   )
 }

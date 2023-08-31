@@ -20,6 +20,7 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'react-image-lightbox/style.css' // This only needs to be imported once in your app
 
 import NewNavBar from './Components/Navbar/NewNavBar'
 

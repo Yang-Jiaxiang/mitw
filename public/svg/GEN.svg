@@ -1,0 +1,91 @@
+<svg width="415pt" height="178pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; "><g id="viewport-20230830120307020" class="svg-pan-zoom_viewport" transform="matrix(1.3340409994125366,0,0,1.3340409994125366,1.0000344514846802,0.03715925291180611)">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 173.6)">
+<title>n0</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-173.6 410.533,-173.6 410.533,4 -4,4"></polygon>
+<polygon fill="#ffffff" stroke="none" points="0,-0 0,-157 416,-157 416,-0 0,-0"></polygon>
+<!-- n1 -->
+<g id="node1" class="node"><title>n1</title>
+<g id="a_node1"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=MOL_CONSUMER" xlink:title="Molecular Sequence Consumer">
+<polygon fill="#9fbdeb" stroke="black" points="90,-169.801 0,-169.801 0,-110.999 90,-110.999 90,-169.801"></polygon>
+<text text-anchor="middle" x="45" y="-153" font-family="Times,serif" font-size="14.00">Molecular</text>
+<text text-anchor="middle" x="45" y="-136.2" font-family="Times,serif" font-size="14.00">Sequence</text>
+<text text-anchor="middle" x="45" y="-119.4" font-family="Times,serif" font-size="14.00">Consumer</text>
+</a>
+</g>
+</g>
+<!-- n2 -->
+<g id="node2" class="node"><title>n2</title>
+<g id="a_node2"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=MOL_REPOSITORY" xlink:title="Molecular Sequence Repository">
+<polygon fill="#9fbdeb" stroke="black" points="172,-58.6014 78,-58.6014 78,0.201379 172,0.201379 172,-58.6014"></polygon>
+<text text-anchor="middle" x="125" y="-41.8" font-family="Times,serif" font-size="14.00">Molecular</text>
+<text text-anchor="middle" x="125" y="-25" font-family="Times,serif" font-size="14.00">Sequence</text>
+<text text-anchor="middle" x="125" y="-8.2" font-family="Times,serif" font-size="14.00">Repository</text>
+</a>
+</g>
+</g>
+<!-- n1&#45;&gt;n2 -->
+<g id="edge1" class="edge"><title>n1-&gt;n2</title>
+<path fill="none" stroke="black" d="M56.6672,-110.908C61.917,-99.6509 68.6901,-86.9191 76.467,-76.4 79.1058,-72.8308 82.0361,-69.2992 85.1125,-65.8733"></path>
+<polygon fill="black" stroke="black" points="87.6934,-68.238 92.024,-58.5686 82.6087,-63.427 87.6934,-68.238"></polygon>
+<text text-anchor="middle" x="105.767" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-10</text>
+</g>
+<!-- n3 -->
+<g id="node3" class="node"><title>n3</title>
+<g id="a_node3"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=MOL_CREATOR" xlink:title="Molecular Sequence Creator">
+<polygon fill="#9fbdeb" stroke="black" points="197.5,-169.801 108.5,-169.801 108.5,-110.999 197.5,-110.999 197.5,-169.801"></polygon>
+<text text-anchor="middle" x="153" y="-153" font-family="Times,serif" font-size="14.00">Molecular</text>
+<text text-anchor="middle" x="153" y="-136.2" font-family="Times,serif" font-size="14.00">Sequence</text>
+<text text-anchor="middle" x="153" y="-119.4" font-family="Times,serif" font-size="14.00">Creator</text>
+</a>
+</g>
+</g>
+<!-- n3&#45;&gt;n2 -->
+<g id="edge2" class="edge"><title>n3-&gt;n2</title>
+<path fill="none" stroke="black" d="M145.716,-110.994C142.378,-97.976 138.373,-82.3545 134.777,-68.3318"></path>
+<polygon fill="black" stroke="black" points="138.121,-67.281 132.247,-58.4637 131.341,-69.0197 138.121,-67.281"></polygon>
+<text text-anchor="middle" x="166.267" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-9</text>
+</g>
+<!-- n4 -->
+<g id="node4" class="node"><title>n4</title>
+<g id="a_node4"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VAR_CONSUMER" xlink:title="Genetic Variant Consumer">
+<polygon fill="#9fbdeb" stroke="black" points="308,-169.801 218,-169.801 218,-110.999 308,-110.999 308,-169.801"></polygon>
+<text text-anchor="middle" x="263" y="-153" font-family="Times,serif" font-size="14.00">Genetic</text>
+<text text-anchor="middle" x="263" y="-136.2" font-family="Times,serif" font-size="14.00">Variant</text>
+<text text-anchor="middle" x="263" y="-119.4" font-family="Times,serif" font-size="14.00">Consumer</text>
+</a>
+</g>
+</g>
+<!-- n5 -->
+<g id="node5" class="node"><title>n5</title>
+<g id="a_node5"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VAR_REPOSITORY" xlink:title="Genetic Variant Repository">
+<polygon fill="#9fbdeb" stroke="black" points="337,-58.6014 243,-58.6014 243,0.201379 337,0.201379 337,-58.6014"></polygon>
+<text text-anchor="middle" x="290" y="-41.8" font-family="Times,serif" font-size="14.00">Genetic</text>
+<text text-anchor="middle" x="290" y="-25" font-family="Times,serif" font-size="14.00">Variant</text>
+<text text-anchor="middle" x="290" y="-8.2" font-family="Times,serif" font-size="14.00">Repository</text>
+</a>
+</g>
+</g>
+<!-- n4&#45;&gt;n5 -->
+<g id="edge3" class="edge"><title>n4-&gt;n5</title>
+<path fill="none" stroke="black" d="M270.023,-110.994C273.242,-97.976 277.105,-82.3545 280.572,-68.3318"></path>
+<polygon fill="black" stroke="black" points="284.009,-69.0115 283.012,-58.4637 277.214,-67.3313 284.009,-69.0115"></polygon>
+<text text-anchor="middle" x="307.767" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-12</text>
+</g>
+<!-- n6 -->
+<g id="node6" class="node"><title>n6</title>
+<g id="a_node6"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VAR_CREATOR" xlink:title="Genetic Variant Creator">
+<polygon fill="#9fbdeb" stroke="black" points="398,-169.801 326,-169.801 326,-110.999 398,-110.999 398,-169.801"></polygon>
+<text text-anchor="middle" x="362" y="-153" font-family="Times,serif" font-size="14.00">Genetic</text>
+<text text-anchor="middle" x="362" y="-136.2" font-family="Times,serif" font-size="14.00">Variant</text>
+<text text-anchor="middle" x="362" y="-119.4" font-family="Times,serif" font-size="14.00">Creator</text>
+</a>
+</g>
+</g>
+<!-- n6&#45;&gt;n5 -->
+<g id="edge4" class="edge"><title>n6-&gt;n5</title>
+<path fill="none" stroke="black" d="M355.323,-111.068C351.849,-99.7104 346.861,-86.8629 340,-76.4 337.667,-72.842 335.001,-69.3711 332.142,-66.0331"></path>
+<polygon fill="black" stroke="black" points="334.545,-63.4762 325.188,-58.5073 329.404,-68.227 334.545,-63.4762"></polygon>
+<text text-anchor="middle" x="377.767" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-11</text>
+</g>
+</g>
+</g></svg>

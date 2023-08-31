@@ -1,0 +1,220 @@
+<svg width="996pt" height="194pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; ">
+    <g id="viewport-20230830120033737" class="svg-pan-zoom_viewport" transform="matrix(0.7640562057495117,0,0,0.7640562057495117,0.0000095367431640625,55.23373794555664)">
+        <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 190.4)">
+            <title>n0</title>
+            <polygon fill="white" stroke="none" points="-4,4 -4,-190.4 992,-190.4 992,4 -4,4"></polygon>
+            <polygon fill="#ffffff" stroke="none" points="0,-0 0,-172 988,-172 988,-0 0,-0"></polygon>
+            <!-- n1 -->
+            <g id="node1" class="node">
+                <title>n1</title>
+                <g id="a_node1">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC1_CONSUMER" xlink:title="SC1 Vital Sign Consumer">
+                        <polygon fill="#9fbdeb" stroke="black" points="90,-186.5 0,-186.5 0,-111.1 90,-111.1 90,-186.5"></polygon>
+                        <text text-anchor="middle" x="45" y="-169.8" font-family="Times,serif" font-size="14.00">SC1</text>
+                        <text text-anchor="middle" x="45" y="-153" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="45" y="-136.2" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="45" y="-119.4" font-family="Times,serif" font-size="14.00">Consumer</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n2 -->
+            <g id="node2" class="node">
+                <title>n2</title>
+                <g id="a_node2">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_REPOSITORY" xlink:title="Vital Sign Repository">
+                        <polygon fill="#9fbdeb" stroke="black" points="541,-58.6014 447,-58.6014 447,0.201379 541,0.201379 541,-58.6014"></polygon>
+                        <text text-anchor="middle" x="494" y="-41.8" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="494" y="-25" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="494" y="-8.2" font-family="Times,serif" font-size="14.00">Repository</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n1&#45;&gt;n2 -->
+            <g id="edge1" class="edge">
+                <title>n1-&gt;n2</title>
+                <path fill="none" stroke="black" d="M90.0424,-113.289C110.462,-99.4571 135.575,-84.8263 160.467,-76.4 253.952,-44.7543 369.198,-34.755 436.842,-31.6146"></path>
+                <polygon fill="black" stroke="black" points="437.033,-35.1097 446.873,-31.1831 436.732,-28.1161 437.033,-35.1097"></polygon>
+                <text text-anchor="middle" x="186.266" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-4</text>
+            </g>
+            <!-- n3 -->
+            <g id="node3" class="node">
+                <title>n3</title>
+                <g id="a_node3">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC1_CREATOR" xlink:title="SC1 Vital Sign Creator">
+                        <polygon fill="#9fbdeb" stroke="black" points="180,-186.5 108,-186.5 108,-111.1 180,-111.1 180,-186.5"></polygon>
+                        <text text-anchor="middle" x="144" y="-169.8" font-family="Times,serif" font-size="14.00">SC1</text>
+                        <text text-anchor="middle" x="144" y="-153" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="144" y="-136.2" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="144" y="-119.4" font-family="Times,serif" font-size="14.00">Creator</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n3&#45;&gt;n2 -->
+            <g id="edge2" class="edge">
+                <title>n3-&gt;n2</title>
+                <path fill="none" stroke="black" d="M180.062,-115.552C198.151,-101.188 221.141,-85.493 244.467,-76.4 307.58,-51.7973 384.891,-40.0822 436.581,-34.6487"></path>
+                <polygon fill="black" stroke="black" points="436.966,-38.1277 446.565,-33.6438 436.265,-31.1629 436.966,-38.1277"></polygon>
+                <text text-anchor="middle" x="270.266" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-3</text>
+            </g>
+            <!-- n4 -->
+            <g id="node4" class="node">
+                <title>n4</title>
+                <g id="a_node4">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC2_CONSUMER" xlink:title="SC2 Vital Sign Consumer">
+                        <polygon fill="#9fbdeb" stroke="black" points="288,-186.5 198,-186.5 198,-111.1 288,-111.1 288,-186.5"></polygon>
+                        <text text-anchor="middle" x="243" y="-169.8" font-family="Times,serif" font-size="14.00">SC2</text>
+                        <text text-anchor="middle" x="243" y="-153" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="243" y="-136.2" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="243" y="-119.4" font-family="Times,serif" font-size="14.00">Consumer</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n4&#45;&gt;n2 -->
+            <g id="edge3" class="edge">
+                <title>n4-&gt;n2</title>
+                <path fill="none" stroke="black" d="M276.625,-111.174C289.85,-98.5978 305.843,-85.4289 322.467,-76.4 357.988,-57.1085 402.098,-45.4607 436.692,-38.6865"></path>
+                <polygon fill="black" stroke="black" points="437.458,-42.104 446.641,-36.8203 436.167,-35.224 437.458,-42.104"></polygon>
+                <text text-anchor="middle" x="351.766" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-14</text>
+            </g>
+            <!-- n5 -->
+            <g id="node5" class="node">
+                <title>n5</title>
+                <g id="a_node5">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC2_CREATOR" xlink:title="SC2 Vital Sign Creator">
+                        <polygon fill="#9fbdeb" stroke="black" points="378,-186.5 306,-186.5 306,-111.1 378,-111.1 378,-186.5"></polygon>
+                        <text text-anchor="middle" x="342" y="-169.8" font-family="Times,serif" font-size="14.00">SC2</text>
+                        <text text-anchor="middle" x="342" y="-153" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="342" y="-136.2" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="342" y="-119.4" font-family="Times,serif" font-size="14.00">Creator</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n5&#45;&gt;n2 -->
+            <g id="edge4" class="edge">
+                <title>n5-&gt;n2</title>
+                <path fill="none" stroke="black" d="M367.278,-110.945C376.728,-98.9249 388.177,-86.1714 400.467,-76.4 411.647,-67.5115 424.814,-59.7152 437.684,-53.1815"></path>
+                <polygon fill="black" stroke="black" points="439.518,-56.181 446.97,-48.6496 436.448,-49.8902 439.518,-56.181"></polygon>
+                <text text-anchor="middle" x="429.766" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-13</text>
+            </g>
+            <!-- n6 -->
+            <g id="node6" class="node">
+                <title>n6</title>
+                <g id="a_node6">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC3_CONSUMER" xlink:title="SC3 Vital Sign Consumer">
+                        <polygon fill="#9fbdeb" stroke="black" points="486,-186.5 396,-186.5 396,-111.1 486,-111.1 486,-186.5"></polygon>
+                        <text text-anchor="middle" x="441" y="-169.8" font-family="Times,serif" font-size="14.00">SC3</text>
+                        <text text-anchor="middle" x="441" y="-153" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="441" y="-136.2" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="441" y="-119.4" font-family="Times,serif" font-size="14.00">Consumer</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n6&#45;&gt;n2 -->
+            <g id="edge5" class="edge">
+                <title>n6-&gt;n2</title>
+                <path fill="none" stroke="black" d="M454.02,-111.072C458.307,-99.8118 463.306,-87.4755 468.467,-76.4 469.779,-73.5835 471.192,-70.7027 472.655,-67.8239"></path>
+                <polygon fill="black" stroke="black" points="475.887,-69.1979 477.441,-58.7176 469.691,-65.9414 475.887,-69.1979"></polygon>
+                <text text-anchor="middle" x="497.767" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-16</text>
+            </g>
+            <!-- n7 -->
+            <g id="node7" class="node">
+                <title>n7</title>
+                <g id="a_node7">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC3_CREATOR" xlink:title="SC3_Vital Sign Creator">
+                        <polygon fill="#9fbdeb" stroke="black" points="591.5,-178.201 504.5,-178.201 504.5,-119.399 591.5,-119.399 591.5,-178.201"></polygon>
+                        <text text-anchor="middle" x="548" y="-161.4" font-family="Times,serif" font-size="14.00">SC3_Vital</text>
+                        <text text-anchor="middle" x="548" y="-144.6" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="548" y="-127.8" font-family="Times,serif" font-size="14.00">Creator</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n7&#45;&gt;n2 -->
+            <g id="edge6" class="edge">
+                <title>n7-&gt;n2</title>
+                <path fill="none" stroke="black" d="M541.452,-119.582C537.798,-106.137 532.633,-90.0497 526,-76.4 524.55,-73.4163 522.921,-70.4102 521.186,-67.4402"></path>
+                <polygon fill="black" stroke="black" points="523.995,-65.3315 515.734,-58.6977 518.055,-69.0352 523.995,-65.3315"></polygon>
+                <text text-anchor="middle" x="561.766" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-15</text>
+            </g>
+            <!-- n8 -->
+            <g id="node8" class="node">
+                <title>n8</title>
+                <g id="a_node8">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC4_CONSUMER" xlink:title="SC4 Vital Sign Consumer">
+                        <polygon fill="#9fbdeb" stroke="black" points="700,-186.5 610,-186.5 610,-111.1 700,-111.1 700,-186.5"></polygon>
+                        <text text-anchor="middle" x="655" y="-169.8" font-family="Times,serif" font-size="14.00">SC4</text>
+                        <text text-anchor="middle" x="655" y="-153" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="655" y="-136.2" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="655" y="-119.4" font-family="Times,serif" font-size="14.00">Consumer</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n8&#45;&gt;n2 -->
+            <g id="edge7" class="edge">
+                <title>n8-&gt;n2</title>
+                <path fill="none" stroke="black" d="M629.373,-111.128C619.619,-98.9841 607.756,-86.1069 595,-76.4 581.657,-66.2468 565.726,-57.6609 550.505,-50.7488"></path>
+                <polygon fill="black" stroke="black" points="551.713,-47.4574 541.148,-46.6624 548.911,-53.8723 551.713,-47.4574"></polygon>
+                <text text-anchor="middle" x="641.766" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-18</text>
+            </g>
+            <!-- n9 -->
+            <g id="node9" class="node">
+                <title>n9</title>
+                <g id="a_node9">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC4_CREATOR" xlink:title="SC4 Vital Sign Creator">
+                        <polygon fill="#9fbdeb" stroke="black" points="790,-186.5 718,-186.5 718,-111.1 790,-111.1 790,-186.5"></polygon>
+                        <text text-anchor="middle" x="754" y="-169.8" font-family="Times,serif" font-size="14.00">SC4</text>
+                        <text text-anchor="middle" x="754" y="-153" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="754" y="-136.2" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="754" y="-119.4" font-family="Times,serif" font-size="14.00">Creator</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n9&#45;&gt;n2 -->
+            <g id="edge8" class="edge">
+                <title>n9-&gt;n2</title>
+                <path fill="none" stroke="black" d="M720.67,-111.05C707.533,-98.4602 691.616,-85.3145 675,-76.4 636.47,-55.7289 588.32,-44.0166 551.371,-37.5601"></path>
+                <polygon fill="black" stroke="black" points="551.703,-34.0673 541.264,-35.8754 550.552,-40.972 551.703,-34.0673"></polygon>
+                <text text-anchor="middle" x="728.766" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-17</text>
+            </g>
+            <!-- n10 -->
+            <g id="node10" class="node">
+                <title>n10</title>
+                <g id="a_node10">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC5_CONSUMER" xlink:title="SC5 Vital Sign Consumer">
+                        <polygon fill="#9fbdeb" stroke="black" points="898,-186.5 808,-186.5 808,-111.1 898,-111.1 898,-186.5"></polygon>
+                        <text text-anchor="middle" x="853" y="-169.8" font-family="Times,serif" font-size="14.00">SC5</text>
+                        <text text-anchor="middle" x="853" y="-153" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="853" y="-136.2" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="853" y="-119.4" font-family="Times,serif" font-size="14.00">Consumer</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n10&#45;&gt;n2 -->
+            <g id="edge9" class="edge">
+                <title>n10-&gt;n2</title>
+                <path fill="none" stroke="black" d="M815.039,-111.143C799.684,-98.251 781.086,-84.8777 762,-76.4 693.554,-45.9979 607.033,-35.5339 551.116,-31.972"></path>
+                <polygon fill="black" stroke="black" points="551.23,-28.4728 541.043,-31.384 550.822,-35.4609 551.23,-28.4728"></polygon>
+                <text text-anchor="middle" x="818.766" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-20</text>
+            </g>
+            <!-- n11 -->
+            <g id="node11" class="node">
+                <title>n11</title>
+                <g id="a_node11">
+                    <a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=VT_SC5_CREATOR" xlink:title="SC5 Vital Sign Creator">
+                        <polygon fill="#9fbdeb" stroke="black" points="988,-186.5 916,-186.5 916,-111.1 988,-111.1 988,-186.5"></polygon>
+                        <text text-anchor="middle" x="952" y="-169.8" font-family="Times,serif" font-size="14.00">SC5</text>
+                        <text text-anchor="middle" x="952" y="-153" font-family="Times,serif" font-size="14.00">Vital</text>
+                        <text text-anchor="middle" x="952" y="-136.2" font-family="Times,serif" font-size="14.00">Sign</text>
+                        <text text-anchor="middle" x="952" y="-119.4" font-family="Times,serif" font-size="14.00">Creator</text>
+                    </a>
+                </g>
+            </g>
+            <!-- n11&#45;&gt;n2 -->
+            <g id="edge10" class="edge">
+                <title>n11-&gt;n2</title>
+                <path fill="none" stroke="black" d="M915.874,-114.629C897.991,-100.245 875.277,-84.7977 852,-76.4 750.584,-39.8121 623.797,-31.5354 551.54,-30.042"></path>
+                <polygon fill="black" stroke="black" points="551.342,-26.5383 541.284,-29.8684 551.223,-33.5373 551.342,-26.5383"></polygon>
+                <text text-anchor="middle" x="914.766" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-19</text>
+            </g>
+        </g>
+    </g>
+</svg>

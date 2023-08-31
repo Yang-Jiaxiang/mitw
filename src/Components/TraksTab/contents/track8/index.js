@@ -6,6 +6,9 @@ import track8_3 from '../../../../assets/WG8_3.png'
 import track8_4 from '../../../../assets/WG8_4.png'
 import track8_5 from '../../../../assets/WG8_5.png'
 import track8_bounes from '../../../../assets/wg8_bonus.png'
+import Lightbox from 'react-image-lightbox'
+import { useState } from 'react'
+
 const h3_style = {
   fontWeight: 'bold',
   fontSize: '1.5em',
@@ -310,6 +313,8 @@ const Track8_SystemsAffected_content = () => {
 }
 
 const Track8_Specification_content = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       <p style={h3_style}>規格</p>
@@ -417,7 +422,8 @@ const Track8_Specification_content = () => {
         </table>
       </ol>
       <p style={h3_style}>角色與交易關係圖</p>
-      <img src={track8_5} Width="30%" />
+      <img src={track8_5} alt="trackImg" width="40%" onClick={() => setLightboxOpen(true)} />
+      {lightboxOpen && <Lightbox mainSrc={track8_5} onCloseRequest={() => setLightboxOpen(false)} />}
     </div>
   )
 }

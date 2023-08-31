@@ -1,6 +1,8 @@
 import trackImg from '../../../../assets/wg2_3.png'
 import ReactPlayer from 'react-player/youtube'
 import track3_1 from '../../../../assets/WG3_1.png'
+import { useState } from 'react'
+import Lightbox from 'react-image-lightbox'
 
 const Track3_Summary_content = () => {
   return (
@@ -52,6 +54,8 @@ const Track3_SystemsAffected_content = () => {
 }
 
 const Track3_Specification_content = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       {' '}
@@ -205,7 +209,8 @@ const Track3_Specification_content = () => {
       </table>
       <h3>角色與交易關係圖</h3>
       <p>1.處方用藥與文件打包(MED&DOC)之角色與交易關係圖</p>
-      <img src={track3_1} Width="100%" />
+      <img src={track3_1} alt="trackImg" width="100%" onClick={() => setLightboxOpen(true)} />
+      {lightboxOpen && <Lightbox mainSrc={track3_1} onCloseRequest={() => setLightboxOpen(false)} />}
     </div>
   )
 }

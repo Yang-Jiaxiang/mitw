@@ -1,6 +1,8 @@
 import trackImg from '../../../../assets/wg2_3.png'
 import ReactPlayer from 'react-player/youtube'
 
+import Lightbox from 'react-image-lightbox'
+import { useState } from 'react'
 const h3_style = {
   fontWeight: 'bold',
   fontSize: '1.5em',
@@ -343,6 +345,8 @@ const Track2_SystemsAffected_content = () => {
 }
 
 const Track2_Specification_content = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       <p>以下是用於記錄生命徵象的FHIR Observation規格 –Add the specs of fhir observation image</p>
@@ -420,7 +424,8 @@ const Track2_Specification_content = () => {
           生理量測數據(VTSIGN)之角色與交易關係圖
         </li>
       </ol>
-      <img src={trackImg} alt="trackImg" width="100%" />
+      <img src={trackImg} alt="trackImg" width="100%" onClick={() => setLightboxOpen(true)} />
+      {lightboxOpen && <Lightbox mainSrc={trackImg} onCloseRequest={() => setLightboxOpen(false)} />}
     </div>
   )
 }

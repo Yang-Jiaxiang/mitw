@@ -3,6 +3,8 @@ import track1_2 from '../../../../assets/Ts1.png'
 import track1_3 from '../../../../assets/WG1_2.png'
 import track1_4 from '../../../../assets/WG1_4.png'
 import ReactPlayer from 'react-player/youtube'
+import Lightbox from 'react-image-lightbox'
+import { useState } from 'react'
 
 const h3_style = {
   fontWeight: 'bold',
@@ -131,6 +133,8 @@ const Track1_SystemsAffected_content = () => {
 }
 
 const Track1_Specification_content = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       <p style={h3_style}>Patient Source</p>
@@ -717,7 +721,9 @@ const Track1_Specification_content = () => {
             </strong>
           </li>
         </ol>
-        <img src={track1_4} width="70%" />
+        <img src={track1_4} width="50%" onClick={() => setLightboxOpen(true)} />
+        {lightboxOpen && <Lightbox mainSrc={track1_4} onCloseRequest={() => setLightboxOpen(false)} />}
+        {/* <img src={track1_4} width="70%" /> */}
       </div>
     </div>
   )

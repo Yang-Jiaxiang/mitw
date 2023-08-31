@@ -2,6 +2,8 @@ import ReactPlayer from 'react-player/youtube'
 
 import track7_1 from '../../../../assets/WG7_1.png'
 import track7_2 from '../../../../assets/WG7_2.png'
+import Lightbox from 'react-image-lightbox'
+import { useState } from 'react'
 
 const h3_style = {
   fontWeight: 'bold',
@@ -813,6 +815,8 @@ const Track7_SystemsAffected_content = () => {
 }
 
 const Track7_Specification_content = () => {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+
   return (
     <div>
       <p style={h3_style}>角色(Actors)</p>
@@ -882,7 +886,9 @@ const Track7_Specification_content = () => {
 
       <p style={h3_style}>角色與交易關係圖</p>
       <p>1. 緊急醫療救護(EMS)之角色與交易關係圖</p>
-      <img src={track7_2} Width="30%" />
+
+      <img src={track7_2} alt="trackImg" width="40%" onClick={() => setLightboxOpen(true)} />
+      {lightboxOpen && <Lightbox mainSrc={track7_2} onCloseRequest={() => setLightboxOpen(false)} />}
     </div>
   )
 }
