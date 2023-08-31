@@ -39,14 +39,21 @@ function Member() {
       <div className={windwosWidth > 500 && 'AllBackground'}>
         <Grid
           container
-          spacing={4}
+          className="AllContentbackground"
           style={{
-            padding: '1rem',
+            justifyContent: 'center',
+            padding: '5vh 2rem',
+            background: '#fff',
+            minHeight: '80vh',
           }}
         >
+          <Grid item xs={12} sm={12} md={12} lg={12} height="10vh" sx={{}}>
+            <h2>督察員</h2>
+            <hr style={{ margin: '2vh 0 ' }} />
+          </Grid>
           {Mem.filter(({ isMember }) => isMember).map((item, i) => {
             return (
-              <Grid item xs={12} sm={10} md={6} lg={4} key={i}>
+              <Grid item xs={12} sm={10} md={6} lg={4} key={i} style={{ padding: '1rem' }}>
                 <CCard
                   className="CardContainer"
                   style={{ width: '100%', border: 'none', minHeight: '50vh', paddingTop: '1rem' }}
@@ -56,7 +63,7 @@ function Member() {
                   </p>
                   <p className="Name">{item.Name.split('|')[1]}</p>
                   <CCardImage
-                    style={{ width: '85%', cursor: 'pointer' }}
+                    style={{ width: '85%', cursor: 'pointer', aspectRatio: 1 }}
                     src={item.Img || presetImage}
                     onClick={() => {
                       handleClickOpen(item.Id)
