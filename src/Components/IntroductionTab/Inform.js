@@ -22,7 +22,6 @@ export const Inform = [
           style={{ display: "flex", width: "90%", marginLeft: "5%" }}
         /> */}
         <center>
-          {' '}
           <img src={p1} Width={'80%'} />
         </center>
       </div>
@@ -57,14 +56,14 @@ export const Inform = [
             連測結束後，可透過連測結果陣列(Connectathon Results
             Matrix)查看。透過連測活動來達到產業之間的數據交換與互助，以合作的方式相互發展具備全球市場競爭力之產品。
             <center>
-              {' '}
               <img src={p3} Width={'70%'} />{' '}
             </center>
             <br />
-            促使健康保健IT產業(healthcare IT)
-            的使用者以及廠商能夠共同合作達到IT系統互通(interoperability)，可透過以下方式達成
-          </li>
-
+          </li>{' '}
+        </ul>
+        促使健康保健IT產業(healthcare IT)
+        的使用者以及廠商能夠共同合作達到IT系統互通(interoperability)，可透過以下方式達成
+        <ul>
           <li>具體定義使用案例(use cases)</li>
           <li>定義使用案例所需要的資訊(information)與流程(Processes)</li>
           <li>使用現有的國際標準來實現訊信息交換(information exchange)</li>
