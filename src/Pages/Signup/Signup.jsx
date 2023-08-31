@@ -61,11 +61,11 @@ function Signup() {
             alignContent: 'center',
             margin: '3rem',
           }}
-          gap={3}
+          gap={2}
         >
           {Inform.map((item) => {
             return (
-              <Grid item sx={12} sm={12} md={5} lg={4.5} className="Block">
+              <Grid item sx={12} sm={11} md={5} lg={4.5} className="Block">
                 {/* <div key={item} className="Block"> */}
                 <img
                   src={item.icon}
@@ -73,7 +73,7 @@ function Signup() {
                     color: '#3087a7',
                     width: '2.5rem',
                     filter: ' saturate(2)',
-                    marginRight: '2rem',
+                    marginRight: '1rem',
                   }}
                 />
 
@@ -95,7 +95,7 @@ function Signup() {
                     }}
                   >
                     {item.title}
-                    {item.disable && '（已截止）'}
+                    {item.disable && '(已截止)'}
                   </h3>
                 </a>
               </Grid>

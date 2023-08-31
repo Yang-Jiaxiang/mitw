@@ -14,7 +14,7 @@
 @media screen and (min-width: 500px) {
   .Block {
     width: 80%;
-    padding-left: 3rem;
+    padding-left: 2rem;
     justify-content: left;
   }
   .Background {
