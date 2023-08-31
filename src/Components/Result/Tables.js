@@ -1,7 +1,7 @@
 //標頭改這樣 <br/>-->><br/>
 //   <table
-// class="rwd-table "
-// border="1"
+// class="rwd-table"
+//
 // cellpadding="10px"
 // style={{ textAlign: "center", width: "100%" }}
 // >
@@ -9,16 +9,8 @@ export const trackstable = {
   1: [
     {
       table: (
-        <table
-          class="rwd-table "
-          cellpadding="10px"
-          style={{
-            textAlign: 'center',
-            width: '100%',
-            border: '1px #000 solid',
-          }}
-        >
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="44%" style={{ maxWidth: '44%' }}>
                 <font color="white">
@@ -56,6 +48,8 @@ export const trackstable = {
                 Interoperability
               </td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司 (數數發)
@@ -315,8 +309,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="44%">
                 <font color="white">
@@ -354,6 +348,8 @@ export const trackstable = {
                 Interoperability
               </td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司 (數數發)
@@ -668,8 +664,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="44%">
                 <font color="white">
@@ -707,6 +703,8 @@ export const trackstable = {
                 Interoperability
               </td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
@@ -737,8 +735,8 @@ export const trackstable = {
   2: [
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="50%">
                 <font color="white">
@@ -767,6 +765,8 @@ export const trackstable = {
               <td width="3.5%">呼吸率</td>
               <td width="3.5%">CRT</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
@@ -1046,8 +1046,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="52%">
                 <font color="white">
@@ -1076,6 +1076,8 @@ export const trackstable = {
               <td width="3.5%">呼吸率</td>
               <td width="3.5%">CRT</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
@@ -1397,8 +1399,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -1415,6 +1417,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
@@ -1475,8 +1479,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="52%">
                 <font color="white">
@@ -1495,6 +1499,8 @@ export const trackstable = {
               <td width="12%">右股骨密度</td>
               <td width="12%">腰椎骨密度</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
@@ -1589,8 +1595,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="52%">
                 <font color="white">
@@ -1609,6 +1615,8 @@ export const trackstable = {
               <td width="12%">右股骨密度</td>
               <td width="12%">腰椎骨密度</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
@@ -1714,8 +1722,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="44%">
                 <font color="white">
@@ -1736,6 +1744,8 @@ export const trackstable = {
                 CREATOR
               </td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 中華電信股份有限公司資訊技術分公司
@@ -1771,8 +1781,8 @@ export const trackstable = {
   3: [
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -1789,6 +1799,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司(數數發)
@@ -1852,8 +1864,9 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
+            {' '}
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -1870,6 +1883,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司(數數發)
@@ -1912,8 +1927,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -1930,6 +1945,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司(數數發)
@@ -2008,8 +2025,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2026,6 +2043,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司(數數發)
@@ -2106,8 +2125,8 @@ export const trackstable = {
   4: [
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2124,6 +2143,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">SOURCE</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
@@ -2175,8 +2196,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2193,6 +2214,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 商之器科技股份有限公司
@@ -2229,8 +2252,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2247,6 +2270,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
@@ -2283,8 +2308,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2301,6 +2326,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 三軍總醫院
@@ -2316,8 +2343,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="30%">
                 <font color="white">
@@ -2340,6 +2367,8 @@ export const trackstable = {
               <td width="20%">OF</td>
               <td width="20%">ID</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 倍利科技股份有限公司
@@ -2380,8 +2409,8 @@ export const trackstable = {
   5: [
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2398,6 +2427,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">REPOSITORY</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 玳康科技有限公司
@@ -2446,8 +2477,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2462,7 +2493,10 @@ export const trackstable = {
             </tr>
             <tr bgcolor="#D1E9E9">
               <td width="60%">CONSUMER</td>
+              <td width="60%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國立臺北護理健康大學-影像資訊學實驗室
@@ -2479,8 +2513,8 @@ export const trackstable = {
   6: [
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2497,6 +2531,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 財團法人工業技術研究院 (生醫所)
@@ -2539,8 +2575,8 @@ export const trackstable = {
     },
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2557,6 +2593,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 臺中榮民總醫院 (臨床資訊科)
@@ -2583,8 +2621,8 @@ export const trackstable = {
   7: [
     {
       table: (
-        <table class="rwd-table " border="1" cellpadding="10px" style={{ textAlign: 'center', width: '100%' }}>
-          <tbody>
+        <table className="rwd-table" cellpadding="10px">
+          <thead>
             <tr bgcolor="#4F9D9D">
               <td rowspan="2" width="60%">
                 <font color="white">
@@ -2601,6 +2639,8 @@ export const trackstable = {
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
+          </thead>
+          <tbody>
             <tr>
               <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
                 國泰金融控股股份有限公司 (數數發)
