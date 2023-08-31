@@ -5,7 +5,7 @@ import Raccoon from '../../../assets/RaccoonLogo.png'
 const Title = ['名稱', '簡介', '適用賽道', '貢獻者']
 const TBody = [
   {
-    name: '布魯斯(Burni)',
+    name: '布魯尼(Burni)',
     img: Burni,
     link: 'https://github.com/Chinlinlee/Burni',
     introduce:
