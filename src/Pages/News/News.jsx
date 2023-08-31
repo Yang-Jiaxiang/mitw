@@ -116,7 +116,7 @@ function News() {
                       >
                         {item.title}
                       </div>
-                      <div>{item.Content}</div>
+                      <div style={{ textAlign: 'left' }}>{item.Content}</div>
                     </Grid>
                   )
                 })}
