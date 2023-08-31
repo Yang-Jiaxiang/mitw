@@ -82,7 +82,7 @@ function Main() {
           </p>
         )}
 
-        <a href="https://mitw.dicom.org.tw/pdf/mitw2023_DM.pdf" target="_blank" style={{ color: '#fff' }}>
+        <a href={process.env.PUBLIC_URL + '/MI-TW_2023_DM.pdf'} target="_blank" style={{ color: '#fff' }}>
           MITW-DM 宣傳單下載
         </a>
       </motion.div>
