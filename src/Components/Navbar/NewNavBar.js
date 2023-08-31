@@ -149,7 +149,7 @@ function ResponsiveAppBar({ setNavBarHeight }) {
                 return <NewNavBarMenu page={page} windwosWidth={windwosWidth} />
               } else {
                 return (
-                  <NavLink to={page.path}>
+                  <NavLink to={page.path} target={page.path.includes('http') && '_blank'}>
                     <Button
                       key={page.name}
                       onClick={handleCloseNavMenu}
