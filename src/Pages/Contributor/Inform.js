@@ -343,8 +343,10 @@ const Mem = [
         </ul>
         <b>2.　現職：</b>
         <ul>
-          <li>國家衛生研究院 癌症研究所 博士後研究員</li>
-          <li>Postdoctoral, National Health Research Institutes - The National Institute of Cancer Research</li>
+          <li>
+            國家衛生研究院 癌症研究所 博士後研究員
+            <br /> Postdoctoral, National Health Research Institutes - The National Institute of Cancer Research
+          </li>
           <li>亞太醫學資訊學會 秘書長</li>
           <li>Secretary General, Asia-Pacific Association for Medical Informatics</li>
           <li>台灣電子健康學會 執行長</li>
