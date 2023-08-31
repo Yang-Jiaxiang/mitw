@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/mitw/static/css/main.13979722.css",
-    "main.js": "/mitw/static/js/main.a8582e0d.js",
+    "main.js": "/mitw/static/js/main.b1741a03.js",
     "static/media/v2wg0_4.jpg": "/mitw/static/media/v2wg0_4.71969d8cd6954932a373.jpg",
     "static/media/example.png": "/mitw/static/media/example.f7115d2160881d53afb8.png",
     "static/media/v2wg9_1.jpg": "/mitw/static/media/v2wg9_1.e75788c4cd5d4f1a0e71.jpg",
     "static/media/v2wg3_1.jpg": "/mitw/static/media/v2wg3_1.0f7ef18ff7380fc30823.jpg",
     "static/media/wg7_2.jpg": "/mitw/static/media/wg7_2.90c95e85d844d05f44a2.jpg",
+    "static/media/yechen.jpg": "/mitw/static/media/yechen.7eab1b3a9809322aa16f.jpg",
     "static/media/v2wg0_5.jpg": "/mitw/static/media/v2wg0_5.c0c1f881532d4746a27f.jpg",
     "static/media/wg6_2.jpg": "/mitw/static/media/wg6_2.a337c91a434b896ea700.jpg",
     "static/media/wg1_1.jpg": "/mitw/static/media/wg1_1.d70db112ea215025d225.jpg",
@@ -21,7 +22,6 @@
     "static/media/V5.png": "/mitw/static/media/V5.09b4cd901baf64728470.png",
     "static/media/CIMS.gif": "/mitw/static/media/CIMS.4a719bd26e84d1a99a1f.gif",
     "static/media/EBM.jpeg": "/mitw/static/media/EBM.482285dc06f19b7496e9.jpeg",
-    "static/media/yechen.jpg": "/mitw/static/media/yechen.fbbc0cf93348ede4b94b.jpg",
     "static/media/Title.png": "/mitw/static/media/Title.c6ce2f50ec1071faeca3.png",
     "static/media/MI-TWConnectathon.png": "/mitw/static/media/MI-TWConnectathon.685673d5063b2b050648.png",
     "static/media/wg6_2_1.png": "/mitw/static/media/wg6_2_1.7c8b8554f1b40d31328a.png",
@@ -109,10 +109,10 @@
     "index.html": "/mitw/index.html",
     "static/media/slick.woff": "/mitw/static/media/slick.295183786cd8a1389865.woff",
     "main.13979722.css.map": "/mitw/static/css/main.13979722.css.map",
-    "main.a8582e0d.js.map": "/mitw/static/js/main.a8582e0d.js.map"
+    "main.b1741a03.js.map": "/mitw/static/js/main.b1741a03.js.map"
   },
   "entrypoints": [
     "static/css/main.13979722.css",
-    "static/js/main.a8582e0d.js"
+    "static/js/main.b1741a03.js"
   ]
 }
