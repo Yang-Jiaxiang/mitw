@@ -59,7 +59,7 @@ function Signup() {
             display: 'flex',
             justifyContent: 'center',
             alignContent: 'center',
-            margin: '3rem 0',
+            margin: '3rem',
           }}
           gap={3}
         >

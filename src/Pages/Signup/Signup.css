@@ -24,7 +24,7 @@
 }
 @media screen and (max-width: 500px) {
   .Block {
-    width: 100%;
+    width: 90%;
     /* padding: 0 5vh; */
   }
   .Background {
