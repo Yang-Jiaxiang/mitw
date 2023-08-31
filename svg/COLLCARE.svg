@@ -1,0 +1,263 @@
+<svg width="1392pt" height="262pt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events" style="overflow: hidden; "><g id="viewport-20230830120204398" class="svg-pan-zoom_viewport" transform="matrix(0.5066885948181152,0,0,0.5066885948181152,22.241546630859375,98.19640350341797)">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 257.6)">
+<title>n0</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-257.6 1387.53,-257.6 1387.53,4 -4,4"></polygon>
+<polygon fill="#ffffff" stroke="none" points="0,-0 0,-232 1393,-232 1393,-0 0,-0"></polygon>
+<!-- n1 -->
+<g id="node1" class="node"><title>n1</title>
+<g id="a_node1"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=CARE_PROVIDER" xlink:title="Care Provider">
+<polygon fill="#9fbdeb" stroke="black" points="78,-236.602 0,-236.602 0,-195.398 78,-195.398 78,-236.602"></polygon>
+<text text-anchor="middle" x="39" y="-220.2" font-family="Times,serif" font-size="14.00">Care</text>
+<text text-anchor="middle" x="39" y="-203.4" font-family="Times,serif" font-size="14.00">Provider</text>
+</a>
+</g>
+</g>
+<!-- n2 -->
+<g id="node2" class="node"><title>n2</title>
+<g id="a_node2"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=PRESCRIPTION_REPOSITORY" xlink:title="Prescription Repository">
+<polygon fill="#9fbdeb" stroke="black" points="197.5,-49.8019 92.5,-49.8019 92.5,-8.5981 197.5,-8.5981 197.5,-49.8019"></polygon>
+<text text-anchor="middle" x="145" y="-33.4" font-family="Times,serif" font-size="14.00">Prescription</text>
+<text text-anchor="middle" x="145" y="-16.6" font-family="Times,serif" font-size="14.00">Repository</text>
+</a>
+</g>
+</g>
+<!-- n1&#45;&gt;n2 -->
+<g id="edge1" class="edge"><title>n1-&gt;n2</title>
+<path fill="none" stroke="black" d="M41.5292,-194.928C45.9468,-166.331 57.2353,-113.252 83.467,-76.4 88.8147,-68.8872 95.7526,-62.0668 103.034,-56.1116"></path>
+<polygon fill="black" stroke="black" points="105.204,-58.8586 111.012,-49.9974 100.946,-53.3028 105.204,-58.8586"></polygon>
+<text text-anchor="middle" x="112.766" y="-139.4" font-family="Times,serif" font-size="14.00">MITW-5</text>
+<text text-anchor="middle" x="112.766" y="-122.6" font-family="Times,serif" font-size="14.00">MITW-6</text>
+<text text-anchor="middle" x="112.766" y="-105.8" font-family="Times,serif" font-size="14.00">MITW-8</text>
+<text text-anchor="middle" x="112.766" y="-89" font-family="Times,serif" font-size="14.00">MITW-68</text>
+</g>
+<!-- n3 -->
+<g id="node3" class="node"><title>n3</title>
+<g id="a_node3"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=EEC_DS_CONSUMER" xlink:title="EEC Discharge Summary Consumer">
+<polygon fill="#9fbdeb" stroke="black" points="410,-253.7 320,-253.7 320,-178.3 410,-178.3 410,-253.7"></polygon>
+<text text-anchor="middle" x="365" y="-237" font-family="Times,serif" font-size="14.00">EEC</text>
+<text text-anchor="middle" x="365" y="-220.2" font-family="Times,serif" font-size="14.00">Discharge</text>
+<text text-anchor="middle" x="365" y="-203.4" font-family="Times,serif" font-size="14.00">Summary</text>
+<text text-anchor="middle" x="365" y="-186.6" font-family="Times,serif" font-size="14.00">Consumer</text>
+</a>
+</g>
+</g>
+<!-- n4 -->
+<g id="node4" class="node"><title>n4</title>
+<g id="a_node4"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=EEC_REPOSITORY" xlink:title="EEC Repository">
+<polygon fill="#9fbdeb" stroke="black" points="688,-49.8019 594,-49.8019 594,-8.5981 688,-8.5981 688,-49.8019"></polygon>
+<text text-anchor="middle" x="641" y="-33.4" font-family="Times,serif" font-size="14.00">EEC</text>
+<text text-anchor="middle" x="641" y="-16.6" font-family="Times,serif" font-size="14.00">Repository</text>
+</a>
+</g>
+</g>
+<!-- n3&#45;&gt;n4 -->
+<g id="edge2" class="edge"><title>n3-&gt;n4</title>
+<path fill="none" stroke="black" d="M371.386,-178.09C378.844,-146.363 394.368,-101.821 425.467,-76.4 449.316,-56.9051 528.398,-43.6594 583.819,-36.5124"></path>
+<polygon fill="black" stroke="black" points="584.388,-39.9685 593.873,-35.2487 583.515,-33.0231 584.388,-39.9685"></polygon>
+<text text-anchor="middle" x="454.766" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-58</text>
+</g>
+<!-- n5 -->
+<g id="node5" class="node"><title>n5</title>
+<g id="a_node5"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=EEC_DS_CREATOR" xlink:title="EEC Discharge Summary Creator">
+<polygon fill="#9fbdeb" stroke="black" points="517.5,-253.7 428.5,-253.7 428.5,-178.3 517.5,-178.3 517.5,-253.7"></polygon>
+<text text-anchor="middle" x="473" y="-237" font-family="Times,serif" font-size="14.00">EEC</text>
+<text text-anchor="middle" x="473" y="-220.2" font-family="Times,serif" font-size="14.00">Discharge</text>
+<text text-anchor="middle" x="473" y="-203.4" font-family="Times,serif" font-size="14.00">Summary</text>
+<text text-anchor="middle" x="473" y="-186.6" font-family="Times,serif" font-size="14.00">Creator</text>
+</a>
+</g>
+</g>
+<!-- n5&#45;&gt;n4 -->
+<g id="edge3" class="edge"><title>n5-&gt;n4</title>
+<path fill="none" stroke="black" d="M481.296,-178.303C489.932,-147.581 506.246,-104.39 534.467,-76.4 548.174,-62.8049 566.535,-52.9161 584.148,-45.863"></path>
+<polygon fill="black" stroke="black" points="585.691,-49.0225 593.822,-42.2309 583.23,-42.4692 585.691,-49.0225"></polygon>
+<text text-anchor="middle" x="563.766" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-57</text>
+</g>
+<!-- n6 -->
+<g id="node6" class="node"><title>n6</title>
+<g id="a_node6"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=EEC_LAB_CONSUMER" xlink:title="EEC Laboratory Result Consumer">
+<polygon fill="#9fbdeb" stroke="black" points="632,-253.7 536,-253.7 536,-178.3 632,-178.3 632,-253.7"></polygon>
+<text text-anchor="middle" x="584" y="-237" font-family="Times,serif" font-size="14.00">EEC</text>
+<text text-anchor="middle" x="584" y="-220.2" font-family="Times,serif" font-size="14.00">Laboratory</text>
+<text text-anchor="middle" x="584" y="-203.4" font-family="Times,serif" font-size="14.00">Result</text>
+<text text-anchor="middle" x="584" y="-186.6" font-family="Times,serif" font-size="14.00">Consumer</text>
+</a>
+</g>
+</g>
+<!-- n6&#45;&gt;n4 -->
+<g id="edge4" class="edge"><title>n6-&gt;n4</title>
+<path fill="none" stroke="black" d="M590.952,-178.189C596.82,-149.891 606.223,-110.072 618.467,-76.4 620.538,-70.7049 623.096,-64.7804 625.736,-59.1489"></path>
+<polygon fill="black" stroke="black" points="628.941,-60.5618 630.187,-50.0405 622.652,-57.4886 628.941,-60.5618"></polygon>
+<text text-anchor="middle" x="647.766" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-60</text>
+</g>
+<!-- n7 -->
+<g id="node7" class="node"><title>n7</title>
+<g id="a_node7"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=EEC_LAB_CREATOR" xlink:title="EEC Laboratory Report Creator">
+<polygon fill="#9fbdeb" stroke="black" points="746,-253.7 650,-253.7 650,-178.3 746,-178.3 746,-253.7"></polygon>
+<text text-anchor="middle" x="698" y="-237" font-family="Times,serif" font-size="14.00">EEC</text>
+<text text-anchor="middle" x="698" y="-220.2" font-family="Times,serif" font-size="14.00">Laboratory</text>
+<text text-anchor="middle" x="698" y="-203.4" font-family="Times,serif" font-size="14.00">Report</text>
+<text text-anchor="middle" x="698" y="-186.6" font-family="Times,serif" font-size="14.00">Creator</text>
+</a>
+</g>
+</g>
+<!-- n7&#45;&gt;n4 -->
+<g id="edge5" class="edge"><title>n7-&gt;n4</title>
+<path fill="none" stroke="black" d="M697.03,-178.347C695.141,-149.602 689.946,-109.123 676,-76.4 673.296,-70.0561 669.532,-63.7978 665.469,-58.034"></path>
+<polygon fill="black" stroke="black" points="668.212,-55.8586 659.39,-49.9908 662.627,-60.0791 668.212,-55.8586"></polygon>
+<text text-anchor="middle" x="724.766" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-59</text>
+</g>
+<!-- n8 -->
+<g id="node8" class="node"><title>n8</title>
+<g id="a_node8"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=EEC_OS_CONSUMER" xlink:title="EEC Outpatient Summary Consumer">
+<polygon fill="#9fbdeb" stroke="black" points="858,-253.7 764,-253.7 764,-178.3 858,-178.3 858,-253.7"></polygon>
+<text text-anchor="middle" x="811" y="-237" font-family="Times,serif" font-size="14.00">EEC</text>
+<text text-anchor="middle" x="811" y="-220.2" font-family="Times,serif" font-size="14.00">Outpatient</text>
+<text text-anchor="middle" x="811" y="-203.4" font-family="Times,serif" font-size="14.00">Summary</text>
+<text text-anchor="middle" x="811" y="-186.6" font-family="Times,serif" font-size="14.00">Consumer</text>
+</a>
+</g>
+</g>
+<!-- n8&#45;&gt;n4 -->
+<g id="edge6" class="edge"><title>n8-&gt;n4</title>
+<path fill="none" stroke="black" d="M805.372,-178.135C798.881,-147.307 785.357,-104.055 758,-76.4 741.751,-59.9742 718.95,-49.2344 697.788,-42.2863"></path>
+<polygon fill="black" stroke="black" points="698.796,-38.9345 688.209,-39.3539 696.746,-45.6279 698.796,-38.9345"></polygon>
+<text text-anchor="middle" x="829.766" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-56</text>
+</g>
+<!-- n9 -->
+<g id="node9" class="node"><title>n9</title>
+<g id="a_node9"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=EEC_OS_CREATOR" xlink:title="EEC Outpatient Summary Creator">
+<polygon fill="#9fbdeb" stroke="black" points="970,-253.7 876,-253.7 876,-178.3 970,-178.3 970,-253.7"></polygon>
+<text text-anchor="middle" x="923" y="-237" font-family="Times,serif" font-size="14.00">EEC</text>
+<text text-anchor="middle" x="923" y="-220.2" font-family="Times,serif" font-size="14.00">Outpatient</text>
+<text text-anchor="middle" x="923" y="-203.4" font-family="Times,serif" font-size="14.00">Summary</text>
+<text text-anchor="middle" x="923" y="-186.6" font-family="Times,serif" font-size="14.00">Creator</text>
+</a>
+</g>
+</g>
+<!-- n9&#45;&gt;n4 -->
+<g id="edge7" class="edge"><title>n9-&gt;n4</title>
+<path fill="none" stroke="black" d="M916.852,-178.362C909.558,-146.59 894.202,-101.824 863,-76.4 838.168,-56.1666 755.203,-42.9885 698.045,-36.0718"></path>
+<polygon fill="black" stroke="black" points="698.387,-32.5881 688.046,-34.8935 697.568,-39.54 698.387,-32.5881"></polygon>
+<text text-anchor="middle" x="940.766" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-55</text>
+</g>
+<!-- n10 -->
+<g id="node10" class="node"><title>n10</title>
+<g id="a_node10"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=ELTSS_CONSUMER" xlink:title="eLTSS Consumer">
+<polygon fill="#9fbdeb" stroke="black" points="1078,-236.602 988,-236.602 988,-195.398 1078,-195.398 1078,-236.602"></polygon>
+<text text-anchor="middle" x="1033" y="-220.2" font-family="Times,serif" font-size="14.00">eLTSS</text>
+<text text-anchor="middle" x="1033" y="-203.4" font-family="Times,serif" font-size="14.00">Consumer</text>
+</a>
+</g>
+</g>
+<!-- n11 -->
+<g id="node11" class="node"><title>n11</title>
+<g id="a_node11"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=ELTSS_REPOSITORY" xlink:title="eLTSS Repository">
+<polygon fill="#9fbdeb" stroke="black" points="1129,-49.8019 1035,-49.8019 1035,-8.5981 1129,-8.5981 1129,-49.8019"></polygon>
+<text text-anchor="middle" x="1082" y="-33.4" font-family="Times,serif" font-size="14.00">eLTSS</text>
+<text text-anchor="middle" x="1082" y="-16.6" font-family="Times,serif" font-size="14.00">Repository</text>
+</a>
+</g>
+</g>
+<!-- n10&#45;&gt;n11 -->
+<g id="edge8" class="edge"><title>n10-&gt;n11</title>
+<path fill="none" stroke="black" d="M1033.16,-195.074C1033.96,-167.554 1037.55,-116.739 1052.47,-76.4 1054.72,-70.3061 1057.87,-64.1778 1061.28,-58.4665"></path>
+<polygon fill="black" stroke="black" points="1064.32,-60.2098 1066.76,-49.8998 1058.42,-56.438 1064.32,-60.2098"></polygon>
+<text text-anchor="middle" x="1081.77" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-66</text>
+</g>
+<!-- n12 -->
+<g id="node12" class="node"><title>n12</title>
+<g id="a_node12"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=ELTSS_CREATOR" xlink:title="eLTSS Creator">
+<polygon fill="#9fbdeb" stroke="black" points="1168,-236.602 1096,-236.602 1096,-195.398 1168,-195.398 1168,-236.602"></polygon>
+<text text-anchor="middle" x="1132" y="-220.2" font-family="Times,serif" font-size="14.00">eLTSS</text>
+<text text-anchor="middle" x="1132" y="-203.4" font-family="Times,serif" font-size="14.00">Creator</text>
+</a>
+</g>
+</g>
+<!-- n12&#45;&gt;n11 -->
+<g id="edge9" class="edge"><title>n12-&gt;n11</title>
+<path fill="none" stroke="black" d="M1131.25,-195.118C1129.67,-167.648 1124.83,-116.892 1110,-76.4 1107.8,-70.3895 1104.78,-64.3001 1101.54,-58.601"></path>
+<polygon fill="black" stroke="black" points="1104.52,-56.77 1096.34,-50.0341 1098.54,-60.3997 1104.52,-56.77"></polygon>
+<text text-anchor="middle" x="1156.77" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-65</text>
+</g>
+<!-- n13 -->
+<g id="node13" class="node"><title>n13</title>
+<g id="a_node13"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=NHI_PHR_CONSUMER" xlink:title="NHI PHR Consumer">
+<polygon fill="#9fbdeb" stroke="black" points="1276,-245.401 1186,-245.401 1186,-186.599 1276,-186.599 1276,-245.401"></polygon>
+<text text-anchor="middle" x="1231" y="-228.6" font-family="Times,serif" font-size="14.00">NHI</text>
+<text text-anchor="middle" x="1231" y="-211.8" font-family="Times,serif" font-size="14.00">PHR</text>
+<text text-anchor="middle" x="1231" y="-195" font-family="Times,serif" font-size="14.00">Consumer</text>
+</a>
+</g>
+</g>
+<!-- n14 -->
+<g id="node14" class="node"><title>n14</title>
+<g id="a_node14"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=NHI_PHR_REPOSITORY" xlink:title="NHI PHR Repository">
+<polygon fill="#9fbdeb" stroke="black" points="1327,-58.6014 1233,-58.6014 1233,0.201379 1327,0.201379 1327,-58.6014"></polygon>
+<text text-anchor="middle" x="1280" y="-41.8" font-family="Times,serif" font-size="14.00">NHI</text>
+<text text-anchor="middle" x="1280" y="-25" font-family="Times,serif" font-size="14.00">PHR</text>
+<text text-anchor="middle" x="1280" y="-8.2" font-family="Times,serif" font-size="14.00">Repository</text>
+</a>
+</g>
+</g>
+<!-- n13&#45;&gt;n14 -->
+<g id="edge10" class="edge"><title>n13-&gt;n14</title>
+<path fill="none" stroke="black" d="M1231.46,-186.798C1232.72,-158.171 1236.94,-112.979 1250.47,-76.4 1251.59,-73.3642 1252.93,-70.3199 1254.42,-67.3228"></path>
+<polygon fill="black" stroke="black" points="1257.51,-68.9807 1259.24,-58.5293 1251.37,-65.6163 1257.51,-68.9807"></polygon>
+<text text-anchor="middle" x="1279.77" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-62</text>
+</g>
+<!-- n15 -->
+<g id="node15" class="node"><title>n15</title>
+<g id="a_node15"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=NHI_PHR_CREATOR" xlink:title="NHI PHR Creator">
+<polygon fill="#9fbdeb" stroke="black" points="1366,-245.401 1294,-245.401 1294,-186.599 1366,-186.599 1366,-245.401"></polygon>
+<text text-anchor="middle" x="1330" y="-228.6" font-family="Times,serif" font-size="14.00">NHI</text>
+<text text-anchor="middle" x="1330" y="-211.8" font-family="Times,serif" font-size="14.00">PHR</text>
+<text text-anchor="middle" x="1330" y="-195" font-family="Times,serif" font-size="14.00">Creator</text>
+</a>
+</g>
+</g>
+<!-- n15&#45;&gt;n14 -->
+<g id="edge11" class="edge"><title>n15-&gt;n14</title>
+<path fill="none" stroke="black" d="M1328.7,-186.588C1326.65,-157.993 1321.41,-113.003 1308,-76.4 1306.89,-73.3617 1305.57,-70.3033 1304.11,-67.2853"></path>
+<polygon fill="black" stroke="black" points="1307.19,-65.6245 1299.43,-58.4133 1301,-68.891 1307.19,-65.6245"></polygon>
+<text text-anchor="middle" x="1354.77" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-69</text>
+</g>
+<!-- n16 -->
+<g id="node16" class="node"><title>n16</title>
+<g id="a_node16"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=PHARMACY_APP" xlink:title="Pharmacy Application">
+<polygon fill="#9fbdeb" stroke="black" points="194,-236.602 96,-236.602 96,-195.398 194,-195.398 194,-236.602"></polygon>
+<text text-anchor="middle" x="145" y="-220.2" font-family="Times,serif" font-size="14.00">Pharmacy</text>
+<text text-anchor="middle" x="145" y="-203.4" font-family="Times,serif" font-size="14.00">Application</text>
+</a>
+</g>
+</g>
+<!-- n16&#45;&gt;n2 -->
+<g id="edge12" class="edge"><title>n16-&gt;n2</title>
+<path fill="none" stroke="black" d="M145,-195.223C145,-162.85 145,-98.3473 145,-60.279"></path>
+<polygon fill="black" stroke="black" points="148.5,-59.8346 145,-49.8346 141.5,-59.8347 148.5,-59.8346"></polygon>
+<text text-anchor="middle" x="175.516" y="-147.8" font-family="Times,serif" font-size="14.00">MITW-5</text>
+<text text-anchor="middle" x="175.516" y="-131" font-family="Times,serif" font-size="14.00">MITW-6</text>
+<text text-anchor="middle" x="175.516" y="-114.2" font-family="Times,serif" font-size="14.00">MITW-67	</text>
+<text text-anchor="middle" x="175.516" y="-97.4" font-family="Times,serif" font-size="14.00">MITW-68</text>
+<text text-anchor="middle" x="175.516" y="-80.6" font-family="Times,serif" font-size="14.00">MITW-8</text>
+</g>
+<!-- n17 -->
+<g id="node17" class="node"><title>n17</title>
+<g id="a_node17"><a xlink:href="https://gazelle.dicom.org.tw/gazelle/actor.seam?keyword=PHR_CONSUMER" xlink:title="PHR Consumer">
+<polygon fill="#9fbdeb" stroke="black" points="302,-236.602 212,-236.602 212,-195.398 302,-195.398 302,-236.602"></polygon>
+<text text-anchor="middle" x="257" y="-220.2" font-family="Times,serif" font-size="14.00">PHR</text>
+<text text-anchor="middle" x="257" y="-203.4" font-family="Times,serif" font-size="14.00">Consumer</text>
+</a>
+</g>
+</g>
+<!-- n17&#45;&gt;n2 -->
+<g id="edge13" class="edge"><title>n17-&gt;n2</title>
+<path fill="none" stroke="black" d="M254.253,-195.307C249.451,-166.704 237.309,-113.086 210,-76.4 204.354,-68.8152 197.094,-61.9892 189.483,-56.0569"></path>
+<polygon fill="black" stroke="black" points="191.289,-53.0418 181.147,-49.9769 187.164,-58.6974 191.289,-53.0418"></polygon>
+<text text-anchor="middle" x="275.766" y="-139.4" font-family="Times,serif" font-size="14.00">MITW-6</text>
+<text text-anchor="middle" x="275.766" y="-122.6" font-family="Times,serif" font-size="14.00">MITW-68</text>
+<text text-anchor="middle" x="275.766" y="-105.8" font-family="Times,serif" font-size="14.00">MITW-7</text>
+<text text-anchor="middle" x="275.766" y="-89" font-family="Times,serif" font-size="14.00">MITW-8</text>
+</g>
+</g>
+</g></svg>
