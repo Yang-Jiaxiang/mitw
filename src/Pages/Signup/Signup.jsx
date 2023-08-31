@@ -65,7 +65,7 @@ function Signup() {
         >
           {Inform.map((item) => {
             return (
-              <Grid item sx={5} sm={5} md={5} lg={5} className="Block">
+              <Grid item sx={12} sm={12} md={5} lg={4.5} className="Block">
                 {/* <div key={item} className="Block"> */}
                 <img
                   src={item.icon}
