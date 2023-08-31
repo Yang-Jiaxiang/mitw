@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mitw/static/css/main.199f9d99.css",
-    "main.js": "/mitw/static/js/main.f897dcdf.js",
+    "main.js": "/mitw/static/js/main.232c2a8d.js",
     "static/media/v2wg0_4.jpg": "/mitw/static/media/v2wg0_4.71969d8cd6954932a373.jpg",
     "static/media/example.png": "/mitw/static/media/example.f7115d2160881d53afb8.png",
     "static/media/v2wg9_1.jpg": "/mitw/static/media/v2wg9_1.e75788c4cd5d4f1a0e71.jpg",
@@ -24,7 +24,6 @@
     "static/media/yechen.jpg": "/mitw/static/media/yechen.fbbc0cf93348ede4b94b.jpg",
     "static/media/Title.png": "/mitw/static/media/Title.c6ce2f50ec1071faeca3.png",
     "static/media/MI-TWConnectathon.png": "/mitw/static/media/MI-TWConnectathon.685673d5063b2b050648.png",
-    "static/media/v2wg0_1.jpg": "/mitw/static/media/v2wg0_1.872b7cfd7df2047e71d8.jpg",
     "static/media/wg6_2_1.png": "/mitw/static/media/wg6_2_1.7c8b8554f1b40d31328a.png",
     "static/media/WG10_2.png": "/mitw/static/media/WG10_2.d6872b12201bbf5460a8.png",
     "static/media/wg5_1_2.png": "/mitw/static/media/wg5_1_2.9b7c416f1a90f1795370.png",
@@ -40,6 +39,7 @@
     "static/media/WG7_2.png": "/mitw/static/media/WG7_2.8e88aa14a94ee4a3e430.png",
     "static/media/Authorization.png": "/mitw/static/media/Authorization.86fd22f7cd641d311669.png",
     "static/media/Sitatech.png": "/mitw/static/media/Sitatech.7e6a89e35a066bcfab1c.png",
+    "static/media/v2wg0_1.jpg": "/mitw/static/media/v2wg0_1.f9a91e490a78f3d490c6.jpg",
     "static/media/DAXIN.png": "/mitw/static/media/DAXIN.cbc66d15ae5e56b2db3a.png",
     "static/media/v2wg0_7.jpg": "/mitw/static/media/v2wg0_7.4b5dc345ec3324920f89.jpg",
     "static/media/mainbackground.jpg": "/mitw/static/media/mainbackground.0426f886c6131b687a9c.jpg",
@@ -109,10 +109,10 @@
     "index.html": "/mitw/index.html",
     "static/media/slick.woff": "/mitw/static/media/slick.295183786cd8a1389865.woff",
     "main.199f9d99.css.map": "/mitw/static/css/main.199f9d99.css.map",
-    "main.f897dcdf.js.map": "/mitw/static/js/main.f897dcdf.js.map"
+    "main.232c2a8d.js.map": "/mitw/static/js/main.232c2a8d.js.map"
   },
   "entrypoints": [
     "static/css/main.199f9d99.css",
-    "static/js/main.f897dcdf.js"
+    "static/js/main.232c2a8d.js"
   ]
 }
