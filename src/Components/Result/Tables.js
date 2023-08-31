@@ -12,11 +12,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="44%" style={{ maxWidth: '44%' }}>
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="44%" style={{ maxWidth: '44%' }}></td>
               <td colspan="4">
                 <font color="white">
                   <b>CONSUMER</b>
@@ -24,6 +20,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="13.5%">
                 情境1
                 <br />
@@ -312,11 +313,8 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="44%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="44%"></td>
+
               <td colspan="4">
                 <font color="white">
                   <b>CREATOR</b>
@@ -324,6 +322,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="13.5%">
                 情境1
                 <br />
@@ -667,11 +670,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="44%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="44%"></td>
               <td colspan="4">
                 <font color="white">
                   <b>REPOSITORY</b>
@@ -679,6 +678,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="13.5%">
                 情境1
                 <br />
@@ -738,11 +742,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="50%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="50%"></td>
               <td colspan="14">
                 <font color="white">
                   <b>情境1 通用生理信號 CONSUMER</b>
@@ -750,6 +750,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="4%">身高</td>
               <td width="4%">體重</td>
               <td width="4%">體溫</td>
@@ -1049,11 +1054,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="52%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="52%"></td>
               <td colspan="14">
                 <font color="white">
                   <b>情境1 通用生理信號 CREATOR</b>
@@ -1061,6 +1062,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="4%">身高</td>
               <td width="4%">體重</td>
               <td width="4%">體溫</td>
@@ -1402,11 +1408,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>情境2 生理信號整合藥品處方箋 </b>
@@ -1414,6 +1416,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
@@ -1482,11 +1489,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="52%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td r width="52%"></td>
               <td colspan="4">
                 <font color="white">
                   <b>情境3 骨質密度檢查 CONSUMER</b>
@@ -1494,6 +1497,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="12%">股骨密度</td>
               <td width="12%">左股骨密度</td>
               <td width="12%">右股骨密度</td>
@@ -1598,11 +1606,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="52%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="52%"></td>
               <td colspan="4">
                 <font color="white">
                   <b>情境3 骨質密度檢查 CREATOR</b>
@@ -1610,6 +1614,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="12%">股骨密度</td>
               <td width="12%">左股骨密度</td>
               <td width="12%">右股骨密度</td>
@@ -1725,11 +1734,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="44%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="44%"></td>
               <td colspan="8">
                 <font color="white">
                   <b>情境4 12導程心電圖</b>
@@ -1737,6 +1742,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%" colspan="4">
                 CONSUMER
               </td>
@@ -1866,13 +1876,8 @@ export const trackstable = {
       table: (
         <table className="rwd-table" cellpadding="10px">
           <thead>
-            {' '}
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>DOCLAB 實驗室檢驗報告電子病歷文件</b>
@@ -1880,6 +1885,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
@@ -1930,11 +1940,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>MEDAM 用藥紀錄資料</b>
@@ -1942,6 +1948,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
@@ -2028,11 +2039,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>MEDRQ 用藥處方</b>
@@ -2040,6 +2047,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
@@ -2128,11 +2140,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>IMG_DOC Web影像存取</b>
@@ -2140,6 +2148,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">SOURCE</td>
             </tr>
@@ -2199,11 +2212,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>IMG_REPORT 影像報告及影像整合-影像報告</b>
@@ -2211,6 +2220,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
@@ -2255,11 +2269,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>IMG_STUDY 影像報告及影像整合-影像索引</b>
@@ -2267,6 +2277,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
@@ -2311,11 +2326,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>OBS_ANN Web影像與標記 (FHIR標記)</b>
@@ -2323,6 +2334,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
@@ -2346,16 +2362,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="30%">
-                <font color="white">
-                  <b></b>
-                </font>
-              </td>
-              <td rowspan="2" width="10%">
-                <font color="white">
-                  <b></b>
-                </font>
-              </td>
+              <td width="30%" colspan="2"></td>
               <td colspan="3">
                 <font color="white">
                   <b>商之器科技股份有限公司(EBM)</b>
@@ -2363,6 +2370,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D" colspan="2">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">IM</td>
               <td width="20%">OF</td>
               <td width="20%">ID</td>
@@ -2412,11 +2424,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>WSI 數位病理影像</b>
@@ -2424,6 +2432,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">REPOSITORY</td>
             </tr>
@@ -2480,11 +2493,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>WSI_ANN 數位病理影像標記</b>
@@ -2492,6 +2501,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="60%">CONSUMER</td>
               <td width="60%">CREATOR</td>
             </tr>
@@ -2516,11 +2530,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>MOL 基因定序資料</b>
@@ -2528,6 +2538,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
@@ -2578,11 +2593,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>VAR 基因檢測變異點資料</b>
@@ -2590,6 +2601,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
@@ -2624,11 +2640,7 @@ export const trackstable = {
         <table className="rwd-table" cellpadding="10px">
           <thead>
             <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
+              <td width="60%"></td>
               <td colspan="2">
                 <font color="white">
                   <b>EMS 緊急醫療救護</b>
@@ -2636,6 +2648,11 @@ export const trackstable = {
               </td>
             </tr>
             <tr bgcolor="#D1E9E9">
+              <td bgcolor="#4F9D9D">
+                <font color="white">
+                  <b>單位-產品-版本</b>
+                </font>
+              </td>
               <td width="20%">CONSUMER</td>
               <td width="20%">CREATOR</td>
             </tr>
