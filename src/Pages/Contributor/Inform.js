@@ -17,6 +17,9 @@ import v2wg0_2 from '../../assets/v2wg0_2.jpg'
 import v2wg0_3 from '../../assets/v2wg0_3.jpg'
 import v2wg0_4 from '../../assets/v2wg0_4.jpg'
 import v2wg0_5 from '../../assets/v2wg0_5.jpg'
+import v2wg2_1 from '../../assets/v2wg2_1.jpg'
+import v2wg0_6 from '../../assets/v2wg0_6.jpg'
+import v2wg0_7 from '../../assets/v2wg0_7.jpg'
 
 const Tabs = [
   { id: 1, title: '#01', name: '病人基本資料' },
@@ -70,19 +73,24 @@ const Mem = [
     TraksTitle: ' 生理量測數據',
     isContributor: true,
     isMember: true,
-    Img: null,
+    Img: v2wg2_1,
     Position: '召集人',
     Name: '洪苑容 | 馬雅資訊股份有限公司 軟體工程師',
     Tollger: (
       <>
-        <b>1. 現職：</b>
+        <b>1. 學歷：</b>
+        <ul>
+          <li>中原大學生物醫學工程學系 碩士</li>
+          <li>中原大學生物醫學工程學系 學士</li>
+        </ul>
+        <b>2. 現職：</b>
         <ul>馬雅資訊股份有限公司 軟體工程師</ul>
-        <b>2. 經歷：</b>
+        <b>3. 經歷：</b>
         <ul>
           <li>2021 MI-TW Connectathon 參與者</li>
           <li>2021 臺北慈濟醫院 資訊室 實習生</li>
         </ul>
-        <b>3. 簡介：</b>
+        <b>4. 簡介：</b>
         畢業於慈濟大學醫學資訊學系，目前就讀慈濟大學醫學資訊學系碩士班。主要研究主題為FHIR在雲端儲存應用。積極參與FHIR標準應用的討論和推廣。
       </>
     ),
@@ -126,7 +134,7 @@ const Mem = [
     isMember: true,
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>
           <li>國立陽明交通大學生物醫學資訊 博士</li>
         </ul>
@@ -159,11 +167,11 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 用藥、文件打包及服務請求',
     Img: wg3_2,
-    Position: '聯繫窗口',
+    Position: '成員',
     Name: '吳宇婷 | 仁寶電腦工業股份有限公司 雲端工程師',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>國立陽明交通大學生資所</ul>
         <b>2.　現職：</b>
         <ul>
@@ -192,11 +200,11 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 用藥、文件打包及服務請求',
     Img: v2wg3_1,
-    Position: '聯繫窗口',
+    Position: '成員',
     Name: '楊宗翰 | 國立陽明交通大學生物醫學資訊所 研究生',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>
           <li>國立陽明交通大學生資所</li>
           <li>銘傳大學醫工系</li>
@@ -225,7 +233,7 @@ const Mem = [
     Name: '連中岳 | 國立臺北護理健康大學 資管系副教授',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>國立陽明大學 醫學工程博士</ul>
         <b>2.　現職：</b>
         <ul>
@@ -256,11 +264,11 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 醫學影像與病理',
     Img: wg4_2,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '丁子芸 | 國立臺北護理健康大學資訊管理系 研究助理',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>國立臺北護理健康大學資訊管理系 碩士生</ul>
         <b>2.　現職：</b>
         <ul>國立臺北護理健康大學資訊管理系 研究助理</ul>
@@ -285,11 +293,11 @@ const Mem = [
     isContributor: true,
     TraksTitle: ' 醫學影像與病理',
     Img: v2wg4_1,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '鄧瑞均 | 國立臺北護理健康大學資訊管理系 碩士生',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>國立臺北護理健康大學資訊管理系 碩士生</ul>
         <b>2.　現職：</b>
         <ul>國立臺北護理健康大學資訊管理系 碩士生</ul>
@@ -318,7 +326,7 @@ const Mem = [
     Name: '李修安 | 國家衛生研究院 癌症研究所 博士後研究員',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>淡江大學資訊工程系 博士</ul>
         <b>2.　現職：</b>
         <ul>
@@ -359,7 +367,7 @@ const Mem = [
     Name: '李建興 | 國立陽明交通大學生物醫學資訊所  研究助理',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>
           <li>國立臺北護理健康大學資訊管理系 學士</li>
           <li>國立陽明交通大學生物醫學資訊所 碩士</li>
@@ -386,7 +394,7 @@ const Mem = [
     isContributor: true,
     TraksTitle: ' 醫療保險理賠',
     Img: wg8_2,
-    Position: '聯繫窗口',
+    Position: '成員',
     Name: '彭群芳 | 國泰金控數位發展數據暨科技發展中心 商業規劃師',
     Tollger: (
       <>
@@ -420,7 +428,7 @@ const Mem = [
     Name: '張榮峻 | 遠傳電信智慧醫療 開發經理',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>
           <li>逢甲大學 應用數學系</li>
         </ul>
@@ -450,11 +458,11 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 癌症登記',
     Img: wg10_2,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '郭俐君 | 國立臺北護理健康大學資訊管理系 研究助理',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1. 學歷：</b>
         <ul>國立臺北護理健康大學資訊管理系 碩士生</ul>
         <b>2.　現職：</b>
         <ul>國立臺北護理健康大學資訊管理系 研究助理</ul>
@@ -480,7 +488,7 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 癌症登記',
     Img: v2wg0_1,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '李麗惠 | 國立臺北護理健康大學 健康事業管理系	助理教授',
     Tollger: (
       <>
@@ -512,11 +520,11 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 癌症登記',
     Img: v2wg0_2,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '龔筠庭 | 國泰金控數位數據發展中心 技術架構師',
     Tollger: (
       <>
-        <b>1. 學歷</b>
+        <b>1. 學歷：</b>
         <ul>慈濟大學醫學資訊 碩士</ul>
         <b>2.　現職：</b>
         <ul>國泰金控數位數據發展中心 技術架構師</ul>
@@ -546,12 +554,12 @@ const Mem = [
     isContributor: false,
     isMember: true,
     TraksTitle: ' 癌症登記',
-    Img: null,
-    Position: '聯絡窗口',
+    Img: v2wg0_7,
+    Position: '成員',
     Name: '葉倖玫 | 台達電子工業股份有限公司 資訊資深工程師',
     Tollger: (
       <>
-        <b>1.學歷</b>
+        <b>1.學歷：</b>
         <ul>慈濟大學醫學資訊 碩士</ul>
         <b>2.　現職：</b>
         <ul>台達電子工業股份有限公司 資訊資深工程師</ul>
@@ -575,11 +583,11 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 癌症登記',
     Img: null,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '曾鈺珈 | 國立臺北護理健康大學健康事業管理系 兼任助理',
     Tollger: (
       <>
-        <b>1. 學歷</b>
+        <b>1. 學歷：</b>
         <ul>國立臺北護理健康大學健康事業管理系 碩士生</ul>
         <b>2. 現職：</b>
         <ul>國立臺北護理健康大學健康事業管理系 兼任助理</ul>
@@ -600,7 +608,7 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 癌症登記',
     Img: v2wg0_3,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '張修書 | 臺中榮民總醫院	資訊工程師',
     Tollger: (
       <>
@@ -636,7 +644,7 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 癌症登記',
     Img: null,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '林伃瑤 | 國立臺北護理健康大學健康事業管理系-李麗惠 助理教授研究室兼任助理',
     Tollger: (
       <>
@@ -658,7 +666,7 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 癌症登記',
     Img: v2wg0_4,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '李偉帆 | 商之器科技股份有限公司 應用研發部經理',
     Tollger: (
       <>
@@ -683,7 +691,7 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 癌症登記',
     Img: null,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '江育霖 | 儷成生技股份有限公司 技術總監',
     Tollger: (
       <>
@@ -715,7 +723,7 @@ const Mem = [
     isPractice: true,
     TraksTitle: ' 癌症登記',
     Img: v2wg0_5,
-    Position: '聯絡窗口',
+    Position: '成員',
     Name: '李昀陞 | 財團法人資訊工業策進會 數位轉型研究院 工程師',
     Tollger: (
       <>
@@ -746,8 +754,8 @@ const Mem = [
     isMember: true,
     isPractice: true,
     TraksTitle: ' 癌症登記',
-    Img: null,
-    Position: '聯絡窗口',
+    Img: v2wg0_6,
+    Position: '成員',
     Name: '張哲源 | 佛教慈濟醫療財團法人花蓮慈濟醫院',
     Tollger: (
       <>
