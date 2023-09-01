@@ -9,12 +9,7 @@ function OpenSource() {
       {/* --------開源產品---------- */}
       {OpenSourceInform.map((item, i) => {
         return (
-          <motion.div
-            key={i}
-            // initial={{ opacity: 0, scale: 0.8 }}
-            // animate={{ opacity: 1, scale: 1 }}
-            // transition={{ duration: 0.8 }}
-          >
+          <motion.div key={i}>
             {/* -----------------------------上下布局-------------------------------- */}
             <Grid container spacing={1} sx={{ marginTop: '1rem' }}>
               {/* 上 */}
@@ -81,7 +76,7 @@ function OpenSource() {
               </Grid>
               {/* 下 */}
               <Grid item>
-                <Grid container direction="row">
+                <Grid container direction="row" spacing={1}>
                   {/* 參與賽道 */}
                   <Grid
                     item
@@ -99,25 +94,15 @@ function OpenSource() {
                     {/* <p style={{ whiteSpace: "pre-line" }}>
                       參加賽道{item.tracks}
                     </p> */}
+                    <strong>參加賽道</strong>
 
-                    <p
-                      style={{
-                        whiteSpace: 'pre-wrap',
-                        display: 'flex',
-                        flexDirection: 'column',
-                      }}
-                    >
-                      <strong>參加賽道</strong>
-                      {item.jointracks.map((tracks) => {
-                        return (
-                          <>
-                            {tracks.trackstitle}
-
-                            {tracks.tracksname}
-                          </>
-                        )
-                      })}
-                    </p>
+                    {item.jointracks.map((tracks) => {
+                      return (
+                        <li style={{ display: 'flex' }}>
+                          <div>{tracks.trackstitle}</div>-<div>{tracks.tracksname}</div>
+                        </li>
+                      )
+                    })}
                   </Grid>
                   {/* 介紹 */}
                   <Grid item sx={9} sm={8.5} md={8} lg={8} xs={{ width: '100%' }}>
@@ -125,7 +110,7 @@ function OpenSource() {
                   </Grid>{' '}
                 </Grid>{' '}
                 <hr />
-              </Grid>{' '}
+              </Grid>
             </Grid>
           </motion.div>
         )
