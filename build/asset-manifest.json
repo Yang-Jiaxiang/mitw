@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mitw/static/css/main.dee04701.css",
-    "main.js": "/mitw/static/js/main.005d586d.js",
+    "main.css": "/mitw/static/css/main.9498e874.css",
+    "main.js": "/mitw/static/js/main.77f7fe37.js",
     "static/media/v2wg0_4.jpg": "/mitw/static/media/v2wg0_4.71969d8cd6954932a373.jpg",
     "static/media/example.png": "/mitw/static/media/example.f7115d2160881d53afb8.png",
     "static/media/v2wg9_1.jpg": "/mitw/static/media/v2wg9_1.e75788c4cd5d4f1a0e71.jpg",
     "static/media/v2wg3_1.jpg": "/mitw/static/media/v2wg3_1.0f7ef18ff7380fc30823.jpg",
     "static/media/wg7_2.jpg": "/mitw/static/media/wg7_2.90c95e85d844d05f44a2.jpg",
-    "static/media/yechen.jpg": "/mitw/static/media/yechen.7eab1b3a9809322aa16f.jpg",
+    "static/media/yechen.jpg": "/mitw/static/media/yechen.44aed591dce56f896187.jpg",
     "static/media/v2wg0_5.jpg": "/mitw/static/media/v2wg0_5.c0c1f881532d4746a27f.jpg",
     "static/media/wg6_2.jpg": "/mitw/static/media/wg6_2.a337c91a434b896ea700.jpg",
     "static/media/wg1_1.jpg": "/mitw/static/media/wg1_1.d70db112ea215025d225.jpg",
@@ -34,8 +34,8 @@
     "static/media/WG1_2.png": "/mitw/static/media/WG1_2.db689733915379b8c81c.png",
     "static/media/c1.png": "/mitw/static/media/c1.f96d4cefb874e92e0177.png",
     "static/media/WG8_5.png": "/mitw/static/media/WG8_5.a3e25dc186d53a7f01dc.png",
+    "static/media/TTimeblack.png": "/mitw/static/media/TTimeblack.fc5a7756afc6fc59c561.png",
     "static/media/wg2_1.jpg": "/mitw/static/media/wg2_1.efaf1efe67c2d0bfddca.jpg",
-    "static/media/TTimeblack.png": "/mitw/static/media/TTimeblack.02563a531f269391e3c2.png",
     "static/media/WG7_2.png": "/mitw/static/media/WG7_2.8e88aa14a94ee4a3e430.png",
     "static/media/Authorization.png": "/mitw/static/media/Authorization.86fd22f7cd641d311669.png",
     "static/media/Sitatech.png": "/mitw/static/media/Sitatech.7e6a89e35a066bcfab1c.png",
@@ -108,11 +108,11 @@
     "static/media/slick.ttf": "/mitw/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/mitw/index.html",
     "static/media/slick.woff": "/mitw/static/media/slick.295183786cd8a1389865.woff",
-    "main.dee04701.css.map": "/mitw/static/css/main.dee04701.css.map",
-    "main.005d586d.js.map": "/mitw/static/js/main.005d586d.js.map"
+    "main.9498e874.css.map": "/mitw/static/css/main.9498e874.css.map",
+    "main.77f7fe37.js.map": "/mitw/static/js/main.77f7fe37.js.map"
   },
   "entrypoints": [
-    "static/css/main.dee04701.css",
-    "static/js/main.005d586d.js"
+    "static/css/main.9498e874.css",
+    "static/js/main.77f7fe37.js"
   ]
 }
