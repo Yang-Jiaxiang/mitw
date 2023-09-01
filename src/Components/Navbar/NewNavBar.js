@@ -156,8 +156,9 @@ function ResponsiveAppBar({ setNavBarHeight }) {
                       disableRipple
                       style={{
                         marginLeft: '1rem',
-                        padding: 0,
+                        height: '100%',
                         border: 'none',
+                        padding: '0',
                         backgroundColor: 'transparent',
                         color: '#646363',
                         fontSize: windwosWidth < 1700 ? (windwosWidth < 1400 ? '1rem' : '1.2rem') : '1.3rem',
