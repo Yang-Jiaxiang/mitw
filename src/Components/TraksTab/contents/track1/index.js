@@ -124,7 +124,7 @@ const Track1_SystemsAffected_content = () => {
       本規範涉及涉及的系统有：
       <ul>
         <li>
-          <font style={{ fontWeight: 'bold' }}>病人基本資料使用單位系統:</font>
+          <font style={{ fontWeight: 'bold' }}>病人基本資料使用單位系統：</font>
           醫療照護機構、藥局、消防局、第三方健康照護應用、個人等
         </li>
       </ul>
