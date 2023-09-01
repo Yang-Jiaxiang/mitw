@@ -58,8 +58,7 @@ const OpenSourceInform = [
     linkName: '專案程式碼',
     link: 'https://github.com/cylab-tw/bluelight',
     name: '藍光(BlueLight) - Web-based DICOM Viewer',
-    tracks:
-      '\n TRACK#4 - DICOMWeb查詢與調閱 \n TRACK#5 - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱 \n TRACK#7 - 影像檢查流程',
+    tracks: 'TRACK#4 - DICOMWeb查詢與調閱 TRACK#5 - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱 TRACK#7 - 影像檢查流程',
     jointracks: [
       { trackstitle: 'TRACK#4', tracksname: '  DICOMWeb查詢與調閱' },
       {
@@ -76,8 +75,7 @@ const OpenSourceInform = [
     linkName: '專案程式碼',
     link: 'https://github.com/cylab-tw/raccoon',
     name: '浣熊(Raccoon) - NoSQL醫學影像資料庫',
-    tracks:
-      '  \n TRACK#4 - DICOMWeb查詢與調閱 \n TRACK#5 - DICOM數位全幅病理顯微鏡影像查詢與調閱 \n TRACK#7 - 影像檢查流程',
+    tracks: '  TRACK#4 - DICOMWeb查詢與調閱 TRACK#5 - DICOM數位全幅病理顯微鏡影像查詢與調閱 TRACK#7 - 影像檢查流程',
     jointracks: [
       { trackstitle: 'TRACK#4', tracksname: '  DICOMWeb查詢與調閱' },
       {
@@ -95,7 +93,7 @@ const OpenSourceInform = [
     link: 'https://github.com/Chinlinlee/Burni',
     name: '布魯尼(Burni) - NoSQL FHIR Server',
     tracks:
-      '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據互通 \n TRACK#3 - 用藥及疫苗接種紀錄 \n TRACK#6 - 基因定序標記',
+      '  \n  TRACK#1 - 病人基本資料互通TRACK#2 - 生理量測數據互通 TRACK#3 - 用藥及疫苗接種紀錄 TRACK#6 - 基因定序標記',
     jointracks: [
       { trackstitle: 'TRACK#1', tracksname: '  病人基本資料互通' },
       { trackstitle: 'TRACK#2', tracksname: '  生理量測數據互通' },
@@ -110,13 +108,39 @@ const OpenSourceInform = [
     linkName: '專案程式碼',
     link: 'https://github.com/cylab-tw/FHIR-Pandas',
     name: 'FHIR Pandas - an FHIR client to access an FHIR server',
-    tracks: '  \n TRACK#1 - 病人基本資料互通',
+    tracks: '  TRACK#1 - 病人基本資料互通',
     jointracks: [{ trackstitle: 'TRACK#1', tracksname: '  病人基本資料互通' }],
     introduce:
       'FHIR Pandas is coded by various programming languages, including Vue.js, Angular.js, and Vanilla.js, to implement the FHIR client. FHIR Pandas provide source code for FHIR developers to develop their FHIR client application. Currently, we have three pandas: \n Green Panda developed by Vue.js \n Red Panda developed by angularjs \n Vanilla Panda developed by Vanilla.js \n FHIR Pandas提供基於臺灣核心實作指引規格之FHIR Client(Consumer)範例程式',
   },
 ]
 
+const trackList = {
+  t1: {
+    title: 'TRACK#1',
+    name: '病人基本資料互通',
+  },
+  t2: {
+    title: 'TRACK#2',
+    name: '生理量測數據互通',
+  },
+  t3: {
+    title: 'TRACK#3',
+    name: '用藥及疫苗接種紀錄',
+  },
+  t4: {
+    title: 'TRACK#4',
+    name: ' DICOMWeb查詢與調閱',
+  },
+  t5: {
+    title: 'TRACK#5',
+    name: 'DICOM數位全幅病理顯微鏡影像查詢與調閱',
+  },
+  t7: {
+    title: 'TRACK#7',
+    name: '影像檢查流程',
+  },
+}
 const IndustryInform = [
   {
     img: Power,
@@ -132,7 +156,7 @@ const IndustryInform = [
         <h3>奇唯科技股份有限公司</h3> <h4>個案導向醫療資源計畫整合平台(POMRP)+康小美</h4>
       </div>
     ),
-    tracks: '   \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據互通 \n TRACK#3 - 用藥及疫苗接種紀錄',
+    tracks: [trackList.t1, trackList.t2, trackList.t3],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -152,8 +176,7 @@ const IndustryInform = [
         <h3>商之器科技股份有限公司</h3> <h4>UDE / 行動醫療影像伺服器 App</h4>
       </div>
     ),
-    tracks:
-      '  \n TRACK#4 - DICOMWeb查詢與調閱 \n TRACK#5 - DICOM數位全幅病理顯微鏡影像查詢與調閱 \n TRACK#7 - 影像檢查流程',
+    tracks: [trackList.t4, trackList.t5, trackList.t7],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -172,7 +195,7 @@ const IndustryInform = [
         <h3>緯謙科技</h3> <h4>FHIR 資料交換平台</h4>
       </div>
     ),
-    tracks: '  \n TRACK#1 - 病人基本資料互通',
+    tracks: [trackList.t1],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -192,7 +215,7 @@ const IndustryInform = [
         <h3>遠傳電信股份有限公司</h3> <h4>遠傳 Health+遠距診療</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據互通',
+    tracks: [trackList.t1, trackList.t2],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -214,7 +237,7 @@ const IndustryInform = [
         <h3>睿傳數據股份有限公司</h3> <h4>健康小蜜蜂數位健康平台, HealthBee Digital Health Platform(DHP)</h4>
       </div>
     ),
-    tracks: '   \n  TRACK#1 - 病人基本資料互通\n TRACK#4 - DICOMWeb查詢與調閱 \n TRACK#7 - 影像檢查流程',
+    tracks: [trackList.t1, trackList.t4, trackList.t7],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -234,7 +257,7 @@ const IndustryInform = [
         <h3>長庚醫學科技股份有限公司</h3> <h4>U-Dr遠距醫療產品</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據互通 \n TRACK#3 - 用藥及疫苗接種紀錄',
+    tracks: [trackList.t1, trackList.t2, trackList.t3],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -259,8 +282,7 @@ const IndustryInform = [
         <h4>An architecture and management platform for blockchain-based FHIR personal health record exchange</h4>
       </div>
     ),
-    tracks:
-      '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據\n TRACK#3 - 處方用藥及文件打包 TRACK#7 - 緊急醫療救護',
+    tracks: [trackList.t1, trackList.t2, trackList.t3, trackList.t7],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -281,7 +303,7 @@ const IndustryInform = [
         <h3>先進醫資股份有限公司 </h3> <h4>享健康防疫大師</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據互通 \n TRACK#3 - 用藥及疫苗接種紀錄',
+    tracks: [trackList.t1, trackList.t2, trackList.t3],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -309,8 +331,7 @@ const IndustryInform = [
         </h4>
       </div>
     ),
-    tracks:
-      '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據 \n TRACK#3 - 用藥及疫苗接種紀錄 \n TRACK#7 - 緊急醫療救護',
+    tracks: [trackList.t1, trackList.t2, trackList.t3, trackList.t7],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -331,7 +352,7 @@ const IndustryInform = [
         <h3>慶旺科技股份有限公司</h3> <h4>QED2000</h4>
       </div>
     ),
-    tracks: '  \n TRACK#2 - 生理量測數據互通 \n TRACK#7 - 影像檢查流程',
+    tracks: [trackList.t2, trackList.t7],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -352,7 +373,7 @@ const IndustryInform = [
         <h3>康統醫學科技</h3> <h4>Bless健康護照</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#3 - 用藥及疫苗接種紀錄',
+    tracks: [trackList.t1, trackList.t3],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -376,7 +397,7 @@ const IndustryInform = [
         <h3>康統醫學科技 </h3> <h4>EVAS內視鏡智能助理系統</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n',
+    tracks: [trackList.t1],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -397,7 +418,7 @@ const IndustryInform = [
         <h3>財團法人資訊工業策進會 </h3> <h4>Vaccine QRCode Passport</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通TRACK#2 - 生理量測數據互通 \n TRACK#3 - 用藥及疫苗接種紀錄',
+    tracks: [trackList.t1, trackList.t2, trackList.t3],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -418,7 +439,7 @@ const IndustryInform = [
         <h3> 財團法人資訊工業策進會</h3> <h4>生醫資料商用智慧化工具</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據互通 \n TRACK#3 - 用藥及疫苗接種紀錄',
+    tracks: [trackList.t1, trackList.t2, trackList.t3],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -439,7 +460,7 @@ const IndustryInform = [
         <h3>倍利科技股份有限公司</h3> <h4>大心高智能成人尿布</h4>
       </div>
     ),
-    tracks: '  \n TRACK#4 - 影像、結構化影像報告、AI標記與影像檢查流程 \n TRACK#7 - 影像檢查流程 ',
+    tracks: [trackList.t4, trackList.t7],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -463,7 +484,7 @@ const IndustryInform = [
         <h3>大心生物科技股份有限公司 </h3> <h4>大心高智能成人尿布</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據',
+    tracks: [trackList.t1, trackList.t2],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -488,7 +509,7 @@ const IndustryInform = [
         <h3>摩爾資通有限公司</h3> <h4>安心摩爾 </h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據 TRACK#7 - 緊急醫療救護',
+    tracks: [trackList.t1, trackList.t2, trackList.t7],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -513,7 +534,7 @@ const IndustryInform = [
         <h3>矽塔資訊服務有限公司 </h3> <h4>U矽塔 FHIR 智慧醫療數據服務中台</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#7 - 緊急醫療救護',
+    tracks: [trackList.t1, trackList.t7],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -538,7 +559,7 @@ const IndustryInform = [
         <h3>霍恩實業有限公司</h3> <h4>DocterWatch</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據互通',
+    tracks: [trackList.t1, trackList.t2],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -562,7 +583,7 @@ const IndustryInform = [
         <h3>律泰科技有限公司 </h3> <h4>iCare 個人健康管理照護平台</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n ',
+    tracks: [trackList.t1],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -586,8 +607,7 @@ const IndustryInform = [
         <h3>玳康科技有限公司 </h3> <h4>Minicoon 數位病理影像與報告儲存與管理系統 </h4>
       </div>
     ),
-    tracks:
-      '  \n  TRACK#1 - 病人基本資料互通\n TRACK#4 - 影像、結構化影像報告、AI標記與影像檢查流程 \n TRACK#5 - 數位病理影像與結構化報告',
+    tracks: [trackList.t1, trackList.t4, trackList.t5],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -605,7 +625,7 @@ const HospitalInform = [
         <h3>佛教慈濟醫療財團法人花蓮慈濟醫院</h3> <h4>健康福祉科技整合照護示範場域推動計畫</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#2 - 生理量測數據互通 \n TRACK#3 - 用藥及疫苗接種紀錄',
+    tracks: '  \n  TRACK#1 - 病人基本資料互通TRACK#2 - 生理量測數據互通 TRACK#3 - 用藥及疫苗接種紀錄',
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -624,7 +644,7 @@ const GovernmentInform = [
       </div>
     ),
     tracks:
-      '   \n  TRACK#1 - 病人基本資料互通\n TRACK#4 - DICOMWeb查詢與調閱 \n TRACK#5 - DICOM數位全幅病理顯微鏡影像查詢與調閱',
+      '   \n  TRACK#1 - 病人基本資料互通TRACK#4 - DICOMWeb查詢與調閱 TRACK#5 - DICOM數位全幅病理顯微鏡影像查詢與調閱',
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -639,7 +659,7 @@ const GovernmentInform = [
         <h3>CIMS服務團隊</h3> <h4>臨床研究資訊系統(CSIS)與CSIS-APP</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#3 - 用藥及疫苗接種紀錄 \n TRACK#6 - 基因定序標記',
+    tracks: '  \n  TRACK#1 - 病人基本資料互通TRACK#3 - 用藥及疫苗接種紀錄 TRACK#6 - 基因定序標記',
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
@@ -655,7 +675,7 @@ const GovernmentInform = [
         <h3>CIMS服務團隊</h3> <h4>臨床研究資訊系統 (Clinical Study Information System, CSIS)</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通\n TRACK#3 - 用藥及疫苗接種紀錄 \n TRACK#6 - 基因定序標記',
+    tracks: '  \n  TRACK#1 - 病人基本資料互通TRACK#3 - 用藥及疫苗接種紀錄 TRACK#6 - 基因定序標記',
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:
