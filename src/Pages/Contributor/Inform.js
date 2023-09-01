@@ -249,7 +249,7 @@ const Mem = [
         <ul>
           <li>DCMTK開發者</li>
           <li>OFFIS博士後研究</li>
-          <li>IHE歐洲連測 督察員</li>
+          <li>IHE歐洲聯測 督察員</li>
           <li>奇唯科技 技術經理</li>
         </ul>
         <b>4.　簡介：</b>

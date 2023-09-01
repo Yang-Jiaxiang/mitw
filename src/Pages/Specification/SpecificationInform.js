@@ -196,7 +196,7 @@ const List = [
             Proxy主機作為抓取交易封包以及連結特定的測試單元。
           </li>
           <li>
-            主機架設在雲端的參加單位: 透過VPN服務連線，設定外部主機之IP以及PORT將透過HTTP/HTTPS連線至連測區域網路內，GO
+            主機架設在雲端的參加單位: 透過VPN服務連線，設定外部主機之IP以及PORT將透過HTTP/HTTPS連線至聯測區域網路內，GO
             Proxy作為外部主機IP與PORT轉換對照，用來擷取網路封包並記錄至Gazelle Proxy
           </li>
           <li>
