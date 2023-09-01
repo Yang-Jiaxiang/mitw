@@ -625,7 +625,7 @@ const HospitalInform = [
         <h3>佛教慈濟醫療財團法人花蓮慈濟醫院</h3> <h4>健康福祉科技整合照護示範場域推動計畫</h4>
       </div>
     ),
-    tracks: '  \n  TRACK#1 - 病人基本資料互通TRACK#2 - 生理量測數據互通 TRACK#3 - 用藥及疫苗接種紀錄',
+    tracks: [trackList.t1, trackList.t2, trackList.t3],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce:

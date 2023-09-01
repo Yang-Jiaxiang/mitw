@@ -1,6 +1,6 @@
 import React from 'react'
 import { HospitalInform } from '../../../Pages/Successcase/Inform'
-import { Grid } from '@mui/material'
+import { Box, Grid } from '@mui/material'
 import { motion } from 'framer-motion'
 import SeeMore from '../../Function/SeeMore'
 import '../Successcase.css'
@@ -11,44 +11,45 @@ function Hospital() {
       {HospitalInform.map((item, i) => {
         return (
           // -------左右---------
-          <motion.div
-            key={i}
-            // initial={{ opacity: 0, scale: 0.8 }}
-            // animate={{ opacity: 1, scale: 1 }}
-            // transition={{ duration: 0.8 }}
-          >
+          <motion.div key={i}>
             <Grid container spacing={1} key={i} sx={{ marginTop: '1rem' }}>
               {/* 左 */}
               <Grid item sm={12} md={4} lg={4}>
-                <Grid container direction="column">
-                  <Grid item>
-                    <img
-                      src={item.img}
-                      className="HosImg"
-                      style={{
-                        objectFit: 'cover',
-                        marginBottom: '1rem',
-                      }}
-                    />
-                  </Grid>
-                  <Grid item>
-                    <a
-                      href={item.link}
-                      target="_blank"
-                      style={{
-                        textDecoration: 'none ',
-                        color: '#0081a7',
-                        width: '100%',
-                        marginRight: '3rem',
-                      }}
-                    >
-                      {item.linkname}
-                    </a>
-                  </Grid>
-                  <Grid item>
-                    <p style={{ whiteSpace: 'pre-line' }}>{item.tracks}</p>
-                  </Grid>{' '}
-                </Grid>
+                <Box>
+                  <img
+                    src={item.img}
+                    className="HosImg"
+                    style={{
+                      objectFit: 'cover',
+                      marginBottom: '1rem',
+                    }}
+                  />
+                </Box>
+                <Box
+                  style={{
+                    marginBottom: '1rem',
+                  }}
+                >
+                  <a
+                    href={item.link}
+                    target="_blank"
+                    style={{
+                      textDecoration: 'none ',
+                      color: '#0081a7',
+                      width: '100%',
+                      marginRight: '3rem',
+                    }}
+                  >
+                    {item.linkname}
+                  </a>
+                </Box>
+                {item.tracks.map((tracks) => {
+                  return (
+                    <li style={{ display: 'flex' }}>
+                      <div>{tracks.title}</div>-<div>{tracks.name}</div>
+                    </li>
+                  )
+                })}
               </Grid>
               {/* 右 */}
               <Grid item sm={12} md={8} lg={8}>
@@ -66,34 +67,6 @@ function Hospital() {
               </Grid>
             </Grid>
           </motion.div>
-          // <Grid
-          //   container
-          //   spacing={1}
-          //   marginBottom="2rem"
-          //   alignItems="center"
-          //   key={i}
-          // >
-          //   {/* 上半 */}
-
-          //   <Grid item sm={12} md={4} lg={4}>
-          //     <img src={item.img} style={{ width: "100%" }} />
-          //   </Grid>
-          //   <Grid item sm={12} md={8} lg={8}>
-          //     <a
-          //       href={item.link}
-          //       target="_blank"
-          //       style={{ textDecoration: "none ", color: "#000" }}
-          //     >
-          //       <h3>{item.name}</h3>
-          //     </a>
-          //     <div style={{ whiteSpace: "pre-line", marginTop: "1rem" }}>
-          //       {item.tracks}
-          //     </div>
-          //   </Grid>
-
-          //   <div style={{ margin: "2rem 1rem 0 0" }}>{item.introduce}</div>
-          //   {/* 下半 */}
-          // </Grid>
         )
       })}
     </>
