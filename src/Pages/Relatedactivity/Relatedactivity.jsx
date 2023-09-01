@@ -38,12 +38,6 @@ function Relatedactivity() {
               marginBottom: '2rem',
               padding: ' 1rem 5rem 1.5rem',
               borderBottom: 'solid 4px #fbc170',
-              // borderStyle: "solid",
-
-              // boxShadow: " rgb(118, 189, 213) 2px 1px 3px 2px",
-
-              // borderImage:
-              //   "linear-gradient(rgb(35, 240, 199), rgb(16, 137, 152), rgb(16, 249, 255)) 20 / 1 / 0 stretch",
             }}
           >
             相關活動
@@ -52,7 +46,13 @@ function Relatedactivity() {
 
         {active.map((item) => {
           return (
-            <div key={item} className="ActiveBlock">
+            <div
+              key={item}
+              className="ActiveBlock"
+              style={{
+                background: '#f1f1f1',
+              }}
+            >
               <h3
                 style={{
                   display: 'flex',
@@ -61,7 +61,6 @@ function Relatedactivity() {
                   marginBottom: '2vw',
                 }}
               >
-                {' '}
                 {item.title}
               </h3>
               <div className="Content" style={{ display: 'flex', width: '100%' }}>
