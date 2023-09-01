@@ -164,7 +164,18 @@ function News() {
                   <img src={p1Img} alt="p1img" style={{ objectFit: 'cover', width: '100%' }} />
                 </Grid>
                 {/* 右半文字 */}
-                <Grid item sx={8} sm={8} md={8} lg={8} padding="2vw" width="100%">
+                <Grid
+                  item
+                  sx={8}
+                  sm={8}
+                  md={8}
+                  lg={8}
+                  style={{
+                    padding: '2vw',
+                    paddingBottom: '0',
+                  }}
+                  width="100%"
+                >
                   <p
                     className="NewsH3"
                     style={{
@@ -183,7 +194,7 @@ function News() {
                       {NewsInform.p1.hash1}
                       <a
                         href="https://docs.google.com/forms/d/e/1FAIpQLSfPNL-NWe_EWJ7pfYY74hIQr8kuNRFEXYbeROu3Sem8Cq8Qlw/viewform"
-                        style={{ color: '#3e78cf' }}
+                        style={{ color: '#3e78cf', marginLeft: '1rem' }}
                         target="_blank"
                       >
                         表單
@@ -192,7 +203,7 @@ function News() {
                     <h4>{NewsInform.p1.hash2}</h4>
                     {NewsInform.p1.context.map((item) => {
                       return (
-                        <li className="NewsContent" style={{ margin: '2rem 0', wordBreak: 'normal' }}>
+                        <li className="NewsContent" style={{ margin: '1rem 0', wordBreak: 'normal' }}>
                           {item}
                         </li>
                       )
