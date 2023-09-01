@@ -20,6 +20,7 @@ import v2wg0_5 from '../../assets/v2wg0_5.jpg'
 import v2wg2_1 from '../../assets/v2wg2_1.jpg'
 import v2wg0_6 from '../../assets/v2wg0_6.jpg'
 import v2wg0_7 from '../../assets/v2wg0_7.jpg'
+import v2wg0_8 from '../../assets/v2wg0_8.jpg'
 
 const Tabs = [
   { id: 1, title: '#01', name: '病人基本資料' },
@@ -43,6 +44,7 @@ const Mem = [
     TraksTitle: ' 病人基本資料',
     Img: wg1,
     Position: '召集人',
+    memberSort: 3.5,
     Name: '楊宇凡 | 矽塔資訊服務有限公司 執行長',
     Tollger: (
       <>
@@ -75,6 +77,7 @@ const Mem = [
     TraksTitle: ' 生理量測數據',
     isContributor: true,
     isMember: true,
+    memberSort: 20,
     Img: v2wg2_1,
     Position: '召集人',
     Name: '洪苑容 | 馬雅資訊股份有限公司 軟體工程師',
@@ -125,6 +128,7 @@ const Mem = [
     isContributor: true,
     TraksTitle: ' 用藥、文件打包及服務請求',
     Img: wg3_1,
+    memberSort: 3,
     Position: '召集人',
     Name: '李祥豪 | 社團法人台灣醫學資訊學會(TAMI) 秘書長',
     isMember: true,
@@ -161,6 +165,7 @@ const Mem = [
     Track: [3],
     isContributor: true,
     isMember: true,
+    memberSort: 10,
     TraksTitle: ' 用藥、文件打包及服務請求',
     Img: wg3_2,
     Position: '成員',
@@ -196,6 +201,7 @@ const Mem = [
     Track: [3],
     isContributor: true,
     isMember: true,
+    memberSort: 20,
     TraksTitle: ' 用藥、文件打包及服務請求',
     Img: v2wg3_1,
     Position: '成員',
@@ -228,6 +234,7 @@ const Mem = [
     Track: [4, 6, 8, 10],
     isContributor: true,
     isMember: true,
+    memberSort: 1,
     TraksTitle: ' 醫學影像與病理',
     Img: wg4_1,
     Position: '召集人',
@@ -265,6 +272,7 @@ const Mem = [
     Track: [4],
     isContributor: true,
     isMember: true,
+    memberSort: 14,
     TraksTitle: ' 醫學影像與病理',
     Img: wg4_2,
     Position: '成員',
@@ -301,6 +309,7 @@ const Mem = [
     TraksTitle: ' 醫學影像與病理',
     Img: v2wg4_1,
     Position: '成員',
+    memberSort: 14.5,
     Name: '鄧瑞均 | 國立臺北護理健康大學資訊管理系 碩士生',
     Tollger: (
       <>
@@ -333,6 +342,7 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 緊急醫療救護',
     Img: wg7_2,
+    memberSort: 4,
     Position: '召集人',
     Name: '李修安 | 國家衛生研究院 癌症研究所 博士後研究員',
     Tollger: (
@@ -376,10 +386,11 @@ const Mem = [
     Track: [6],
     isContributor: true,
     isMember: true,
+    memberSort: 11,
     TraksTitle: ' 基因體標記',
     Img: wg6_2,
     Position: '成員',
-    Name: '李建興 | 國立陽明交通大學生物醫學資訊所  研究助理',
+    Name: '李建興 | 國立臺北護理健康大學資訊管理系  研究助理',
     Tollger: (
       <>
         <b>1. 學歷：</b>
@@ -476,6 +487,7 @@ const Mem = [
     isContributor: true,
     isMember: true,
     TraksTitle: ' 癌症登記',
+    memberSort: 13,
     Img: wg10_2,
     Position: '成員',
     Name: '郭俐君 | 國立臺北護理健康大學資訊管理系 研究助理',
@@ -512,6 +524,7 @@ const Mem = [
     TraksTitle: ' 癌症登記',
     Img: v2wg0_1,
     Position: '成員',
+    memberSort: 2,
     Name: '李麗惠 | 國立臺北護理健康大學 健康事業管理系	助理教授',
     Tollger: (
       <>
@@ -548,6 +561,7 @@ const Mem = [
     TraksTitle: ' 癌症登記',
     Img: v2wg0_2,
     Position: '成員',
+    memberSort: 6,
     Name: '龔筠庭 | 國泰金控數位數據發展中心 技術架構師',
     Tollger: (
       <>
@@ -584,6 +598,7 @@ const Mem = [
     Track: [0],
     isContributor: false,
     isMember: true,
+    memberSort: 16,
     TraksTitle: ' 癌症登記',
     Img: v2wg0_7,
     Position: '成員',
@@ -616,6 +631,7 @@ const Mem = [
     Track: [0],
     isContributor: false,
     isMember: true,
+    memberSort: 14.5,
     TraksTitle: ' 癌症登記',
     Img: null,
     Position: '成員',
@@ -647,6 +663,7 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 癌症登記',
     Img: v2wg0_3,
+    memberSort: 5,
     Position: '成員',
     Name: '張修書 | 臺中榮民總醫院	資訊工程師',
     Tollger: (
@@ -684,7 +701,8 @@ const Mem = [
     isContributor: false,
     isMember: true,
     TraksTitle: ' 癌症登記',
-    Img: null,
+    Img: v2wg0_8,
+    memberSort: 14.5,
     Position: '成員',
     Name: '林伃瑤 | 國立臺北護理健康大學健康事業管理系-李麗惠 助理教授研究室兼任助理',
     Tollger: (
@@ -725,6 +743,7 @@ const Mem = [
     TraksTitle: ' 癌症登記',
     Img: v2wg0_4,
     Position: '成員',
+    memberSort: 7,
     Name: '李偉帆 | 商之器科技股份有限公司 應用研發部經理',
     Tollger: (
       <>
@@ -756,6 +775,7 @@ const Mem = [
     TraksTitle: ' 癌症登記',
     Img: null,
     Position: '成員',
+    memberSort: 11,
     Name: '江育霖 | 儷成生技股份有限公司 技術總監',
     Tollger: (
       <>
@@ -792,6 +812,7 @@ const Mem = [
     TraksTitle: ' 癌症登記',
     Img: v2wg0_5,
     Position: '成員',
+    memberSort: 21,
     Name: '李昀陞 | 財團法人資訊工業策進會 數位轉型研究院 工程師',
     Tollger: (
       <>
@@ -828,6 +849,7 @@ const Mem = [
     TraksTitle: ' 癌症登記',
     Img: v2wg0_6,
     Position: '成員',
+    memberSort: 21,
     Name: '張哲源 | 佛教慈濟醫療財團法人花蓮慈濟醫院',
     Tollger: (
       <>
