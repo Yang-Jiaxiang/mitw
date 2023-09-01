@@ -44,7 +44,7 @@ const Mem = [
     TraksTitle: ' 病人基本資料',
     Img: wg1,
     Position: '召集人',
-    memberSort: 3.5,
+    memberSort: 2,
     Name: '楊宇凡 | 矽塔資訊服務有限公司 執行長',
     Tollger: (
       <>
@@ -128,7 +128,7 @@ const Mem = [
     isContributor: true,
     TraksTitle: ' 用藥、文件打包及服務請求',
     Img: wg3_1,
-    memberSort: 3,
+    memberSort: 4,
     Position: '召集人',
     Name: '李祥豪 | 社團法人台灣醫學資訊學會(TAMI) 秘書長',
     isMember: true,
@@ -342,7 +342,7 @@ const Mem = [
     isMember: true,
     TraksTitle: ' 緊急醫療救護',
     Img: wg7_2,
-    memberSort: 4,
+    memberSort: 6,
     Position: '召集人',
     Name: '李修安 | 國家衛生研究院 癌症研究所 博士後研究員',
     Tollger: (
@@ -524,7 +524,7 @@ const Mem = [
     TraksTitle: ' 癌症登記',
     Img: v2wg0_1,
     Position: '成員',
-    memberSort: 2,
+    memberSort: 3,
     Name: '李麗惠 | 國立臺北護理健康大學 健康事業管理系	助理教授',
     Tollger: (
       <>
@@ -743,7 +743,7 @@ const Mem = [
     TraksTitle: ' 癌症登記',
     Img: v2wg0_4,
     Position: '成員',
-    memberSort: 7,
+    memberSort: 3.5,
     Name: '李偉帆 | 商之器科技股份有限公司 應用研發部經理',
     Tollger: (
       <>
