@@ -24,7 +24,7 @@ const routerList = [
   },
   {
     name: '論壇',
-    path: '/', //https://mitwforum.dicom.org.tw
+    path: process.env.REACT_APP_MITW_FORUM_PATH, //https://mitwforum.dicom.org.tw
     liComponent: '',
   },
   {
