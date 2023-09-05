@@ -4,7 +4,7 @@ WORKDIR /
 
 RUN mkdir -p /app
 WORKDIR /app
-COPY package.json /app
+COPY package*.json ./
 
 COPY . /app
 
