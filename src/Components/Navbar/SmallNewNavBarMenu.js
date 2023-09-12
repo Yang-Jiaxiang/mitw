@@ -29,14 +29,14 @@ const SmallNewNavBarMenu = ({ page, openID, setOpenID, onClick }) => {
         <List component="div" disablePadding>
           {page.li.map((item) => {
             return (
-              <NavLink
-                to={item.lipath}
-                style={{
-                  textDecoration: 'none',
-                }}
-                onClick={onClick}
-              >
-                <ListItemButton sx={{ pl: 4 }}>
+              <ListItemButton sx={{ pl: 4 }} onClick={onClick}>
+                <NavLink
+                  to={item.lipath}
+                  style={{
+                    textDecoration: 'none',
+                  }}
+                  target={item.lipath.includes('http') && '_blank'}
+                >
                   <Typography
                     sx={{
                       color: '#646363',
@@ -46,8 +46,8 @@ const SmallNewNavBarMenu = ({ page, openID, setOpenID, onClick }) => {
                   >
                     {item.liname}
                   </Typography>
-                </ListItemButton>
-              </NavLink>
+                </NavLink>
+              </ListItemButton>
             )
           })}
         </List>

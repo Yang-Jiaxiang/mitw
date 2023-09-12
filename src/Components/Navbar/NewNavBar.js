@@ -122,8 +122,10 @@ function ResponsiveAppBar({ setNavBarHeight }) {
                         style={{
                           textDecoration: 'none',
                         }}
+                        target={page.path.includes('http') && '_blank'}
+                        key={page.name}
                       >
-                        <ListItemButton key={page.name} onClick={handleCloseNavMenu}>
+                        <ListItemButton onClick={handleCloseNavMenu}>
                           <Typography
                             textAlign="center"
                             sx={{

@@ -28,7 +28,7 @@ function SectionListTab({
 
   const smallStyle = {
     position: 'sticky',
-    top: tracksTabHeight + navBarHeight,
+    top: tracksTabHeight + navBarHeight - 5,
     zIndex: 3000,
   }
 
