@@ -435,7 +435,7 @@ const Track6_Author_content = () => {
           <tr>
             <td>
               <span data-position="53402" data-size="2">
-                招集人
+                召集人
               </span>
             </td>
             <td>

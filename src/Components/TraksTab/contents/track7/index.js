@@ -914,7 +914,7 @@ const Track7_Author_content = () => {
         </thead>
         <tbody style={{ textAlign: 'left' }}>
           <tr>
-            <td>招集人</td>
+            <td>召集人</td>
             <td>楊宇凡</td>
             <td>社團法人台灣醫療影像資訊標準協會 副秘書長</td>
             <td>Profiling, 聯測測試情境</td>
