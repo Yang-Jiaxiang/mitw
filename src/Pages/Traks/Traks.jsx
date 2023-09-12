@@ -104,25 +104,25 @@ function Traks({ navBarHeight }) {
                       }}
                     >
                       {sc.Sc}
-                      {sc.id === '1' && (
-                        <Button
-                          variant="outlined"
-                          startIcon={<SendIcon />}
-                          onClick={() => {
-                            window.open(sc.profile, '_blank', 'noopener,noreferrer')
-                          }}
-                          style={{
-                            marginLeft: '1rem',
-                            color: '#000',
-                            borderColor: '#000',
-                            fontWeight: 'bold',
-                          }}
-                        >
-                          展開簡報
-                        </Button>
-                      )}
                     </h2>
-
+                    {sc.id === '1' && (
+                      <Button
+                        variant="outlined"
+                        startIcon={<SendIcon />}
+                        onClick={() => {
+                          window.open(sc.profile, '_blank', 'noopener,noreferrer')
+                        }}
+                        style={{
+                          marginLeft: '0.2rem',
+                          marginBottom: '1rem',
+                          color: '#000',
+                          borderColor: '#000',
+                          fontWeight: 'bold',
+                        }}
+                      >
+                        展開簡報
+                      </Button>
+                    )}
                     <div>{sc.content}</div>
                   </section>
                 )
