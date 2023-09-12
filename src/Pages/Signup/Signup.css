@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: left;
   height: 10rem;
-
 }
 .SignupLink {
   text-decoration: none;
@@ -25,6 +24,7 @@
 @media screen and (max-width: 500px) {
   .Block {
     width: 90%;
+    padding-left: 0.7rem;
     /* padding: 0 5vh; */
   }
   .Background {
