@@ -144,7 +144,7 @@ export const TraksTabInform = [
       {
         id: '1',
         Sc: '簡介 (Summary)',
-        profile: 'https://drive.google.com/file/d/1IE4n9qyKPifLtp8zDTE-jfCIQXICGUre/view',
+        profile: 'https://drive.google.com/file/d/1XdDZQksQsFejUz6dMF10raclAuMr_JHd/view',
         content: <Track2_Summary_content />,
       },
       {
