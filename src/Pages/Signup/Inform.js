@@ -17,6 +17,6 @@ const Inform = [
     icon: recruit,
   },
   { title: '聯測松論壇報名', link: process.env.REACT_APP_MITW_FORUM_FORM_PATH, disable: false, icon: chat },
-  { title: '聯測松工作坊報名', link: '', disable: false, icon: meet },
+  // { title: '聯測松工作坊報名', link: '', disable: false, icon: meet },
 ]
 export { Inform }
