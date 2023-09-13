@@ -1,17 +1,6 @@
-import React, { useState, useEffect, useRef } from 'react'
-import { CCard, CCardImage, CCardText, CCardTitle } from '@coreui/react'
-import {
-  Dialog,
-  DialogContent,
-  DialogContentText,
-  Box,
-  Grid,
-  Modal,
-  List,
-  ListItem,
-  MenuItem,
-  Select,
-} from '@mui/material'
+import React, { useState, useEffect } from 'react'
+import { CCard, CCardImage } from '@coreui/react'
+import { Grid, Modal } from '@mui/material'
 import { Mem } from '../Contributor/Inform'
 import presetImage from '../../assets/preset.png'
 import './Member.css'

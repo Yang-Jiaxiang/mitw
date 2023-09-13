@@ -22,6 +22,7 @@ import v2wg0_6 from '../../assets/v2wg0_6.jpg'
 import v2wg0_7 from '../../assets/v2wg0_7.jpg'
 import v2wg0_8 from '../../assets/v2wg0_8.jpg'
 import v3wg0_1 from '../../assets/v3wg0_1.jpg'
+import v4wg0_1 from '../../assets/v4wg0_1.jpg'
 
 const Tabs = [
   { id: 1, title: '#01', name: '病人基本資料' },
@@ -774,7 +775,7 @@ const Mem = [
     isContributor: false,
     isMember: true,
     TraksTitle: ' 癌症登記',
-    Img: null,
+    Img: v4wg0_1,
     Position: '成員',
     memberSort: 11,
     Name: '江育霖 | 儷成生技股份有限公司 技術總監',
