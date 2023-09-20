@@ -7,7 +7,7 @@ const Inform = [
   {
     title: '聯測松賽道報名',
     link: process.env.REACT_APP_REGISTRATION_PATH,
-    disable: false,
+    disable: true,
     icon: track,
   },
   {
