@@ -23,6 +23,8 @@ import v2wg0_7 from '../../assets/v2wg0_7.jpg'
 import v2wg0_8 from '../../assets/v2wg0_8.jpg'
 import v3wg0_1 from '../../assets/v3wg0_1.jpg'
 import v4wg0_1 from '../../assets/v4wg0_1.jpg'
+import v5wg2_1 from '../../assets/v5wg2_1.jpg'
+import v5wg0_1 from '../../assets/v5wg0_1.jpg'
 
 const Tabs = [
   { id: 1, title: '#01', name: '病人基本資料' },
@@ -104,23 +106,6 @@ const Mem = [
           Python Flask、QtWebApp、ASP.NET MVC、ASP.NET Core MVC 等後端架構 以及 jQuery、React 等前端架構 <br />4
           年醫療資訊標準 HL7 FHIR 實作經驗，探討心電圖資料的儲存方式 目前正在開發眼科資訊系統與TPR表單建置系統"
         </ul>
-      </>
-    ),
-  },
-  {
-    Id: 3,
-    Track: [2],
-    TraksTitle: ' 生理量測數據',
-    isContributor: true,
-    Img: null,
-    Position: '成員',
-    Name: '黃宇婷|慈濟大學醫學資訊學系',
-    Tollger: (
-      <>
-        黃宇婷|慈濟大學醫學資訊學系
-        {/* <b>1.　學歷：</b>
-        <b>2.　經歷：</b>
-        <b>3.　簡介：</b> */}
       </>
     ),
   },
@@ -873,6 +858,66 @@ const Mem = [
         </ul>
         <b>4. 簡介：</b>
         <ul>熱情於各種程式相關內容，於碩士期間了解並接觸fhir相關內容，目前於醫院中協助推進fhir相關應用方式。</ul>
+      </>
+    ),
+  },
+
+  {
+    Id: 3,
+    Track: [2],
+    TraksTitle: ' 生理量測數據',
+    isContributor: true,
+    isMember: true,
+    isPractice: true,
+    Img: v5wg2_1,
+    Position: '成員',
+    Name: '黃宇婷|慈濟大學醫學資訊學系',
+    Tollger: (
+      <>
+        <b>1. 學歷：</b>
+        <ul>
+          <li>慈濟大學醫學資訊學系 研究生</li>
+        </ul>
+        <b>2.　現職：</b>
+        <ul>
+          <li>慈濟大學醫學資訊學系 研究生</li>
+        </ul>
+        <b>3.　經歷：</b>
+        <ul>
+          <li>2022 MI-TW 台灣醫學資訊互通聯測松 參賽代表</li>
+        </ul>
+        <b>4.　簡介：</b>
+        <ul>專長為AI於醫療領域的應用。參與採用FHIR標準系統的開發，並代表慈大醫資進行聯測。</ul>
+      </>
+    ),
+  },
+  {
+    Id: 1719041231231,
+    Track: [0],
+    isContributor: false,
+    isMember: true,
+    isPractice: true,
+    TraksTitle: '癌症登記',
+    Img: v5wg0_1,
+    Position: '成員',
+    memberSort: 21,
+    Name: '黃莉雯 | 慈濟大學醫學資訊系',
+    Tollger: (
+      <>
+        <b>1. 學歷：</b>
+        <ul>
+          <li>慈濟大學醫學資訊系 碩士生</li>
+        </ul>
+        <b>2. 現職：</b>
+        <ul>
+          <li>慈濟大學醫學資訊系 碩士生</li>
+        </ul>
+        <b>3. 經歷：</b>
+        <ul>
+          <li>曾經協助國內推廣FHIR</li>
+        </ul>
+        <b>4. 簡介：</b>
+        <ul>曾經協助國內推廣FHIR ，希望這次可以為聯測做小小貢獻以及學習</ul>
       </>
     ),
   },
