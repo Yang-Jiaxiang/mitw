@@ -906,6 +906,78 @@ const Track5_Author_content = () => {
               </span>
             </td>
             <td>EEC Profiling</td>
+          </tr>{' '}
+          <tr>
+            <td>
+              <span data-position="50773" data-size="3">
+                貢獻者
+              </span>
+            </td>
+            <td>
+              <span data-position="50779" data-size="3">
+                楊宗翰
+              </span>
+            </td>
+            <td>
+              <span data-position="50785" data-size="18">
+                國立陽明交通大學 - 生物醫學資訊研究所
+              </span>
+            </td>
+            <td>連續處方箋流程與健康存摺工作小組</td>
+          </tr>
+          <tr>
+            <td>
+              <span data-position="50773" data-size="3">
+                貢獻者
+              </span>
+            </td>
+            <td>
+              <span data-position="50779" data-size="3">
+                龔筠庭
+              </span>
+            </td>
+            <td>
+              <span data-position="50785" data-size="18">
+                國泰金融控股公司 - 數位數據暨科技發展中心
+              </span>
+            </td>
+            <td>連續處方箋流程與健康存摺工作小組</td>
+          </tr>{' '}
+          <tr>
+            <td>
+              <span data-position="50773" data-size="3">
+                貢獻者
+              </span>
+            </td>
+            <td>
+              <span data-position="50779" data-size="3">
+                彭群芳
+              </span>
+            </td>
+            <td>
+              <span data-position="50785" data-size="18">
+                國泰金融控股公司 - 數位數據暨科技發展中心
+              </span>
+            </td>
+            <td>連續處方箋流程與健康存摺工作小組</td>
+          </tr>{' '}
+          <tr>
+            <td>
+              <span data-position="50773" data-size="3">
+                貢獻者
+              </span>
+            </td>
+            <td>
+              <span data-position="50779" data-size="3">
+                廖銘宏
+              </span>
+            </td>
+            <td>
+              <span data-position="50785" data-size="18">
+                國泰金融控股公司 - 數位數據暨科技發展中心
+              </span>
+            </td>
+            <td>連續處方箋流程與健康存摺工作小組</td>
           </tr>
         </tbody>
       </table>
