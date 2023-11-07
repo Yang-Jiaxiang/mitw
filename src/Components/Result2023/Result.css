@@ -1,0 +1,46 @@
+.rwd-table {
+  display: table;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: gray;
+  width:100%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tbody th{
+  background:#f4f4f4;
+  color:#357a38;
+  padding:10px;
+  text-align: left;
+}
+
+thead tr th {
+  width: 40%;
+}
+table{
+  width: 100%;
+}
+
+.rwd-table tbody tr, td{
+  border-bottom: 1px solid black;
+}
+
+@media screen and (min-width: 1400px) {
+  .Tables {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+  .Tables {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Tables {
+    width: 100%;
+  }
+}

@@ -4,6 +4,7 @@ import Signup from '../Pages/Signup/Signup'
 import Specification from '../Pages/Specification/Specification'
 import Traks from '../Pages/Traks/Traks'
 import Result from '../Pages/Result/Result'
+import Result2023 from '../Pages/Result2023/Result2023'
 import Successcase from '../Pages/Successcase/Successcase'
 import Member from '../Pages/Member/Member'
 import Contributor from '../Pages/Contributor/Contributor'
@@ -95,10 +96,10 @@ const routerList = [
     ],
   },
   {
-    name: '2022聯測松結果',
+    name: '2023聯測松結果',
     icon: null,
-    path: '/Result',
-    Component: <Result />,
+    path: '/Result2023',
+    Component: <Result2023 />,
   },
   {
     name: '歷年活動',

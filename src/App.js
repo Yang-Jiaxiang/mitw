@@ -9,6 +9,7 @@ import Signup from './Pages/Signup/Signup'
 import Specification from './Pages/Specification/Specification'
 import Traks from './Pages/Traks/Traks'
 import Result from './Pages/Result/Result'
+import Result2023 from './Pages/Result2023/Result2023'
 import Recruit from './Pages/Recruit/Recruit'
 import Successcase from './Pages/Successcase/Successcase'
 import Contributor from './Pages/Contributor/Contributor'
@@ -50,7 +51,8 @@ function App() {
         <Route path="/Specification" element={<Specification />} />
         <Route path="/Tracks" element={<Traks navBarHeight={navBarHeight} />} />
         <Route path="/Tracks/:id" element={<Traks navBarHeight={navBarHeight} />} />
-        <Route path="/Result" element={<Result />} />
+        {/* <Route path="/Result" element={<Result />} /> */}
+        <Route path="/Result2023" element={<Result2023 />} />
         <Route path="/Successcase" element={<Successcase />} />
         <Route path="/Recruit" element={<Recruit />} />
         <Route path="/Contributor" element={<Contributor />} />
