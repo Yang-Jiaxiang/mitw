@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { ResultTabInform } from './Inform'
-import { trackstable } from './Tables'
+import Trackstable from './Tables'
 import ResultTable from '../Result/Table/ResultTable'
 import { motion } from 'framer-motion'
 import { Grid, duration, Box } from '@mui/material'
@@ -10,9 +10,17 @@ function ResultTab({ windwosWidth }) {
 
   const inputRef = useRef(null)
   const [topList, setTopList] = useState([])
+  const [offsetTop, setOffseTop] = useState(0)
   useEffect(() => {
     setTopList([...topList, inputRef.current.offsetTop])
   }, [])
+  useEffect(() => {
+    if (inputRef !== null) {
+      setOffseTop(inputRef.current.offsetHeight + inputRef.current.offsetTop - 12)
+    } else {
+      setOffseTop(0)
+    }
+  }, [inputRef])
 
   return (
     <div style={{ background: '#fdfdfd' }}>
@@ -100,15 +108,8 @@ function ResultTab({ windwosWidth }) {
           >
             {ResultTabInform.filter((item) => item.Id === track)[0].ContentTitle}
           </h1>
-
           {/* 表格 */}
-
-          {trackstable[track].map((item, index) => (
-            <center key={index} style={{ margin: '2rem 0' }} className="Tables">
-              {item.header ? <h5 style={{ textAlign: 'left', fontWeight: 'bold' }}>{item.header}</h5> : null}
-              {item.table}
-            </center>
-          ))}
+          <Trackstable track={track} offsetTop={offsetTop} />
         </div>
       </Grid>
     </div>

@@ -8,7 +8,7 @@
 table{
   width: 100%;
   border:1px solid #000; 
-
+  table-layout: fixed; /* 使用固定表格布局 */
 }
 
 tbody th {
@@ -22,6 +22,8 @@ tbody th {
 tbody td {
   border:1px solid #000; 
 }
+
+
 
 
 thead th {
@@ -41,7 +43,9 @@ thead td {
   background-color: #D1E9E9;
   text-align: center;
   padding: 0 0.5rem;
-
+  white-space: nowrap; /* 不換行 */
+  overflow: hidden; /* 隱藏超出部分 */
+  text-overflow: ellipsis; /* 顯示省略符號（...） */
 }
 
 
