@@ -110,6 +110,11 @@ const routerList = [
     Component: '',
     li: [
       {
+        liname: '2023年 MI-TW 聯測工作坊',
+        lipath: 'https://mitw.dicom.org.tw/2023/',
+        liComponent: '',
+      },
+      {
         liname: '2022年 MI-TW 聯測工作坊',
         lipath: 'https://mitw.dicom.org.tw/2022/',
         liComponent: '',
