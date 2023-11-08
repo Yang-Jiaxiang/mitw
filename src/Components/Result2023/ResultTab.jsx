@@ -105,6 +105,7 @@ function ResultTab({ windwosWidth }) {
 
           {trackstable[track].map((item, index) => (
             <center key={index} style={{ margin: '2rem 0' }} className="Tables">
+              {item.header ? <h5 style={{ textAlign: 'left', fontWeight: 'bold' }}>{item.header}</h5> : null}
               {item.table}
             </center>
           ))}
