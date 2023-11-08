@@ -1,14 +1,47 @@
-.rwd-table {
+/* .rwd-table {
   display: table;
   text-indent: initial;
   border-spacing: 2px;
   border-color: gray;
   width:100%;
+} */
+table{
+  width: 100%;
 }
 
-.rwd-table tbody tr, td{
-  border-bottom: 1px solid black;
+tbody th {
+  padding : 0.3rem 1rem;
+  text-align: left;
+  background-color: #D1E9E9;
+  border-bottom: 1px solid #000; /* 可以根據需要調整邊框的粗細和顏色 */
 }
+
+tbody td {
+  border-bottom: 1px solid #000; /* 可以根據需要調整邊框的粗細和顏色 */
+}
+
+
+thead th {
+  height: 4rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: #4F9D9D;
+  text-align: center;
+}
+
+thead td {
+  color: black;
+  background-color: #D1E9E9;
+  text-align: center;
+  padding: 0 0.5rem;
+
+}
+
+
+/* .rwd-table tbody tr, td{
+  border-bottom: 1px solid black;
+} */
 
 @media screen and (min-width: 1400px) {
   .Tables {

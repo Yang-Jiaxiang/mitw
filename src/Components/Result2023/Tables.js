@@ -3,727 +3,475 @@ export const trackstable = {
   1: [
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="44%" style={{ maxWidth: '44%' }}></td>
-              <td colspan="4">
-                <font color="white">
-                  <b>CONSUMER</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={3}>Level II</th>
+              <th colSpan={3}>Level III</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="13.5%">
-                情境1
-                <br />
-                院內系統 - <br />
-                病人身份確認用
-              </td>
-              <td width="13.5%">
-                情境2
-                <br />
-                院內系統 - <br />
-                病人聯絡用
-              </td>
-              <td width="13.5%">
-                情境3
-                <br />
-                院外系統 - <br />
-                與第三方介接用
-              </td>
-              <td width="13.5%">
-                互通性
-                <br />
-                Interoperability
-              </td>
+            <tr>
+              <td>Source</td>
+              <td>Consumer</td>
+              <td>Source</td>
+              <td>Consumer</td>
+              <td>Repository</td>
+              <td>Source</td>
+              <td>Consumer</td>
+              <td>Repository</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司 (數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                遠距報告系統 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>國泰金融控股股份有限公司(數數發)</b> <br /> 雲端電子病歷iFHIR平台(CONSUMER) 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td>V</td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                大心生物科技股份有限公司
-                <br />
-                Daxin Dashboard 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>國泰金融控股股份有限公司(數數發)</b> <br /> 雲端電子病歷iFHIR平台(EHR) 版本 1.0
+              </th>
               <td></td>
               <td></td>
+              <td></td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                財團法人工業技術研究院 (生醫所)
-                <br />
-                ITRI_BDL_Consumer 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>EBM technologies</b> <br /> 遠距報告系統_Consumer_2023 版本 1.0.0
+              </th>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>EBM technologies</b> <br /> 遠距報告系統_Creator_2023 版本 1.0.0
+              </th>
+              <td>V</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                奇唯科技股份有限公司
-                <br />
-                個案導向醫療資源計畫整合平台 (POMRP) ; 奇小葳 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                昊慧股份有限公司
-                <br />
-                AI Clerk Platform 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                矽塔資訊服務有限公司
-                <br />
-                FHIR 智慧醫療數據服務中台 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>千和資訊股份有限公司</b> <br /> Qianhe FHAM 版本 4.11.1
+              </th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>大同世界科技股份有限公司</b> <br /> 遠距門診系統 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>中山醫學大學附設醫院</b> <br /> CSH_Patient_Consumer 版本 1
+              </th>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                財團法人工業技術研究院服務系統科技中心
-                <br />
-                iMAS智慧醫療資訊平台 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>中山醫學大學附設醫院</b> <br /> CSH_Patient_Creator 版本 1
+              </th>
+              <td>V</td>
               <td></td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                陞和醫院管理顧問有限公司
-                <br />
-                小幫手 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立臺北護理健康大學-影像資訊學實驗室
-                <br />
-                RedpandaV2-React 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立臺北護理健康大學-影像資訊學實驗室
-                <br />
-                RedpandaV2-Vue 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                童綜合醫療社團法人童綜合醫院
-                <br />
-                Tung HIS 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                慈濟大學 (醫學資訊學系)
-                <br />
-                TCU Consumer System 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>中華電信股份有限公司</b> <br /> 中華電信智慧醫療服務_HCS_2.0 版本 2.0.1
+              </th>
+              <td>V</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                臺中榮民總醫院 (臨床資訊科)
-                <br />
-                台中榮總基因體報告查詢系統 版本1.0
-              </td>
+              <td>V</td>
               <td></td>
               <td></td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                緯謙科技股份有限公司
-                <br />
-                FHIR Portal 2.0 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                衛生福利部桃園醫院
-                <br />
-                EWS臨床預警系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                衛利生物科技股份有限公司
-                <br />
-                Cmate telecare system-CSM 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>中華電信股份有限公司</b> <br /> 中華電信智慧醫療服務_HCS_2.0 版本 2.0
+              </th>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <td>V</td>
               <td></td>
-            </tr>
-          </tbody>
-        </table>
-      ),
-    },
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="44%"></td>
-
-              <td colspan="4">
-                <font color="white">
-                  <b>CREATOR</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="13.5%">
-                情境1
-                <br />
-                院內系統 - <br />
-                病人身份確認用
-              </td>
-              <td width="13.5%">
-                情境2
-                <br />
-                院內系統 - <br />
-                病人聯絡用
-              </td>
-              <td width="13.5%">
-                情境3
-                <br />
-                院外系統 - <br />
-                與第三方介接用
-              </td>
-              <td width="13.5%">
-                互通性
-                <br />
-                Interoperability
-              </td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司 (數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                遠距報告系統 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                三軍總醫院
-                <br />
-                TSGH_FHIR 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CONSUMER) 版本 2023
+              </th>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                大心生物科技股份有限公司
-                <br />
-                Daxin Dashboard 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                財團法人工業技術研究院 (生醫所)
-                <br />
-                ITRI_BDL_Creater 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CREATOR) 版本 2023
+              </th>
+              <td>V</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                奇唯科技股份有限公司
-                <br />
-                個案導向醫療資源計畫整合平台 (POMRP) ; 奇小葳 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                昊慧股份有限公司
-                <br />
-                AI Clerk Platform 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                矽塔資訊服務有限公司
-                <br />
-                FHIR 智慧醫療數據服務中台 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                矽塔資訊服務有限公司
-                <br />
-                FHIR Universal Conversion Kit 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>矽塔資訊服務有限公司</b> <br /> gFIX 智慧醫療數據服務中台 版本 2.0.0.2023
+              </th>
               <td></td>
               <td></td>
+              <td></td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長德醫院管理顧問有限公司
-                <br />
-                Changde-EdenLab 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>威進國際資訊股份有限公司WZ</b> <br /> 睿照護系統 版本 1
+              </th>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td>V</td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                財團法人工業技術研究院服務系統科技中心
-                <br />
-                iMAS智慧醫療資訊平台 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>威進國際資訊股份有限公司WZ</b> <br /> 睿養護系統 版本 1
+              </th>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td>V</td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                陞和醫院管理顧問有限公司
-                <br />
-                小幫手 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>玳康科技</b> <br /> Burni_2 版本 v.2.7.2
+              </th>
               <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立臺北護理健康大學-影像資訊學實驗室
-                <br />
-                RedpandaV2-React 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立臺北護理健康大學-影像資訊學實驗室
-                <br />
-                RedpandaV2-Vue 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立中山大學 (醫學科技研究所)
-                <br />
-                NSYSU 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>玳康科技</b> <br /> FHIR-Panda 版本 2
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                童綜合醫療社團法人童綜合醫院
-                <br />
-                Tung HIS 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>玳康科技</b> <br /> Kiwi_Report 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                慈濟大學 (醫學資訊學系)
-                <br />
-                TCU System 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                臺中榮民總醫院 (臨床資訊科)
-                <br />
-                台中榮總基因體報告查詢系統 版本1.0
-              </td>
+              <th>
+                {' '}
+                <b>財團法人工業技術研究院服務系統科技中心</b> <br /> iMAS智慧醫療資訊平台 版本 1.1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
               <td></td>
               <td></td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                緯謙科技股份有限公司
-                <br />
-                FHIR Portal 2.0 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                衛生福利部桃園醫院
-                <br />
-                EWS臨床預警系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                衛利生物科技股份有限公司
-                <br />
-                Cmate telecare system-CSM 版本1.0
-              </td>
+              <th>
+                {' '}
+                <b>高雄榮民總醫院</b> <br /> vghks_one 版本 1.0
+              </th>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
               <td></td>
               <td></td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                衛利生物科技股份有限公司
-                <br />
-                Cmate telecare system-CRT 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <td>V</td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>國泰綜合醫院</b> <br /> CGH FHIR 電子病歷平台 (CONSUMER) 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
               <td></td>
             </tr>
-          </tbody>
-        </table>
-      ),
-    },
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="44%"></td>
-              <td colspan="4">
-                <font color="white">
-                  <b>REPOSITORY</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="13.5%">
-                情境1
-                <br />
-                院內系統 - <br />
-                病人身份確認用
-              </td>
-              <td width="13.5%">
-                情境2
-                <br />
-                院內系統 - <br />
-                病人聯絡用
-              </td>
-              <td width="13.5%">
-                情境3
-                <br />
-                院外系統 - <br />
-                與第三方介接用
-              </td>
-              <td width="13.5%">
-                互通性
-                <br />
-                Interoperability
-              </td>
-            </tr>
-          </thead>
-          <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                EBM FHIR SERVER 版本0.1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>國泰綜合醫院</b> <br /> CGH FHIR 電子病歷平台 (CREATOR) 版本 1.0
+              </th>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                玳康科技有限公司
-                <br />
-                Burni 版本2.6.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>無邊介科技有限公司</b> <br /> FhirMon 版本 1
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>童綜合醫療社團法人童綜合醫院</b> <br /> 2023FHIR_TT1_1 版本 1.0
+              </th>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>童綜合醫療社團法人童綜合醫院</b> <br /> 2023FHIR_TT1_2 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>資拓宏宇國際股份有限公司</b> <br /> iParser Gateway 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>彰化基督教醫療財團法人彰化基督教醫院</b> <br /> 彰基HIS 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺中榮民總醫院資訊室</b> <br /> CANCER_UP 版本 v1
+              </th>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺北市立萬芳醫院</b> <br /> test client 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>銘傳大學edenlab</b> <br /> EdenAlfred 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>
@@ -733,117 +481,44 @@ export const trackstable = {
   2: [
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="50%"></td>
-              <td colspan="14">
-                <font color="white">
-                  <b>情境1 通用生理信號 CONSUMER</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
+              <th colSpan={2}>Level III</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="4%">身高</td>
-              <td width="4%">體重</td>
-              <td width="4%">體溫</td>
-              <td width="4%">體脂</td>
-              <td width="5%">飯前血糖</td>
-              <td width="5%">飯後血糖</td>
-              <td width="5%">右手握力</td>
-              <td width="15%">血氧濃度(SpO2)</td>
-              <td width="3.5%">血糖</td>
-              <td width="3.5%">血壓</td>
-              <td width="3.5%">脈率</td>
-              <td width="3.5%">心率</td>
-              <td width="3.5%">呼吸率</td>
-              <td width="3.5%">CRT</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                遠距報告系統 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>威進國際資訊股份有限公司WZ</b> <br /> 睿照護系統 版本 1
+              </th>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                昊慧股份有限公司
-                <br />
-                AI Clerk Platform 版本1.0
-              </td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th>
+                {' '}
+                <b>威進國際資訊股份有限公司WZ</b> <br /> 睿養護系統 版本 1
+              </th>
+              <td>V</td>
               <td></td>
               <td></td>
               <td></td>
@@ -851,193 +526,64 @@ export const trackstable = {
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                財團法人工業技術研究院服務系統科技中心
-                <br />
-                iMAS智慧醫療資訊平台 版本1.0
-              </td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                童綜合醫療社團法人童綜合醫院
-                <br />
-                Tung HIS 版本1.0
-              </td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th>
+                {' '}
+                <b>財團法人工業技術研究院服務系統科技中心</b> <br /> iMAS智慧醫療資訊平台 版本 1.1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
               <td></td>
               <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                慈濟大學 (醫學資訊學系)
-                <br />
-                TCU Consumer System 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                衛生福利部桃園醫院
-                <br />
-                EWS臨床預警系統 版本1.0
-              </td>
+              <th>
+                {' '}
+                <b>資拓宏宇國際股份有限公司</b> <br /> iParser Gateway 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
               <td></td>
               <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                衛利生物科技股份有限公司
-                <br />
-                Cmate telecare system-CSM 版本1.0
-              </td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>彰化基督教醫療財團法人彰化基督教醫院</b> <br /> 彰基HIS 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>
@@ -1045,353 +591,61 @@ export const trackstable = {
     },
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="52%"></td>
-              <td colspan="14">
-                <font color="white">
-                  <b>情境1 通用生理信號 CREATOR</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
+              <th colSpan={2}>Level III</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="4%">身高</td>
-              <td width="4%">體重</td>
-              <td width="4%">體溫</td>
-              <td width="4%">體脂</td>
-              <td width="5%">飯前血糖</td>
-              <td width="5%">飯後血糖</td>
-              <td width="5%">右手握力</td>
-              <td width="15%">血氧濃度(SpO2)</td>
-              <td width="3.5%">血糖</td>
-              <td width="3.5%">血壓</td>
-              <td width="3.5%">脈率</td>
-              <td width="3.5%">心率</td>
-              <td width="3.5%">呼吸率</td>
-              <td width="3.5%">CRT</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                三軍總醫院
-                <br />
-                TSGH_FHIR 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                昊慧股份有限公司
-                <br />
-                AI Clerk Platform 版本1.0
-              </td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <th>
+                {' '}
+                <b>財團法人工業技術研究院服務系統科技中心</b> <br /> iMAS智慧醫療資訊平台 版本 1.1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
               <td></td>
               <td></td>
               <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>彰化基督教醫療財團法人彰化基督教醫院</b> <br /> 彰基HIS 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                財團法人工業技術研究院服務系統科技中心
-                <br />
-                iMAS智慧醫療資訊平台 版本1.0
-              </td>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td>
               <td></td>
               <td></td>
-              <td>✓</td>
               <td></td>
               <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立中山大學 (醫學科技研究所)
-                <br />
-                NSYSU 版本1.0
-              </td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                童綜合醫療社團法人童綜合醫院
-                <br />
-                Tung HIS 版本1.0
-              </td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                慈濟大學 (醫學資訊學系)
-                <br />
-                TCU System 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                衛生福利部桃園醫院
-                <br />
-                EWS臨床預警系統 版本1.0
-              </td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                衛利生物科技股份有限公司
-                <br />
-                Cmate telecare system-CRT 版本1.0
-              </td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                MIS 版本1.0.0
-              </td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>✓</td>
             </tr>
           </tbody>
         </table>
@@ -1399,383 +653,37 @@ export const trackstable = {
     },
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>情境2 生理信號整合藥品處方箋 </b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
+              <th colSpan={2}>Level III</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                慈濟大學 (醫學資訊學系)
-                <br />
-                TCU Consumer System 版本1.0
-              </td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>銘傳大學edenlab</b> <br /> EdenAlfred 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                慈濟大學 (醫學資訊學系)
-                <br />
-                TCU System 版本1.0
-              </td>
               <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-          </tbody>
-        </table>
-      ),
-    },
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td r width="52%"></td>
-              <td colspan="4">
-                <font color="white">
-                  <b>情境3 骨質密度檢查 CONSUMER</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="12%">股骨密度</td>
-              <td width="12%">左股骨密度</td>
-              <td width="12%">右股骨密度</td>
-              <td width="12%">腰椎骨密度</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                遠距報告系統 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                昊慧股份有限公司
-                <br />
-                AI Clerk Platform 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                童綜合醫療社團法人童綜合醫院
-                <br />
-                Tung HIS 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-          </tbody>
-        </table>
-      ),
-    },
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="52%"></td>
-              <td colspan="4">
-                <font color="white">
-                  <b>情境3 骨質密度檢查 CREATOR</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="12%">股骨密度</td>
-              <td width="12%">左股骨密度</td>
-              <td width="12%">右股骨密度</td>
-              <td width="12%">腰椎骨密度</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                遠距報告系統 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                三軍總醫院
-                <br />
-                TSGH_FHIR 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                昊慧股份有限公司
-                <br />
-                AI Clerk Platform 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                童綜合醫療社團法人童綜合醫院
-                <br />
-                Tung HIS 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-          </tbody>
-        </table>
-      ),
-    },
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="44%"></td>
-              <td colspan="8">
-                <font color="white">
-                  <b>情境4 12導程心電圖</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%" colspan="4">
-                CONSUMER
-              </td>
-              <td width="20%" colspan="4">
-                CREATOR
-              </td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td colspan="4">✓</td>
-              <td colspan="4">✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td colspan="4">✓</td>
-              <td colspan="4">✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
-              <td colspan="4">✓</td>
-              <td colspan="4">✓</td>
+              <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>
@@ -1785,82 +693,35 @@ export const trackstable = {
   3: [
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td rowspan="2" width="60%">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td colspan="2">
-                <font color="white">
-                  <b>DOC 一般電子病歷文件打包</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司(數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                陞和醫院管理顧問有限公司
-                <br />
-                小幫手 版本1.0
-              </td>
-              <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>
-                ✓<br />
-                (缺少 UI 介面)
-              </td>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td>
             </tr>
           </tbody>
         </table>
@@ -1868,62 +729,36 @@ export const trackstable = {
     },
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>DOCLAB 實驗室檢驗報告電子病歷文件</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司(數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td>
             </tr>
           </tbody>
         </table>
@@ -1931,197 +766,27 @@ export const trackstable = {
     },
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>MEDAM 用藥紀錄資料</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司(數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                遠距報告系統 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                三軍總醫院
-                <br />
-                TSGH_FHIR 版本1.0.0
-              </td>
-              <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                臺中榮民總醫院 (臨床資訊科)
-                <br />
-                台中榮總病人報告處方查詢系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-          </tbody>
-        </table>
-      ),
-    },
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>MEDRQ 用藥處方</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司(數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                遠距報告系統 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                三軍總醫院
-                <br />
-                TSGH_FHIR 版本1.0.0
-              </td>
-              <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                中華電信股份有限公司資訊技術分公司
-                <br />
-                中華電信智慧醫療服務 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                佛教慈濟醫療財團法人花蓮慈濟醫院
-                <br />
-                PACIFIC_2022 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長庚醫療財團法人林口長庚紀念醫院
-                <br />
-                遠距醫療資料交換系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                臺中榮民總醫院 (臨床資訊科)
-                <br />
-                台中榮總病人報告處方查詢系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal 版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td>
             </tr>
           </tbody>
         </table>
@@ -2131,71 +796,35 @@ export const trackstable = {
   4: [
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>IMG_DOC Web影像存取</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">SOURCE</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                UW360 版本1.2
-              </td>
-              <td>
-                ✓<br />
-                (JSON)
-              </td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                三軍總醫院
-                <br />
-                TSGH_FHIR 版本1.0.0
-              </td>
-              <td>
-                ✓<br />
-                (Imaging Document Consumer)
-              </td>
+              <th>
+                {' '}
+                <b>玳康科技</b> <br /> Kiwi_Report 版本 1.0
+              </th>
+              <td>V</td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                玳康科技有限公司
-                <br />
-                Bluelight 版本1.0.0
-              </td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>財團法人工業技術研究院服務系統科技中心</b> <br /> iMAS智慧醫療資訊平台 版本 1.1.0
+              </th>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                緯謙科技股份有限公司
-                <br />
-                FHIR Portal 2.0 版本2.0
-              </td>
-              <td>
-                ✓<br />
-                (Imaging Document Consumer)
-              </td>
-              <td></td>
+              <td>V</td>
             </tr>
           </tbody>
         </table>
@@ -2203,209 +832,35 @@ export const trackstable = {
     },
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>IMG_REPORT 影像報告及影像整合-影像報告</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                商之器科技股份有限公司
-                <br />
-                遠距報告系統 版本1.0.0
-              </td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>財團法人工業技術研究院服務系統科技中心</b> <br /> iMAS智慧醫療資訊平台 版本 1.1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+              </th>
+              <td>V</td>
               <td></td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                三軍總醫院
-                <br />
-                TSGH_FHIR 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                緯謙科技股份有限公司
-                <br />
-                FHIR Portal 2.0 版本2.0
-              </td>
-              <td></td>
-              <td>
-                ✓<br />
-                (Imaging Report Creator)
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      ),
-    },
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>IMG_STUDY 影像報告及影像整合-影像索引</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                三軍總醫院
-                <br />
-                TSGH_FHIR 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                長德醫院管理顧問有限公司
-                <br />
-                Changde-EdenLab 版本1.0
-              </td>
-              <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                緯謙科技股份有限公司
-                <br />
-                FHIR Portal 2.0 版本2.0
-              </td>
-              <td></td>
-              <td>
-                ✓<br />
-                (Imaging Study Creator)
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      ),
-    },
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>OBS_ANN Web影像與標記 (FHIR標記)</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                三軍總醫院
-                <br />
-                TSGH_FHIR 版本1.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-          </tbody>
-        </table>
-      ),
-    },
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="30%" colspan="2"></td>
-              <td colspan="3">
-                <font color="white">
-                  <b>商之器科技股份有限公司(EBM)</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D" colspan="2">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">IM</td>
-              <td width="20%">OF</td>
-              <td width="20%">ID</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                倍利科技股份有限公司
-                <br />
-                V5-MED-LU01_COPY_0 版本1.0.1
-              </td>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                EC
-              </td>
-              <td>
-                ✓<br />
-                (No Storage Commitment)
-              </td>
-              <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                慶旺科技股份有限公司
-                <br />
-                QED3000 版本1.0
-              </td>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                MOD
-              </td>
-              <td>
-                ✓<br />
-                (Worklist SCUI does not support all requirements)
-              </td>
-              <td>✓</td>
-              <td>✓</td>
             </tr>
           </tbody>
         </table>
@@ -2415,67 +870,54 @@ export const trackstable = {
   5: [
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>WSI 數位病理影像</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={3}>Level I</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">REPOSITORY</td>
+            <tr>
+              <td>Care Provider</td>
+              <td>Pharmacy</td>
+              <td>Patient</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                玳康科技有限公司
-                <br />
-                Raccoon 版本1.4.0
-              </td>
+              <th>
+                {' '}
+                <b>國泰金融控股股份有限公司(數數發)</b> <br /> 雲端電子病歷iFHIR平台 版本 1.0
+              </th>
+              <td>V</td>
               <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                奇唯科技股份有限公司
-                <br />
-                個案導向醫療資源計畫整合平台(POMRP)；奇小葳 版本2.0
-              </td>
-              <td>
-                ✓<br />
-                (WSI Consumer)
-              </td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                奇唯科技股份有限公司
-                <br />
-                SyspowerDICOMweb 版本0.1
-              </td>
-              <td>
-                ✓<br />
-                (WSI Consumer)
-              </td>
+              <th>
+                {' '}
+                <b>國泰金融控股股份有限公司(數數發)</b> <br /> 雲端電子病歷iFHIR平台(CONSUMER) 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>佛教慈濟醫療財團法人花蓮慈濟醫院</b> <br /> PACIFIC_HLMTzuchi 版本 1.0
+              </th>
+              <td>V</td>
+              <td></td>
               <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立臺北護理健康大學-影像資訊學實驗室
-                <br />
-                Mainecoon 版本0.1
-              </td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+              </th>
+              <td>V</td> <td></td>
               <td></td>
             </tr>
           </tbody>
@@ -2484,99 +926,43 @@ export const trackstable = {
     },
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>WSI_ANN 數位病理影像標記</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="60%">CONSUMER</td>
-              <td width="60%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立臺北護理健康大學-影像資訊學實驗室
-                <br />
-                Mainecoon 版本0.1
-              </td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>佛教慈濟醫療財團法人花蓮慈濟醫院</b> <br /> PACIFIC_HLMTzuchi 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
             </tr>
-          </tbody>
-        </table>
-      ),
-    },
-  ],
-  6: [
-    {
-      table: (
-        <table className="rwd-table" cellpadding="10px">
-          <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>MOL 基因定序資料</b>
-                </font>
-              </td>
-            </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
-            </tr>
-          </thead>
-          <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                財團法人工業技術研究院 (生醫所)
-                <br />
-                ITRI_BDL_Genome_Consumer 版本1.0
-              </td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CONSUMER) 版本 2023
+              </th>
               <td></td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                財團法人工業技術研究院 (生醫所)
-                <br />
-                ITRI_BDL_Genome_Consumer 版本1.0
-              </td>
-              <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                臺中榮民總醫院 (臨床資訊科)
-                <br />
-                台中榮總基因體報告查詢系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                緯謙科技股份有限公司
-                <br />
-                FHIR Portal 2.0 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td>
             </tr>
           </tbody>
         </table>
@@ -2584,44 +970,199 @@ export const trackstable = {
     },
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>VAR 基因檢測變異點資料</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                臺中榮民總醫院 (臨床資訊科)
-                <br />
-                台中榮總基因體報告查詢系統 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CONSUMER) 版本 2023
+              </th>
+              <td></td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                緯謙科技股份有限公司
-                <br />
-                FHIR Portal 2.0 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CONSUMER) 版本 2023
+              </th>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>EBM technologies</b> <br /> 醫學影像與病理-Creator-2023 版本 1.0
+              </th>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                <b>EBM technologies</b> <br /> 醫學影像與病理-Consumer-2023 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>玳康科技</b> <br /> Kiwi_Report 版本 1.0
+              </th>
+              <td>V</td> <td></td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>國泰金融控股股份有限公司(數數發)</b> <br /> 雲端電子病歷iFHIR平台 版本 1.0
+              </th>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>國泰金融控股股份有限公司(數數發)</b> <br /> 雲端電子病歷iFHIR平台(CONSUMER) 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CONSUMER) 版本 2023
+              </th>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CREATOR) 版本 2023
+              </th>
+              <td>V</td> <td></td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CONSUMER) 版本 2023
+              </th>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CREATOR) 版本 2023
+              </th>
+              <td>V</td> <td></td>
             </tr>
           </tbody>
         </table>
@@ -2631,81 +1172,322 @@ export const trackstable = {
   7: [
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>EMS 緊急醫療救護</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司 (數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>中華電信股份有限公司</b> <br /> 中華電信智慧醫療服務_HCS_2.0 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                奇唯科技股份有限公司
-                <br />
-                個案導向醫療資源計畫整合平台 (POMRP) ; 奇小葳 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立中山大學 (醫學科技研究所)
-                <br />
-                NSYSU 版本1.0
-              </td>
+              <th>
+                {' '}
+                <b>童綜合醫療社團法人童綜合醫院</b> <br /> 2023FHIR_TT7_1 版本 1.0
+              </th>
+              <td>V</td>
               <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
               <td></td>
-              <td>✓</td>
+              <td></td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal health record exchange
-                版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>彰化基督教醫療財團法人彰化基督教醫院</b> <br /> 彰基HIS 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺北市立萬芳醫院</b> <br /> test client 版本 1.0
+              </th>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺北市立萬芳醫院</b> <br /> wfhsc7 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td> <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>中華電信股份有限公司</b> <br /> 中華電信智慧醫療服務_HCS_2.0 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>中華電信股份有限公司</b> <br /> 中華電信智慧醫療服務_HCS_2.0 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td> <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>中華電信股份有限公司</b> <br /> 中華電信智慧醫療服務_HCS_2.0 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td> <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>中華電信股份有限公司</b> <br /> 中華電信智慧醫療服務_HCS_2.0 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>彰化基督教醫療財團法人彰化基督教醫院</b> <br /> 彰基HIS 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺北市立萬芳醫院</b> <br /> test client 版本 1.0
+              </th>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺北市立萬芳醫院</b> <br /> wfhsc7 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td> <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>中華電信股份有限公司</b> <br /> 中華電信智慧醫療服務_HCS_2.0 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>醫合股份有限公司</b> <br /> International PHR Platform and FHIR Convertor 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td>V</td> <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>
@@ -2715,81 +1497,99 @@ export const trackstable = {
   8: [
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>EMS 緊急醫療救護</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司 (數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                奇唯科技股份有限公司
-                <br />
-                個案導向醫療資源計畫整合平台 (POMRP) ; 奇小葳 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立中山大學 (醫學科技研究所)
-                <br />
-                NSYSU 版本1.0
-              </td>
+              <th>
+                {' '}
+                <b>國泰金融控股股份有限公司(數數發)</b> <br /> 雲端電子病歷iFHIR平台 版本 1.0
+              </th>
+              <td>V</td>
               <td></td>
-              <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
+              <th>
+                {' '}
+                <b>國泰金融控股股份有限公司(數數發)</b> <br /> 雲端電子病歷iFHIR平台(CONSUMER) 版本 1.0
+              </th>
               <td></td>
-              <td>✓</td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal health record exchange
-                版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>EBM technologies</b> <br /> 遠距報告系統_Creator_2023 版本 1.0.0
+              </th>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CONSUMER) 版本 2023
+              </th>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>奇唯科技</b> <br /> 個案導向醫療資源計畫整合平台(POMRP)；奇小葳 (CREATOR) 版本 2023
+              </th>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>玳康科技</b> <br /> Kiwi_Report 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>國泰綜合醫院</b> <br /> CGH FHIR 電子病歷平台 (CONSUMER) 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>無邊介科技有限公司</b> <br /> FhirMon 版本 1
+              </th>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>童綜合醫療社團法人童綜合醫院</b> <br /> 2023FHIR_TT8_1 版本 1.0
+              </th>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>童綜合醫療社團法人童綜合醫院</b> <br /> 2023FHIR_TT8_2 版本 1.0
+              </th>
+              <td></td>
+              <td>V</td>
             </tr>
           </tbody>
         </table>
@@ -2799,81 +1599,61 @@ export const trackstable = {
   9: [
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>EMS 緊急醫療救護</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={2}>Level I</th>
+              <th colSpan={2}>Level II</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Consumer</td>
+              <td>Creator</td>
+              <td>Consumer</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司 (數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                奇唯科技股份有限公司
-                <br />
-                個案導向醫療資源計畫整合平台 (POMRP) ; 奇小葳 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立中山大學 (醫學科技研究所)
-                <br />
-                NSYSU 版本1.0
-              </td>
+              <th>
+                {' '}
+                <b>大同世界科技股份有限公司</b> <br /> 遠距門診系統 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
               <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
               <td></td>
-              <td>✓</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal health record exchange
-                版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>中華電信股份有限公司</b> <br /> 中華電信智慧醫療服務_HCS_2.0 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>財團法人工業技術研究院服務系統科技中心</b> <br /> iMAS智慧醫療資訊平台 版本 1.1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+              </th>
+              <td>V</td>
+              <td>V</td> <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>
@@ -2883,81 +1663,179 @@ export const trackstable = {
   10: [
     {
       table: (
-        <table className="rwd-table" cellpadding="10px">
+        <table>
           <thead>
-            <tr bgcolor="#4F9D9D">
-              <td width="60%"></td>
-              <td colspan="2">
-                <font color="white">
-                  <b>EMS 緊急醫療救護</b>
-                </font>
-              </td>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={1}>Level I</th>
+              <th colSpan={2}>Level II</th>
+              <th colSpan={2}>Level III</th>
             </tr>
-            <tr bgcolor="#D1E9E9">
-              <td bgcolor="#4F9D9D">
-                <font color="white">
-                  <b>單位-產品-版本</b>
-                </font>
-              </td>
-              <td width="20%">CONSUMER</td>
-              <td width="20%">CREATOR</td>
+            <tr>
+              <td>Creator</td>
+              <td>Creator</td>
+              <td>Repository</td>
+              <td>Creator</td>
+              <td>Repository</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國泰金融控股股份有限公司 (數數發)
-                <br />
-                iFHIR Center 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                奇唯科技股份有限公司
-                <br />
-                個案導向醫療資源計畫整合平台 (POMRP) ; 奇小葳 版本2.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                國立中山大學 (醫學科技研究所)
-                <br />
-                NSYSU 版本1.0
-              </td>
+              <th>
+                {' '}
+                <b>千和資訊股份有限公司</b> <br /> Qianhe FHAM 版本 4.11.1
+              </th>
               <td></td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                遠傳電信股份有限公司
-                <br />
-                遠距醫療 版本1.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
-            </tr>
-            <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                摩爾資通有限公司
-                <br />
-                m4FHIR 數據平台 版本1.0
-              </td>
               <td></td>
-              <td>✓</td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
             </tr>
             <tr>
-              <td bgcolor="#D1E9E9" style={{ textAlign: 'left' }}>
-                醫合股份有限公司
-                <br />
-                An architecture and management platform for blockchain-based FHIR personal health record exchange
-                版本2.0.0
-              </td>
-              <td>✓</td>
-              <td>✓</td>
+              <th>
+                {' '}
+                <b>矽塔資訊服務有限公司</b> <br /> gFIX 智慧醫療數據服務中台 版本 2.0.0.2023
+              </th>
+              <td></td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>玳康科技</b> <br /> Burni_2 版本 v.2.7.2
+              </th>
+              <td></td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>高雄榮民總醫院</b> <br /> vghks_ten 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺中榮民總醫院資訊室</b> <br /> Cancer 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺北榮民總醫院</b> <br /> TVGH_FHIR_v1 版本 v1
+              </th>
+              <td>V</td>
+              <td>V</td> <td></td>
+              <td></td> <td></td>
+            </tr>
+          </tbody>
+        </table>
+      ),
+    },
+    {
+      table: (
+        <table>
+          <thead>
+            <tr>
+              <th rowSpan={2} width="40%">
+                公司-產品-版本
+              </th>
+              <th colSpan={1}>Level I</th>
+              <th colSpan={2}>Level II</th>
+              <th colSpan={2}>Level III</th>
+            </tr>
+            <tr>
+              <td>Creator</td>
+              <td>Creator</td>
+              <td>Repository</td>
+              <td>Creator</td>
+              <td>Repository</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>
+                {' '}
+                <b>矽塔資訊服務有限公司</b> <br /> gFIX 智慧醫療數據服務中台 版本 2.0.0.2023
+              </th>
+              <td></td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>玳康科技</b> <br /> Burni_2 版本 v.2.7.2
+              </th>
+              <td></td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>高雄榮民總醫院</b> <br /> vghks_ten 版本 1.0
+              </th>
+              <td></td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺中榮民總醫院資訊室</b> <br /> Cancer 版本 1.0
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺北榮民總醫院</b> <br /> TVGH_FHIR_v1 版本 v1
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td>V</td>
+              <td></td>
+            </tr>
+            <tr>
+              <th>
+                {' '}
+                <b>臺北榮民總醫院</b> <br /> TVGH_FHIR_v1 版本 v1
+              </th>
+              <td>V</td>
+              <td>V</td>
+              <td></td>
+              <td></td>
+              <td></td>
             </tr>
           </tbody>
         </table>

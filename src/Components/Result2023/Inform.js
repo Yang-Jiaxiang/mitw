@@ -4,7 +4,6 @@ const ResultTabInform = [
   { Id: 3, TabTitle: '03', ContentTitle: 'TRACK#3 - 處方用藥及文件打包' },
   { Id: 4, TabTitle: '04', ContentTitle: 'TRACK#4 - 醫學影像與病理' },
   { Id: 5, TabTitle: '05', ContentTitle: 'TRACK#5 - 偕同照護' },
-  { Id: 6, TabTitle: '06', ContentTitle: 'TRACK#6 - 基因體標記' },
   { Id: 7, TabTitle: '07', ContentTitle: 'TRACK#7 - 緊急醫療救護' },
   { Id: 8, TabTitle: '08', ContentTitle: 'TRACK#8 - 醫療保險' },
   { Id: 9, TabTitle: '09', ContentTitle: 'TRACK#9 - 遠距醫療' },
