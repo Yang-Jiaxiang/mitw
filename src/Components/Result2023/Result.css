@@ -7,6 +7,8 @@
 } */
 table{
   width: 100%;
+  border:1px solid #000; 
+
 }
 
 tbody th {
@@ -14,10 +16,11 @@ tbody th {
   text-align: left;
   background-color: #D1E9E9;
   border-bottom: 1px solid #000; /* 可以根據需要調整邊框的粗細和顏色 */
+  border:1px solid #000; 
 }
 
 tbody td {
-  border-bottom: 1px solid #000; /* 可以根據需要調整邊框的粗細和顏色 */
+  border:1px solid #000; 
 }
 
 
@@ -28,9 +31,12 @@ thead th {
   color: aliceblue;
   background-color: #4F9D9D;
   text-align: center;
+  border:1px solid #000; 
+
 }
 
 thead td {
+  border:1px solid #000; 
   color: black;
   background-color: #D1E9E9;
   text-align: center;
