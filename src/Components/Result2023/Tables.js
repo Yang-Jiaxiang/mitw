@@ -442,7 +442,7 @@ const Trackstable = ({ track, offsetTop }) => {
               <tr>
                 <th>
                   {' '}
-                  <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+                  <b>遠傳電信股份有限公司</b> <br /> 遠距診療平台 版本 1.0
                 </th>
                 <td>V</td>
                 <td>V</td>
@@ -578,7 +578,7 @@ const Trackstable = ({ track, offsetTop }) => {
               <tr>
                 <th>
                   {' '}
-                  <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+                  <b>遠傳電信股份有限公司</b> <br /> 遠距診療平台 版本 1.0
                 </th>
                 <td>V</td>
                 <td>V</td>
@@ -742,7 +742,7 @@ const Trackstable = ({ track, offsetTop }) => {
               <tr>
                 <th>
                   {' '}
-                  <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+                  <b>遠傳電信股份有限公司</b> <br /> 遠距診療平台 版本 1.0
                 </th>
                 <td>V</td>
                 <td>V</td>
@@ -785,7 +785,7 @@ const Trackstable = ({ track, offsetTop }) => {
               <tr>
                 <th>
                   {' '}
-                  <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+                  <b>遠傳電信股份有限公司</b> <br /> 遠距診療平台 版本 1.0
                 </th>
                 <td>V</td>
                 <td>V</td>
@@ -913,7 +913,7 @@ const Trackstable = ({ track, offsetTop }) => {
               <tr>
                 <th>
                   {' '}
-                  <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+                  <b>遠傳電信股份有限公司</b> <br /> 遠距診療平台 版本 1.0
                 </th>
                 <td>V</td>
                 <td></td>
@@ -977,7 +977,7 @@ const Trackstable = ({ track, offsetTop }) => {
               <tr>
                 <th>
                   {' '}
-                  <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+                  <b>遠傳電信股份有限公司</b> <br /> 遠距診療平台 版本 1.0
                 </th>
                 <td>V</td> <td></td>
                 <td></td>
@@ -1346,7 +1346,7 @@ const Trackstable = ({ track, offsetTop }) => {
               <tr>
                 <th>
                   {' '}
-                  <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+                  <b>遠傳電信股份有限公司</b> <br /> 遠距診療平台 版本 1.0
                 </th>
                 <td>V</td>
                 <td>V</td>
@@ -1793,7 +1793,7 @@ const Trackstable = ({ track, offsetTop }) => {
               <tr>
                 <th>
                   {' '}
-                  <b>遠傳電信股份有限公司</b> <br /> 遠傳 FHIR 版本 2.0
+                  <b>遠傳電信股份有限公司</b> <br /> 遠距診療平台 版本 1.0
                 </th>
                 <td>V</td>
                 <td>V</td> <td></td>
