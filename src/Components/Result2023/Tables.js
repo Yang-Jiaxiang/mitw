@@ -1930,6 +1930,17 @@ const Trackstable = ({ track, offsetTop }) => {
               <tr>
                 <th>
                   {' '}
+                  <b>千和資訊股份有限公司</b> <br /> Qianhe FHAM 版本 4.11.1
+                </th>
+                <td></td>
+                <td></td>
+                <td>V</td>
+                <td></td>
+                <td>V</td>
+              </tr>
+              <tr>
+                <th>
+                  {' '}
                   <b>矽塔資訊服務有限公司</b> <br /> gFIX 智慧醫療數據服務中台 版本 2.0.0.2023
                 </th>
                 <td></td>
@@ -1954,11 +1965,11 @@ const Trackstable = ({ track, offsetTop }) => {
                   {' '}
                   <b>高雄榮民總醫院</b> <br /> vghks_ten 版本 1.0
                 </th>
-                <td></td>
-                <td></td>
+                <td>V</td>
                 <td>V</td>
                 <td></td>
                 <td>V</td>
+                <td></td>
               </tr>
               <tr>
                 <th>
@@ -1977,21 +1988,8 @@ const Trackstable = ({ track, offsetTop }) => {
                   <b>臺北榮民總醫院</b> <br /> TVGH_FHIR_v1 版本 v1
                 </th>
                 <td>V</td>
-                <td>V</td>
-                <td></td>
-                <td>V</td>
-                <td></td>
-              </tr>
-              <tr>
-                <th>
-                  {' '}
-                  <b>臺北榮民總醫院</b> <br /> TVGH_FHIR_v1 版本 v1
-                </th>
-                <td>V</td>
-                <td>V</td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>V</td> <td></td>
+                <td></td> <td></td>
               </tr>
             </tbody>
           </table>
