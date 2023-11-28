@@ -23,6 +23,10 @@ import Sitatech from '../../assets/Sitatech.png'
 import Doctor from '../../assets/DocterWatch.png'
 import iCare from '../../assets/iCare.png'
 import Minicoon from '../../assets/Minicoon.png'
+import Tsti from '../../assets/Tsti.png'
+import ITRI from '../../assets/ITRI.png'
+import CFHC from '../../assets/CFHC.png'
+import Zhongshan from '../../assets/Zhongshan.png'
 
 import G1 from '../../assets/ALOVAS.png'
 import G2 from '../../assets/CIMS.gif'
@@ -140,8 +144,109 @@ const trackList = {
     title: 'TRACK#7',
     name: '影像檢查流程',
   },
+  t8: {
+    title: 'TRACK#8',
+    name: '醫療保險理賠',
+  },
+  t9: {
+    title: 'TRACK#9',
+    name: '遠距醫療',
+  },
 }
 const IndustryInform = [
+  {
+    img: Tsti,
+    linkName: [
+      {
+        lname: '產品介紹',
+        l: process.env.PUBLIC_URL + '/pdf/產品介紹/大世科遠距門診系統簡介.pdf',
+      },
+      {
+        lname: '產品海報',
+        l: process.env.PUBLIC_URL + '/pdf/產品海報/大世科遠距門診系統簡介.pdf',
+      },
+    ],
+
+    name: (
+      <div>
+        <h3>大同世界科技股份有限公司 </h3> <h4>遠距門診系統</h4>
+      </div>
+    ),
+    tracks: [trackList.t1, trackList.t9],
+    trackstitle: 'TRACK#1\n   TRACK#9',
+    tracksname: '  病人基本資料\n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
+    introduce: `大世科遠距門診系統提供符合實體看診流程的純軟體遠距醫療解決方案，從掛號、看診到繳費領藥，可透過 API 與醫院系統整合或採用獨立系統，讓醫師就如同在實體診間看診一般，患者也無須前往醫院便能輕鬆看診/諮詢。
+    遠距門診系統整合虛擬健保卡，醫師可透過「一鍵整合」即可獲得民眾授權取得QRcode以調閱雲端病歷，並整合數位同意書以利線上同意書簽署；看診過程中透過國際臨床資訊標準FHIR進行醫療資訊交換，使醫療資訊透明；繳費與領藥方面，系統整合醫院常用的線上支付方式，未來將整合衛福部制定之電子處方箋，民眾即可透過電子處方箋就近藥局領藥，無須至醫院窗口繳費領藥。
+    此外，遠距門診系統提供眾多功能，如螢幕截圖、鏡頭縮放、螢幕分享、檔案上傳、文字聊天室等，看診過程全程錄影留存；資安方面，系統符合 WHO-ITU 國際遠距安全規範，包含採用DTLS 資料封包傳輸層安全協定、SRTP 安全即時傳輸協定傳輸以及使用標準加密演算法，提升視訊診療與個資安全性。
+    疫情催生之下，隨著資訊技術逐步成熟、政策與法規鬆綁、醫療人員與民眾接受度提升，大世科運用遠距門診系統打破醫院實體圍牆，有效降低醫療成本、突破距離限制並提升醫療品質成效，鞏固健康平等。
+    `,
+  },
+  {
+    img: ITRI,
+    linkName: [
+      {
+        lname: '產品介紹',
+        l: process.env.PUBLIC_URL + '/pdf/產品介紹/醫咖go特色及介紹最終版.pdf',
+      },
+      {
+        lname: '產品海報',
+        l: process.env.PUBLIC_URL + '/pdf/產品海報/醫咖go特色及介紹最終版.pdf',
+      },
+    ],
+
+    name: (
+      <div>
+        <h3>工業技術研究院 </h3> <h4>iMAS智慧醫療資訊平台, Intelligent Medical Assistant Solution </h4>
+      </div>
+    ),
+    tracks: [trackList.t1, trackList.t2, trackList.t4, trackList.t9],
+    trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
+    tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
+    introduce: `
+    iMAS智慧醫療資訊平台主要應用於偏鄉醫療、巡迴醫療及機構篩檢等服務情境，整合超過10項輕量化醫材 (包含傷口機、眼底鏡、五官鏡、耳鏡、肺量計、心電圖與超音波等)，提供完善的個案管理機制，包含行政作業、醫材檢測、個案管理、協作溝通、紀錄申報與醫資介接(FHIR/DICOM)等功能，皆可於此系統一次完成，提升醫護人員操作便利性、節省檢測與紀錄時間、強化醫護雙向溝通及縮短申報流程，藉以有效改善整體照護品質。
+主要特點如下：
+•	提升醫事人員執行任務的便利性與機動性，讓醫事服務走出醫院、走入偏鄉社區
+•	以病人為中心，確實了解個案照護進度，並客觀記錄歷程，適時調整治療計畫
+•	行動各科別檢查資訊系統可協助身分識別、檢測數據讀取至病歷資料歸檔管理全自動完成
+•	使用影像智能閘道器，可有效整合多種可攜式檢測裝置，並與身分識別資料融合
+•	內建區域無線網路，資料上傳不卡線/不受外部環境影響
+• 提供多科別檢測報告輸出，協助醫事人員執行後續申報流程與FHIR醫資對接，提升作業效率
+`,
+  },
+  {
+    img: CFHC,
+    linkName: [
+      {
+        lname: '產品介紹',
+        l: process.env.PUBLIC_URL + '/pdf/產品介紹/雲端電子病歷iFHIR平台.pdf',
+      },
+      {
+        lname: '產品海報',
+        l: process.env.PUBLIC_URL + '/pdf/產品海報/雲端電子病歷iFHIR平台.pdf',
+      },
+    ],
+
+    name: (
+      <div>
+        <h3>國泰金融控股公司</h3> <h4>雲端電子病歷iFHIR平台</h4>
+      </div>
+    ),
+    tracks: [trackList.t1, trackList.t5, trackList.t8],
+    trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
+    tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
+    introduce: `
+    iFHIR以接軌國際醫療資料交換標準FHIR為基礎，並採用雲端架構推出新一代的電子病歷系統，來解決壽險與醫院間理賠資料格式不統一的痛點。
+
+    產品特色：
+    1. 不影響核心系統：獨立於核心系統之外，不須修改核心系統 ( 像是HIS )，可直接提供API對接。
+    2. 彈性轉換引擎：平台提供維護人員，依據轉換資料樣式建立樣板，設定後，就可以做轉換，不需要攥寫大量程式
+    3. 易於收集、交換資料：有各式接口可接收不同格式資料，且系統採用微服務架構，提供各式的服務，可以更容易進行資料交換
+    4. 產品疊加功能：功能模組，能給予更多服務，讓用戶依場景，選擇適用的模組，利於協助推進不同業務市場前進為目的
+    
+    iFHIR可應用在多種金融場景(保險、銀行等)，不僅在2022年聯測松通過TRACK#1 病人基本資料互通、TRACK#3 處方用藥及文件打包、TRACK#4 影像、結構化影像報告、AI標記與影像檢查流程，亦在2023年聯測松中通過TRACK#8-醫療保險理賠項目。
+    
+`,
+  },
   {
     img: Power,
     linkName: [
@@ -616,6 +721,21 @@ const IndustryInform = [
 ]
 
 const HospitalInform = [
+  {
+    img: Zhongshan,
+    linkname: '產品介紹',
+    link: process.env.PUBLIC_URL + '/pdf/中山附醫產品介紹.pdf',
+    name: (
+      <div>
+        <h3>中山醫學大學附設醫院</h3> <h4>FHIR資料交換平台</h4>
+      </div>
+    ),
+    tracks: [trackList.t1, trackList.t8, trackList.t9],
+    trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
+    tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
+    introduce: `
+    中山醫學大學創辦人 周汝川博士本著仁心濟世的胸懷及提供醫科學生實習教學場地，1966年創辦本院成為醫學院的附屬醫院，以「醫學目的在救人，醫人醫病要醫心，愛護病人如親人，不怕勞苦好醫師」的理念勉勵校院師生及醫療同仁。創院以來，秉持創辦人『醫人、醫病、醫心』的宗旨，致力發展具有特色的全人關懷服務，最新的醫療設備，建構以病人為中心的智慧醫療大樓。在全體同仁努力下，成為醫療科別發展各具特色的醫學中心。在以病人為中心的基礎上，開發了FHIR病歷資料交換平台，提供醫院HIS系統、遠距醫療、人壽保險等需求做病歷資料FHIR格式轉換，持續安全快速的提供患者病歷FHIR格式的資料。`,
+  },
   {
     img: Hospital1,
     linkname: '產品介紹',
