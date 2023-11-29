@@ -11,20 +11,11 @@ function Hospital() {
       {HospitalInform.map((item, i) => {
         return (
           // -------左右---------
-          <motion.div key={i}>
+          <motion.div key={i} style={{ marginBottom: '2vw', paddingBottom: '2vw', borderBottom: '1px solid #dfdfdf' }}>
             <Grid container spacing={1} key={i} sx={{ marginTop: '1rem' }}>
               {/* 左 */}
               <Grid item sm={12} md={4} lg={4}>
-                <Box>
-                  <img
-                    src={item.img}
-                    className="HosImg"
-                    style={{
-                      objectFit: 'cover',
-                      marginBottom: '1rem',
-                    }}
-                  />
-                </Box>
+                <Box>{item.img}</Box>
                 <Box
                   style={{
                     marginBottom: '1rem',

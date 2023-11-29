@@ -155,6 +155,40 @@ const trackList = {
 }
 const IndustryInform = [
   {
+    img: CFHC,
+    linkName: [
+      {
+        lname: '產品介紹',
+        l: process.env.PUBLIC_URL + '/pdf/產品介紹/雲端電子病歷iFHIR平台.pdf',
+      },
+      {
+        lname: '產品海報',
+        l: process.env.PUBLIC_URL + '/pdf/產品海報/雲端電子病歷iFHIR平台.pdf',
+      },
+    ],
+
+    name: (
+      <div>
+        <h3>國泰金融控股公司</h3> <h4>雲端電子病歷iFHIR平台</h4>
+      </div>
+    ),
+    tracks: [trackList.t1, trackList.t5, trackList.t8],
+    trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
+    tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
+    introduce: `
+    iFHIR以接軌國際醫療資料交換標準FHIR為基礎，並採用雲端架構推出新一代的電子病歷系統，來解決壽險與醫院間理賠資料格式不統一的痛點。
+
+    產品特色：
+    1. 不影響核心系統：獨立於核心系統之外，不須修改核心系統 ( 像是HIS )，可直接提供API對接。
+    2. 彈性轉換引擎：平台提供維護人員，依據轉換資料樣式建立樣板，設定後，就可以做轉換，不需要攥寫大量程式
+    3. 易於收集、交換資料：有各式接口可接收不同格式資料，且系統採用微服務架構，提供各式的服務，可以更容易進行資料交換
+    4. 產品疊加功能：功能模組，能給予更多服務，讓用戶依場景，選擇適用的模組，利於協助推進不同業務市場前進為目的
+    
+    iFHIR可應用在多種金融場景(保險、銀行等)，不僅在2022年聯測松通過TRACK#1 病人基本資料互通、TRACK#3 處方用藥及文件打包、TRACK#4 影像、結構化影像報告、AI標記與影像檢查流程，亦在2023年聯測松中通過TRACK#8-醫療保險理賠項目。
+    
+`,
+  },
+  {
     img: Tsti,
     linkName: [
       {
@@ -213,40 +247,7 @@ const IndustryInform = [
 • 提供多科別檢測報告輸出，協助醫事人員執行後續申報流程與FHIR醫資對接，提升作業效率
 `,
   },
-  {
-    img: CFHC,
-    linkName: [
-      {
-        lname: '產品介紹',
-        l: process.env.PUBLIC_URL + '/pdf/產品介紹/雲端電子病歷iFHIR平台.pdf',
-      },
-      {
-        lname: '產品海報',
-        l: process.env.PUBLIC_URL + '/pdf/產品海報/雲端電子病歷iFHIR平台.pdf',
-      },
-    ],
 
-    name: (
-      <div>
-        <h3>國泰金融控股公司</h3> <h4>雲端電子病歷iFHIR平台</h4>
-      </div>
-    ),
-    tracks: [trackList.t1, trackList.t5, trackList.t8],
-    trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
-    tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
-    introduce: `
-    iFHIR以接軌國際醫療資料交換標準FHIR為基礎，並採用雲端架構推出新一代的電子病歷系統，來解決壽險與醫院間理賠資料格式不統一的痛點。
-
-    產品特色：
-    1. 不影響核心系統：獨立於核心系統之外，不須修改核心系統 ( 像是HIS )，可直接提供API對接。
-    2. 彈性轉換引擎：平台提供維護人員，依據轉換資料樣式建立樣板，設定後，就可以做轉換，不需要攥寫大量程式
-    3. 易於收集、交換資料：有各式接口可接收不同格式資料，且系統採用微服務架構，提供各式的服務，可以更容易進行資料交換
-    4. 產品疊加功能：功能模組，能給予更多服務，讓用戶依場景，選擇適用的模組，利於協助推進不同業務市場前進為目的
-    
-    iFHIR可應用在多種金融場景(保險、銀行等)，不僅在2022年聯測松通過TRACK#1 病人基本資料互通、TRACK#3 處方用藥及文件打包、TRACK#4 影像、結構化影像報告、AI標記與影像檢查流程，亦在2023年聯測松中通過TRACK#8-醫療保險理賠項目。
-    
-`,
-  },
   {
     img: Power,
     linkName: [
@@ -722,7 +723,17 @@ const IndustryInform = [
 
 const HospitalInform = [
   {
-    img: Zhongshan,
+    img: (
+      <img
+        src={Zhongshan}
+        className="HosImg"
+        style={{
+          objectFit: 'cover',
+          marginBottom: '1rem',
+          width: '60%',
+        }}
+      />
+    ),
     linkname: '產品介紹',
     link: process.env.PUBLIC_URL + '/pdf/中山附醫產品介紹.pdf',
     name: (
@@ -737,7 +748,16 @@ const HospitalInform = [
     中山醫學大學創辦人 周汝川博士本著仁心濟世的胸懷及提供醫科學生實習教學場地，1966年創辦本院成為醫學院的附屬醫院，以「醫學目的在救人，醫人醫病要醫心，愛護病人如親人，不怕勞苦好醫師」的理念勉勵校院師生及醫療同仁。創院以來，秉持創辦人『醫人、醫病、醫心』的宗旨，致力發展具有特色的全人關懷服務，最新的醫療設備，建構以病人為中心的智慧醫療大樓。在全體同仁努力下，成為醫療科別發展各具特色的醫學中心。在以病人為中心的基礎上，開發了FHIR病歷資料交換平台，提供醫院HIS系統、遠距醫療、人壽保險等需求做病歷資料FHIR格式轉換，持續安全快速的提供患者病歷FHIR格式的資料。`,
   },
   {
-    img: Hospital1,
+    img: (
+      <img
+        src={Hospital1}
+        className="HosImg"
+        style={{
+          objectFit: 'cover',
+          marginBottom: '1rem',
+        }}
+      />
+    ),
     linkname: '產品介紹',
     link: process.env.PUBLIC_URL + '/pdf/11.佛教慈濟醫療財團法人花蓮慈濟醫院_健康福祉科技整合照護示範場域推動計畫.pdf',
     name: (
