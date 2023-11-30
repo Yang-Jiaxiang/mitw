@@ -153,6 +153,42 @@ const trackList = {
     name: '遠距醫療',
   },
 }
+
+const trackList2023 = {
+  t1: {
+    title: 'TRACK#1',
+    name: '病人基本資料',
+  },
+  t2: {
+    title: 'TRACK#2',
+    name: '生理量測數據',
+  },
+  t3: {
+    title: 'TRACK#3',
+    name: '用藥、文件打包及服務請求',
+  },
+  t4: {
+    title: 'TRACK#4',
+    name: '醫學影像與病理',
+  },
+  t5: {
+    title: 'TRACK#5',
+    name: '照護協調(Care Coordination)',
+  },
+  t7: {
+    title: 'TRACK#7',
+    name: '緊急醫療救護',
+  },
+  t8: {
+    title: 'TRACK#8',
+    name: '醫療保險理賠',
+  },
+  t9: {
+    title: 'TRACK#9',
+    name: '遠距醫療',
+  },
+}
+
 const IndustryInform = [
   {
     img: CFHC,
@@ -161,10 +197,6 @@ const IndustryInform = [
         lname: '產品介紹',
         l: process.env.PUBLIC_URL + '/pdf/產品介紹/雲端電子病歷iFHIR平台.pdf',
       },
-      {
-        lname: '產品海報',
-        l: process.env.PUBLIC_URL + '/pdf/產品海報/雲端電子病歷iFHIR平台.pdf',
-      },
     ],
 
     name: (
@@ -172,7 +204,7 @@ const IndustryInform = [
         <h3>國泰金融控股公司</h3> <h4>雲端電子病歷iFHIR平台</h4>
       </div>
     ),
-    tracks: [trackList.t1, trackList.t5, trackList.t8],
+    tracks: [trackList2023.t1, trackList2023.t5, trackList2023.t8],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce: `
@@ -195,10 +227,6 @@ const IndustryInform = [
         lname: '產品介紹',
         l: process.env.PUBLIC_URL + '/pdf/產品介紹/大世科遠距門診系統簡介.pdf',
       },
-      {
-        lname: '產品海報',
-        l: process.env.PUBLIC_URL + '/pdf/產品海報/大世科遠距門診系統簡介.pdf',
-      },
     ],
 
     name: (
@@ -206,7 +234,7 @@ const IndustryInform = [
         <h3>大同世界科技股份有限公司 </h3> <h4>遠距門診系統</h4>
       </div>
     ),
-    tracks: [trackList.t1, trackList.t9],
+    tracks: [trackList2023.t1, trackList2023.t9],
     trackstitle: 'TRACK#1\n   TRACK#9',
     tracksname: '  病人基本資料\n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce: `大世科遠距門診系統提供符合實體看診流程的純軟體遠距醫療解決方案，從掛號、看診到繳費領藥，可透過 API 與醫院系統整合或採用獨立系統，讓醫師就如同在實體診間看診一般，患者也無須前往醫院便能輕鬆看診/諮詢。
@@ -222,10 +250,6 @@ const IndustryInform = [
         lname: '產品介紹',
         l: process.env.PUBLIC_URL + '/pdf/產品介紹/醫咖go特色及介紹最終版.pdf',
       },
-      {
-        lname: '產品海報',
-        l: process.env.PUBLIC_URL + '/pdf/產品海報/醫咖go特色及介紹最終版.pdf',
-      },
     ],
 
     name: (
@@ -233,7 +257,7 @@ const IndustryInform = [
         <h3>工業技術研究院 </h3> <h4>iMAS智慧醫療資訊平台, Intelligent Medical Assistant Solution </h4>
       </div>
     ),
-    tracks: [trackList.t1, trackList.t2, trackList.t4, trackList.t9],
+    tracks: [trackList2023.t1, trackList2023.t2, trackList2023.t4, trackList2023.t9],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce: `
@@ -741,7 +765,7 @@ const HospitalInform = [
         <h3>中山醫學大學附設醫院</h3> <h4>FHIR資料交換平台</h4>
       </div>
     ),
-    tracks: [trackList.t1, trackList.t8, trackList.t9],
+    tracks: [trackList2023.t1, trackList2023.t8, trackList2023.t9],
     trackstitle: 'TRACK#4\n   TRACK#5\n   TRACK#7',
     tracksname: '  DICOMWeb查詢與調閱 \n - DICOM數位全幅病理顯微鏡\n\r\r影像查詢與調閱\n   - 影像檢查流程',
     introduce: `
