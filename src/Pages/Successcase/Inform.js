@@ -173,7 +173,7 @@ const trackList2023 = {
   },
   t5: {
     title: 'TRACK#5',
-    name: '照護協調(Care Coordination)',
+    name: '照護協調',
   },
   t7: {
     title: 'TRACK#7',
