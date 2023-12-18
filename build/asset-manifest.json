@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mitw/static/css/main.41323c38.css",
-    "main.js": "/mitw/static/js/main.b770ffab.js",
+    "main.js": "/mitw/static/js/main.698af9a7.js",
     "static/media/v2wg0_4.jpg": "/mitw/static/media/v2wg0_4.71969d8cd6954932a373.jpg",
     "static/media/example.png": "/mitw/static/media/example.f7115d2160881d53afb8.png",
     "static/media/wg7_2.jpg": "/mitw/static/media/wg7_2.10b221dcee566ceceb8e.jpg",
@@ -71,6 +71,7 @@
     "static/media/WG3_1.png": "/mitw/static/media/WG3_1.d9f25a34770732d0241b.png",
     "static/media/WG6_2.png": "/mitw/static/media/WG6_2.a857913855c085c67c8d.png",
     "static/media/WG1_4.png": "/mitw/static/media/WG1_4.0044e8bf1652b8d1ab0e.png",
+    "static/media/CFHC.png": "/mitw/static/media/CFHC.d1509d7c90bf83a2bf16.png",
     "static/media/DocterWatch.png": "/mitw/static/media/DocterWatch.6f6682064215a100811a.png",
     "static/media/RaccoonLogo.png": "/mitw/static/media/RaccoonLogo.b62a1a1f9481f0c8d990.png",
     "static/media/f2.jpeg": "/mitw/static/media/f2.9fdbff00c80548116d4a.jpeg",
@@ -84,6 +85,7 @@
     "static/media/WG9_1.png": "/mitw/static/media/WG9_1.a9de9f66fb7708d2502b.png",
     "static/media/Medical.png": "/mitw/static/media/Medical.7a2c2fa9fba7cfc64a31.png",
     "static/media/recruitment.png": "/mitw/static/media/recruitment.9df3a80351cb7236a27c.png",
+    "static/media/Zhongshan.png": "/mitw/static/media/Zhongshan.b778a58eaed4c0e4612c.png",
     "static/media/ACME.jpg": "/mitw/static/media/ACME.bd8205346ff06e8940e8.jpg",
     "static/media/wg5_2_1.png": "/mitw/static/media/wg5_2_1.16f75264660063ee36a1.png",
     "static/media/Minicoon.png": "/mitw/static/media/Minicoon.85c1dbdf888dd411fb71.png",
@@ -114,10 +116,10 @@
     "index.html": "/mitw/index.html",
     "static/media/slick.woff": "/mitw/static/media/slick.295183786cd8a1389865.woff",
     "main.41323c38.css.map": "/mitw/static/css/main.41323c38.css.map",
-    "main.b770ffab.js.map": "/mitw/static/js/main.b770ffab.js.map"
+    "main.698af9a7.js.map": "/mitw/static/js/main.698af9a7.js.map"
   },
   "entrypoints": [
     "static/css/main.41323c38.css",
-    "static/js/main.b770ffab.js"
+    "static/js/main.698af9a7.js"
   ]
 }
