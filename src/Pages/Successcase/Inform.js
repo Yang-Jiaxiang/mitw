@@ -587,7 +587,7 @@ const IndustryInform = [
 
     name: (
       <div>
-        <h3>倍利科技股份有限公司</h3> <h4>大心高智能成人尿布</h4>
+        <h3>倍利科技股份有限公司</h3> <h4>倍利肺部影像輔助判讀軟體</h4>
       </div>
     ),
     tracks: [trackList.t4, trackList.t7],
