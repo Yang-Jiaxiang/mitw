@@ -65,7 +65,7 @@ const TBody = [
     link: 'https://github.com/Chinlinlee/Burni',
     introduce:
       '採用SPA(Single-Page Application)架構的Web DICOM Viewer，僅使用HTML5技術，可完全獨立執行，不需要搭配後端程式，可以輕鬆部署在任何 HTTP 服務器上。不僅支援離線存取DICOM影像，亦可透過DICOMweb與各種DICOM Server介接。除了提供基本的影像2D操作功能以外，也支援3D重組功能，包含MPR以及VR',
-    traks: 'Track #6 - 基因體標記',
+    traks: 'Track #4 醫學影像與病理',
     contributor: '國北護CYLAB',
     clink: 'https://cylab.dicom.tw/',
   },
@@ -74,7 +74,7 @@ const TBody = [
     img: '',
     link: 'https://github.com/cylab-tw/ngs2fhir',
     introduce: 'ngs2fhir為轉換次世代基因體序列(Next generation sequencing, NGS)之VCF格式轉換FHIR Resource的工具。	',
-    traks: 'Track #4 醫學影像與病理',
+    traks: 'rack #6 - 基因體標記',
     contributor: '國北護CYLAB',
     clink: 'https://cylab.dicom.tw/',
   },
