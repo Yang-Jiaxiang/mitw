@@ -42,7 +42,7 @@ const TBody = [
   {
     name: '藍光(BlueLight)',
     img: BlueLight,
-    link: '',
+    link: 'https://github.com/cylab-tw/bluelight',
     introduce:
       '採用SPA(Single-Page Application)架構的Web DICOM Viewer，僅使用HTML5技術，可完全獨立執行，不需要搭配後端程式，可以輕鬆部署在任何 HTTP 服務器上。不僅支援離線存取DICOM影像，亦可透過DICOMweb與各種DICOM Server介接。除了提供基本的影像2D操作功能以外，也支援3D重組功能，包含MPR以及VR',
     traks: 'Track #4 醫學影像與病理',
