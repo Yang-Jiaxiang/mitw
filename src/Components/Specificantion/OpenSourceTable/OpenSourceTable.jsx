@@ -34,7 +34,7 @@ function OpenSourceTable() {
                 >
                   {item.img.length > 0 ? (
                     <>
-                      <img src={item.img} width={'30%'} style={{ height: '100%', marginBottom: '1rem' }} />
+                      <img src={item.img} width={'30%'} style={{ marginBottom: '1rem' }} />
                       <br />
                     </>
                   ) : (
