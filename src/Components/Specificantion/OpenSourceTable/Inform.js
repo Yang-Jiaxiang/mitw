@@ -74,7 +74,7 @@ const TBody = [
     img: '',
     link: 'https://github.com/cylab-tw/ngs2fhir',
     introduce: 'ngs2fhir為轉換次世代基因體序列(Next generation sequencing, NGS)之VCF格式轉換FHIR Resource的工具。	',
-    traks: 'rack #6 - 基因體標記',
+    traks: 'Track #6 - 基因體標記',
     contributor: '國北護CYLAB',
     clink: 'https://cylab.dicom.tw/',
   },
