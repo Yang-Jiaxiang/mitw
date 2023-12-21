@@ -12,6 +12,7 @@ import Recruit from '../Pages/Recruit/Recruit'
 import Workgroupactivity from '../Pages/Workgroupactivity/Workgroupactivity'
 import Relatedactivity from '../Pages/Relatedactivity/Relatedactivity'
 import Training from '../Pages/Training/Training'
+import ActivitySilhouette from '../Pages/ActivitySilhouette/ActivitySilhouette'
 import { AiFillCaretDown, AiFillCaretUp } from 'react-icons/ai'
 const iconStyle = {
   marginLeft: '5px',
@@ -100,6 +101,12 @@ const routerList = [
     icon: null,
     path: '/Result2023',
     Component: <Result2023 />,
+  },
+  {
+    name: '活動剪影',
+    icon: null,
+    path: '/ActivitySilhouette',
+    Component: <ActivitySilhouette />,
   },
   {
     name: '歷年活動',
