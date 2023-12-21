@@ -56,13 +56,20 @@ const Track5_Benefits_content = () => {
 const Track5_details_content = () => {
   return (
     <div>
-      <p style={h3_style}>Scenario 1: 慢性處方箋開立與領用藥流程</p>
+      {/* <p style={h3_style}>Scenario 1: 慢性處方箋開立與領用藥流程</p>
       <p style={h3_style}>Scenario 2: 現有PHR互通格式匯入_EEC門診病歷Bundle</p>
       <p style={h3_style}>Scenario 3: 現有PHR互通格式匯入_EEC出院病摘Bundle</p>
       <p style={h3_style}>Scenario 4: 現有PHR互通格式匯入_EEC檢驗報告Bundle</p>
       <p style={h3_style}>Scenario 5: 現有PHR互通格式匯入_EEC醫學影像報告Bundle (與 Track#4 Scenario 2-1 整合)</p>
       <p style={h3_style}>Scenario 6: 現有PHR互通格式匯入_健保健康存摺Bundle</p>
-      <p style={h3_style}>Scenario 7: Long-Term Services and Supports (eLTSS)</p>
+      <p style={h3_style}>Scenario 7: Long-Term Services and Supports (eLTSS)</p> */}
+      <li>SC1-慢性處方箋開立與領用藥流程</li>
+      <li>SC2-現有EHR互通格式匯入_EEC門診病歷Bundle</li>
+      <li>SC3-現有EHR互通格式匯入_EEC出院病摘Bundle</li>
+      <li>SC4-現有EHR互通格式匯入_EEC檢驗報告Bundle</li>
+      <li>SC5-現有EHR互通格式匯入_EEC醫學影像報告Bundle (整合至 Track#4 Scenario 2-1,請參照該情境之規範)</li>
+      <li>SC6-現有EHR互通格式匯入_健保健康存摺Bundle</li>
+      <li>SC7- Long-Term Services and Supports (eLTSS)</li>
       <center>
         <img src={wg5_1_1} style={{ width: '100%', marginBottom: '1rem' }} />
         <img src={wg5_1_2} style={{ width: '100%' }} />
